@@ -1,0 +1,126 @@
+// --------------------------------------------------
+// Mixins
+// TODO - add missing mixins that might be handy
+// check Zurb & Bootstrap
+// --------------------------------------------------
+
+// --------------------------------------------------
+// CLEARFIX
+// --------------------------------------------------
+// For clearing floats like a boss h5bp.com/q
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// --------------------------------------------------
+// tab focus
+// mimics webkit
+// --------------------------------------------------
+@mixin tab-focus() {
+  // Default
+  outline: thin dotted #333;
+  // Webkit
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+// --------------------------------------------------
+// center align
+// --------------------------------------------------
+@mixin center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// --------------------------------------------------
+// inline block - IE7
+// --------------------------------------------------
+@mixin ie7-inline-block() {
+  *display: inline; // IE7 inline-block hack
+  *zoom: 1;
+}
+
+// --------------------------------------------------
+// whitespace fix for inline block elements - IE7
+// --------------------------------------------------
+@mixin ie7-restore-left-whitespace() {
+  *margin-left: .3em;
+
+  &:first-child {
+    *margin-left: 0;
+  }
+}
+
+@mixin ie7-restore-right-whitespace() {
+  *margin-right: .3em;
+
+  &:last-child {
+    *margin-left: 0;
+  }
+}
+
+// --------------------------------------------------
+// image replacement
+// --------------------------------------------------
+@mixin hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+// --------------------------------------------------------
+// arrows
+// --------------------------------------------------------
+// $direction: top, left, right, bottom, top-left, top-right, bottom-left, bottom-right
+// $color: hex, rgb or rbga
+// $size: px or em
+// @example
+// .element{
+//     @include arrow(top, #000, 50px);   
+// }
+@mixin arrow($direction, $color, $size){
+  display: block;
+  height: 0;
+  width: 0;
+  
+  @if $direction == 'top' {
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-bottom: $size solid $color;
+  } @else if $direction == 'right' {
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-left: $size solid $color;
+  } @else if $direction == 'bottom' {
+    border-top: $size solid $color;
+    border-right: $size solid transparent;
+    border-left: $size solid transparent;
+  } @else if $direction == 'left' {
+    border-top: $size solid transparent;
+    border-right: $size solid $color;
+    border-bottom: $size solid transparent;
+  } @else if $direction == 'top-left' {
+    border-top: $size solid $color; 
+    border-right: $size solid transparent;  
+  } @else if $direction == 'top-right' {
+    border-top: $size solid $color; 
+    border-left: $size solid transparent;
+  } @else if $direction == 'bottom-left' {
+    border-bottom: $size solid $color; 
+    border-right: $size solid transparent;  
+  } @else if $direction == 'bottom-right' {
+    border-bottom: $size solid $color; 
+    border-left: $size solid transparent;
+  }
+}

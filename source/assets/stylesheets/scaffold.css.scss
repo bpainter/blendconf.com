@@ -1,0 +1,48 @@
+@import "compass";
+@import "susy";
+
+@import "structure/variables";
+@import "structure/mixins";
+
+//--------------------------------------------------------
+// Small Device Styles - Mobile First
+// We're starting with tablet in 
+// portrait mode as our base device
+//--------------------------------------------------------
+body {
+  background-color: $color-body-background;
+  color: $color-text;
+  font-family: $font-family-sans;
+  font-weight: normal;
+}
+
+
+// @media print {
+//   @import "themes/print";
+// }
+
+// Mobile
+//--------------------------------------------------------
+// @media only screen and (min-width: $breakpoint-small) {
+//   @import "responsive/small";
+// }
+
+// Tablet
+//--------------------------------------------------------
+// @media only screen and (min-width: $breakpoint-medium) {
+//   @import "responsive/medium";
+// }
+
+// Desktop
+//--------------------------------------------------------
+// @media only screen and (min-width: $breakpoint-large) {
+//   @import "responsive/large";
+// }
+// @media only screen and (min-width: $breakpoint-huge) {
+//   @import "responsive/huge";
+// }
+
+// Retina/High Density Displays
+// @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+//   @import "responsive/hdd"; 
+// }

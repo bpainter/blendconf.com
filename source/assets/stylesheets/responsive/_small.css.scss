@@ -1,0 +1,8 @@
+@include with-grid-settings(6) {
+  #container {
+    @include container;
+    @include susy-grid-background;
+  }
+}
+
+

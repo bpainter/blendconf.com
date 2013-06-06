@@ -1,0 +1,14 @@
+@include with-grid-settings(12) {
+  #container {
+    @include container;
+    @include susy-grid-background;
+  }
+  article {
+    @include span-columns(8);
+  }
+  aside {
+    @include span-columns(4 omega);
+  }
+}
+
+
