@@ -15,7 +15,202 @@ body {
   font-family: $font-family-sans;
   font-weight: normal;
 }
+div div {
+	padding: 4em;
+}
 
+h2 {
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	text-transform: uppercase;
+}
+p, ul {
+	margin: 1em auto;
+	max-width: 700px;
+}
+a {
+	color: darken($light-blue, 30%);
+	text-decoration: none;
+	&:hover {
+		color: #fff;
+	}
+}
+
+//--------------------------------------------------------
+// intro
+//--------------------------------------------------------
+
+#intro {
+	background-color: $aqua;
+  text-align: center;
+  h1 {
+  	border-bottom: 1px solid darken($aqua, 10%);
+  	margin: 0 auto .5em;
+  	padding-bottom: .5em;
+  	max-width: 260px;
+  }
+  h2 {
+  	color: darken($aqua, 30%);
+  	font-size: 16px;
+  	text-transform: uppercase;
+  	span {
+  		display: block;
+  	}
+  }
+  img {
+  	display: block;
+  	width: 100%;
+
+  }
+  p {
+  	color: darken($aqua, 30%);
+  	margin: 2em auto;
+  }
+  .button {
+  	position: relative;
+  	text-transform: uppercase;
+  	width: 100%;
+  	max-width: 260px;
+  	span {
+  		color: darken($aqua, 30%);
+  		font-size: .8em;
+  		position: absolute;
+  		left: 0;
+  		right: 0;
+  		bottom: -24px;
+  	}
+  }
+}
+
+//--------------------------------------------------------
+// button
+//--------------------------------------------------------
+.button {
+	background-color: $red;
+	@include border-radius(4px);
+	color: #fff;
+	display: inline-block;
+	padding: 1em;
+	text-decoration: none;
+	&:hover {
+		background-color: darken($red, 5%);
+	}
+}
+
+//--------------------------------------------------------
+// news
+//--------------------------------------------------------
+#news {
+	background-color: $dark-gray;
+	color: lighten($dark-gray, 50%);
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+//--------------------------------------------------------
+// the skinny
+//--------------------------------------------------------
+#skinny {
+	background-color: $red;
+	color: darken($red, 30%);
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		line-height: 1.4;
+		margin-bottom: 1.2em;
+	}
+	strong{
+		display: block;
+		font-size: 1.2em;
+		text-transform: uppercase;
+	}
+	a {
+		color: lighten($red, 20%);
+		&:hover {
+			color: lighten($red, 30%);
+		}
+	}
+	h2 {
+		margin-bottom: 1em;
+	}
+}
+
+//--------------------------------------------------------
+// venue
+//--------------------------------------------------------
+#venue {
+	background-color: $yellow;
+	color: darken($yellow, 30%);
+	a {
+		color: lighten($yellow, 30%);
+		&:hover {
+			color: lighten($yellow, 50%);
+		}
+	}
+}
+//--------------------------------------------------------
+// sponsorship
+//--------------------------------------------------------
+#sponsors {
+	background-color: $green;
+	color: darken($green, 30%);
+	a {
+		color: lighten($green, 30%);
+		&:hover {
+			color: lighten($green, 50%);
+		}
+	}
+}
+//--------------------------------------------------------
+// footer
+//--------------------------------------------------------
+#footer {
+	background-color: $dark-gray;
+	color: lighten($dark-gray, 50%);
+	font-size: 80%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+//--------------------------------------------------------
+// basic content
+//--------------------------------------------------------
+#basic-content {
+	padding: 2em 2em;
+	img {
+  	display: block;
+  	margin: 2em auto;
+  	width: 100%;
+  	max-width: 260px;
+  }
+  p {
+  	margin-bottom: 2em;
+  }
+  ul {
+  	padding-left: 40px;
+  }
+  li {
+  	line-height: 1.4;
+  	margin-bottom: 1em;
+  }
+  h1 {
+  	text-align: center;
+  	text-transform: uppercase;
+  }
+  h1, h2 {
+  	color: $aqua;
+  }
+  h2 {
+  	font-size: 1.4em;
+  }
+}
 
 // @media print {
 //   @import "themes/print";
@@ -29,15 +224,15 @@ body {
 
 // Tablet
 //--------------------------------------------------------
-// @media only screen and (min-width: $breakpoint-medium) {
-//   @import "responsive/medium";
-// }
+@media only screen and (min-width: $breakpoint-medium) {
+  @import "responsive/medium";
+}
 
 // Desktop
 //--------------------------------------------------------
-// @media only screen and (min-width: $breakpoint-large) {
-//   @import "responsive/large";
-// }
+@media only screen and (min-width: $breakpoint-large) {
+  @import "responsive/large";
+}
 // @media only screen and (min-width: $breakpoint-huge) {
 //   @import "responsive/huge";
 // }

@@ -24,21 +24,14 @@ head
 body id="#{current_page.data.id}"
 
   #container
-
-    header
-      h1 
-
-    article#content
+  
       == yield
-
-    aside
 
   == javascript_include_tag "libs/jquery", "base"
   
   / Google Analytics
-  / javascript:
-    / var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    / (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    / g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    / s.parentNode.insertBefore(g,s)}(document,'script'));
-  
+  javascript:
+    var _gaq=[['_setAccount','UA-41535095-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));

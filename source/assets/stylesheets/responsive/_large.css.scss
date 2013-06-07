@@ -2,12 +2,24 @@
   #container {
     @include container;
     @include susy-grid-background;
+    max-width: 100%;
   }
-  article {
-    @include span-columns(8);
-  }
-  aside {
-    @include span-columns(4 omega);
+  #skinny {
+    @include clearfix;
+    ul {
+      margin: 0 auto;
+      max-width: 850px;
+    }
+    li {
+      @include span-columns(4);
+      min-height: 180px;
+    }
+    li:nth-child(even) {
+      @include remove-omega;
+    }
+    li:nth-child(3n) {
+      @include omega;
+    }
   }
 }
 

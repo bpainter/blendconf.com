@@ -23,9 +23,9 @@ $baseline               : $sub-baseline * 3; // 18px
 // to be used with Susy
 // magically converts pixels to % for a fluid grid
 // --------------------------------------------------
-$total-columns  : 11;
+$total-columns  : 4;
 $column-width   : 4em;
-$gutter-width   : 1em;
+$gutter-width   : 4em;
 $grid-padding   : 0;
 $show-grid-backgrounds  : false;
 
@@ -47,6 +47,16 @@ $breakpoint-ginormous :   1400px;
 // --------------------------------------------------
 // colors
 // --------------------------------------------------
+$brown: #69504a !default;
+$lavender: #5e79a6 !default;
+$aqua: #63b3b8 !default;
+$yellow: #e5ba3a !default;
+$green: #86b44e !default;
+$red: #dc563e !default;
+$dark-gray: #3e4243 !default;
+$light-gray: #7f888a !default;
+$light-blue: #bbd5d1 !default;
+
 $color-navbar:			  #333 !default;
 $color-background:		  lighten($color-navbar, 78%) !default;
 $color-aside:			  lighten($color-navbar, 10%) !default;
@@ -62,7 +72,7 @@ $color-link-hover:        darken($color-link, 15%) !default;
 // --------------------------------------------------
 // typography
 // --------------------------------------------------
-$font-family-sans:      Helvetica, Arial, sans-serif !default;
+$font-family-sans:      "Open Sans", Helvetica, Arial, sans-serif !default;
 $font-family-serif:     Georgia, "Times New Roman", Times, serif !default;
 $font-family-mono:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
 

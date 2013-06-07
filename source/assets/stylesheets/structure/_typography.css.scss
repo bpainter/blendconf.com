@@ -1,3 +1,4 @@
+@import 'http://fonts.googleapis.com/css?family=Open+Sans:400italic,400';
 // ----------------------------------------------------
 // Typography
 // TODO, clean up
@@ -19,23 +20,23 @@ h1, h2, h3, h4, h5, h6 {
     // color: $grayLight;
   }
 }
-h1 {
-  font-size: 18px;
+h1, .h1 {
+  font-size: 30px;
 }
-h2 {
+h2, .h2 {
   font-size: 20px;
   font-weight: normal;
 }
-h3 {
+h3, .h3 {
   font-size: 18px;
 }
-h4 {
+h4, .h4 {
   font-size: 14px;
 }
-h5 {
+h5, .h5 {
   font-size: 12px;
 }
-h6 {
+h6, .h6 {
 }
 
 // ----------------------------------------------------

@@ -2,12 +2,16 @@
   #container {
     @include container;
     @include susy-grid-background;
+    max-width: 100%;
   }
-  article {
-    @include span-columns(6);
-  }
-  aside {
-    @include span-columns(2 omega);
+  #skinny {
+    @include clearfix;
+    li {
+      @include span-columns(4);
+    }
+    li:nth-child(even) {
+      @include omega();
+    }
   }
 }
 
