@@ -67,20 +67,6 @@ a {
 		color: darken($aqua, 30%);
 		margin: 2em auto;
   }
-  .button {
-		position: relative;
-		text-transform: uppercase;
-		width: 100%;
-		max-width: 280px;
-		span {
-			color: darken($aqua, 30%);
-			font-size: .8em;
-			position: absolute;
-			left: 0;
-			right: 0;
-			bottom: -24px;
-		}
-  }
 }
 
 //--------------------------------------------------------
@@ -92,9 +78,21 @@ a {
 	color: #fff;
 	display: inline-block;
 	padding: 1em;
+	position: relative;
+	text-transform: uppercase;
+	width: 100%;
+	max-width: 280px;
 	text-decoration: none;
 	&:hover {
 		background-color: darken($red, 5%);
+	}
+	span {
+		color: darken($aqua, 30%);
+		font-size: .8em;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -24px;
 	}
 }
 
@@ -162,11 +160,19 @@ $hex-height: calc-height($hex-width, $hex-ratio);
 	p {
 		text-align: center;
 	}
+	.button {
+		background-color: $aqua;
+		display: block;
+		margin: .5em auto 0;
+		&:hover {
+			background-color: darken($aqua, 10%);
+		}
+	}
 	ul {
 		@include clearfix;
 		list-style: none;
 		margin: 0 auto;
-		padding: 2em 0 0;
+		padding: 2em 0 4em;
 		width: 260px;
 	}
 	// 19:11 aspect ratio for the rectangles
