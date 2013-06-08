@@ -3,6 +3,22 @@
     @include container;
     @include susy-grid-background;
   }
+  #speakers {
+    ul {
+      width: 400px;
+    }
+    li:nth-child(1n) {
+      float: left;
+    }
+    li:nth-child(2n) {
+      float: right;
+    }
+    li:nth-child(3n) {
+      clear: both;
+      float: left;
+      margin: 28px 0 28px 105px;
+    }
+  }
 }
 
 

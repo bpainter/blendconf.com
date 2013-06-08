@@ -117,6 +117,7 @@ a {
 	background-color: $red;
 	color: darken($red, 30%);
 	ul {
+		@include clearfix;
 		list-style: none;
 		margin: 0;
 		padding: 0;
@@ -142,11 +143,160 @@ a {
 }
 
 //--------------------------------------------------------
+// speakers
+//--------------------------------------------------------
+$ratio-width: 190px;
+$ratio-height: 110px;
+@function calc-ratio($width, $height) {
+	@return ($width / $height);
+}
+@function calc-height($width, $ratio) {
+	@return ($width / $ratio);
+}
+$hex-ratio: calc-ratio($ratio-width, $ratio-height);
+$hex-width: 190px;
+$hex-height: calc-height($hex-width, $hex-ratio);
+ 
+#speakers {
+	background-color: #fff;
+	color: $dark-gray;
+	p {
+		text-align: center;
+	}
+	ul {
+		@include clearfix;
+		list-style: none;
+		margin: 0 auto;
+		padding: 2em 0 0;
+		width: 260px;
+	}
+	// 19:11 aspect ratio for the rectangles
+
+	li {
+		background-color: $aqua;
+		float: left;
+		margin: 45px 0;
+		position: relative;
+		z-index: 10;
+		&:before, &:after {
+			background-color: $aqua;
+			content: "";
+			display: block;
+			height: $hex-height;
+			position: absolute;
+				top: 0;
+				left: 0;
+			width: $hex-width;
+			z-index: -3;
+			-webkit-backface-visibility: hidden;
+		}
+		&:before {
+			@include rotate(60deg);
+		}
+		&:after {
+			@include rotate(-60deg);
+		}
+		&:nth-child(even) {
+			float: right;
+		}
+		strong{
+			color: lighten($aqua, 35%);
+			@include opacity(0);
+			position: absolute;
+				top: 50%;
+				left: 0;
+				right: 0;
+			text-align: center;
+			text-transform: uppercase;
+			z-index: 15;
+			@include transition(all 0.2s ease);
+			span {
+				display: block;
+				font-size: .8em;
+				font-weight: normal;
+				text-transform: none;
+			}
+		}
+		div{
+			padding: 0;
+		}
+		a {
+			background-position: 50% 50%;
+			@include background-size(150% auto);
+			border: none;
+			cursor: default;
+			display: block;
+			height: $hex-height;
+			@include transition(all 0.2s ease);
+			width: $hex-width;
+		}
+		.right-hex, .left-hex {
+			height: $hex-height;
+			overflow: hidden;
+			position: absolute;
+				top: 0;
+				left: 0;
+			z-index: -2;
+			width: $hex-width;
+			-webkit-backface-visibility: hidden;
+			
+			&:before {
+				background-position: 50% 50%;
+				@include background-size(150% auto);
+				position: absolute;
+					top: -55px;
+					left: 0;
+				content: "";
+				width: $hex-width;
+				height: $hex-height*2;
+			}
+		}
+		.right-hex {
+			@include rotate(-60deg);
+			&:before {
+				@include rotate(60deg);
+			}
+		}
+		.left-hex {
+			@include rotate(60deg);	
+			&:before {
+				@include rotate(-60deg);	
+			}
+		}
+		&.nick a, &.nick .right-hex:before, &.nick .left-hex:before {
+			background-image: url('/assets/images/content/speakers/nick-finck.jpg');
+		}
+		&.lisa a, &.lisa .right-hex:before, &.lisa .left-hex:before {
+			background-image: url('/assets/images/content/speakers/lisa-welchman.jpg');
+		}
+		&.meagan a, &.meagan .right-hex:before, &.meagan .left-hex:before {
+			background-image: url('/assets/images/content/speakers/meagan-fisher.jpg');
+		}
+		&.garth a, &.garth .right-hex:before, &.garth .left-hex:before {
+			background-image: url('/assets/images/content/speakers/garth-braithwaite.jpg');
+		}
+		&.wren a, &.wren .right-hex:before, &.wren .left-hex:before {
+			background-image: url('/assets/images/content/speakers/wren-lanier.jpg');
+		}
+		&:hover {
+			a{
+				opacity: .2;
+			}
+			strong {
+				opacity: 1;
+				top: 35%;
+			}
+		}
+	}
+}
+
+//--------------------------------------------------------
 // venue
 //--------------------------------------------------------
 #venue {
 	background-color: $yellow;
 	color: darken($yellow, 30%);
+	text-align: center;
 	a {
 		color: lighten($yellow, 30%);
 		&:hover {
@@ -160,6 +310,7 @@ a {
 #sponsors {
 	background-color: $green;
 	color: darken($green, 30%);
+	text-align: center;
 	a {
 		color: lighten($green, 30%);
 		&:hover {
@@ -218,9 +369,9 @@ a {
 
 // Mobile
 //--------------------------------------------------------
-// @media only screen and (min-width: $breakpoint-small) {
-//   @import "responsive/small";
-// }
+@media only screen and (min-width: $breakpoint-small) {
+  @import "responsive/small";
+}
 
 // Tablet
 //--------------------------------------------------------

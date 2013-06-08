@@ -21,6 +21,30 @@
       @include omega;
     }
   }
+  #speakers {
+    ul {
+      width: 616px;
+    }
+    li {
+      margin-bottom: 30px;
+    }
+    li:nth-child(1) {
+      float: left;
+    }
+    li:nth-child(2n) {
+      float: left;
+      margin-left: 23px;
+    }
+    li:nth-child(3n) {
+      clear: none;
+      float: right;
+      margin: 45px 0 28px 0;
+    }
+    li:nth-child(4n) {
+      margin-left: 105px;
+      margin-right: 23px;
+    }
+  }
 }
 
 
