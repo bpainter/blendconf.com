@@ -28,21 +28,32 @@
     li {
       margin-bottom: 30px;
     }
-    li:nth-child(1) {
+    li:nth-child(1n),
+    li:nth-child(6) {
       float: left;
     }
-    li:nth-child(2n) {
+    li:nth-child(2),
+    li:nth-child(7) {
       float: left;
       margin-left: 23px;
     }
-    li:nth-child(3n) {
+    li:nth-child(3),
+    li:nth-child(8) {
       clear: none;
       float: right;
       margin: 45px 0 28px 0;
     }
-    li:nth-child(4n) {
+    li:nth-child(4),
+    li:nth-child(9) {
       margin-left: 105px;
       margin-right: 23px;
+    }
+    li:nth-child(6) {
+      margin-top:45px;
+      margin-left: 0;
+    }
+    li:nth-child(9) {
+      margin-top:45px;
     }
   }
 }

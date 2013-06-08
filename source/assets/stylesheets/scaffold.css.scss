@@ -16,7 +16,7 @@ body {
   font-weight: normal;
 }
 div div {
-	padding: 4em;
+	padding: 4em 5%;
 }
 
 h2 {
@@ -46,41 +46,40 @@ a {
 	background-color: $aqua;
   text-align: center;
   h1 {
-  	border-bottom: 1px solid darken($aqua, 10%);
-  	margin: 0 auto .5em;
-  	padding-bottom: .5em;
-  	max-width: 260px;
+		border-bottom: 1px solid darken($aqua, 10%);
+		margin: 0 auto .5em;
+		padding-bottom: .5em;
+		max-width: 260px;
   }
   h2 {
-  	color: darken($aqua, 30%);
-  	font-size: 16px;
-  	text-transform: uppercase;
-  	span {
-  		display: block;
-  	}
+		color: darken($aqua, 30%);
+		font-size: 16px;
+		text-transform: uppercase;
+		span {
+			display: block;
+		}
   }
   img {
-  	display: block;
-  	width: 100%;
-
+		display: block;
+		width: 100%;
   }
   p {
-  	color: darken($aqua, 30%);
-  	margin: 2em auto;
+		color: darken($aqua, 30%);
+		margin: 2em auto;
   }
   .button {
-  	position: relative;
-  	text-transform: uppercase;
-  	width: 100%;
-  	max-width: 260px;
-  	span {
-  		color: darken($aqua, 30%);
-  		font-size: .8em;
-  		position: absolute;
-  		left: 0;
-  		right: 0;
-  		bottom: -24px;
-  	}
+		position: relative;
+		text-transform: uppercase;
+		width: 100%;
+		max-width: 280px;
+		span {
+			color: darken($aqua, 30%);
+			font-size: .8em;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: -24px;
+		}
   }
 }
 
@@ -199,6 +198,21 @@ $hex-height: calc-height($hex-width, $hex-ratio);
 		&:nth-child(even) {
 			float: right;
 		}
+		&:nth-child(2n),&:nth-child(2n):before, &:nth-child(2n):after {
+			background-color: $red;
+		}
+		&:nth-child(3n),&:nth-child(3n):before, &:nth-child(3n):after {
+			background-color: $yellow;
+		}
+		&:nth-child(4n),&:nth-child(4n):before, &:nth-child(4n):after {
+			background-color: $green;
+		}
+		&:nth-child(5n),&:nth-child(5n):before, &:nth-child(5n):after {
+			background-color: $lavender;
+		}
+		&:nth-child(6n),&:nth-child(6n):before, &:nth-child(6n):after {
+			background-color: $aqua;
+		}
 		strong{
 			color: lighten($aqua, 35%);
 			@include opacity(0);
@@ -278,6 +292,21 @@ $hex-height: calc-height($hex-width, $hex-ratio);
 		&.wren a, &.wren .right-hex:before, &.wren .left-hex:before {
 			background-image: url('/assets/images/content/speakers/wren-lanier.jpg');
 		}
+		&.jason a, &.jason .right-hex:before, &.jason .left-hex:before {
+			background-image: url('/assets/images/content/speakers/jason-vanlue.jpg');
+		}
+		&.rebecca a, &.rebecca .right-hex:before, &.rebecca .left-hex:before {
+			background-image: url('/assets/images/content/speakers/rebecca-garcia.jpg');
+		}
+		&.tim a, &.tim .right-hex:before, &.tim .left-hex:before {
+			background-image: url('/assets/images/content/speakers/tim-smith.jpg');
+		}
+		&.jina a, &.jina .right-hex:before, &.jina .left-hex:before {
+			background-image: url('/assets/images/content/speakers/jina-bolton.jpg');
+		}
+		&.rik a, &.rik .right-hex:before, &.rik .left-hex:before {
+			background-image: url('/assets/images/content/speakers/rik-catlow.jpg');
+		}
 		&:hover {
 			a{
 				opacity: .2;
@@ -336,30 +365,30 @@ $hex-height: calc-height($hex-width, $hex-ratio);
 #basic-content {
 	padding: 2em 2em;
 	img {
-  	display: block;
-  	margin: 2em auto;
-  	width: 100%;
-  	max-width: 260px;
+	display: block;
+	margin: 2em auto;
+	width: 100%;
+	max-width: 260px;
   }
   p {
-  	margin-bottom: 2em;
+	margin-bottom: 2em;
   }
   ul {
-  	padding-left: 40px;
+	padding-left: 40px;
   }
   li {
-  	line-height: 1.4;
-  	margin-bottom: 1em;
+	line-height: 1.4;
+	margin-bottom: 1em;
   }
   h1 {
-  	text-align: center;
-  	text-transform: uppercase;
+	text-align: center;
+	text-transform: uppercase;
   }
   h1, h2 {
-  	color: $aqua;
+	color: $aqua;
   }
   h2 {
-  	font-size: 1.4em;
+	font-size: 1.4em;
   }
 }
 
