@@ -7,16 +7,22 @@
     ul {
       width: 400px;
     }
-    li:nth-child(1n) {
+    // reset from the previous mq
+    li:nth-child(even) {
+      margin-left: 0;
+    }
+    li {
+      float: left;
+      margin-bottom: $hex-margin*3;
+    }
+    li:nth-child(3n+1) {
       float: left;
     }
-    li:nth-child(2n) {
+    li:nth-child(3n+2) {
       float: right;
     }
-    li:nth-child(3n) {
-      clear: both;
-      float: left;
-      margin: 28px 0 28px 105px;
+    li:nth-child(3n+3) {
+      margin-left: 105px;
     }
   }
 }

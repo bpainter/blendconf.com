@@ -3,11 +3,38 @@
     @include container;
     @include susy-grid-background;
   }
-  article {
-    @include span-columns(10);
+  div > div[id] {
+    padding-left: 0;
+    padding-right: 0;
   }
-  aside {
-    @include span-columns(6 omega);
+  #speakers {
+    ul {
+      max-width: ($hex-width*5)+($hex-margin)*4;
+      width: ($hex-width*5)+($hex-margin)*4;
+    }
+    // reset from the previous mq
+    li:nth-child(5n+1),
+    li:nth-child(5n+2),
+    li:nth-child(5n+3),
+    li:nth-child(5n+4),
+    li:nth-child(5n+5) {
+      float: left;
+    }
+    li:nth-child(9n-8) {
+      margin-left: 0;
+    }
+    li:nth-child(9n-7),
+    li:nth-child(9n-6),
+    li:nth-child(9n-5),
+    li:nth-child(9n-4),
+    li:nth-child(9n-2),
+    li:nth-child(9n-1),
+    li:nth-child(9n-0) {
+      margin-left: $hex-margin;
+    }
+    li:nth-child(9n-3) {
+      margin-left: 105px;
+    }
   }
 }
 

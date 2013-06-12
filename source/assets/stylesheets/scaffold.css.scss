@@ -15,7 +15,7 @@ body {
   font-family: $font-family-sans;
   font-weight: normal;
 }
-div div {
+div > div[id] {
 	padding: 4em 5%;
 }
 
@@ -153,7 +153,9 @@ $ratio-height: 110px;
 $hex-ratio: calc-ratio($ratio-width, $ratio-height);
 $hex-width: 190px;
 $hex-height: calc-height($hex-width, $hex-ratio);
- 
+
+$hex-margin: 25px;
+
 #speakers {
 	background-color: #fff;
 	color: $dark-gray;
@@ -172,19 +174,17 @@ $hex-height: calc-height($hex-width, $hex-ratio);
 		@include clearfix;
 		list-style: none;
 		margin: 0 auto;
-		padding: 2em 0 4em;
+		padding: 4em 0 4em;
 		width: 260px;
 	}
 	// 19:11 aspect ratio for the rectangles
 
 	li {
-		background-color: $aqua;
 		float: left;
-		margin: 45px 0;
+		margin: 0 0 $hex-margin*4 ;
 		position: relative;
 		z-index: 10;
 		&:before, &:after {
-			background-color: $aqua;
 			content: "";
 			display: block;
 			height: $hex-height;
@@ -202,22 +202,13 @@ $hex-height: calc-height($hex-width, $hex-ratio);
 			@include rotate(-60deg);
 		}
 		&:nth-child(even) {
-			float: right;
+			margin-left: $hex-margin*3;
 		}
-		&:nth-child(2n),&:nth-child(2n):before, &:nth-child(2n):after {
-			background-color: $red;
-		}
-		&:nth-child(3n),&:nth-child(3n):before, &:nth-child(3n):after {
-			background-color: $yellow;
-		}
-		&:nth-child(4n),&:nth-child(4n):before, &:nth-child(4n):after {
-			background-color: $green;
-		}
-		&:nth-child(5n),&:nth-child(5n):before, &:nth-child(5n):after {
-			background-color: $lavender;
-		}
-		&:nth-child(6n),&:nth-child(6n):before, &:nth-child(6n):after {
-			background-color: $aqua;
+		$hexagon-colors: ($aqua, $red, $yellow, $green, $lavender);
+		@for $i from 1 through length($hexagon-colors) {
+			&:nth-child(5n+#{$i}),&:nth-child(5n+#{$i}):before, &:nth-child(5n+#{$i}):after {
+				background-color: nth($hexagon-colors, $i);
+			}
 		}
 		strong{
 			color: lighten($aqua, 35%);
@@ -283,35 +274,11 @@ $hex-height: calc-height($hex-width, $hex-ratio);
 				@include rotate(-60deg);	
 			}
 		}
-		&.nick a, &.nick .right-hex:before, &.nick .left-hex:before {
-			background-image: url('/assets/images/content/speakers/nick-finck.jpg');
-		}
-		&.lisa a, &.lisa .right-hex:before, &.lisa .left-hex:before {
-			background-image: url('/assets/images/content/speakers/lisa-welchman.jpg');
-		}
-		&.meagan a, &.meagan .right-hex:before, &.meagan .left-hex:before {
-			background-image: url('/assets/images/content/speakers/meagan-fisher.jpg');
-		}
-		&.garth a, &.garth .right-hex:before, &.garth .left-hex:before {
-			background-image: url('/assets/images/content/speakers/garth-braithwaite.jpg');
-		}
-		&.wren a, &.wren .right-hex:before, &.wren .left-hex:before {
-			background-image: url('/assets/images/content/speakers/wren-lanier.jpg');
-		}
-		&.jason a, &.jason .right-hex:before, &.jason .left-hex:before {
-			background-image: url('/assets/images/content/speakers/jason-vanlue.jpg');
-		}
-		&.rebecca a, &.rebecca .right-hex:before, &.rebecca .left-hex:before {
-			background-image: url('/assets/images/content/speakers/rebecca-garcia.jpg');
-		}
-		&.tim a, &.tim .right-hex:before, &.tim .left-hex:before {
-			background-image: url('/assets/images/content/speakers/tim-smith.jpg');
-		}
-		&.jina a, &.jina .right-hex:before, &.jina .left-hex:before {
-			background-image: url('/assets/images/content/speakers/jina-bolton.jpg');
-		}
-		&.rik a, &.rik .right-hex:before, &.rik .left-hex:before {
-			background-image: url('/assets/images/content/speakers/rik-catlow.jpg');
+		$speakers: (lisa-welchman, nick-finck, meagan-fisher, garth-braithwaite, wren-lanier, jason-vanlue, jina-bolton, tim-smith, rebecca-garcia, rik-catlow, andrew-hinton, cameron-moll, rachel-nabors, amanda-costello, julie-ann-horvath, matt-stevens, james-white, michael-parenteau, rachel-parsons, sara-blake, magnus-bergmark, anders-frostenson, mindy-wagner, melinda-jackson, leslie-j-morse, larry-staton, pedro-sepulveda, marco-suarez, teresa-rench, zoe-gillenwater, wynn-netherland, brandon-mathis);
+		@each $speaker in $speakers {
+			&.#{$speaker} a, &.#{$speaker} .right-hex:before, &.#{$speaker} .left-hex:before {
+				background-image: url('/assets/images/content/speakers/#{$speaker}.jpg');
+			}
 		}
 		&:hover {
 			a{
@@ -419,9 +386,9 @@ $hex-height: calc-height($hex-width, $hex-ratio);
 @media only screen and (min-width: $breakpoint-large) {
   @import "responsive/large";
 }
-// @media only screen and (min-width: $breakpoint-huge) {
-//   @import "responsive/huge";
-// }
+@media only screen and (min-width: $breakpoint-huge) {
+  @import "responsive/huge";
+}
 
 // Retina/High Density Displays
 // @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {

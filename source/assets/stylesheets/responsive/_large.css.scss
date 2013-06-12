@@ -23,37 +23,32 @@
   }
   #speakers {
     ul {
-      width: 616px;
+      width: ($hex-width*3)+($hex-margin)*2;
     }
-    li {
-      margin-bottom: 30px;
-    }
-    li:nth-child(1n),
-    li:nth-child(6) {
-      float: left;
-    }
-    li:nth-child(2),
-    li:nth-child(7) {
-      float: left;
-      margin-left: 23px;
-    }
-    li:nth-child(3),
-    li:nth-child(8) {
-      clear: none;
-      float: right;
-      margin: 45px 0 28px 0;
-    }
-    li:nth-child(4),
-    li:nth-child(9) {
-      margin-left: 105px;
-      margin-right: 23px;
-    }
-    li:nth-child(6) {
-      margin-top:45px;
+    // reset from the previous mq
+    li:nth-child(3n+1),
+    li:nth-child(3n+2),
+    li:nth-child(3n+3) {
       margin-left: 0;
     }
-    li:nth-child(9) {
-      margin-top:45px;
+    li:nth-child(5n+1) {
+      float: left;
+    }
+    li:nth-child(5n+2) {
+      float: left;
+      margin-left: $hex-margin;
+    }
+    li:nth-child(5n+3) {
+      float: left;
+      margin-left: $hex-margin;
+    }
+    li:nth-child(5n+4) {
+      float: left;
+      margin-left: 108px;
+    }
+    li:nth-child(5n+5) {
+      float: left;
+      margin-left: $hex-margin;
     }
   }
 }

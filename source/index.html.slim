@@ -9,7 +9,7 @@ id: home
 	h2 September 5 - 7, 2013 <span>in Charlotte, NC</span>
 	p A generalist conference featuring 50 speakers sharing ideas and conversations about user experience design, user interface design, and web development.
 
-	a.button href="https://tito.io/blendconf/blendconf-2013?discount_code=earlybirdgetstheworm" data-type="Register - Primary" Register <span>Save 30% - Ends June 30th</span>
+	a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Primary" Register
 
 #news
 	h2 Important Updates
@@ -29,60 +29,14 @@ id: home
 	h2 Our Speakers
 	p You'll discover some amazing things from these folks. We'll be announcing more each week. Follow <a href="http://twitter.com/blendconf" data-type="Twitter">@blendconf</a> to stay up-to-date.
 	ul
-		li.lisa
-			strong Lisa Welchman <span>Welchman Pierpoint</span>
-			a href="#"
-				.right-hex
-				.left-hex
-		li.nick
-			strong Nick Finck <span>projekt202</span>
-			a href="#"
-				.right-hex
-				.left-hex
-		li.meagan
-			strong Meagan Fisher <span>Chartbeat</span>
-			a href="#"
-				.right-hex
-				.left-hex
-		li.garth
-			strong Garth Braithwaite <span>Adobe</span>
-			a href="#"
-				.right-hex
-				.left-hex
-		li.wren
-			strong Wren Lanier<span>Capitol One</span>
-			a href="#"
-				.right-hex
-				.left-hex
-		li.jason
-			strong Jason Vanlue<span>Code School</span>
-			a href="#"
-				.right-hex
-				.left-hex
-		li.jina
-			strong Jina Bolton<span>Do</span>
-			a href="#"
-				.right-hex
-				.left-hex
-		li.tim
-			strong Tim Smith<span>The East Wing</span>
-			a href="#"
-				.right-hex
-				.left-hex
-		li.rebecca
-			strong Rebecca Garcia<span>Coder Dojo NYC</span>
-			a href="#"
-				.right-hex
-				.left-hex
-		li.rik
-			strong Rik Catlow<span>Bank of America</span>
-			a href="#"
-				.right-hex
-				.left-hex
+		- data.speakers.each do |speaker|
+			li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
+				strong #{speaker.name} <span>#{speaker.companyName}</span>
+				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
 
 	p 
 		|Like what you see? Then you should
-		a.button href="https://tito.io/blendconf/blendconf-2013?discount_code=earlybirdgetstheworm" data-type="Register - Secondary" register <span>Save 30% - Ends June 30th</span>
+		a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Secondary" register
 
 #venue
 	h2 Venue & Hotel
