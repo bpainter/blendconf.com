@@ -290,7 +290,7 @@ $hex-margin: 25px;
 				background-color: nth($hexagon-colors, $i);
 			}
 		}
-		$speakers: (lisa-welchman, nick-finck, meagan-fisher, garth-braithwaite, wren-lanier, jason-vanlue, jina-bolton, tim-smith, rebecca-garcia, rik-catlow, andrew-hinton, cameron-moll, rachel-nabors, amanda-costello, julie-ann-horvath, matt-stevens, james-white, michael-parenteau, rachel-parsons, sara-blake, magnus-bergmark, anders-frostenson, mindy-wagner, melinda-jackson, leslie-j-morse, larry-staton, pedro-sepulveda, marco-suarez, teresa-rench, zoe-gillenwater, wynn-netherland, brandon-mathis, leslie-jensen-inman, carl-smith, bryan-veloso, yesenia-perez-cruz);
+		$speakers: (lisa-welchman, nick-finck, meagan-fisher, garth-braithwaite, wren-lanier, jason-vanlue, jina-bolton, tim-smith, rebecca-garcia, rik-catlow, andrew-hinton, cameron-moll, rachel-nabors, amanda-costello, julie-ann-horvath, matt-stevens, james-white, michael-parenteau, rachel-parsons, sara-blake, magnus-bergmark, anders-frostenson, mindy-wagner, melinda-jackson, leslie-j-morse, larry-staton, pedro-sepulveda, marco-suarez, teresa-rench, zoe-gillenwater, wynn-netherland, brandon-mathis, leslie-jensen-inman, carl-smith, bryan-veloso, yesenia-perez-cruz, patrick-quattlebaum, kendra-shillington, adam-conner, ron-edelen, tessa-harmon, shay-howe);
 		@each $speaker in $speakers {
 			&.#{$speaker} a, &.#{$speaker} .right-hex:before, &.#{$speaker} .left-hex:before {
 				background-image: url('/assets/images/content/speakers/#{$speaker}.jpg');
