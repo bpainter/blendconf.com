@@ -3,15 +3,20 @@
 # ----------------------------------------------
 require 'slim'
 
-Slim::Engine.set_default_options :pretty => true, :logic_less => true
+Slim::Engine.set_default_options :pretty => true
 
-set :layout_engine, "slim"
+set :slim, :layout_engine => :slim
 
-set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true,
-               :autolink => true, 
-               :smartypants => true
-               
+#set :blog_layout_engine, :slim
+
+# set :markdown_engine, :redcarpet
+# set :markdown, :fenced_code_blocks => true,
+#                :autolink => true, 
+#                :smartypants => true
+       
+activate :livereload
+activate :relative_assets
+activate :directory_indexes
 # ----------------------------------------------
 # CSS Processing
 # ----------------------------------------------
@@ -22,6 +27,7 @@ require 'susy'
 
 # Change Compass configuration
 compass_config do |config|
+  # config.preferred_syntax   = :sass
   config.output_style = :expanded
   config.sass_options = { :line_comments => true}
 end
@@ -87,28 +93,39 @@ set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 
 # ----------------------------------------------
+# International
+# ----------------------------------------------
+# activate :translation_helper
+# activate :directory_indexes
+# activate :i18n, :mount_at_root => :en
+
+# ----------------------------------------------
 # Build-specific configuration
 # ----------------------------------------------
-configure :build do
-  # For example, change the Compass output style for deployment
-  # activate :minify_css
+# configure :build  do |deploy|
+#   deploy.method = :rsync
+#   deploy.user   = ""
+#   deploy.host   = ""
+#   deploy.path   = ""
+#   deploy.clean  = true
+#   deploy.after_build = true
+#   For example, change the Compass output style for deployment
+#   activate :minify_css
 
-  # Minify Javascript on build
-  # activate :minify_javascript
+#   Minify Javascript on build
+#   activate :minify_javascript
 
-  # Enable cache buster
-  # activate :cache_buster
+#   Enable cache buster
+#   activate :cache_buster
 
-  # Use relative URLs
-  activate :relative_assets
+#   Use relative URLs
 
-  # Compress PNGs after build
-  # First: gem install middleman-smusher
-  # require "middleman-smusher"
-  # activate :smusher
 
-  # Or use a different image path
-  # set :http_path, "/Content/images/"
+#   Compress PNGs after build
+#   First: gem install middleman-smusher
+#   require "middleman-smusher"
+#   activate :smusher
 
-  activate :directory_indexes
-end
+#   Or use a different image path
+#   set :http_path, "/Content/images/"
+#   end

@@ -50,6 +50,43 @@
       margin-left: $hex-margin;
     }
   }
+
+  // Workshops
+  .workshops-wrapper{
+    max-width: 930px;
+    margin: 0 auto;
+  }
+  .workshops {
+    float: left;
+    border-bottom: none;
+    margin: 0 1% 2em;
+    width: 31%;
+    h3, h4, p {
+      text-align: center;
+    }
+    h3 {
+      min-height: 48px;
+    }
+  }
+  .workshop {
+    margin-bottom: 2em;
+    ul {
+      float: none;
+      width: auto !important;
+    }
+    h4 {
+      font-size: 1em;
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0;
+    }
+    li {
+      margin-left: -$hex-width/2 !important;
+      margin-bottom: 0;
+      left: 50%;
+    }
+  }
 }
 
 

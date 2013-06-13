@@ -24,6 +24,25 @@
       margin-left: 105px;
     }
   }
+  // Workshops
+  .workshop {
+    @include clearfix;
+    h4 {
+      margin: 4em 0 0 1em;
+    }
+    h4, p {
+      text-align: left;
+    }
+    ul {
+      float: left;
+      padding: 0;
+      width: auto;
+    }
+    li {
+      margin: 4em 1em 4em;
+      left: 0;
+    }
+  }
 }
 
 

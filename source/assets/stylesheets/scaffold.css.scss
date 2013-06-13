@@ -37,7 +37,12 @@ a {
 		color: #fff;
 	}
 }
-
+p {
+	text-align: center;
+}
+.cta {
+	text-align: center;
+}
 //--------------------------------------------------------
 // intro
 //--------------------------------------------------------
@@ -142,6 +147,19 @@ a {
 //--------------------------------------------------------
 // speakers
 //--------------------------------------------------------
+#speakers {
+	background-color: #fff;
+	color: $dark-gray;
+	.button {
+		background-color: $aqua;
+		display: block;
+		margin: .5em auto 0;
+		&:hover {
+			background-color: darken($aqua, 10%);
+		}
+	}
+}
+
 $ratio-width: 190px;
 $ratio-height: 110px;
 @function calc-ratio($width, $height) {
@@ -156,33 +174,14 @@ $hex-height: calc-height($hex-width, $hex-ratio);
 
 $hex-margin: 25px;
 
-#speakers {
-	background-color: #fff;
-	color: $dark-gray;
-	p {
-		text-align: center;
-	}
-	.button {
-		background-color: $aqua;
+.hexagon {
+	> li {
+		background-color: #ccc;
 		display: block;
-		margin: .5em auto 0;
-		&:hover {
-			background-color: darken($aqua, 10%);
-		}
-	}
-}
-
-.hive {
-	@include clearfix;
-	list-style: none;
-	margin: 0 auto;
-	padding: 4em 0 4em;
-	width: 260px;
-	li {
-		float: left;
 		margin: 0 0 $hex-margin*4 ;
 		position: relative;
 		z-index: 10;
+
 		&:before, &:after {
 			content: "";
 			display: block;
@@ -200,15 +199,7 @@ $hex-margin: 25px;
 		&:after {
 			@include rotate(-60deg);
 		}
-		&:nth-child(even) {
-			margin-left: $hex-margin*3;
-		}
-		$hexagon-colors: ($aqua, $red, $yellow, $green, $lavender);
-		@for $i from 1 through length($hexagon-colors) {
-			&:nth-child(5n+#{$i}),&:nth-child(5n+#{$i}):before, &:nth-child(5n+#{$i}):after {
-				background-color: nth($hexagon-colors, $i);
-			}
-		}
+		
 		strong{
 			color: lighten($aqua, 35%);
 			@include opacity(0);
@@ -226,19 +217,6 @@ $hex-margin: 25px;
 				font-weight: normal;
 				text-transform: none;
 			}
-		}
-		div{
-			padding: 0;
-		}
-		a {
-			background-position: 50% 50%;
-			@include background-size(150% auto);
-			border: none;
-			cursor: default;
-			display: block;
-			height: $hex-height;
-			@include transition(all 0.2s ease);
-			width: $hex-width;
 		}
 		.right-hex, .left-hex {
 			height: $hex-height;
@@ -273,11 +251,15 @@ $hex-margin: 25px;
 				@include rotate(-60deg);	
 			}
 		}
-		$speakers: (lisa-welchman, nick-finck, meagan-fisher, garth-braithwaite, wren-lanier, jason-vanlue, jina-bolton, tim-smith, rebecca-garcia, rik-catlow, andrew-hinton, cameron-moll, rachel-nabors, amanda-costello, julie-ann-horvath, matt-stevens, james-white, michael-parenteau, rachel-parsons, sara-blake, magnus-bergmark, anders-frostenson, mindy-wagner, melinda-jackson, leslie-j-morse, larry-staton, pedro-sepulveda, marco-suarez, teresa-rench, zoe-gillenwater, wynn-netherland, brandon-mathis, leslie-jensen-inman, carl-smith);
-		@each $speaker in $speakers {
-			&.#{$speaker} a, &.#{$speaker} .right-hex:before, &.#{$speaker} .left-hex:before {
-				background-image: url('/assets/images/content/speakers/#{$speaker}.jpg');
-			}
+		a {
+			background-position: 50% 50%;
+			@include background-size(150% auto);
+			border: none;
+			cursor: default;
+			display: block;
+			height: $hex-height;
+			@include transition(all 0.2s ease);
+			width: $hex-width;
 		}
 		&:hover {
 			a{
@@ -290,7 +272,60 @@ $hex-margin: 25px;
 		}
 	}
 }
-	
+
+.hive {
+	@include clearfix;
+	list-style: none;
+	margin: 0 auto;
+	padding: 4em 0 0;
+	width: 260px;
+	li {
+		&:nth-child(even) {
+			margin-left: $hex-margin*3;
+		}
+		float: left;
+		$hexagon-colors: ($aqua, $red, $yellow, $green, $lavender);
+		@for $i from 1 through length($hexagon-colors) {
+			&:nth-child(5n+#{$i}),&:nth-child(5n+#{$i}):before, &:nth-child(5n+#{$i}):after {
+				background-color: nth($hexagon-colors, $i);
+			}
+		}
+		$speakers: (lisa-welchman, nick-finck, meagan-fisher, garth-braithwaite, wren-lanier, jason-vanlue, jina-bolton, tim-smith, rebecca-garcia, rik-catlow, andrew-hinton, cameron-moll, rachel-nabors, amanda-costello, julie-ann-horvath, matt-stevens, james-white, michael-parenteau, rachel-parsons, sara-blake, magnus-bergmark, anders-frostenson, mindy-wagner, melinda-jackson, leslie-j-morse, larry-staton, pedro-sepulveda, marco-suarez, teresa-rench, zoe-gillenwater, wynn-netherland, brandon-mathis, leslie-jensen-inman, carl-smith, bryan-veloso, yesenia-perez-cruz);
+		@each $speaker in $speakers {
+			&.#{$speaker} a, &.#{$speaker} .right-hex:before, &.#{$speaker} .left-hex:before {
+				background-image: url('/assets/images/content/speakers/#{$speaker}.jpg');
+			}
+		}
+		
+	}
+}
+
+// Workshops
+.workshops {
+	h3, h4, p {
+		text-align: center;
+	}
+	border-bottom: 1px solid #efefef;
+	margin-bottom: 2em;
+}
+.workshop {
+	margin-bottom: 2em;
+	.hive {
+		margin-bottom: 4em;
+	}
+	h4 {
+		font-size: 1em;
+		margin-bottom: 0;
+	}
+	p {
+		margin: 0;
+	}
+	li {
+		margin-left: -$hex-width/2;
+		margin-bottom: 0;
+		left: 50%;
+	}
+}
 //--------------------------------------------------------
 // venue
 //--------------------------------------------------------

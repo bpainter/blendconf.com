@@ -20,9 +20,9 @@
   talkTitle: ~
   talkDescription: ~
 - speaker: 
-  name: Garth Braithwaite
+  name: James White
   twitter: ~
-  companyName: Adobe
+  companyName: Signal Noise
   companyURL: ~
   talkTitle: ~
   talkDescription: ~
@@ -138,13 +138,13 @@
   companyURL: ~
   talkTitle: ~
   talkDescription: ~
-# - speaker: 
-#   name: Rachel Parsons
-#   twitter: ~
-#   companyName: Cardinal Solutions
-#   companyURL: ~
-#   talkTitle: ~
-#   talkDescription: ~
+- speaker: 
+  name: Yesenia Perez-Cruz
+  twitter: ~
+  companyName: Happy Cog
+  companyURL: ~
+  talkTitle: ~
+  talkDescription: ~
 - speaker: 
   name: Magnus Bergmark
   twitter: ~
@@ -166,6 +166,20 @@
   companyURL: ~
   talkTitle: ~
   talkDescription: ~
+- speaker: 
+  name: Zoe Gillenwater
+  twitter: ~
+  companyName: ATT
+  companyURL: ~
+  talkTitle: ~
+  talkDescription: ~
+- speaker: 
+  name: Larry Staton
+  twitter: ~
+  companyName: Hendrick Automotive
+  companyURL: ~
+  talkTitle: ~
+  talkDescription: ~
 # - speaker: 
 #   name: Leslie J. Morse
 #   twitter: ~
@@ -174,19 +188,19 @@
 #   talkTitle: ~
 #   talkDescription: ~
 - speaker: 
-  name: Larry Staton
+  name: Bryan Veloso
   twitter: ~
-  companyName: Hendrick Automotive
+  companyName: Github
   companyURL: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
-  name: Zoe Gillenwater
-  twitter: ~
-  companyName: ATT
-  companyURL: ~
-  talkTitle: ~
-  talkDescription: ~
+# - speaker: 
+#   name: Rachel Parsons
+#   twitter: ~
+#   companyName: Cardinal Solutions
+#   companyURL: ~
+#   talkTitle: ~
+#   talkDescription: ~
 - speaker: 
   name: Pedro Sepulveda
   twitter: ~
@@ -201,6 +215,13 @@
 #   companyURL: ~
 #   talkTitle: ~
 #   talkDescription: ~
+- speaker: 
+  name: Garth Braithwaite
+  twitter: ~
+  companyName: Adobe
+  companyURL: ~
+  talkTitle: ~
+  talkDescription: ~
 # - speaker: 
 #   name: Marco Suarez
 #   twitter: ~
@@ -208,20 +229,6 @@
 #   companyURL: ~
 #   talkTitle: ~
 #   talkDescription: ~
-- speaker: 
-  name: James White
-  twitter: ~
-  companyName: Signal Noise
-  companyURL: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker: 
-  name: Bryan Veloso
-  twitter: ~
-  companyName: Github
-  companyURL: ~
-  talkTitle: ~
-  talkDescription: ~
 - speaker: 
   name: Brandon Mathis
   twitter: ~

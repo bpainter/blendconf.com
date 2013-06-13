@@ -29,7 +29,7 @@ id: home
 	h2 Glorious Keynotes
 	p To kick things off and close things out each day we have some of our favorite web people sharing some incredible, inspirational stories.
 
-	ul#keynotes.hive
+	ul#keynotes.hive.hexagon
 		- data.keynotes.each do |keynote|
 			li class="#{keynote.name.downcase.tr(" ", "-").tr(".", "")}"
 				strong #{keynote.name} <span>#{keynote.companyName}</span>
@@ -47,25 +47,91 @@ id: home
 
 	h2 Our Speakers
 	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
-	ul.hive
+	ul.hive.hexagon
 		- data.speakers.each do |speaker|
 			li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
 				strong #{speaker.name} <span>#{speaker.companyName}</span>
 				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
 
-	p 
-		|Like what you see? Then you should
-		a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Secondary" register
+	/ p.cta 
+	/ 	|Like what you see? Then you should
+	/ 	a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Secondary" register
 
 	br /
 
 	h2 Fancy Workshops
 	p For the folks that prefer a bit more hands on approach to learning we've got it covered. The first day of the conference is filled with 6 half-day workshops.
 
-	.workshop
-		h3 User Experience
+	/ This needs refactored...too.many.divs
+	// and a wrapper *shutter*
+	.workshops-wrapper
+	
+		.workshops
+			h3 User Experience Workshops
 
-		
+			.workshop
+				ul.hexagon.hive
+					li.patrick-quattlebaum
+						strong Patrick Quattlebaum <span>Adaptive Path</span>
+						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+
+				h4 Service Design
+				p More details will be released on this workshop very soon.
+
+			.workshop
+				ul.hexagon.hive
+					li.kendra-shillington
+						strong Kendra Shillington <span>Bank of America</span>
+						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+
+				h4 UX Design
+				p More details will be released on this workshop very soon.
+
+		.workshops
+			h3 Design Workshops
+
+			.workshop
+				ul.hexagon.hive
+					li.adam-conner
+						strong Adam Conner <span>MadPow</span>
+						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+
+				h4 Discussing Design: The Art of Critique
+				p Our ability to critique speaks directly to the quality of the conversations we have around the ideas and designs we create.
+
+			.workshop
+				ul.hexagon.hive
+					li.ron-edelen
+						strong Ron Edelen<span>Myjive</span>
+						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+
+				h4 Design
+				p More details will be released on this workshop very soon.
+
+		.workshops
+			h3 Development Workshops	
+
+			.workshop
+				ul.hexagon.hive
+					li.tessa-harmon
+						strong Tessa Harmon <span>Skookum</span>
+						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+
+				h4 Building Single Page Apps
+				p Discover how single-page apps differ from classic apps, code architectures and organization, CSS and JavaScript performance optimization, and tips for dealing with memory leaks.
+
+			.workshop
+				ul.hexagon.hive
+					li.shay-howe
+						strong Shay Howe <span>The Starter League</span>
+						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+
+				h4 Front-End Legos: Reusable HTML and CSS
+				p HTML & CSS are a websites backbone. Attendees will be able to better organize their code, develop modular styles, and work with CSS specificity.
+
+		p.cta 
+			|Like what you see? Then you should
+			a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Secondary" register
 
 
 #venue
