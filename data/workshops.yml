@@ -20,7 +20,7 @@
   twitter: ~
   companyName: MadPow
   companyURL: ~
-  title: Discussing Design: The Art of Critique
+  title: "Discussing Design: The Art of Critique"
   description: Our ability to critique speaks directly to the quality of the conversations we have around the ideas and designs we create. Whether we're talking to designers, developers, stakeholders or or other team members, we need to work collaboratively. Doing so means that each team member needs to have an understanding of the goals we’ve set for our design and how our design holds up to them. Designers frequently complain about the quality of the feedback they are given, but we rarely take a step back and examine how to collect useful feedback and make our discussions around our designs more productive. This workshop will examine the language, rules and strategies for critique and provide participants with takeaways that can immediately be put to work to create a useful, collaborative environment for discussing designs.
 - workshop: 
   track: UI
@@ -44,5 +44,5 @@
   twitter: ~
   companyName: The Starter League
   companyURL: ~
-  title: Front-End Legos: Reusable HTML and CSS
+  title: "Front-End Legos: Reusable HTML and CSS"
   description: HTML and CSS are the backbone to every website, and are equally as important as any design or development. After spending some time playing with legos and writing some of code attendees will be able to better organize their code, develop modular styles, and work with CSS specificity.
