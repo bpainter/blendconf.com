@@ -3,10 +3,9 @@
     @include container;
     @include susy-grid-background;
   }
-  #speakers {
-    ul {
-      width: 400px;
-    }
+  
+  .hive {
+    width: 400px;
     // reset from the previous mq
     li:nth-child(even) {
       margin-left: 0;

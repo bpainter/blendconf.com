@@ -26,9 +26,28 @@ id: home
 		li <strong>Diversity</strong> We've spent an insane amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
 
 #speakers
+	h2 Glorious Keynotes
+	p To kick things off and close things out each day we have some of our favorite web people sharing some incredible, inspirational stories.
+
+	ul#keynotes.hive
+		- data.keynotes.each do |keynote|
+			li class="#{keynote.name.downcase.tr(" ", "-").tr(".", "")}"
+				strong #{keynote.name} <span>#{keynote.companyName}</span>
+				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+
+		li class="super-secret"
+				strong Thoon. <span>Very Thoon.</span>
+				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+
+		li class="super-secret"
+				strong Thoon. <span>Very Thoon.</span>
+				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+
+	br /
+
 	h2 Our Speakers
-	p You'll discover some amazing things from these folks. We'll be announcing more each week. Follow <a href="http://twitter.com/blendconf" data-type="Twitter">@blendconf</a> to stay up-to-date.
-	ul
+	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
+	ul.hive
 		- data.speakers.each do |speaker|
 			li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
 				strong #{speaker.name} <span>#{speaker.companyName}</span>
@@ -37,6 +56,17 @@ id: home
 	p 
 		|Like what you see? Then you should
 		a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Secondary" register
+
+	br /
+
+	h2 Fancy Workshops
+	p For the folks that prefer a bit more hands on approach to learning we've got it covered. The first day of the conference is filled with 6 half-day workshops.
+
+	.workshop
+		h3 User Experience
+
+		
+
 
 #venue
 	h2 Venue & Hotel

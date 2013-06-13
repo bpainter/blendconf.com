@@ -170,15 +170,14 @@ $hex-margin: 25px;
 			background-color: darken($aqua, 10%);
 		}
 	}
-	ul {
-		@include clearfix;
-		list-style: none;
-		margin: 0 auto;
-		padding: 4em 0 4em;
-		width: 260px;
-	}
-	// 19:11 aspect ratio for the rectangles
+}
 
+.hive {
+	@include clearfix;
+	list-style: none;
+	margin: 0 auto;
+	padding: 4em 0 4em;
+	width: 260px;
 	li {
 		float: left;
 		margin: 0 0 $hex-margin*4 ;
@@ -274,7 +273,7 @@ $hex-margin: 25px;
 				@include rotate(-60deg);	
 			}
 		}
-		$speakers: (lisa-welchman, nick-finck, meagan-fisher, garth-braithwaite, wren-lanier, jason-vanlue, jina-bolton, tim-smith, rebecca-garcia, rik-catlow, andrew-hinton, cameron-moll, rachel-nabors, amanda-costello, julie-ann-horvath, matt-stevens, james-white, michael-parenteau, rachel-parsons, sara-blake, magnus-bergmark, anders-frostenson, mindy-wagner, melinda-jackson, leslie-j-morse, larry-staton, pedro-sepulveda, marco-suarez, teresa-rench, zoe-gillenwater, wynn-netherland, brandon-mathis);
+		$speakers: (lisa-welchman, nick-finck, meagan-fisher, garth-braithwaite, wren-lanier, jason-vanlue, jina-bolton, tim-smith, rebecca-garcia, rik-catlow, andrew-hinton, cameron-moll, rachel-nabors, amanda-costello, julie-ann-horvath, matt-stevens, james-white, michael-parenteau, rachel-parsons, sara-blake, magnus-bergmark, anders-frostenson, mindy-wagner, melinda-jackson, leslie-j-morse, larry-staton, pedro-sepulveda, marco-suarez, teresa-rench, zoe-gillenwater, wynn-netherland, brandon-mathis, leslie-jensen-inman, carl-smith);
 		@each $speaker in $speakers {
 			&.#{$speaker} a, &.#{$speaker} .right-hex:before, &.#{$speaker} .left-hex:before {
 				background-image: url('/assets/images/content/speakers/#{$speaker}.jpg');
@@ -291,7 +290,7 @@ $hex-margin: 25px;
 		}
 	}
 }
-
+	
 //--------------------------------------------------------
 // venue
 //--------------------------------------------------------

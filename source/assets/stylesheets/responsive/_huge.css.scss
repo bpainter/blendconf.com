@@ -7,11 +7,12 @@
     padding-left: 0;
     padding-right: 0;
   }
-  #speakers {
-    ul {
-      max-width: ($hex-width*5)+($hex-margin)*4;
-      width: ($hex-width*5)+($hex-margin)*4;
+  ul.hive {
+    max-width: ($hex-width*5)+($hex-margin)*4;
+    &#keynotes {
+      max-width: ($hex-width*4)+($hex-margin)*3;
     }
+    width: ($hex-width*5)+($hex-margin)*4;
     // reset from the previous mq
     li:nth-child(5n+1),
     li:nth-child(5n+2),

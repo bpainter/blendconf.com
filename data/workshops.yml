@@ -1,0 +1,48 @@
+- workshop: 
+  track: UX
+  name: Patrick Quattlebaum
+  twitter: ~
+  companyName: Adaptive Path
+  companyURL: ~
+  title: Service Design
+  description: More details coming very soon.
+- workshop: 
+  track: UX
+  name: Kendra Shillington
+  twitter: ~
+  companyName: Bank of America
+  companyURL: ~
+  title: UX Design
+  description: More details coming very soon.
+- workshop: 
+  track: UI
+  name: Adam Conner
+  twitter: ~
+  companyName: MadPow
+  companyURL: ~
+  title: Discussing Design: The Art of Critique
+  description: Our ability to critique speaks directly to the quality of the conversations we have around the ideas and designs we create. Whether we're talking to designers, developers, stakeholders or or other team members, we need to work collaboratively. Doing so means that each team member needs to have an understanding of the goals we’ve set for our design and how our design holds up to them. Designers frequently complain about the quality of the feedback they are given, but we rarely take a step back and examine how to collect useful feedback and make our discussions around our designs more productive. This workshop will examine the language, rules and strategies for critique and provide participants with takeaways that can immediately be put to work to create a useful, collaborative environment for discussing designs.
+- workshop: 
+  track: UI
+  name: Ron Edelen & Albert Banks
+  twitter: ~
+  companyName: MyJive
+  companyURL: ~
+  title: Design
+  description: More details coming very soon.
+- workshop: 
+  track: dev
+  name: Tessa Harmon
+  twitter: ~
+  companyName: Skookum
+  companyURL: ~
+  title: Start Building Single Page Apps
+  description: From a beginner’s perspective, this workshop will cover single-page app “gotcha's" and new concepts that developers need to be aware of in order to build a great software. We'll cover how to single-page app development differs from classic server-side apps, various code architectures and organization, crucial CSS and JavaScript performance optimization, and tips for dealing with memory leaks.
+- workshop: 
+  track: dev
+  name: Shay Howe
+  twitter: ~
+  companyName: The Starter League
+  companyURL: ~
+  title: Front-End Legos: Reusable HTML and CSS
+  description: HTML and CSS are the backbone to every website, and are equally as important as any design or development. After spending some time playing with legos and writing some of code attendees will be able to better organize their code, develop modular styles, and work with CSS specificity.
