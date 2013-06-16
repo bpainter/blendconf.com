@@ -23,7 +23,7 @@ id: home
 		li <strong>6 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire. 
 		li <strong>No Devices</strong> Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones won't be allowed to be used during the conference sessions.
 		li <strong>Custom Notebooks</strong> We're going analog. Each attendee will receive a nice, custom BlendConf notebook provided by the fantastic folks at <a href="http://boundforanything.com/" data-type="External">Bound</a> along with something fancy to write with. You'll thank us later.
-		li <strong>Diversity</strong> We've spent an insane amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
+		li <strong>Diversity</strong> We've spent fair amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
 
 #speakers
 	h2 Glorious Keynotes
@@ -33,10 +33,6 @@ id: home
 		- data.keynotes.each do |keynote|
 			li class="#{keynote.name.downcase.tr(" ", "-").tr(".", "")}"
 				strong #{keynote.name} <span>#{keynote.companyName}</span>
-				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-
-		li class="super-secret"
-				strong Thoon. <span>Very Thoon.</span>
 				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
 
 		li class="super-secret"

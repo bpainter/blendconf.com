@@ -180,13 +180,13 @@
   companyURL: ~
   talkTitle: ~
   talkDescription: ~
-# - speaker: 
-#   name: Leslie J. Morse
-#   twitter: ~
-#   companyName: Davisbase Consulting
-#   companyURL: ~
-#   talkTitle: ~
-#   talkDescription: ~
+- speaker: 
+  name: Leslie J. Morse
+  twitter: ~
+  companyName: Davisbase Consulting
+  companyURL: ~
+  talkTitle: ~
+  talkDescription: ~
 - speaker: 
   name: Bryan Veloso
   twitter: ~
@@ -194,13 +194,13 @@
   companyURL: ~
   talkTitle: ~
   talkDescription: ~
-# - speaker: 
-#   name: Rachel Parsons
-#   twitter: ~
-#   companyName: Cardinal Solutions
-#   companyURL: ~
-#   talkTitle: ~
-#   talkDescription: ~
+- speaker: 
+  name: Rachel Parsons
+  twitter: ~
+  companyName: Cardinal Solutions
+  companyURL: ~
+  talkTitle: ~
+  talkDescription: ~
 - speaker: 
   name: Pedro Sepulveda
   twitter: ~
@@ -208,13 +208,13 @@
   companyURL: ~
   talkTitle: ~
   talkDescription: ~
-# - speaker: 
-#   name: Teresa Rench
-#   twitter: ~
-#   companyName: Wells Fargo
-#   companyURL: ~
-#   talkTitle: ~
-#   talkDescription: ~
+- speaker: 
+  name: Teresa Rench
+  twitter: ~
+  companyName: Wells Fargo
+  companyURL: ~
+  talkTitle: ~
+  talkDescription: ~
 - speaker: 
   name: Garth Braithwaite
   twitter: ~
@@ -222,17 +222,24 @@
   companyURL: ~
   talkTitle: ~
   talkDescription: ~
-# - speaker: 
-#   name: Marco Suarez
-#   twitter: ~
-#   companyName: Mailchimp
-#   companyURL: ~
-#   talkTitle: ~
-#   talkDescription: ~
+- speaker: 
+  name: Marco Suarez
+  twitter: ~
+  companyName: Mailchimp
+  companyURL: ~
+  talkTitle: ~
+  talkDescription: ~
 - speaker: 
   name: Brandon Mathis
   twitter: ~
   companyName: Mongo HQ
+  companyURL: ~
+  talkTitle: ~
+  talkDescription: ~
+- speaker: 
+  name: Ben Vandgrift
+  twitter: ~
+  companyName: Think Relevance
   companyURL: ~
   talkTitle: ~
   talkDescription: ~
