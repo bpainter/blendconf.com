@@ -2,7 +2,7 @@
 
 ## Installation
 
-The prototype was created with the static site generator Middleman. It requires Ruby to be installed. If you're using a Mac, Ruby is installed by detault. If you're using Windows, you'll need to install Ruby first using the [RubyInstaller](http://rubyinstaller.org/).
+The prototype was created with the static site generator Middleman. It requires Ruby to be installed. If you're using a Mac, Ruby is installed by default. If you're using Windows, you'll need to install Ruby first using the [RubyInstaller](http://rubyinstaller.org/).
 
 Open up your preferred command line application, change directories to the `blendconf.com` folder, and type the following (note: $ is just a representation of a command that should be typed in the command line, don't actually put it in the command line):
 
