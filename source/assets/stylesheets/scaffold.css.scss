@@ -6,7 +6,7 @@
 
 //--------------------------------------------------------
 // Small Device Styles - Mobile First
-// We're starting with tablet in 
+// We're starting with tablet in
 // portrait mode as our base device
 //--------------------------------------------------------
 body {
@@ -202,7 +202,7 @@ $hex-margin: 25px;
 		&:after {
 			@include rotate(-60deg);
 		}
-		
+
 		strong{
 			color: lighten($aqua, 35%);
 			@include opacity(0);
@@ -230,7 +230,7 @@ $hex-margin: 25px;
 			z-index: -2;
 			width: $hex-width;
 			-webkit-backface-visibility: hidden;
-			
+
 			&:before {
 				background-position: 50% 50%;
 				@include background-size(116% auto);
@@ -249,9 +249,9 @@ $hex-margin: 25px;
 			}
 		}
 		.left-hex {
-			@include rotate(60deg);	
+			@include rotate(60deg);
 			&:before {
-				@include rotate(-60deg);	
+				@include rotate(-60deg);
 			}
 		}
 		a {
@@ -293,13 +293,13 @@ $hex-margin: 25px;
 				background-color: nth($hexagon-colors, $i);
 			}
 		}
-		$speakers: (lisa-welchman, nick-finck, meagan-fisher, garth-braithwaite, wren-lanier, jason-vanlue, jina-bolton, tim-smith, rebecca-garcia, rik-catlow, andrew-hinton, cameron-moll, rachel-nabors, amanda-costello, julie-ann-horvath, matt-stevens, james-white, michael-parenteau, rachel-parsons, sara-blake, magnus-bergmark, anders-frostenson, mindy-wagner, melinda-jackson, leslie-j-morse, larry-staton, pedro-sepulveda, marco-suarez, teresa-rench, zoe-gillenwater, wynn-netherland, brandon-mathis, leslie-jensen-inman, carl-smith, bryan-veloso, yesenia-perez-cruz, patrick-quattlebaum, kendra-shillington, adam-conner, ron-edelen, tessa-harmon, shay-howe, ashe-dryden, ben-vandgrift);
+		$speakers: (lisa-welchman, nick-finck, meagan-fisher, garth-braithwaite, wren-lanier, jason-vanlue, jina-bolton, tim-smith, rebecca-garcia, rik-catlow, andrew-hinton, cameron-moll, rachel-nabors, amanda-costello, julie-ann-horvath, matt-stevens, james-white, michael-parenteau, rachel-parsons, sara-blake, magnus-bergmark, anders-frostenson, mindy-wagner, melinda-jackson, leslie-j-morse, larry-staton, pedro-sepulveda, teresa-rench, zoe-gillenwater, wynn-netherland, brandon-mathis, leslie-jensen-inman, carl-smith, bryan-veloso, yesenia-perez-cruz, patrick-quattlebaum, kendra-shillington, adam-conner, ron-edelen, tessa-harmon, shay-howe, ashe-dryden, marco-suarez, ben-vandgrift, leslie-j-morse, rikki-teeters, yoko-harada);
 		@each $speaker in $speakers {
 			&.#{$speaker} a, &.#{$speaker} .right-hex:before, &.#{$speaker} .left-hex:before {
 				background-image: url('/assets/images/content/speakers/#{$speaker}.jpg');
 			}
 		}
-		
+
 	}
 }
 
@@ -435,5 +435,5 @@ $hex-margin: 25px;
 
 // Retina/High Density Displays
 // @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-//   @import "responsive/hdd"; 
+//   @import "responsive/hdd";
 // }

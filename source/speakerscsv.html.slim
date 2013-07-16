@@ -1,0 +1,13 @@
+/ first name
+/ last name
+/ company
+/ discount code
+/ free ticket
+/ email
+
+- data.keynotes.each do |keynote|
+  #{keynote.name}, #{keynote.companyName}, #{keynote.name.downcase.tr(" ", "-")}rocks, #{keynote.name.downcase.tr(" ", "-").tr(".", "")}reallylikesme
+- data.speakers.each do |keynote|
+  #{keynote.name}, #{keynote.companyName}, #{keynote.name.downcase.tr(" ", "-").tr(".", "")}rocks, #{keynote.name.downcase.tr(" ", "-").tr(".", "")}reallylikesme
+- data.workshops.each do |keynote|
+  #{keynote.name}, #{keynote.companyName}, #{keynote.name.downcase.tr(" ", "-").tr(".", "")}rocks, #{keynote.name.downcase.tr(" ", "-").tr(".", "")}reallylikesme

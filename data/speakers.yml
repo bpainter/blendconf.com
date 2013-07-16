@@ -1,246 +1,408 @@
-- speaker: 
+- speaker:
   name: Lisa Welchman
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Welchman Pierpoint
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Nick Finck
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: projekt202
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Meagan Fisher
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Chartbeat
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: James White
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Signal Noise
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Wren Lanier
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Capital One
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Jason Vanlue
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Code School
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Jina Bolton
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Do
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Tim Smith
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: The East Wing
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Rebecca Garcia
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Coder Dojo NYC
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Rik Catlow
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Bank of America
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Rachel Nabors
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: RachelNabors.com
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Andrew Hinton
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: The Understanding Group
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Amanda Costello
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: The University of Minnesota
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Cameron Moll
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Authentic Jobs
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Julie Ann Horvath
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: GitHub
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Matt Stevens
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Design Office of Matt Stevens
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Sara Blake
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: ZSO
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Wynn Netherland
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: GitHub
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Mindy Wagner
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Viget Labs
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Michael Parenteau
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Think Relevance
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Yesenia Perez-Cruz
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Happy Cog
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Magnus Bergmark
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Doberman
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Melinda Jackson
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Wells Fargo
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Anders Frostenson
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Doberman
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Zoe Gillenwater
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: ATT
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Larry Staton
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Hendrick Automotive
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Leslie J. Morse
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Davisbase Consulting
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Bryan Veloso
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Github
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Rachel Parsons
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Cardinal Solutions
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Pedro Sepulveda
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Continuum
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Teresa Rench
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Wells Fargo
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
   name: Garth Braithwaite
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Adobe
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
+- speaker:
+  name: Rikki Teeters
+  twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
+  companyName: Cardinal Solutions
+  companyURL: ~
+  bio: ~
+  talkTitle: ~
+  talkDescription: ~
+- speaker:
   name: Marco Suarez
   twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Mailchimp
   companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
-- speaker: 
-  name: Brandon Mathis
+- speaker:
+  name: Yoko Harada
   twitter: ~
-  companyName: Mongo HQ
-  companyURL: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker: 
-  name: Ben Vandgrift
-  twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
   companyName: Think Relevance
   companyURL: ~
+  bio: ~
+  talkTitle: ~
+  talkDescription: ~
+- speaker:
+  name: Brandon Mathis
+  twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
+  companyName: Mongo HQ
+  companyURL: ~
+  bio: ~
+  talkTitle: ~
+  talkDescription: ~
+- speaker:
+  name: Ben Vandgrift
+  twitter: ~
+  github: ~
+  dribbble: ~
+  blog: ~
+  companyName: Think Relevance
+  companyURL: ~
+  bio: ~
   talkTitle: ~
   talkDescription: ~
 
