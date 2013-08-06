@@ -125,10 +125,9 @@ nav[role="navigation"] {
 	background-color: $aqua;
   text-align: center;
   h1 {
-		border-bottom: 1px solid darken($aqua, 10%);
 		margin: 0 auto .5em;
-		max-width: 260px;
-		padding-bottom: .5em;
+		max-width: 320px;
+		padding-bottom: 0;
   }
   h2 {
 		color: darken($aqua, 30%);

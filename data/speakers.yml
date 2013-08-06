@@ -1,5 +1,5 @@
 - speaker:
-  name: Adam Conner
+  name: Adam Connor
   company:
     name: MadPow
     url: ~
@@ -12,7 +12,7 @@
   talk:
     type: Workshops
     day: 1
-    discipline: ui
+    discipline: ux
     session: 1
     title: "Discussing Design: The Art of Critique"
     desc: "Our ability to critique speaks directly to the quality of the conversations we have around the ideas and designs we create."
@@ -326,7 +326,7 @@
   talk:
     type: Workshops
     day: 1
-    discipline: ux
+    discipline: ui
     session: 1
     title: "Think Like a Startup"
     desc: ~
@@ -364,7 +364,7 @@
   talk:
     type: Workshops
     day: 1
-    discipline: ux
+    discipline: ui
     session: 1
     title: "Think Like a Startup"
     desc: ~
@@ -497,7 +497,7 @@
   talk:
     type: Workshops
     day: 1
-    discipline: ux
+    discipline: ui
     session: 1
     title: "Think Like a Startup"
     desc: ~
@@ -917,7 +917,7 @@
     day: 2
     discipline: ui
     session: 1
-    title: "The Nimble Designer"
+    title: "One Size Fits None: Creating Flexible Design Processes"
     desc: ~
     fullDesc: ~
 - speaker:
