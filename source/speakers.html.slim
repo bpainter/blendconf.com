@@ -1,0 +1,56 @@
+---
+title: Blend Conference - A 3 Day Conference about User Experience, UI Design, and Development in Charlotte, NC
+id: home
+---
+
+#intro role="banner"
+	h1== image_tag 'content/blend-conference-logo.png', :alt => 'Blend Conference'
+	h2 September 5 - 7, 2013 <span>in Charlotte, NC</span>
+	p A generalist conference featuring 50 speakers sharing ideas and conversations about user experience design, user interface design, and web development.
+
+	a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Primary" Register
+
+== partial "/layouts/partials/navigation"
+
+#skinny
+	h2 What's Going On
+	ul
+		li <strong>50 Speakers</strong> Some of the finest practitioners in user experience design, user interface design, and web development will be joining us to share some amazing ideas.
+		li <strong>40 Talks</strong> Over the 2 conference days there will be 40 talks total spread across 3 tracks. Pick and choose the topics that you find interesting.
+		li <strong>6 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
+		li <strong>No Devices</strong> Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones won't be allowed to be used during the conference sessions.
+		li <strong>Custom Notebooks</strong> We're going analog. Each attendee will receive a nice, custom BlendConf notebook provided by the fantastic folks at <a href="http://boundforanything.com/" data-type="External">Bound</a> along with something fancy to write with. You'll thank us later.
+		li <strong>Diversity</strong> We've spent fair amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
+
+form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
+	label.h2 for="mce-EMAIL" Stay Updated
+	.email-subscription
+		input#mce-EMAIL type="email" name="EMAIL" placeholder="Your Email Address"
+		button type="submit" Subscribe
+
+	.social-subscription
+		span.and And
+		a.button href="http://twitter.com/blendconf" Follow @blendconf
+
+#speakers
+	h2 Our Speakers
+	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
+	ul.hive.hexagon
+		/ - data.speakers.shuffle.first(9).each do |speaker|
+		- data.speakers.each do |speaker|
+			li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
+				strong #{speaker.name} <span>#{speaker.company.name}</span>
+				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+		/ li class="more"
+		/ 		strong + 42 more
+		/ 		a href="/speakers"
+
+#schedule
+	h2 Schedule
+
+#venue
+	/ #map
+	.venue-details
+		h2 Venue & Hotel
+
+		p <a href="http://www.blakehotelnc.com/" data-type="Hotel">The Blake Hotel</a> has given our attendees access to their best rooms, the deluxe king or deluxe double rooms for only $99/night. To reserve your room call 704-372-4100 and mention Blend Conference.

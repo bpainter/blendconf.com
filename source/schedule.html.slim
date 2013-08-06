@@ -1,0 +1,101 @@
+---
+title: Blend Conference - A 3 Day Conference about User Experience, UI Design, and Development in Charlotte, NC
+id: sessions
+---
+== partial "/layouts/partials/navigation"
+
+#masthead role="banner"
+	h1 The Schedule
+
+.session-groups
+	.day#workshop-day
+		h2 Workshops
+		h3 Thursday, Sept. 5th
+
+		ul.titles
+			li User Experience
+			li Visual Design
+			li Development
+
+		ul.registration
+			li.time 8:00am - 9:00am
+			li.description: h4 Registration
+
+		== partial "/layouts/partials/sessions", :locals => { :talkType => "Workshops", :talkDay => 1, :talkSession => 1, :talkTime => "9:00am - 12:30pm"}
+		ul.lunch
+	 		li.time 12:30pm - 2:00pm
+	 		li.description: h4 Lunch
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Workshops", :talkDay => 1, :talkSession => 2, :talkTime => "2:00pm - 5:30pm"}
+
+	.day#conference-day
+		h2 Conference Day
+		h3 Friday, Sept. 6th
+
+		ul.registration
+			li.time 8:00am - 8:30am
+			li.description: h4 Registration
+
+		ul.keynote
+			li.time 8:30am - 9:00am
+			li.description: h4 Opening Keynote - Carl Smith
+
+		ul.titles
+			li User Experience
+			li Visual Design
+			li Development
+
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 2, :talkSession => 1, :talkTime => "9:15am - 10:00am"}
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 2, :talkSession => 2, :talkTime => "10:15am - 11:00am"}
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 2, :talkSession => 3, :talkTime => "11:15am - 12:00pm"}
+	 	ul.lunch
+	 		li.time 12:00pm - 1:30pm
+	 		li.description: h4 Lunch
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 2, :talkSession => 4, :talkTime => "1:30pm - 2:15pm"}
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 2, :talkSession => 5, :talkTime => "2:30pm - 3:45pm"}
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 2, :talkSession => 6, :talkTime => "4:00pm - 4:45pm"}
+
+	 	ul.keynote
+			li.time 5:00pm - 5:30pm
+			li.description: h4 Closing Keynote - Ashe Dryden
+
+	.day#blend-day
+		h2 Blend Day
+		h3 Saturday, Sept. 7th
+
+		ul.registration
+			li.time 8:00am - 8:30am
+			li.description: h4 Registration
+
+		ul.keynote
+			li.time 8:30am - 9:00am
+			li.description: h4 Opening Keynote - Leslie Jensen-Inman
+
+		ul.titles
+			li User Experience
+			li Visual Design
+			li Development
+
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 3, :talkSession => 1, :talkTime => "9:15am - 10:00am"}
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 3, :talkSession => 2, :talkTime => "10:15am - 11:00am"}
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 3, :talkSession => 3, :talkTime => "11:15am - 12:00pm"}
+	 	ul.lunch
+	 		li.time 12:00pm - 1:30pm
+	 		li.description: h4 Lunch
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 3, :talkSession => 4, :talkTime => "1:30pm - 2:15pm"}
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 3, :talkSession => 5, :talkTime => "2:30pm - 3:45pm"}
+	 	== partial "/layouts/partials/sessions", :locals => { :talkType => "Conference Speakers", :talkDay => 3, :talkSession => 6, :talkTime => "4:00pm - 4:45pm"}
+
+	 	ul.keynote
+			li.time 5:00pm - 5:30pm
+			li.description: h4 Closing Keynote
+
+		ul.party
+			li.time 7:00pm
+			li.description: h4 After Party
+
+	/ ul
+	/ 	/ - data.speakers.shuffle.first(9).each do |speaker|
+	/ 	- data.speakers.each do |speaker|
+	/ 		li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
+	/ 			strong #{speaker.name} <span>#{speaker.company.name}</span>
+	/ 			a href="#" <div class="right-hex"></div><div class="left-hex"></div>

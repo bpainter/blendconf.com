@@ -3,7 +3,15 @@
     @include container;
     @include susy-grid-background;
   }
-  
+
+  .button {
+    max-width: 370px;
+    #be-notified  &,
+    nav[role="navigation"] & {
+      max-width: 100%;
+    }
+  }
+
   .hive {
     width: 400px;
     // reset from the previous mq
@@ -41,6 +49,29 @@
     li {
       margin: 4em 1em 4em;
       left: 0;
+    }
+  }
+
+  #sponsors {
+    ul.secondary {
+      li {
+        @include span-columns(3);
+        &:nth-child(even) {
+          @include omega();
+        }
+      }
+    }
+    ul.community {
+      li {
+        @include reset-columns();
+        @include span-columns(2);
+        &:nth-child(even) {
+          @include remove-omega();
+        }
+        &:nth-child(3n) {
+          @include omega();
+        }
+      }
     }
   }
 }

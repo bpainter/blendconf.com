@@ -1,0 +1,46 @@
+ul.session
+  li.time #{talkTime}
+
+  - data.speakers.each_with_index do |speaker, i|
+    - if speaker.talk.type == "#{talkType}" && speaker.talk.day == talkDay && speaker.talk.session == talkSession && speaker.talk.discipline == "ux"
+      - if speaker.talk.title == "Think Like a Startup"
+        li.description.ux class="session-#{i}"
+          h4.title #{speaker.talk.title}
+          h5.track User Experience Track
+          a.speaker href="#" Joel Van Dyke, Kendra Shillington, & Marc Bolick
+          a.company href="#" #{speaker.company.name}
+      - elsif speaker.talk.title == "The Design in Service Design"
+        li.description.ux class="session-#{i}"
+          h4.title #{speaker.talk.title}
+          h5.track User Experience Track
+          a.speaker href="#" Anders Frostenson & Magnus Bergmark
+          a.company href="#" #{speaker.company.name}
+      - else
+        li.description.ux
+          h4.title #{speaker.talk.title}
+          h5.track User Experience Track
+          a.speaker href="#" #{speaker.name}
+          a.company href="#" #{speaker.company.name}
+  - data.speakers.each_with_index do |speaker, i|
+    - if speaker.talk.type == "#{talkType}" && speaker.talk.day == talkDay && speaker.talk.session == talkSession && speaker.talk.discipline == "ui"
+      - if speaker.talk.title == "Discovering Unexpected Ideas Using Generative Design"
+        li.description.ui class="session-#{i}"
+          h4.title #{speaker.talk.title}
+          h5.track User Experience Track
+          a.speaker href="#" Ron Edelen, Michael Chatten, & Albert Banks
+          a.company href="#" #{speaker.company.name}
+      - else
+        li.description.ui
+          h4.title #{speaker.talk.title}
+          h5.track Visual Design Track
+          a.speaker href="#" #{speaker.name}
+          a.company href="#" #{speaker.company.name}
+  - data.speakers.each do |speaker|
+    - if speaker.talk.type == "#{talkType}" && speaker.talk.day == talkDay && speaker.talk.session == talkSession && speaker.talk.discipline == "dev"
+      li.description.dev
+        h4.title #{speaker.talk.title}
+        h5.track Development Track
+        a.speaker href="#" #{speaker.name}
+        a.company href="#" #{speaker.company.name}
+
+

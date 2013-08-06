@@ -11,9 +11,9 @@ set :slim, :layout_engine => :slim
 
 # set :markdown_engine, :redcarpet
 # set :markdown, :fenced_code_blocks => true,
-#                :autolink => true, 
+#                :autolink => true,
 #                :smartypants => true
-       
+
 activate :livereload
 activate :relative_assets
 activate :directory_indexes

@@ -1,0 +1,10 @@
+// --------------------------------------------------
+// hexagons
+// --------------------------------------------------
+// Calculates the ratio for width/height of the hexagons
+@function calc-ratio($width, $height) {
+  @return ($width / $height);
+}
+@function calc-height($width, $ratio) {
+  @return ($width / $ratio);
+}

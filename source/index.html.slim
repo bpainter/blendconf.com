@@ -1,150 +1,77 @@
 ---
 title: Blend Conference - A 3 Day Conference about User Experience, UI Design, and Development in Charlotte, NC
-backURL: ~
 id: home
 ---
 
-#intro
+#intro role="banner"
 	h1== image_tag 'content/blend-conference-logo.png', :alt => 'Blend Conference'
 	h2 September 5 - 7, 2013 <span>in Charlotte, NC</span>
 	p A generalist conference featuring 50 speakers sharing ideas and conversations about user experience design, user interface design, and web development.
 
 	a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Primary" Register
 
-#news
-	h2 Important Updates
-	p Most of the speakers are announced. We now have keynotes & workshops! You should follow <a href="http://twitter.com/blendconf" data-type="Twitter">@blendconf</a> to stay up-to-date.
+== partial "/layouts/partials/navigation"
 
 #skinny
 	h2 What's Going On
 	ul
 		li <strong>50 Speakers</strong> Some of the finest practitioners in user experience design, user interface design, and web development will be joining us to share some amazing ideas.
 		li <strong>40 Talks</strong> Over the 2 conference days there will be 40 talks total spread across 3 tracks. Pick and choose the topics that you find interesting.
-		li <strong>6 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire. 
+		li <strong>6 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
 		li <strong>No Devices</strong> Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones won't be allowed to be used during the conference sessions.
 		li <strong>Custom Notebooks</strong> We're going analog. Each attendee will receive a nice, custom BlendConf notebook provided by the fantastic folks at <a href="http://boundforanything.com/" data-type="External">Bound</a> along with something fancy to write with. You'll thank us later.
 		li <strong>Diversity</strong> We've spent fair amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
 
+form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
+	label.h2 for="mce-EMAIL" Stay Updated
+	.email-subscription
+		input#mce-EMAIL type="email" name="EMAIL" placeholder="Your Email Address"
+		button type="submit" Subscribe
+
+	.social-subscription
+		span.and And
+		a.button href="http://twitter.com/blendconf" Follow @blendconf
+
 #speakers
-	h2 Glorious Keynotes
-	p To kick things off and close things out each day we have some of our favorite web people sharing some incredible, inspirational stories.
-
-	ul#keynotes.hive.hexagon
-		- data.keynotes.each do |keynote|
-			li class="#{keynote.name.downcase.tr(" ", "-").tr(".", "")}"
-				strong #{keynote.name} <span>#{keynote.companyName}</span>
-				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-
-		li class="super-secret"
-				strong Thoon. <span>Very Thoon.</span>
-				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-
-	br /
-
 	h2 Our Speakers
 	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
 	ul.hive.hexagon
+		/ - data.speakers.shuffle.first(9).each do |speaker|
 		- data.speakers.each do |speaker|
 			li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
-				strong #{speaker.name} <span>#{speaker.companyName}</span>
+				strong #{speaker.name} <span>#{speaker.company.name}</span>
 				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+		/ li class="more"
+		/ 		strong + 42 more
+		/ 		a href="/speakers"
 
-	/ p.cta 
-	/ 	|Like what you see? Then you should
-	/ 	a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Secondary" register
+#schedule
+	h2 Schedule
+	p Talk about 3 days of mind-filling amazingness. Each day has 3 tracks going on at the same time covering user experience design, visual design, and development.
 
-	br /
+	ul.schedules
+		li
+			h3==link_to "Workshops", "/schedule#workshop-day"
+			h4 Thursday, Sept. 5th
+			p During our workshop day there are 6 half-day workshops to choose from. 3 in the morning and 3 in the evening.  You can pick from two.
+		li
+			h3==link_to "Conference Day", "/schedule#conference-day"
+			h4 Thursday, Sept. 6th
+			p The conference day is jam packed with two amazing keynote speakers and 16 sessions you can choose from.
+		li
+			h3==link_to "Blend Day", "/schedule#blend-day"
+			h4 Friday, Sept. 7th
+			p Our blend day is something special. You still have 16 sessions to choose from but talks are aimed at helping you discover your inner generalist.
 
-	h2 Fancy Workshops
-	p For the folks that prefer a bit more hands on approach to learning we've got it covered. The first day of the conference is filled with 6 half-day workshops.
-
-	/ This needs refactored...too.many.divs
-	// and a wrapper *shutter*
-	.workshops-wrapper
-	
-		.workshops
-			h3 User Experience Workshops
-
-			.workshop
-				ul.hexagon.hive
-					li.patrick-quattlebaum
-						strong Patrick Quattlebaum <span>Adaptive Path</span>
-						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-
-				h4 Service Design
-				p More details will be released on this workshop very soon.
-
-			.workshop
-				ul.hexagon.hive
-					li.kendra-shillington
-						strong Kendra Shillington <span>Bank of America</span>
-						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-
-				h4 UX Design
-				p More details will be released on this workshop very soon.
-
-		.workshops
-			h3 Design Workshops
-
-			.workshop
-				ul.hexagon.hive
-					li.adam-conner
-						strong Adam Connor <span>MadPow</span>
-						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-
-				h4 Discussing Design: The Art of Critique
-				p Our ability to critique speaks directly to the quality of the conversations we have around the ideas and designs we create.
-
-			.workshop
-				ul.hexagon.hive
-					li.ron-edelen
-						strong Ron Edelen<span>Myjive</span>
-						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-
-				h4 Discovering Unexpected Ideas Using Generative Design
-				p Explore ways technology has evolved design, introduce brave new concepts and get hands-on training and tools to create your own generative designs.
-
-
-		.workshops
-			h3 Development Workshops	
-
-			.workshop
-				ul.hexagon.hive
-					li.tessa-harmon
-						strong Tessa Harmon <span>Skookum</span>
-						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-
-				h4 Building Single Page Apps
-				p Discover how single-page apps differ from classic apps, code architectures and organization, CSS and JavaScript performance optimization, and tips for dealing with memory leaks.
-
-			.workshop
-				ul.hexagon.hive
-					li.shay-howe
-						strong Shay Howe <span>The Starter League</span>
-						a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-
-				h4 Front-End Legos: Reusable HTML and CSS
-				p HTML & CSS are a websites backbone. Attendees will be able to better organize their code, develop modular styles, and work with CSS specificity.
-
-		p.cta 
-			|Like what you see? Then you should
-			a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Secondary" register
-
+	a==link_to "Full Schedule", "/schedule", :class => 'button'
 
 #venue
-	h2 Venue & Hotel
+	/ #map
+	.venue-details
+		h2 Venue & Lodging
 
-	p <a href="http://www.blakehotelnc.com/" data-type="Hotel">The Blake Hotel</a> has given our attendees access to their best rooms, the deluxe king or deluxe double rooms for only $99/night. To reserve your room call 704-372-4100 and mention Blend Conference.
+		p The conference will be held at <a href="http://www.blakehotelnc.com/" data-type="Hotel">The Blake Hotel</a>. Aside from the snazzy conference space, they're providing our attendees access to their best rooms, the deluxe king or deluxe double rooms for only $99/night.
 
-#sponsors
-	h2 Sponsorship
+		p To reserve your room call 704-372-4100 and mention Blend Conference. <b>The room block expires on August 15th</b>.
 
-	p We are currently seeking sponsors & partners that would like to help support the event. You should <a href="mailto:sponsors@blendconf.com" data-type="Email">contact us</a>.
-
-#footer
-	p &copy Copyright 2013 BlendConf, LLC. All rights reserved. Follow <a href="http://twitter.com/blendconf" data-type="Twitter">@blendconf</a> or email us at <a href="mailto:hello@blendconf.com" data-type="Email">hello@blendconf.com</a>. Organized by <a href="http://bermonpainter.com" data-type="External">Bermon Painter</a>. Find an error or want to add something? Pull requests are welcome over on <a href="https://github.com/bpainter/blendconf.com" data-type="External">GitHub</a>.
-	p 
-		|A couple of important items that we can't forget like the 
-		== link_to 'refund policy ', 'refund-policy.html' 
-		| and 
-		== link_to 'code of conduct', 'code-of-conduct.html'
+		a==link_to "Reserve Online", "https://www.yourreservation.net/tb3/index.cfm?bf=AHatWorldhotels&hotelcode=HACLTBLA&iatanumber=WWGRP01QA&rateaccesscode=*G1Q%24&arrivaldate=2013-09-05&nights=3&plprun=2&_=1373458625166", :class => 'button'

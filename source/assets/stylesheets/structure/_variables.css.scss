@@ -1,9 +1,9 @@
-// ---------------------------------------------------- 
+// ----------------------------------------------------
 // Variables
 // Used for grayboxing. To update the theme you should
 // TODO: convert this to a function to generate
 // with color functions
-// ---------------------------------------------------- 
+// ----------------------------------------------------
 $black:                 #000 !default;
 $grayDarker:            #222 !default;
 $grayDark:              #333 !default;
@@ -37,37 +37,100 @@ $navbar-height: 44px;
 // --------------------------------------------------
 // responsive breakpoints
 // --------------------------------------------------
-$breakpoint-tiny      :   320px;                            
-$breakpoint-small     :   480px;                     
-$breakpoint-medium    :   600px;              
-$breakpoint-large     :   768px;                     
-$breakpoint-huge      :   1080px;                     
+$breakpoint-tiny      :   320px;
+$breakpoint-small     :   480px;
+$breakpoint-medium    :   600px;
+$breakpoint-large     :   768px;
+$breakpoint-huge      :   1080px;
 $breakpoint-ginormous :   1400px;
 
 // --------------------------------------------------
 // colors
 // --------------------------------------------------
-$brown: #69504a !default;
-$lavender: #5e79a6 !default;
-$aqua: #63b3b8 !default;
-$yellow: #e5ba3a !default;
-$green: #86b44e !default;
-$red: #dc563e !default;
-$dark-gray: #3e4243 !default;
-$light-gray: #7f888a !default;
-$light-blue: #bbd5d1 !default;
+$brown              : #69504a !default;
+$lavender           : #5e79a6 !default;
+$aqua               : #63b3b8 !default;
+$yellow             : #e5ba3a !default;
+$green              : #86b44e !default;
+$red                : #dc563e !default;
+$dark-gray          : #3e4243 !default;
+$light-gray         : #7f888a !default;
+$light-blue         : #bbd5d1 !default;
 
-$color-navbar:			  #333 !default;
-$color-background:		  lighten($color-navbar, 78%) !default;
-$color-aside:			  lighten($color-navbar, 10%) !default;
+$color-navbar       : #333 !default;
+$color-background   : lighten($color-navbar, 78%) !default;
+$color-aside        : lighten($color-navbar, 10%) !default;
 
+$color-body-background: $color-background;
+$color-text         : #333 !default;
 
-$color-body-background:   $color-background;
-$color-text:              #333 !default;
+$color-link         : #08c !default;
+$color-link-hover   : darken($color-link, 15%) !default;
 
-$color-link:              #08c !default;
-$color-link-hover:        darken($color-link, 15%) !default;
+// --------------------------------------------------
+// hexagons
+// --------------------------------------------------
+$hexagon-colors: ($aqua, $red, $yellow, $green, $lavender);
+$ratio-width: 190px;
+$ratio-height: 110px;
+$hex-ratio: calc-ratio($ratio-width, $ratio-height);
+$hex-width: 190px;
+$hex-height: calc-height($hex-width, $hex-ratio);
+$hex-margin: 25px;
 
+// --------------------------------------------------
+// speakers
+// --------------------------------------------------
+$speakers: (adam-conner,
+            albert-banks,
+            amanda-costello,
+            anders-frostenson,
+            andrew-hinton,
+            ashe-dryden,
+            ben-vandgrift,
+            brandon-mathis,
+            bryan-veloso,
+            cameron-moll,
+            carl-smith,
+            garth-braithwaite,
+            james-white,
+            jason-vanlue,
+            jina-bolton,
+            joel-van-dyke,
+            julie-ann-horvath,
+            kendra-shillington,
+            larry-staton,
+            leslie-j-morse,
+            leslie-jensen-inman,
+            lisa-welchman,
+            magnus-bergmark,
+            marco-suarez,
+            mark-bolick,
+            matt-stevens,
+            meagan-fisher,
+            melinda-jackson,
+            michael-parenteau,
+            michael-chatten,
+            mindy-wagner,
+            nick-finck,
+            patrick-quattlebaum,
+            pedro-sepulveda,
+            rachel-nabors,
+            rachel-parsons,
+            rebecca-garcia,
+            rikki-teeters,
+            ron-edelen,
+            sara-blake,
+            shay-howe,
+            teresa-rench,
+            tessa-harmon,
+            tim-smith,
+            wren-lanier,
+            wynn-netherland,
+            yesenia-perez-cruz,
+            yoko-harada,
+            zoe-gillenwater
+);
 
 // --------------------------------------------------
 // typography

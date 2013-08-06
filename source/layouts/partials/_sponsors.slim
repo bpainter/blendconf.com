@@ -1,0 +1,17 @@
+#sponsors
+  h2 Sponsors
+
+  p We think sponsorship should be more than just a link and logo on a website. If you're looking to put your sponsorship dollars to use we have a few pretty nifty ideas to get you noticed and be a fun experience for our attendees. If you aren't boring you should <a href="mailto:sponsors@blendconf.com" data-type="Email">contact us</a>.
+
+  ul.secondary
+    - data.sponsors.each do |sponsor|
+      - if sponsor.type == "secondary"
+        li
+          a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
+
+  ul.community
+    - data.sponsors.each do |sponsor|
+      - if sponsor.type == "community"
+        li
+          a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
+

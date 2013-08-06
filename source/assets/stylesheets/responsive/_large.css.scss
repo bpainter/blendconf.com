@@ -8,7 +8,7 @@
     @include clearfix;
     ul {
       margin: 0 auto;
-      max-width: 850px;
+      // max-width: 850px;
     }
     li {
       @include span-columns(4);
@@ -21,7 +21,87 @@
       @include omega;
     }
   }
+  //--------------------------------------------------------
+  // main nav
+  //--------------------------------------------------------
+  nav[role="navigation"] {
+    height: $baseline*3;
+    line-height: auto;
+    margin: 0 auto;
+    min-height: auto;
+    padding: 0;
+    ul {
+      background-color: transparent;
+      display: block;
+      margin: 0 0 0 80px;
+      padding-bottom: 0;
+      top: -9px;
+      #home & {
+        margin-left: 0;
+      }
+    }
+    li {
+      display: inline-block;
+      margin: 0 $sub-baseline;
+      &:first-child a {
+        border: 0;
+      }
+      &:last-child {
+        position: absolute;
+          right: 6px;
+        a {
+          padding: 0 $baseline;
+        }
+      }
+      a {
+        border: 0;
+        display: inline-block;
+        height: $baseline*2;
+        line-height: $baseline*2;
+        padding: $baseline $sub-baseline;
+      }
+    }
+    #nav-toggle {
+      display: none;
+    }
+    .home {
+      background-color: inherit;
+      #home & {
+        display: none;
+      }
+    }
+  }
+  //--------------------------------------------------------
+  // newsletter / updates
+  //--------------------------------------------------------
+  #be-notified {
+    .email-subscription {
+      float: left;
+      width: columns(6);
+    }
+    .social-subscription {
+      float: right;
+      padding: $sub-baseline*5 0 0 $baseline*4;
+      position: relative;
+      width: columns(6);
+    }
+    .and {
+      float: left;
+      margin: 0;
+      position: absolute;
+        left: -2%;
+      &:before, &:after {
+        display: none;
+      }
+    }
+    .button {
+      float: left;
+    }
+  }
 
+  //--------------------------------------------------------
+  // speaker hive
+  //--------------------------------------------------------
   .hive {
     width: ($hex-width*3)+($hex-margin)*2;
     // reset from the previous mq
@@ -51,40 +131,64 @@
     }
   }
 
-  // Workshops
-  .workshops-wrapper{
-    max-width: 930px;
-    margin: 0 auto;
+  //--------------------------------------------------------
+  // schedule / sessions
+  //--------------------------------------------------------
+  .session-groups {
+    @include clearfix;
+    .day, .time {
+      clear: both;
+    }
+    .session {
+      @include clearfix;
+      .ux, .ui, .dev {
+        @include span-columns(4);
+      }
+      .dev {
+        @include omega();
+      }
+    }
   }
-  .workshops {
-    float: left;
-    border-bottom: none;
-    margin: 0 1% 2em;
-    width: 31%;
-    h3, h4, p {
-      text-align: center;
-    }
-    h3 {
-      min-height: 48px;
+  #schedule {
+    .schedules {
+      @include clearfix;
+      margin-bottom: 0;
+      li {
+        @include span-columns(4);
+        &:last-child {
+          @include omega();
+        }
+      }
     }
   }
-  .workshop {
-    margin-bottom: 2em;
-    ul {
-      float: none;
-      width: auto !important;
+  #sponsors {
+    ul.secondary {
+      li {
+        @include reset-columns();
+        @include span-columns(4);
+        &:nth-child(even) {
+          @include remove-omega();
+        }
+        &:nth-child(3n) {
+          @include omega();
+        }
+      }
     }
-    h4 {
-      font-size: 1em;
-      margin-bottom: 0;
-    }
-    p {
-      margin: 0;
-    }
-    li {
-      margin-left: -$hex-width/2 !important;
-      margin-bottom: 0;
-      left: 50%;
+    ul.community {
+      li {
+        @include reset-columns();
+        @include span-columns(3);
+        &:nth-child(even) {
+          @include reset-columns();
+          @include span-columns(3);
+        }
+        &:nth-child(3n) {
+          @include remove-omega();
+        }
+        &:nth-child(4n) {
+          @include omega();
+        }
+      }
     }
   }
 }

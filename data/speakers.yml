@@ -1,421 +1,960 @@
 - speaker:
-  name: Lisa Welchman
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Welchman Pierpoint
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
+  name: Adam Conner
+  company:
+    name: MadPow
+    url: ~
+  bio: "<p>As an Experience Design Director with Mad*Pow in Portsmouth, NH, Adam combines 10+ years of experience in interaction and experience design with a background in Computer Science, film, and visual design to create effective and easy-to-use digital products and services. He believes that no matter how utilitarian a tool is, at the core of its creation lies a story; uncovering that story is key to its success.</p><p>Adam is also a strong proponent of critique, not only in design, but also as a key component of collaboration, learning, and improvement. Occasionally, he shares his perspectives on design at adamconnor.com and discussingdesign.com.</p>"
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: ui
+    session: 1
+    title: "Discussing Design: The Art of Critique"
+    desc: "Our ability to critique speaks directly to the quality of the conversations we have around the ideas and designs we create."
+    fullDesc: "<p>This workshop will examine the language, rules and strategies for improving the conversations we have around designs through critique.</p><p>Collaboration requires us to share our work; to communicate our ideas with one another and collect other's thoughts in order to know whether the designs and creations we're producing are meeting the objectives of the project. But often we wrestle with collecting feedback. We get comments that are less then helpful because they seem irrelevant or unclear. Or we find that we're getting feedback and reactions at inopportune times rather than points in the process where they would have been useful in informing design decisions.</p><p>Our ability to critique speaks directly to the quality of the conversations we have with teammates, whether they be designers, developers, stakeholders or whomever. Designers frequently complain about the quality and uselessness of the feedback they are given, but we rarely take a step back and examine how to collect useful feedback and make our discussions around our designs more productive.</p><p>By taking the time to examine critique and how it fits into the design process and both an activity and an aspect of any communication we can focus our conversations and improve our ability to collaborate.</p><p>Participants in this workshop will explore various aspects of critique and the qualities that lead to strong and weak feedback through presentation materials and a series of hands-on activities. Each person will be provided with takeaways that can immediately be put to work to create a useful, collaborative environment for discussing designs.</p>"
 - speaker:
-  name: Nick Finck
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: projekt202
-  companyURL: ~
+  name: Albert Banks
+  company:
+    name: Myjive
+    url: ~
   bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Meagan Fisher
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Chartbeat
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: James White
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Signal Noise
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Wren Lanier
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Capital One
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Jason Vanlue
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Code School
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Jina Bolton
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Do
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Tim Smith
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: The East Wing
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Rebecca Garcia
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Coder Dojo NYC
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Rik Catlow
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Bank of America
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Rachel Nabors
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: RachelNabors.com
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Andrew Hinton
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: The Understanding Group
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: ui
+    session: 2
+    title: "Discovering Unexpected Ideas Using Generative Design"
+    desc: "Explore ways technology has evolved design, introduce brave new concepts and get hands-on training and tools to create your own generative designs."
+    fullDesc: ~
 - speaker:
   name: Amanda Costello
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: The University of Minnesota
-  companyURL: ~
+  company:
+    name: The University of Minnesota
+    url: ~
   bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Cameron Moll
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Authentic Jobs
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Julie Ann Horvath
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: GitHub
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Matt Stevens
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Design Office of Matt Stevens
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Sara Blake
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: ZSO
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Wynn Netherland
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: GitHub
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Mindy Wagner
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Viget Labs
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Michael Parenteau
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Think Relevance
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Yesenia Perez-Cruz
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Happy Cog
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Magnus Bergmark
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Doberman
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Melinda Jackson
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Wells Fargo
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ux
+    session: 2
+    title: "I Don't Have Your Ph.D. - Working with Content Specialists & Experts"
+    desc: ~
+    fullDesc: ~
 - speaker:
   name: Anders Frostenson
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Doberman
-  companyURL: ~
+  company:
+    name: Doberman
+    url: ~
   bio: ~
-  talkTitle: ~
-  talkDescription: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ux
+    session: 1
+    title: "The Design in Service Design"
+    desc: ~
+    fullDesc: "Service Design is often, well deserved, praised for its analytical and strategic advantages. But if we forget to acknowledge the most central aspect of the discipline it will loose its true glimmering power. Design as the element of surprise. Service Design is not Design just because we call it Design. We have to nourish it. Because the purpose of Service Design is to result in the delivery of a valuable experience, design must be a process of creating and executing."
 - speaker:
-  name: Zoe Gillenwater
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: ATT
-  companyURL: ~
+  name: Andrew Hinton
+  company:
+    name: The Understanding Group
+    url: ~
   bio: ~
-  talkTitle: ~
-  talkDescription: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ux
+    session: 3
+    title: "The World Is the Screen: Understanding Information Environments"
+    desc: ~
+    fullDesc: "Information is tricky stuff. We talk about it a lot, but what do we mean when we do? And how does something so abstract turn into tangible experiences for users? This talk is about how we can think about experiences as environments, made of different modes of information. We'll see some examples of how these modes affect the user experience, and learn a framework for thinking about design problems, regardless of channel, device, or flavor. "
 - speaker:
-  name: Larry Staton
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Hendrick Automotive
-  companyURL: ~
+  name: Andrew Maier
+  company:
+    name: UX Booth
+    url: ~
   bio: ~
-  talkTitle: ~
-  talkDescription: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ux
+    session: 6
+    title: TBD
+    desc: ~
+    fullDesc:
 - speaker:
-  name: Leslie J. Morse
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Davisbase Consulting
-  companyURL: ~
+  name: Ashe Dryden
+  company:
+    name: Ashe Dryden Development
+    url: ~
   bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Bryan Veloso
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Github
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Rachel Parsons
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Cardinal Solutions
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Pedro Sepulveda
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Continuum
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Teresa Rench
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Wells Fargo
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Garth Braithwaite
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Adobe
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Rikki Teeters
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Cardinal Solutions
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Marco Suarez
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Mailchimp
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Yoko Harada
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Think Relevance
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
-- speaker:
-  name: Brandon Mathis
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Mongo HQ
-  companyURL: ~
-  bio: ~
-  talkTitle: ~
-  talkDescription: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Keynotes
+    day:
+    discipline: ~
+    session: ~
+    title: "Programming Diversity"
+    desc: ~
+    fullDesc: ""
 - speaker:
   name: Ben Vandgrift
-  twitter: ~
-  github: ~
-  dribbble: ~
-  blog: ~
-  companyName: Think Relevance
-  companyURL: ~
+  company:
+    name: Think Relevance
+    url: ~
   bio: ~
-  talkTitle: ~
-  talkDescription: ~
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: dev
+    session: 1
+    title: "Specialization is for Insects"
+    desc: ~
+    fullDesc: "TBD"
+- speaker:
+  name: Brandon Mathis
+  company:
+    name: Mongo HQ
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: dev
+    session: 6
+    title: TBD
+    desc: ~
+    fullDesc: TBD
+- speaker:
+  name: Bryan Veloso
+  company:
+    name: Github
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ui
+    session: 1
+    title: "Hybrids Rule Everything Around Me"
+    desc: ~
+    fullDesc: "<p>If there was ever an era of specialization, it is now coming to an end. No longer can any web professional get by in today's ecosystem without diversifying. A true engineer can understand design and development, the technical and the creative and thrives at the intersection of both.</p>
+              <p>You can build everything from the ground up, you just need a little push. Let's use the ecosystem to your advantage. Exchange knowledge with those around you and as an example, invest your time in open source.</p>
+              <p>You are a hybrid, you just don't know it yet.</p>"
+- speaker:
+  name: Cameron Moll
+  company:
+    name: Authentic Jobs
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ui
+    session: 4
+    title: "Creative Authenticity"
+    desc: ~
+    fullDesc: TBD
+- speaker:
+  name: Carl Smith
+  company:
+    name: nGen Works
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Keynotes
+    day: 2
+    discipline: ~
+    session: ~
+    title: TBD
+    desc: ~
+    fullDesc: TBD
+- speaker:
+  name: Garth Braithwaite
+  company:
+    name: Adobe
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ui
+    session: 3
+    title: "Designers Can Open Source"
+    desc: ~
+    fullDesc: "<p>This session will cover a few topics in relation to open source design, including:</p>
+                <ul>
+                  <li>Open source licenses</li>
+                  <li>Benefits of open sourcing design work</li>
+                  <li>How to open source work</li>
+                  <li>How to contribute design to open source projects</li>
+                  <li>How to make friends with other designers</li>
+                </ul>
+                <p>This topic is aimed at designers and some development practices will be discussed.</p>"
+- speaker:
+  name: James White
+  company:
+    name: Signal Noise
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ui
+    session: 4
+    title: "Design Renegade"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Jason Vanlue
+  company:
+    name: Code School
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ux
+    session: 1
+    title: "Three Pipe Problems"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Jina Bolton
+  company:
+    name: Do
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: dev
+    session: 6
+    title: "Realigning & Refactoring UI"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Joel Van Dyke
+  company:
+    name: Design Thinkers
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: ux
+    session: 1
+    title: "Think Like a Startup"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Julie Ann Horvath
+  company:
+    name: GitHub
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ux
+    session: 2
+    title: "Game Theory & the User Experience"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Kendra Shillington
+  company:
+    name: Design Thinkers
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: ux
+    session: 1
+    title: "Think Like a Startup"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Larry Staton
+  company:
+    name: Hendrick Automotive
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: dev
+    session: 3
+    title: "HTTP 101"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Leslie J. Morse
+  company:
+    name: Davisbase Consulting
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ux
+    session: 4
+    title: "A How-To Guide to Transferable Business Analysis Skills"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Leslie Jensen-Inman
+  company:
+    name: The Unicorn Institute
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Keynotes
+    day:
+    discipline: ~
+    session: ~
+    title:
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Lisa Welchman
+  company:
+    name: Welchman Pierpoint
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ux
+    session: 6
+    title: "Governance"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Magnus Bergmark
+  company:
+    name: Doberman
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ux
+    session: 1
+    title: "The Design in Service Design"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Marco Suarez
+  company:
+    name: Mailchimp
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ui
+    session: 6
+    title: "What I learned while starting an intensive design class"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Marc Bolick
+  company:
+    name: Design Thinkers
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: ux
+    session: 1
+    title: "Think Like a Startup"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Matt Stevens
+  company:
+    name: Design Office of Matt Stevens
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ui
+    session: 6
+    title: Fight to do the Work You Love
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Meagan Fisher
+  company:
+    name: Chartbeat
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ui
+    session: 2
+    title: TBD
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Melinda Jackson
+  company:
+    name: Wells Fargo
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ui
+    session: 5
+    title: "Practical Observations & Exercises to get you into the Creative Groove"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Michael Parenteau
+  company:
+    name: Think Relevance
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: dev
+    session: 5
+    title: "Remote Pairing for Designers and Developers"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Michael Chatten
+  company:
+    name: Myjive
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: ui
+    session: 2
+    title: "Discovering Unexpected Ideas Using Generative Design"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Mike Bifulco
+  company:
+    name: Microsoft
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ux
+    session: 5
+    title: Designing for Windows 8 vs iOS and Android
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Mindy Wagner
+  company:
+    name: Viget Labs
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ui
+    session: 5
+    title: "Convincing Clients Without (Much) Bravado"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Nick Finck
+  company:
+    name: projekt202
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ux
+    session: 3
+    title: TBD
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Patrick Quattlebaum
+  company:
+    name: Adaptive Path
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: ux
+    session: 2
+    title: "Service Design Making"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Rachel Nabors
+  company:
+    name: RachelNabors.com
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: dev
+    session: 4
+    title: "JavaScript for Designers"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Rachel Parsons
+  company:
+    name: Cardinal Solutions
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: dev
+    session: 5
+    title: "iOS Development: Designers + Developers"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Rebecca Garcia
+  company:
+    name: Coder Dojo NYC
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: dev
+    session: 2
+    title: TBD
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Rikki Teeters
+  company:
+    name: Cardinal Solutions
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ux
+    session: 4
+    title: "Creating an Omni-Channel Financial UX Strategy"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Ron Edelen
+  company:
+    name: Myjive
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: ui
+    session: 2
+    title: "Discovering Unexpected Ideas Using Generative Design"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Sara Blake
+  company:
+    name: ZSO
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ui
+    session: 3
+    title: "The Love of Making"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Shay Howe
+  company:
+    name: Belly
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: dev
+    session: 1
+    title: "Front-End Legos: Reusable HTML and CSS"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Teresa Rench
+  company:
+    name: Wells Fargo
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ux
+    session: 5
+    title: "Building collaboration within interdisciplinary teams"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Tessa Harmon
+  company:
+    name: Skookum
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Workshops
+    day: 1
+    discipline: dev
+    session: 2
+    title: "Building Single Page Apps"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Tim Smith
+  company:
+    name: The East Wing
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ui
+    session: 2
+    title: "Become a Better Designer with Side Projects"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Wren Lanier
+  company:
+    name: Capital One
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: dev
+    session: 3
+    title: "Secret Sauce: Designing on the Z-Axis"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Wynn Netherland
+  company:
+    name: GitHub
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: dev
+    session: 4
+    title: TBD
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Yesenia Perez-Cruz
+  company:
+    name: Happy Cog
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ui
+    session: 1
+    title: "The Nimble Designer"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Yoko Harada
+  company:
+    name: Think Relevance
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: dev
+    session: 2
+    title: TBD
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Zoe Gillenwater
+  company:
+    name: ATT
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: dev
+    session: 1
+    title: "Putting Flexbox into practice"
+    desc: ~
+    fullDesc: ~

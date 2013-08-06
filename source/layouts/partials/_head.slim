@@ -1,0 +1,11 @@
+meta charset="utf-8"
+
+/ Use title if it's in the page YAML frontmatter
+title #{current_page.data.title}
+meta name="description" content="#{current_page.data.description}"/
+
+/ Prevents zooming
+meta name="viewport" content="width=device-width, initial-scale=1"
+
+== stylesheet_link_tag "base", "scaffold"
+== javascript_include_tag "libs/modernizr"

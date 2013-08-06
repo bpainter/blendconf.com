@@ -1,0 +1,16 @@
+- if current_page.data.id != "home"
+  ruby:
+    noHashLink = "/"
+
+nav role="navigation"
+  a.home href="/" Home
+  a#nav-toggle href="#nav-toggle" Menu
+  ul
+    li: a href="#{noHashLink}#skinny" Details
+    li: a href="#{noHashLink}#speakers" Speakers
+    li: a href="#{noHashLink}#schedule" Schedule
+    li: a href="#{noHashLink}#venue" Venue & Lodging
+    li: a href="#{noHashLink}#sponsors" Sponsors
+    / li: a href="/about" About
+    / li: a href="/code-of-conduct" Code of Conduct
+    li: a.button href="https://tito.io/blendconf/blendconf-2013" Register

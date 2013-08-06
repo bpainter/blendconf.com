@@ -3,10 +3,6 @@
     @include container;
     @include susy-grid-background;
   }
-  div > div[id] {
-    padding-left: 0;
-    padding-right: 0;
-  }
   ul.hive {
     max-width: ($hex-width*5)+($hex-margin)*4;
     &#keynotes {
@@ -35,6 +31,31 @@
     }
     li:nth-child(9n-3) {
       margin-left: 105px;
+    }
+  }
+    //--------------------------------------------------------
+  // newsletter / updates
+  //--------------------------------------------------------
+  #be-notified {
+    .email-subscription {
+      width: columns(8);
+      input {
+        margin-right: 2%;
+        width: columns(9);
+      }
+      button {
+        width: columns(7);
+      }
+    }
+    .social-subscription {
+      padding: 0 0 0 $baseline*4;
+      width: columns(6);
+    }
+    .and {
+        left: -20%;
+      &:before, &:after {
+        display: block;
+      }
     }
   }
 }

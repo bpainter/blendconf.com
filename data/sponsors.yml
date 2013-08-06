@@ -1,0 +1,73 @@
+- sponsor:
+  type: secondary
+  name: Mad*Pow
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.madpow.com/
+# - sponsor:
+#   type: community
+#   name: Atlanta Web Design Group
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.meetup.com/atlantawebdesign/
+- sponsor:
+  type: secondary
+  name: The Idea People
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.theideapeople.com/
+- sponsor:
+  type: community
+  name: "iT-ology"
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://it-ology.org/
+- sponsor:
+  type: secondary
+  name: Digital Saber
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.digitalsaber.net/
+- sponsor:
+  type: community
+  name: Detailed Block
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://detailedblock.com/
+- sponsor:
+  type: community
+  name: Packard Place
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://packardplace.us/
+- sponsor:
+  type: community
+  name: AIGA Charlotte
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.aigacharlotte.org/
+# - sponsor:
+#   type:
+#   name:
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: ~
+
