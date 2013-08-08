@@ -442,7 +442,7 @@
     day: 2
     discipline: ux
     session: 6
-    title: "Governance"
+    title: "Web Governance: Where Strategy Meets Structure"
     desc: ~
     fullDesc: ~
 - speaker:
@@ -898,8 +898,8 @@
     day: 2
     discipline: dev
     session: 4
-    title: TBD
-    desc: ~
+    title: "Craft your own IDE in the shell"
+    desc: "In this talk we'll show you how to get off the ⌘+TAB merry go round and roll your own project-specific workspaces in the shell using tmux, Vim, Git, grc, and other open source text mode goodies. You'll spend less time setting up your tools to work and more time actually working."
     fullDesc: ~
 - speaker:
   name: Yesenia Perez-Cruz
