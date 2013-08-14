@@ -290,7 +290,9 @@ nav[role="navigation"] {
 		}
 	}
 }
+.simple-hexagon {
 
+}
 .hexagon {
 	> li {
 		background-color: #ccc;
@@ -298,6 +300,7 @@ nav[role="navigation"] {
 		margin: 0 0 $hex-margin*4 ;
 		position: relative;
 		z-index: 10;
+		height: $hex-height;
 
 		&:before, &:after {
 			content: "";
@@ -411,7 +414,6 @@ nav[role="navigation"] {
 				background-image: url('/assets/images/content/speakers/#{$speaker}.jpg');
 			}
 		}
-
 	}
 }
 
@@ -620,9 +622,9 @@ footer[role="contentinfo"] {
 	}
 	// hiding duplicate sessions
 	// super hackish but /shrug
-	.session-18,
-	.session-25,
-	.session-23,
+	.session-19,
+	.session-26,
+	.session-24,
 	.session-30,
 	.session-39 {
 		display: none !important; // just in-case something of a higher specificity tries overrides

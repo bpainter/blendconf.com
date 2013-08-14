@@ -352,15 +352,16 @@ nav[role="navigation"] #nav-toggle {
   background-color: #499a9f;
 }
 
-/* line 295, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 297, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li {
   background-color: #ccc;
   display: block;
   margin: 0 0 100px;
   position: relative;
   z-index: 10;
+  height: 110px;
 }
-/* line 302, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 305, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li:before, .hexagon > li:after {
   content: "";
   display: block;
@@ -372,7 +373,7 @@ nav[role="navigation"] #nav-toggle {
   z-index: -3;
   -webkit-backface-visibility: hidden;
 }
-/* line 313, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 316, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li:before {
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
@@ -380,7 +381,7 @@ nav[role="navigation"] #nav-toggle {
   -o-transform: rotate(60deg);
   transform: rotate(60deg);
 }
-/* line 316, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 319, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li:after {
   -webkit-transform: rotate(-60deg);
   -moz-transform: rotate(-60deg);
@@ -388,7 +389,7 @@ nav[role="navigation"] #nav-toggle {
   -o-transform: rotate(-60deg);
   transform: rotate(-60deg);
 }
-/* line 320, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 323, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li strong {
   color: #deeff0;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -405,14 +406,14 @@ nav[role="navigation"] #nav-toggle {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 331, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 334, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li strong span {
   display: block;
   font-size: .8em;
   font-weight: normal;
   text-transform: none;
 }
-/* line 338, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 341, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li .right-hex, .hexagon > li .left-hex {
   height: 110px;
   overflow: hidden;
@@ -423,7 +424,7 @@ nav[role="navigation"] #nav-toggle {
   width: 190px;
   -webkit-backface-visibility: hidden;
 }
-/* line 348, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 351, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li .right-hex:before, .hexagon > li .left-hex:before {
   background-position: 50% 50%;
   -webkit-background-size: 116% auto;
@@ -437,7 +438,7 @@ nav[role="navigation"] #nav-toggle {
   width: 190px;
   height: 220px;
 }
-/* line 359, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 362, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li .right-hex {
   -webkit-transform: rotate(-60deg);
   -moz-transform: rotate(-60deg);
@@ -445,7 +446,7 @@ nav[role="navigation"] #nav-toggle {
   -o-transform: rotate(-60deg);
   transform: rotate(-60deg);
 }
-/* line 361, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 364, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li .right-hex:before {
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
@@ -453,7 +454,7 @@ nav[role="navigation"] #nav-toggle {
   -o-transform: rotate(60deg);
   transform: rotate(60deg);
 }
-/* line 365, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 368, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li .left-hex {
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
@@ -461,7 +462,7 @@ nav[role="navigation"] #nav-toggle {
   -o-transform: rotate(60deg);
   transform: rotate(60deg);
 }
-/* line 367, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 370, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li .left-hex:before {
   -webkit-transform: rotate(-60deg);
   -moz-transform: rotate(-60deg);
@@ -469,7 +470,7 @@ nav[role="navigation"] #nav-toggle {
   -o-transform: rotate(-60deg);
   transform: rotate(-60deg);
 }
-/* line 371, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 374, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li a {
   background-position: 50% 50%;
   -webkit-background-size: 116% auto;
@@ -486,17 +487,17 @@ nav[role="navigation"] #nav-toggle {
   transition: all 0.2s ease;
   width: 190px;
 }
-/* line 382, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 385, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li:hover a {
   opacity: .2;
 }
-/* line 385, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 388, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hexagon > li:hover strong {
   opacity: 1;
   top: 35%;
 }
 
-/* line 393, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 396, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive {
   *zoom: 1;
   list-style: none;
@@ -513,330 +514,334 @@ nav[role="navigation"] #nav-toggle {
 .hive:after {
   clear: both;
 }
-/* line 399, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 402, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li {
   float: left;
 }
-/* line 400, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 403, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li:nth-child(even) {
   margin-left: 75px;
 }
-/* line 405, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 408, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li:nth-child(5n+1), .hive li:nth-child(5n+1):before, .hive li:nth-child(5n+1):after {
   background-color: #63b3b8;
 }
-/* line 405, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 408, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li:nth-child(5n+2), .hive li:nth-child(5n+2):before, .hive li:nth-child(5n+2):after {
   background-color: #dc563e;
 }
-/* line 405, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 408, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li:nth-child(5n+3), .hive li:nth-child(5n+3):before, .hive li:nth-child(5n+3):after {
   background-color: #e5ba3a;
 }
-/* line 405, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 408, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li:nth-child(5n+4), .hive li:nth-child(5n+4):before, .hive li:nth-child(5n+4):after {
   background-color: #86b44e;
 }
-/* line 405, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 408, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li:nth-child(5n+5), .hive li:nth-child(5n+5):before, .hive li:nth-child(5n+5):after {
   background-color: #5e79a6;
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.adam-connor a, .hive li.adam-connor .right-hex:before, .hive li.adam-connor .left-hex:before {
   background-image: url("/assets/images/content/speakers/adam-connor.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.albert-banks a, .hive li.albert-banks .right-hex:before, .hive li.albert-banks .left-hex:before {
   background-image: url("/assets/images/content/speakers/albert-banks.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.amanda-costello a, .hive li.amanda-costello .right-hex:before, .hive li.amanda-costello .left-hex:before {
   background-image: url("/assets/images/content/speakers/amanda-costello.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.anders-frostenson a, .hive li.anders-frostenson .right-hex:before, .hive li.anders-frostenson .left-hex:before {
   background-image: url("/assets/images/content/speakers/anders-frostenson.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.andrew-hinton a, .hive li.andrew-hinton .right-hex:before, .hive li.andrew-hinton .left-hex:before {
   background-image: url("/assets/images/content/speakers/andrew-hinton.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.andrew-maier a, .hive li.andrew-maier .right-hex:before, .hive li.andrew-maier .left-hex:before {
   background-image: url("/assets/images/content/speakers/andrew-maier.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.ashe-dryden a, .hive li.ashe-dryden .right-hex:before, .hive li.ashe-dryden .left-hex:before {
   background-image: url("/assets/images/content/speakers/ashe-dryden.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.ben-vandgrift a, .hive li.ben-vandgrift .right-hex:before, .hive li.ben-vandgrift .left-hex:before {
   background-image: url("/assets/images/content/speakers/ben-vandgrift.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.brandon-mathis a, .hive li.brandon-mathis .right-hex:before, .hive li.brandon-mathis .left-hex:before {
   background-image: url("/assets/images/content/speakers/brandon-mathis.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.bryan-veloso a, .hive li.bryan-veloso .right-hex:before, .hive li.bryan-veloso .left-hex:before {
   background-image: url("/assets/images/content/speakers/bryan-veloso.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.cameron-moll a, .hive li.cameron-moll .right-hex:before, .hive li.cameron-moll .left-hex:before {
   background-image: url("/assets/images/content/speakers/cameron-moll.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.carl-smith a, .hive li.carl-smith .right-hex:before, .hive li.carl-smith .left-hex:before {
   background-image: url("/assets/images/content/speakers/carl-smith.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.garth-braithwaite a, .hive li.garth-braithwaite .right-hex:before, .hive li.garth-braithwaite .left-hex:before {
   background-image: url("/assets/images/content/speakers/garth-braithwaite.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+.hive li.greg-baugues a, .hive li.greg-baugues .right-hex:before, .hive li.greg-baugues .left-hex:before {
+  background-image: url("/assets/images/content/speakers/greg-baugues.jpg");
+}
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.james-white a, .hive li.james-white .right-hex:before, .hive li.james-white .left-hex:before {
   background-image: url("/assets/images/content/speakers/james-white.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.jason-vanlue a, .hive li.jason-vanlue .right-hex:before, .hive li.jason-vanlue .left-hex:before {
   background-image: url("/assets/images/content/speakers/jason-vanlue.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.jina-bolton a, .hive li.jina-bolton .right-hex:before, .hive li.jina-bolton .left-hex:before {
   background-image: url("/assets/images/content/speakers/jina-bolton.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.joel-van-dyke a, .hive li.joel-van-dyke .right-hex:before, .hive li.joel-van-dyke .left-hex:before {
   background-image: url("/assets/images/content/speakers/joel-van-dyke.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.julie-ann-horvath a, .hive li.julie-ann-horvath .right-hex:before, .hive li.julie-ann-horvath .left-hex:before {
   background-image: url("/assets/images/content/speakers/julie-ann-horvath.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.kendra-shillington a, .hive li.kendra-shillington .right-hex:before, .hive li.kendra-shillington .left-hex:before {
   background-image: url("/assets/images/content/speakers/kendra-shillington.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.larry-staton a, .hive li.larry-staton .right-hex:before, .hive li.larry-staton .left-hex:before {
   background-image: url("/assets/images/content/speakers/larry-staton.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.leslie-j-morse a, .hive li.leslie-j-morse .right-hex:before, .hive li.leslie-j-morse .left-hex:before {
   background-image: url("/assets/images/content/speakers/leslie-j-morse.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.leslie-jensen-inman a, .hive li.leslie-jensen-inman .right-hex:before, .hive li.leslie-jensen-inman .left-hex:before {
   background-image: url("/assets/images/content/speakers/leslie-jensen-inman.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.lisa-welchman a, .hive li.lisa-welchman .right-hex:before, .hive li.lisa-welchman .left-hex:before {
   background-image: url("/assets/images/content/speakers/lisa-welchman.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.magnus-bergmark a, .hive li.magnus-bergmark .right-hex:before, .hive li.magnus-bergmark .left-hex:before {
   background-image: url("/assets/images/content/speakers/magnus-bergmark.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.marco-suarez a, .hive li.marco-suarez .right-hex:before, .hive li.marco-suarez .left-hex:before {
   background-image: url("/assets/images/content/speakers/marco-suarez.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.marc-bolick a, .hive li.marc-bolick .right-hex:before, .hive li.marc-bolick .left-hex:before {
   background-image: url("/assets/images/content/speakers/marc-bolick.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.matt-stevens a, .hive li.matt-stevens .right-hex:before, .hive li.matt-stevens .left-hex:before {
   background-image: url("/assets/images/content/speakers/matt-stevens.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.meagan-fisher a, .hive li.meagan-fisher .right-hex:before, .hive li.meagan-fisher .left-hex:before {
   background-image: url("/assets/images/content/speakers/meagan-fisher.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
-.hive li.melinda-jackson a, .hive li.melinda-jackson .right-hex:before, .hive li.melinda-jackson .left-hex:before {
-  background-image: url("/assets/images/content/speakers/melinda-jackson.jpg");
-}
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.michael-parenteau a, .hive li.michael-parenteau .right-hex:before, .hive li.michael-parenteau .left-hex:before {
   background-image: url("/assets/images/content/speakers/michael-parenteau.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.michael-chatten a, .hive li.michael-chatten .right-hex:before, .hive li.michael-chatten .left-hex:before {
   background-image: url("/assets/images/content/speakers/michael-chatten.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.mike-bifulco a, .hive li.mike-bifulco .right-hex:before, .hive li.mike-bifulco .left-hex:before {
   background-image: url("/assets/images/content/speakers/mike-bifulco.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.mindy-wagner a, .hive li.mindy-wagner .right-hex:before, .hive li.mindy-wagner .left-hex:before {
   background-image: url("/assets/images/content/speakers/mindy-wagner.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.nick-finck a, .hive li.nick-finck .right-hex:before, .hive li.nick-finck .left-hex:before {
   background-image: url("/assets/images/content/speakers/nick-finck.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.patrick-quattlebaum a, .hive li.patrick-quattlebaum .right-hex:before, .hive li.patrick-quattlebaum .left-hex:before {
   background-image: url("/assets/images/content/speakers/patrick-quattlebaum.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.rachel-nabors a, .hive li.rachel-nabors .right-hex:before, .hive li.rachel-nabors .left-hex:before {
   background-image: url("/assets/images/content/speakers/rachel-nabors.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.rachel-parsons a, .hive li.rachel-parsons .right-hex:before, .hive li.rachel-parsons .left-hex:before {
   background-image: url("/assets/images/content/speakers/rachel-parsons.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.rebecca-garcia a, .hive li.rebecca-garcia .right-hex:before, .hive li.rebecca-garcia .left-hex:before {
   background-image: url("/assets/images/content/speakers/rebecca-garcia.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.rikki-teeters a, .hive li.rikki-teeters .right-hex:before, .hive li.rikki-teeters .left-hex:before {
   background-image: url("/assets/images/content/speakers/rikki-teeters.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.ron-edelen a, .hive li.ron-edelen .right-hex:before, .hive li.ron-edelen .left-hex:before {
   background-image: url("/assets/images/content/speakers/ron-edelen.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.sara-blake a, .hive li.sara-blake .right-hex:before, .hive li.sara-blake .left-hex:before {
   background-image: url("/assets/images/content/speakers/sara-blake.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.shay-howe a, .hive li.shay-howe .right-hex:before, .hive li.shay-howe .left-hex:before {
   background-image: url("/assets/images/content/speakers/shay-howe.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.teresa-rench a, .hive li.teresa-rench .right-hex:before, .hive li.teresa-rench .left-hex:before {
   background-image: url("/assets/images/content/speakers/teresa-rench.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.tessa-harmon a, .hive li.tessa-harmon .right-hex:before, .hive li.tessa-harmon .left-hex:before {
   background-image: url("/assets/images/content/speakers/tessa-harmon.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.tim-smith a, .hive li.tim-smith .right-hex:before, .hive li.tim-smith .left-hex:before {
   background-image: url("/assets/images/content/speakers/tim-smith.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+.hive li.vernon-kesner a, .hive li.vernon-kesner .right-hex:before, .hive li.vernon-kesner .left-hex:before {
+  background-image: url("/assets/images/content/speakers/vernon-kesner.jpg");
+}
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.wren-lanier a, .hive li.wren-lanier .right-hex:before, .hive li.wren-lanier .left-hex:before {
   background-image: url("/assets/images/content/speakers/wren-lanier.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.wynn-netherland a, .hive li.wynn-netherland .right-hex:before, .hive li.wynn-netherland .left-hex:before {
   background-image: url("/assets/images/content/speakers/wynn-netherland.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.yesenia-perez-cruz a, .hive li.yesenia-perez-cruz .right-hex:before, .hive li.yesenia-perez-cruz .left-hex:before {
   background-image: url("/assets/images/content/speakers/yesenia-perez-cruz.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.yoko-harada a, .hive li.yoko-harada .right-hex:before, .hive li.yoko-harada .left-hex:before {
   background-image: url("/assets/images/content/speakers/yoko-harada.jpg");
 }
-/* line 410, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 413, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .hive li.zoe-gillenwater a, .hive li.zoe-gillenwater .right-hex:before, .hive li.zoe-gillenwater .left-hex:before {
   background-image: url("/assets/images/content/speakers/zoe-gillenwater.jpg");
 }
 
-/* line 421, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 423, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #schedule {
   background-color: #5e79a6;
   color: #141a24;
   text-align: center;
 }
-/* line 425, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 427, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #schedule a {
   color: #141a24;
 }
-/* line 427, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 429, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #schedule a:hover, #schedule a:focus {
   color: #263245;
 }
-/* line 431, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 433, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #schedule a.button {
   background-color: #263245;
   color: #c1cbdc;
 }
-/* line 434, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 436, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #schedule a.button:hover, #schedule a.button:focus {
   background-color: #1d2634;
   color: #e1e6ef;
 }
-/* line 439, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 441, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #schedule .schedules {
   margin: 36px 0;
   padding: 0;
   list-style: none;
 }
-/* line 443, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 445, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #schedule .schedules h4 {
   font-weight: normal;
   font-style: italic;
   margin-bottom: 6px;
 }
-/* line 448, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 450, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #schedule .schedules li {
   margin-bottom: 36px;
 }
-/* line 450, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 452, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #schedule .schedules li:last-child {
   margin-bottom: 0;
 }
 
-/* line 460, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 462, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #venue {
   background-color: #e5ba3a;
   color: #49390a;
   text-align: center;
 }
-/* line 464, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 466, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #venue a {
   color: black;
   text-decoration: underline;
 }
-/* line 467, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 469, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #venue a:hover {
   color: black;
 }
-/* line 471, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 473, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #venue a.button {
   background-color: #a38016;
   color: #f7e9c1;
   text-decoration: none;
 }
-/* line 475, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 477, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #venue a.button:hover, #venue a.button:focus {
   background-color: #8d6e13;
   color: #fdf9ee;
 }
 
-/* line 484, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 486, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #sponsors {
   background-color: #86b44e;
   color: #1c2610;
   padding: 54px 5%;
   text-align: center;
 }
-/* line 489, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 491, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #sponsors a {
   color: black;
   text-decoration: underline;
 }
-/* line 492, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 494, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #sponsors a:hover {
   color: black;
 }
-/* line 496, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 498, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #sponsors img {
   display: block;
   margin: 0 auto;
   width: 100%;
 }
-/* line 501, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 503, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #sponsors ul {
   *zoom: 1;
   margin: 0;
@@ -852,7 +857,7 @@ nav[role="navigation"] #nav-toggle {
 #sponsors ul:after {
   clear: both;
 }
-/* line 506, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 508, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #sponsors ul li {
   background: #9ec372;
   -webkit-border-radius: 4px;
@@ -862,19 +867,19 @@ nav[role="navigation"] #nav-toggle {
   border-radius: 4px;
   margin-bottom: 18px;
 }
-/* line 511, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 513, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #sponsors ul a {
   display: block;
   padding: 18px;
 }
-/* line 517, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 519, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #sponsors ul.community li {
   width: 42.85714%;
   float: left;
   margin-right: 14.28571%;
   display: inline;
 }
-/* line 519, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 521, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #sponsors ul.community li:nth-child(even) {
   float: right;
   margin-right: 0;
@@ -882,7 +887,7 @@ nav[role="navigation"] #nav-toggle {
   display: inline;
 }
 
-/* line 528, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 530, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 footer[role="contentinfo"] {
   background-color: #3e4243;
   color: #bec1c2;
@@ -891,7 +896,7 @@ footer[role="contentinfo"] {
   text-align: center;
 }
 
-/* line 539, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 541, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 #masthead {
   background-color: #63b3b8;
   color: #deeff0;
@@ -899,70 +904,70 @@ footer[role="contentinfo"] {
   text-align: center;
 }
 
-/* line 548, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 550, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .session-groups {
   padding: 54px 5%;
 }
-/* line 550, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 552, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .session-groups h2 {
   font-size: 2.6em;
   margin-bottom: 0;
 }
-/* line 554, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 556, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .session-groups h3 {
   font-weight: normal;
   margin-bottom: 36px;
   text-align: center;
 }
 
-/* line 560, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 562, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day {
   padding-bottom: 36px;
 }
-/* line 562, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 564, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day:last-child {
   padding-bottom: 0;
 }
-/* line 565, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 567, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day .titles {
   display: none;
 }
-/* line 568, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 570, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day ul {
   margin: 0 0 18px;
   padding: 0;
   position: relative;
   list-style: none;
 }
-/* line 573, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 575, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day ul .time {
   border-bottom: 1px solid #d8dadb;
   color: #899091;
   font-weight: normal;
   padding: 0 5% 6px 0;
 }
-/* line 580, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 582, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day a {
   color: #333333;
   cursor: default;
   font-size: .9em;
 }
-/* line 584, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 586, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day a:hover {
   color: #333333;
 }
-/* line 588, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 590, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day .description {
   padding: 6px 0 12px;
 }
-/* line 591, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 593, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day h4 {
   color: #63b3b8;
   font-size: 1.4em;
   font-weight: bold;
   line-height: 1.2;
 }
-/* line 597, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 599, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day h5 {
   color: #a3a9aa;
   font-size: .8em;
@@ -970,12 +975,12 @@ footer[role="contentinfo"] {
   font-style: italic;
   margin-bottom: 6px;
 }
-/* line 605, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 607, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day .speaker {
   font-weight: bold;
   line-height: 1;
 }
-/* line 608, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 610, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day .speaker:after {
   color: #bec1c2;
   content: "/";
@@ -984,41 +989,41 @@ footer[role="contentinfo"] {
   margin: 0 6px;
   text-align: center;
 }
-/* line 617, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 619, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .day .speaker .company {
   line-height: 1;
 }
-/* line 627, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
-.day .session-18,
-.day .session-25,
-.day .session-23,
+/* line 629, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+.day .session-19,
+.day .session-26,
+.day .session-24,
 .day .session-30,
 .day .session-39 {
   display: none !important;
 }
 
-/* line 634, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 636, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .basic-content {
   padding: 54px 5%;
 }
-/* line 636, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 638, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .basic-content * {
   text-align: left;
 }
-/* line 639, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 641, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .basic-content h2 {
   padding: 0;
   margin: 36px 0 18px;
 }
-/* line 643, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 645, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .basic-content ul {
   margin-left: 18px;
 }
-/* line 646, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 648, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .basic-content li {
   margin-bottom: 6px;
 }
-/* line 648, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
+/* line 650, /Users/bermonpainter/Sites/blendconf.com/blendconf-site/source/assets/stylesheets/scaffold.css.scss */
 .basic-content li:last-child {
   margin-bottom: 0;
 }

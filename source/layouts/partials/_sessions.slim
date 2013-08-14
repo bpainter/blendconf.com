@@ -1,4 +1,4 @@
-ul.session
+ul class="#{ talkType == 'Keynotes' ? 'keynotes' : 'session' }"
   li.time #{talkTime}
 
   - data.speakers.each_with_index do |speaker, i|
@@ -9,12 +9,14 @@ ul.session
           h5.track User Experience Track
           a.speaker href="#" Anders Frostenson & Magnus Bergmark
           a.company href="#" #{speaker.company.name}
+
       - else
         li.description.ux
           h4.title #{speaker.talk.title}
           h5.track User Experience Track
           a.speaker href="#" #{speaker.name}
           a.company href="#" #{speaker.company.name}
+          .simple-hexagon class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}" <div class="right-hex"></div><div class="left-hex"></div>
   - data.speakers.each_with_index do |speaker, i|
     - if speaker.talk.type == "#{talkType}" && speaker.talk.day == talkDay && speaker.talk.session == talkSession && speaker.talk.discipline == "ui"
       - if speaker.talk.title == "Think Like a Startup"
@@ -40,6 +42,13 @@ ul.session
       li.description.dev
         h4.title #{speaker.talk.title}
         h5.track Development Track
+        a.speaker href="#" #{speaker.name}
+        a.company href="#" #{speaker.company.name}
+  - data.speakers.each do |speaker|
+    - if speaker.talk.type == "Keynotes" && speaker.talk.day == talkDay && speaker.talk.session == talkSession
+      li.description.dev
+        h4.title #{speaker.talk.title}
+        h5.track Keynote
         a.speaker href="#" #{speaker.name}
         a.company href="#" #{speaker.company.name}
 

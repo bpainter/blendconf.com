@@ -109,7 +109,7 @@
     day: 3
     discipline: ux
     session: 6
-    title: TBD
+    title: Design for Literacy
     desc: ~
     fullDesc:
 - speaker:
@@ -125,9 +125,9 @@
     dribbble: ~
   talk:
     type: Keynotes
-    day:
+    day: 2
     discipline: ~
-    session: ~
+    session: 7
     title: "Programming Diversity"
     desc: ~
     fullDesc: ""
@@ -224,8 +224,27 @@
     type: Keynotes
     day: 2
     discipline: ~
-    session: ~
-    title: TBD
+    session: 0
+    title: "Your Money & Your Life"
+    desc: "Most businesses are built on a broken operating system. One that believes in old concepts of carrots and sticks. For decades we've ignored research that shows the path to a better culture, product and bottom line involves abandoning the notions of the past. It's time to embrace the reality that the needs and ambitions of the human beings we surround ourselves with can fuel a brighter tomorrow. Carl will share examples of sustainable change that improves every aspect of a company through adopting a management philosophy of doing less."
+    fullDesc: TBD
+- speaker:
+  name: Greg Baugues
+  company:
+    name: Table XI
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Keynotes
+    day: 3
+    discipline: ~
+    session: 7
+    title: "Developers and Depression"
     desc: ~
     fullDesc: TBD
 - speaker:
@@ -420,11 +439,11 @@
     dribbble: ~
   talk:
     type: Keynotes
-    day:
+    day: 3
     discipline: ~
-    session: ~
-    title:
-    desc: ~
+    session: 0
+    title: "Unicornucopia: Learn the Skills Needed to Survive and Thrive as a Creative Unicorn"
+    desc: "Hiring managers need to hire creative unicorns with a specific skill set. And the skills they are looking for may surprise you. Learn how to hone and blend the right skills to have a creative career filled with an abundance of awesomeness."
     fullDesc: ~
 - speaker:
   name: Lisa Welchman
@@ -541,25 +560,6 @@
     desc: ~
     fullDesc: ~
 - speaker:
-  name: Melinda Jackson
-  company:
-    name: Wells Fargo
-    url: ~
-  bio: ~
-  links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
-  talk:
-    type: Conference Speakers
-    day: 3
-    discipline: ui
-    session: 5
-    title: "Practical Observations & Exercises to get you into the Creative Groove"
-    desc: ~
-    fullDesc: ~
-- speaker:
   name: Michael Parenteau
   company:
     name: Think Relevance
@@ -651,8 +651,8 @@
     day: 3
     discipline: ux
     session: 3
-    title: TBD
-    desc: ~
+    title: The Nuances of UX
+    desc: "<p>When doing any kind of design work, the devil is always in the details.  It is easy and often important for us to quickly rush through our wireframes and prototypes to meet a client deadline, but as professionals we must not overlook the subtleties that can turn a good experience into a great experience.  This talk is about the little details we see in apps and websites we use every day, but often fail to notice.  We fail to notice them because they provide for a much smoother user experience. You will learn how to design for these experiences even with a tight deadline and within a agile workflow. After this presentation you'll never look at another app or website the same again.</p>"
     fullDesc: ~
 - speaker:
   name: Patrick Quattlebaum
@@ -864,9 +864,9 @@
     desc: ~
     fullDesc: ~
 - speaker:
-  name: Wren Lanier
+  name: Vernon Kesner
   company:
-    name: Bramble
+    name: appendTo
     url: ~
   bio: ~
   links:
@@ -879,6 +879,25 @@
     day: 2
     discipline: dev
     session: 3
+    title: "TBD"
+    desc: ~
+    fullDesc: ~
+- speaker:
+  name: Wren Lanier
+  company:
+    name: Bramble
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: ui
+    session: 5
     title: "Secret Sauce: Designing on the Z-Axis"
     desc: ~
     fullDesc: ~
