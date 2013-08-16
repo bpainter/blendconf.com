@@ -28,7 +28,7 @@ require 'susy'
 # Change Compass configuration
 compass_config do |config|
   # config.preferred_syntax   = :sass
-  config.output_style = :expanded
+  config.output_style = :compressed
   config.sass_options = { :line_comments => true}
 end
 
