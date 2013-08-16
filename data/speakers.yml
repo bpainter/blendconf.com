@@ -541,25 +541,6 @@
     desc: ~
     fullDesc: ~
 - speaker:
-  name: Meagan Fisher
-  company:
-    name: Chartbeat
-    url: ~
-  bio: ~
-  links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
-  talk:
-    type: Conference Speakers
-    day: 3
-    discipline: ui
-    session: 2
-    title: TBD
-    desc: ~
-    fullDesc: ~
-- speaker:
   name: Michael Parenteau
   company:
     name: Think Relevance
@@ -709,25 +690,6 @@
     discipline: dev
     session: 5
     title: "iOS Development: Designers + Developers"
-    desc: ~
-    fullDesc: ~
-- speaker:
-  name: Rebecca Garcia
-  company:
-    name: Coder Dojo NYC
-    url: ~
-  bio: ~
-  links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
-  talk:
-    type: Conference Speakers
-    day: 3
-    discipline: dev
-    session: 2
-    title: TBD
     desc: ~
     fullDesc: ~
 - speaker:
