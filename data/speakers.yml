@@ -866,7 +866,7 @@
 - speaker:
   name: Vernon Kesner
   company:
-    name: appendTo
+    name: Ally
     url: ~
   bio: ~
   links:
@@ -879,8 +879,8 @@
     day: 2
     discipline: dev
     session: 3
-    title: "TBD"
-    desc: ~
+    title: "Modular Development with RequireJS"
+    desc: "Front-end development has suffered from a lack of dependency management resulting in lots of script tags loaded in a highly specific order and usually tightly coupled applications. In Modular Development with RequireJS, you'll learn how to segment your JavaScript into loosely coupled modules increasing the maintainability of your application"
     fullDesc: ~
 - speaker:
   name: Wren Lanier
