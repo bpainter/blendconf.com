@@ -622,10 +622,10 @@ footer[role="contentinfo"] {
 	}
 	// hiding duplicate sessions
 	// super hackish but /shrug
-	.session-19,
-	.session-26,
-	.session-24,
-	.session-30,
+	.session-20,
+	.session-27,
+	.session-25,
+	.session-31,
 	.session-39 {
 		display: none !important; // just in-case something of a higher specificity tries overrides
 	}

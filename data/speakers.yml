@@ -166,7 +166,7 @@
     day: 3
     discipline: dev
     session: 6
-    title: TBD
+    title: "Be the Unicorn: A Pixel Pusher's Quest"
     desc: ~
     fullDesc: TBD
 - speaker:
@@ -349,6 +349,25 @@
     session: 1
     title: "Think Like a Startup"
     desc: ~
+    fullDesc: ~
+- speaker:
+  name: John Long
+  company:
+    name: UserVoice
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 3
+    discipline: dev
+    session: 2
+    title: "Defensive Sass - modular styles for the modern web"
+    desc: "We've all found ourselves deep in the heart of a CSS project struggling with mangled CSS selectors, an array of disparately named files, and a deep and nagging feeling that perhaps our markup is not symantic as it should be. But a new hero is arising in CSS-land: Modular CSS. You may know him by one of his many names. SMACSS, Object-Oriented CSS, or BEM. Only he has the power to untangle our worst CSS nightmares. Only he can help us lay a foundation for large CSS projects. In this talk, John Long will delve deep into his bag of tricks to share practical advice about structuring your CSS. We'll talk about a number of helpful principles for simplifying your CSS and look at how modular CSS applies within the context of Sass. You will walk away challenged with something to apply to your current CSS project."
     fullDesc: ~
 - speaker:
   name: Julie Ann Horvath
@@ -712,25 +731,6 @@
     desc: ~
     fullDesc: ~
 - speaker:
-  name: TBD
-  company:
-    name: ~
-    url: ~
-  bio: ~
-  links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
-  talk:
-    type: Conference Speakers
-    day: 3
-    discipline: dev
-    session: 2
-    title: TBD
-    desc: ~
-    fullDesc: ~
-- speaker:
   name: Rikki Teeters
   company:
     name: Cardinal Solutions
@@ -811,7 +811,7 @@
   company:
     name: Wells Fargo
     url: ~
-  bio: ~
+  bio: '<p>Teresa is a User Experience Designer with over 15 years of experience in strategy, visual design, interaction design, information architecture, usability, and front-end development. Due to her wide range of skills as a generalist, she is a strong “utility player”, enabling her to act as a hands-on lead for interdisciplinary teams and fill multiple roles as needed to best suit the team and project.</p><p>Teresa has spent the majority of her career specializing in web-based applications and consulting with companies both large and small across a broad range of industries. She has more recently delved into cross-channel customer experience and service design. She currently works for Wells Fargo as a Customer Experience Lead</p>'
   links:
     twitter: ~
     github: ~
@@ -822,8 +822,8 @@
     day: 3
     discipline: ux
     session: 5
-    title: "Building collaboration within interdisciplinary teams"
-    desc: ~
+    title: "Collaborative by Design"
+    desc: "Teresa will share some tips and tricks she has learned along the way for creating a collaborative team working environment by opening lines of communication, encouraging cross-disciplinary education, and helping the team to maintain focus on the product and customer"
     fullDesc: ~
 - speaker:
   name: Tessa Harmon
