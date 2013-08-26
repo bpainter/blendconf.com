@@ -1,4 +1,36 @@
 - sponsor:
+  type: primary
+  name: Cardinal Solutions
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.cardinalsolutions.com/
+- sponsor:
+  type: primary
+  name: MailChimp
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.mailchimp.com/
+- sponsor:
+  type: primary
+  name: Adobe
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.adobe.com/creativecloud
+- sponsor:
+  type: secondary
+  name: Lending Tree
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.lendingtree.com/
+- sponsor:
   type: secondary
   name: Mad*Pow
   description: ~
@@ -6,14 +38,6 @@
     twitter: ~
     facebook: ~
     website: http://www.madpow.com/
-# - sponsor:
-#   type: community
-#   name: Atlanta Web Design Group
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.meetup.com/atlantawebdesign/
 - sponsor:
   type: secondary
   name: The Idea People
@@ -22,6 +46,46 @@
     twitter: ~
     facebook: ~
     website: http://www.theideapeople.com/
+- sponsor:
+  type: community
+  name: GitHub
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.github.com/
+- sponsor:
+  type: community
+  name: Balsamiq
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.balsamiq.com/
+- sponsor:
+  type: community
+  name: UserTesting
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.usertesting.com/
+- sponsor:
+  type: community
+  name: Sticker Mule
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.stickermule.com/
+- sponsor:
+  type: secondary
+  name: qCat
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://qcatpro.com/
 - sponsor:
   type: community
   name: "iT-ology"
@@ -62,12 +126,4 @@
     twitter: ~
     facebook: ~
     website: http://www.aigacharlotte.org/
-# - sponsor:
-#   type:
-#   name:
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: ~
 

@@ -4,6 +4,19 @@
     @include susy-grid-background;
     max-width: 100%;
   }
+  #home div > div[id],
+  #home div > form[id] {
+    h2, .h2 {
+      border-left: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
   #skinny {
     @include clearfix;
     ul {
@@ -89,7 +102,7 @@
       float: left;
       margin: 0;
       position: absolute;
-        left: -2%;
+        left: 0;
       &:before, &:after {
         display: none;
       }
@@ -162,7 +175,8 @@
     }
   }
   #sponsors {
-    ul.secondary {
+    ul.secondary,
+    ul.primary {
       li {
         @include reset-columns();
         @include span-columns(4);

@@ -5,7 +5,7 @@ id: home
 
 #intro role="banner"
 	h1== image_tag 'content/blend-conference-logo.png', :alt => 'Blend Conference'
-	h2 September 5 - 7, 2013 <span>in Charlotte, NC</span>
+	h2 September 5 - 7, 2013 <span>Charlotte, NC</span>
 	p A generalist conference featuring 50 diverse speakers sharing ideas and conversations about user experience, design, and web development.
 
 	a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Primary" Register
@@ -13,7 +13,7 @@ id: home
 == partial "/layouts/partials/navigation"
 
 #skinny
-	h2 What's Going On
+	h2 A slightly <b>different spin</b> on web conferences
 	ul
 		li <strong>50 Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
 		li <strong>40 Talks</strong> Over the 2 conference days there will be 40 talks total spread across 3 tracks. Pick and choose the topics that you find interesting.
@@ -23,7 +23,7 @@ id: home
 		li <strong>Diversity</strong> We've spent fair amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
 
 form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
-	label.h2 for="mce-EMAIL" Stay Updated
+	label.h2 for="mce-EMAIL" Stay up-to-date with the <b>latest details</b>
 	.email-subscription
 		input#mce-EMAIL type="email" name="EMAIL" placeholder="Your Email Address"
 		button type="submit" Subscribe
@@ -33,21 +33,17 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 		a.button href="http://twitter.com/blendconf" Follow @blendconf
 
 #speakers
-	h2 Our Speakers
+	h2 <b>50 speakers</b> covering user experience, development, and design
 	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
 	ul.hive.hexagon
-		/ - data.speakers.shuffle.first(9).each do |speaker|
 		- data.speakers.each do |speaker|
 			li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
 				strong #{speaker.name} <span>#{speaker.company.name}</span>
 				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
-		/ li class="more"
-		/ 		strong + 42 more
-		/ 		a href="/speakers"
 
 #schedule
-	h2 Schedule
-	p Talk about 3 days of mind-filling amazingness. Each day has 3 tracks going on at the same time covering user experience, design, and web development.
+	h2 An amazing <b>3-day schedule</b>
+	p Each day of our web conference has 3 tracks going on at the same time covering user experience, design, and web development.
 
 	ul.schedules
 		li
@@ -68,8 +64,8 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 #venue
 	/ #map
 	.venue-details
-		h2 Venue & Lodging
+		h2 Classic <b>Venue & Hotel</b> in Downtown Charlotte
 
-		p The conference will be held at <a href="http://www.blakehotelnc.com/" data-type="Hotel">The Blake Hotel</a>. Aside from the snazzy conference space, they're providing our attendees access to their best rooms, the deluxe king or deluxe double rooms for only $149/night.
+		p The conference will be held at <a href="http://www.blakehotelnc.com/" data-type="Hotel">The Sheraton</a> (formerly the Blake Hotel).  Aside from the snazzy conference space, they're providing our attendees access to their best rooms, the deluxe king or deluxe double rooms for only $149/night.
 
 		p To reserve your room call 704-372-4100 and mention Blend Conference..

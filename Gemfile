@@ -1,24 +1,25 @@
 source 'https://rubygems.org'
 
-#gem "middleman"
-gem "middleman", "~>3.0.6"
+gem "middleman", "~>3.1.4"
 # gem "middleman-smusher"
 
-# Live reload - automatically reloads the browser
-gem "middleman-livereload"
-# gem "rb-fsevent"
-# gem "guard"
-# gem "guard-middleman"
-# gem "guard-livereload"
+# Live-reloading plugin
+gem "middleman-livereload", "~> 3.1.0"
 
-# CSS Preprocessing
-gem "compass"
+# For faster file watcher updates on Windows:
+gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
+
+# Cross-templating language block fix for Ruby 1.8
+platforms :mri_18 do
+  gem "ruby18_source_location"
+end
+
+# CSS Grid System
 gem "susy"
 
-# HTML Preprocessing
-# gem "slim"
-gem "slim", "~> 1.3.6"
-# gem "redcarpet"
+# Slim HTML Preprocessor
+gem "slim"
+gem "redcarpet"
 
 # Living styleguide generator
 # gem "kss"

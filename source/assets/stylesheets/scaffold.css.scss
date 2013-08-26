@@ -14,28 +14,40 @@ body {
   background-color: $color-body-background;
   color: $color-text;
   font-family: $font-family-sans;
-  font-weight: normal;
+  font-weight: 200;
   line-height: 1.4;
   margin-top: $baseline*3;
 }
-#home div > div[id] {
-	padding: $baseline*3 5%;
-	p {
+#home div > div[id],
+#home div > form[id] {
+	padding: $baseline*5 5% $baseline*3;
+	position: relative;
+	&:before {
+		content: "";
+		@include arrow(bottom, #000, 50px);
+		margin-left: -50px;
+		position: absolute;
+			top: 0;
+			left: 50%;
+	}
+	p, h2, .h2 {
 		max-width: 700px;
+		// margin-left: 0;
 	}
 }
 
 h2, .h2 {
-	font-size: 26px;
-	font-weight: bold;
+	border-left: 1px solid;
+	font-size: 42px;
+	font-weight: 200;
 	line-height: 1;
-	margin-bottom: $baseline*2;
-	text-align: center;
+	margin-bottom: $baseline*3;
+	padding-left: $sub-baseline*2;
+	text-align: left;
 	text-transform: uppercase;
 }
 p, ul {
 	margin: 0 auto 1em;
-	// max-width: 700px;
 	&:last-child {
 		margin-bottom: 0;
 	}
@@ -46,12 +58,6 @@ a {
 	&:hover {
 		color: #fff;
 	}
-}
-p {
-	text-align: center;
-}
-.cta {
-	text-align: center;
 }
 
 //--------------------------------------------------------
@@ -123,15 +129,25 @@ nav[role="navigation"] {
 //--------------------------------------------------------
 #intro {
 	background-color: $aqua;
+	color: $dark-gray;
+	padding-top: $baseline*3 !important;
   text-align: center;
+  &:before {
+  	display: none !important;
+		// border-top-color: $dark-gray !important;
+	}
   h1 {
 		margin: 0 auto .5em;
 		max-width: 320px;
 		padding-bottom: 0;
   }
   h2 {
-		color: darken($aqua, 30%);
-		font-size: 16px;
+  	border-width: 0;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: 400;
+		padding-left: 0;
+		text-align: center;
 		text-transform: uppercase;
 		span {
 			display: block;
@@ -142,11 +158,11 @@ nav[role="navigation"] {
 		width: 100%;
   }
   p {
-		color: darken($aqua, 30%);
+  	font-size: 18px;
 		margin: 2em auto;
   }
   .button {
-
+  	font-size: 18px;
   }
 }
 
@@ -158,9 +174,11 @@ nav[role="navigation"] {
 	@include clearfix;
 	color: lighten($light-gray, 30%);
 	padding: $baseline*3 5%;
+	&:before {
+		border-top-color: $red !important;
+	}
 	label {
 		display: block;
-		margin-bottom: $baseline;
 	}
 	input {
 		border: 1px solid darken($dark-gray, 10%);
@@ -252,6 +270,9 @@ nav[role="navigation"] {
 #skinny {
 	background-color: $red;
 	color: darken($red, 40%);
+	&:before {
+		border-top-color: $aqua !important;
+	}
 	ul {
 		@include clearfix;
 		list-style: none;
@@ -281,6 +302,9 @@ nav[role="navigation"] {
 #speakers {
 	background-color: #fff;
 	color: $dark-gray;
+	&:before {
+		border-top-color: $dark-gray !important;
+	}
 	.button {
 		background-color: $aqua;
 		display: block;
@@ -423,7 +447,9 @@ nav[role="navigation"] {
 #schedule {
 	background-color: $lavender;
 	color: darken($lavender, 40%);
-	text-align: center;
+	&:before {
+		border-top-color: #fff !important;
+	}
 	a {
 		color: darken($lavender, 40%);
 		&:hover, &:focus {
@@ -433,6 +459,8 @@ nav[role="navigation"] {
 	a.button {
 		background-color: darken($lavender, 30%);
 		color: lighten($lavender, 30%);
+		display: block;
+		margin: 0 auto;
 		&:hover, &:focus {
 			background-color: darken($lavender, 35%);
 			color: lighten($lavender, 40%);
@@ -462,7 +490,9 @@ nav[role="navigation"] {
 #venue {
 	background-color: $yellow;
 	color: darken($yellow, 40%);
-	text-align: center;
+	&:before {
+		border-top-color: $lavender !important;
+	}
 	a {
 		color: darken($yellow, 60%);
 		text-decoration: underline;
@@ -487,13 +517,18 @@ nav[role="navigation"] {
 	background-color: $green;
 	color: darken($green, 40%);
 	padding: $baseline*3 5%;
-	text-align: center;
+	&:before {
+		border-top-color: $yellow !important;
+	}
 	a {
 		color: darken($green, 60%);
 		text-decoration: underline;
 		&:hover {
 			color: darken($green, 80%);
 		}
+	}
+	p {
+		margin-bottom: $baseline*3;
 	}
 	img {
 		display: block;
@@ -513,8 +548,6 @@ nav[role="navigation"] {
 		a {
 			display: block;
 			padding: $baseline;
-		}
-		&.secondary li {
 		}
 		&.community li {
 			@include span-columns(2);
@@ -539,24 +572,58 @@ footer[role="contentinfo"] {
 // masthead
 //--------------------------------------------------------
 #masthead {
-	background-color: $aqua;
-	color: lighten($aqua, 35%);
 	padding: $baseline*3 5%;
-	text-align: center;
+	position: relative;
+	#sessions & {
+		background-color: $lavender;
+		color: lighten($lavender, 35%);
+		&:before {
+			border-top-color: $lavender !important;
+		}
+	}
+	#refund-policy & {
+		background-color: $red;
+		color: lighten($red, 35%);
+		&:before {
+			border-top-color: $red !important;
+		}
+	}
+	#code-of-conduct & {
+		background-color: $red;
+		color: lighten($red, 35%);
+		&:before {
+			border-top-color: $red !important;
+		}
+	}
+	&:before {
+		content: "";
+		@include arrow(bottom, #000, 50px);
+		margin-left: -50px;
+		position: absolute;
+			bottom: -50px;
+			left: 50%;
+	}
+	h1 {
+		font-size: 54px;
+		font-weight: 200;
+		line-height: 1;
+		text-transform: uppercase;
+	}
 }
 //--------------------------------------------------------
 // sessions
 //--------------------------------------------------------
 .session-groups{
-	padding: $baseline*3 5%;
+	padding: $baseline*5 5% $baseline*3;
 	h2 {
 		font-size: 2.6em;
 		margin-bottom: 0;
 	}
 	h3 {
-		font-weight: normal;
-		margin-bottom: $baseline*2;
-		text-align: center;
+		font-style: italic;
+		font-weight: 200;
+		margin: 0 0 $baseline*2 $sub-baseline*2;
+	
 	}
 }
 .day {
@@ -591,10 +658,15 @@ footer[role="contentinfo"] {
 		padding: $sub-baseline 0 $sub-baseline*2;
 	}
 	h4 {
-		color: $aqua;
+		color: $lavender;
 		font-size: 1.4em;
 		font-weight: bold;
 		line-height: 1.2;
+
+	}
+	.lunch h4,
+	.registration h4 {
+			color: $color-text;
 	}
 	h5 {
 		color: lighten($dark-gray, 40%);
@@ -634,13 +706,10 @@ footer[role="contentinfo"] {
 // basic content
 //--------------------------------------------------------
 .basic-content {
-	padding: $baseline*3 5%;
-	* {
-		text-align: left;
-	}
+	padding: $baseline*5 5% $baseline*3;
 	h2 {
-		padding: 0;
-		margin: $baseline*2 0 $baseline;
+		margin-top: $baseline*2;
+		margin-bottom: $baseline;
 	}
 	ul {
 		margin-left: $baseline;

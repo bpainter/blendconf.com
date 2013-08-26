@@ -2,6 +2,7 @@
   #container {
     @include container;
     @include susy-grid-background;
+    max-width: 100%;
   }
   ul.hive {
     max-width: ($hex-width*5)+($hex-margin)*4;
@@ -41,7 +42,7 @@
       width: columns(8);
       input {
         margin-right: 2%;
-        width: columns(9);
+        width: columns(8);
       }
       button {
         width: columns(7);

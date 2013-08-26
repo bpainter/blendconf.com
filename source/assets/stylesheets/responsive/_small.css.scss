@@ -2,6 +2,7 @@
   #container {
     @include container;
     @include susy-grid-background;
+    max-width: 100%;
   }
 
   .button {
@@ -53,7 +54,8 @@
   }
 
   #sponsors {
-    ul.secondary {
+    ul.secondary,
+    ul.primary {
       li {
         @include span-columns(3);
         &:nth-child(even) {
