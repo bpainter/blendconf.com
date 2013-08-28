@@ -172,7 +172,7 @@
 - speaker:
   name: Bryan Veloso
   company:
-    name: Github
+    name: Revyver
     url: ~
   bio: ~
   links:
@@ -187,9 +187,8 @@
     session: 1
     title: "Hybrids Rule Everything Around Me"
     desc: ~
-    fullDesc: "<p>If there was ever an era of specialization, it is now coming to an end. No longer can any web professional get by in today's ecosystem without diversifying. A true engineer can understand design and development, the technical and the creative and thrives at the intersection of both.</p>
-              <p>You can build everything from the ground up, you just need a little push. Let's use the ecosystem to your advantage. Exchange knowledge with those around you and as an example, invest your time in open source.</p>
-              <p>You are a hybrid, you just don't know it yet.</p>"
+    fullDesc: "<p>Hybridism is your new bicycle. Generalism is making a comeback. Specialization is dead. Being a \"jack-of-all-trades\" in this day and age is a sought after and almost enviable position to be in. But what does it mean to be a hybrid? It may take more than just learning outside the box.</p>
+              <p>Gather by the campfire and listen to the tale of one self-taught hybrid. After years of refusing to cross the asile, learn about what it took for him to do so. Hopefully you'll be able to find your own inner hybrid and trek your own journey forward effectively using the ecosystem this community has built.</p>"
 - speaker:
   name: Cameron Moll
   company:
