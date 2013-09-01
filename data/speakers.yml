@@ -247,6 +247,25 @@
     desc: ~
     fullDesc: TBD
 - speaker:
+  name: Garren DiPasquale
+  company:
+    name: Bank of America
+    url: ~
+  bio: ~
+  links:
+    twitter: ~
+    github: ~
+    website: ~
+    dribbble: ~
+  talk:
+    type: Conference Speakers
+    day: 2
+    discipline: ux
+    session: 2
+    title: "Incorporating Lean UX into Agile"
+    desc: ~
+    fullDesc: ~
+- speaker:
   name: Garth Braithwaite
   company:
     name: Adobe
@@ -367,25 +386,6 @@
     session: 2
     title: "Defensive Sass - modular styles for the modern web"
     desc: "We've all found ourselves deep in the heart of a CSS project struggling with mangled CSS selectors, an array of disparately named files, and a deep and nagging feeling that perhaps our markup is not symantic as it should be. But a new hero is arising in CSS-land: Modular CSS. You may know him by one of his many names. SMACSS, Object-Oriented CSS, or BEM. Only he has the power to untangle our worst CSS nightmares. Only he can help us lay a foundation for large CSS projects. In this talk, John Long will delve deep into his bag of tricks to share practical advice about structuring your CSS. We'll talk about a number of helpful principles for simplifying your CSS and look at how modular CSS applies within the context of Sass. You will walk away challenged with something to apply to your current CSS project."
-    fullDesc: ~
-- speaker:
-  name: Julie Ann Horvath
-  company:
-    name: GitHub
-    url: ~
-  bio: ~
-  links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
-  talk:
-    type: Conference Speakers
-    day: 2
-    discipline: ux
-    session: 2
-    title: "Game Theory & the User Experience"
-    desc: ~
     fullDesc: ~
 - speaker:
   name: Kendra Shillington
@@ -559,9 +559,9 @@
     desc: ~
     fullDesc: ~
 - speaker:
-  name: TBD
+  name: Rich Robinson
   company:
-    name: ~
+    name: Skookum
     url: ~
   bio: ~
   links:
@@ -574,7 +574,7 @@
     day: 3
     discipline: ui
     session: 2
-    title: TBD
+    title: "Designers & Developers (In Harmony)"
     desc: ~
     fullDesc: ~
 - speaker:
@@ -877,7 +877,7 @@
     type: Conference Speakers
     day: 2
     discipline: dev
-    session: 3
+    session: 2
     title: "Modular Development with RequireJS"
     desc: "Front-end development has suffered from a lack of dependency management resulting in lots of script tags loaded in a highly specific order and usually tightly coupled applications. In Modular Development with RequireJS, you'll learn how to segment your JavaScript into loosely coupled modules increasing the maintainability of your application"
     fullDesc: ~
@@ -953,7 +953,7 @@
     type: Conference Speakers
     day: 2
     discipline: dev
-    session: 2
+    session: 3
     title: "Ruby Meets Clojure Flavored Database"
     desc: ~
     fullDesc: ~

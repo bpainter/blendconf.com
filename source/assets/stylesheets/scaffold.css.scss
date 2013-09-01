@@ -536,9 +536,10 @@ nav[role="navigation"] {
 		width: 100%;
 	}
 	ul {
+		border-bottom: 1px solid lighten($green, 5%);
 		@include clearfix;
 		margin: 0;
-		padding: 0;
+		padding: $baseline*2 0 $baseline;
 		list-style: none;
 		li {
 			background: lighten($green, 10%);
@@ -549,11 +550,15 @@ nav[role="navigation"] {
 			display: block;
 			padding: $baseline;
 		}
-		&.community li {
-			@include span-columns(2);
-			&:nth-child(even) {
-				@include omega();
-			}
+	}
+	.community li, 
+	.tertiary li {
+		@include span-columns(2);
+		&:nth-child(even) {
+			@include omega();
+		}
+		&:last-child {
+			@include push(1);
 		}
 	}
 }

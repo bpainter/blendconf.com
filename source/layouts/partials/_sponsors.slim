@@ -3,6 +3,11 @@
 
   p We think sponsorship should be more than just a link and logo on a website. If you're looking to put your sponsorship dollars to use we have a few pretty nifty ideas to get you noticed and be a fun experience for our attendees. If you aren't boring you should <a href="mailto:sponsors@blendconf.com" data-type="Email">contact us</a>.
 
+  ul.title
+    - data.sponsors.each do |sponsor|
+      - if sponsor.type == "title"
+        li
+          a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
   ul.primary
     - data.sponsors.each do |sponsor|
       - if sponsor.type == "primary"
@@ -12,6 +17,12 @@
   ul.secondary
     - data.sponsors.each do |sponsor|
       - if sponsor.type == "secondary"
+        li
+          a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
+
+  ul.tertiary
+    - data.sponsors.each do |sponsor|
+      - if sponsor.type == "tertiary"
         li
           a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
 

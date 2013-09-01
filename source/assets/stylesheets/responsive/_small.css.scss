@@ -54,8 +54,14 @@
   }
 
   #sponsors {
-    ul.secondary,
-    ul.primary {
+    .title {
+      li {
+        @include span-columns(4);
+        @include push(1);
+      }
+    }
+    .secondary,
+    .primary {
       li {
         @include span-columns(3);
         &:nth-child(even) {
@@ -63,7 +69,8 @@
         }
       }
     }
-    ul.community {
+    .tertiary, 
+    .community {
       li {
         @include reset-columns();
         @include span-columns(2);
@@ -73,6 +80,14 @@
         &:nth-child(3n) {
           @include omega();
         }
+        &:last-child {
+          @include push(0);
+        }
+      }
+    }
+    .community li {
+      &:nth-child(4n) {
+        @include push(1);
       }
     }
   }

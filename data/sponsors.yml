@@ -1,5 +1,5 @@
 - sponsor:
-  type: primary
+  type: title
   name: Cardinal Solutions
   description: ~
   links:
@@ -47,7 +47,15 @@
     facebook: ~
     website: http://www.theideapeople.com/
 - sponsor:
-  type: community
+  type: secondary
+  name: Digital Saber
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.digitalsaber.net/
+- sponsor:
+  type: tertiary
   name: GitHub
   description: ~
   links:
@@ -55,7 +63,7 @@
     facebook: ~
     website: http://www.github.com/
 - sponsor:
-  type: community
+  type: tertiary
   name: Balsamiq
   description: ~
   links:
@@ -63,7 +71,7 @@
     facebook: ~
     website: http://www.balsamiq.com/
 - sponsor:
-  type: community
+  type: tertiary
   name: UserTesting
   description: ~
   links:
@@ -71,7 +79,15 @@
     facebook: ~
     website: http://www.usertesting.com/
 - sponsor:
-  type: community
+  type: tertiary
+  name: Rosenfeld
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://rosenfeldmedia.com/
+- sponsor:
+  type: tertiary
   name: Sticker Mule
   description: ~
   links:
@@ -79,13 +95,37 @@
     facebook: ~
     website: http://www.stickermule.com/
 - sponsor:
-  type: secondary
+  type: tertiary
   name: qCat
   description: ~
   links:
     twitter: ~
     facebook: ~
     website: http://qcatpro.com/
+- sponsor:
+  type: tertiary
+  name: A Book Apart
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.abookapart.com/
+- sponsor:
+  type: tertiary
+  name: Cage
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://cageapp.com/
+- sponsor:
+  type: tertiary
+  name: Codepen
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://codepen.com/
 - sponsor:
   type: community
   name: "iT-ology"
@@ -94,14 +134,6 @@
     twitter: ~
     facebook: ~
     website: http://it-ology.org/
-- sponsor:
-  type: secondary
-  name: Digital Saber
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.digitalsaber.net/
 - sponsor:
   type: community
   name: Detailed Block
@@ -118,6 +150,14 @@
     twitter: ~
     facebook: ~
     website: http://packardplace.us/
+- sponsor:
+  type: community
+  name: AWDG
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.meetup.com/atlantawebdesign/
 - sponsor:
   type: community
   name: AIGA Charlotte

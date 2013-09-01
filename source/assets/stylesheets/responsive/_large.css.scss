@@ -13,7 +13,7 @@
       padding-left: 0;
       text-align: center;
     }
-    p {
+    > p {
       text-align: center;
     }
   }
@@ -172,11 +172,23 @@
           @include omega();
         }
       }
+      p {
+        text-align: left;
+      }
     }
   }
   #sponsors {
-    ul.secondary,
-    ul.primary {
+    .title {
+
+    }
+    .primary {
+      li {
+        @include reset-columns();
+        @include span-columns(6);  
+      }
+      
+    }
+    .secondary {
       li {
         @include reset-columns();
         @include span-columns(4);
@@ -186,9 +198,13 @@
         &:nth-child(3n) {
           @include omega();
         }
+        &:last-child {
+          @include push(4);
+        }
       }
     }
-    ul.community {
+    .tertiary,
+    .community {
       li {
         @include reset-columns();
         @include span-columns(3);
@@ -202,6 +218,14 @@
         &:nth-child(4n) {
           @include omega();
         }
+        &:last-child {
+          @include push(4.35);
+        }
+      }
+    }
+    .community li {
+      &:nth-child(4n) {
+        @include push(0);
       }
     }
   }
