@@ -111,7 +111,7 @@
   company:
     name: Ashe Dryden Development
     url: http://ashedryden.com
-  bio: ~
+  bio: "<p>Ashe Dryden is an indie developer living in Madison, WI. She's been involved with the web in some form or another over the course of the past 12 years. She's actively involved in multiple communities both off and online. Ashe is known for being outspoken about the need for diversity, inclusiveness, and empathy. When she isn't discussing technology, she's cycling, tweeting, playing board games, debating the social implications of Star Trek episodes, being that awkward girl at the party, and waiting for her next burrito fix.</p>"
   links:
     twitter: ashedryden
     github: ashedryden
@@ -237,7 +237,7 @@
   company:
     name: Bank of America
     url: https://www.bankofamerica.com/
-  bio: "<p>I started out wanting to be an architect but was fascinated with film. Then, after almost attending film school I decided design would allow me to be creative in many mediums and made the decision to pursue it as my career. I would consider myself easy going and laid back. I can solve the Rubiks cube (I can teach you) and don’t like seafood. I attend church (a lot) and help run a school in Haiti. I also enjoy photography, making home movies, Legos, wine with my wife on a fall evening and building tree-houses with my sons. The word most used to describe our family as a whole is “crazy”... In a good way.</p>"
+  bio: "<p>Garren DiPasquale is a freelance User Experience Consultant dedicated to helping clients solve problems thru deliberate and creative design. He is a passionate design evangelist known nationally for allowing reason to drive his creative process, and for giving life to brands, interactions, and experiences.</p><p>Garren’s experience with the design process leads to identifying problems and developing creative solutions that serve a purpose. His process and creative thinking skills have allowed him to design and develop innovative solutions for his clients. He has helped to create and develop applications and user experiences for organizations such as Bank of America, Lowe’s Home Improvement, Muzak and Chick-fil-a. Additionally, Garren has been involved in several technology startups, serving in various roles, from Director of Application Development to Board Advisor. When Garren is not solving problems with design, he speaks on the subject.</p>"
   links:
     twitter: aduroguy
     github: ~
@@ -249,7 +249,7 @@
     discipline: ux
     session: 2
     title: "Incorporating Lean UX into Agile"
-    desc: ~
+    desc: "<p>Designing holistically within a short iteration agile environment can be complicated. Incorporating lean principals into your agile process can help you create better software that aligns to a holistic user experience strategy. We'll cover strategies from the lean playbook as well as other practical processes to move from coping with the agile process to embracing it.</p>"
 - speaker:
   name: Garth Braithwaite
   company:
@@ -527,7 +527,7 @@
   company:
     name: Skookum
     url: http://skookum.com/
-  bio: ~
+  bio: "<p>Rich Robinson is a member of the awesome design team at Skookum Digital Works in sunny Charlotte, NC. He enjoys sci-fi, comic books, and creating great user experiences</p>"
   links:
     twitter: rrobinson81
     github: ~
@@ -539,7 +539,7 @@
     discipline: ui
     session: 2
     title: "Designers & Developers (In Harmony)"
-    desc: ~
+    desc: "<p>Designers and developers don't have to be at odds. In this talk, Rich Robinson will dispel myths and stereotypes about the designer/developer relationship and provide actionable tips for working together in an Agile environment.<p><p>If you've ever struggled to communicate with a designer or developer, this talk is for you.</p>"
 - speaker:
   name: Michael Parenteau
   company:

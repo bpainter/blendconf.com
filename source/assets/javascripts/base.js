@@ -3,17 +3,17 @@ jQuery(document).ready(function($) {
         $(this).next().slideToggle(200);
         return false;
     });
-    $('#home nav ul a').click(function(){
-        $.scrollTo (this.hash, 1000, {offset: -36});
-        if (Modernizr.mq('only screen and (max-width: 767px)')) {
-            $(this).parent().parent().slideUp(200);
-        }
-        if (this.attr('class') == 'button') {
-            return true;
-        } else {
-            return false;
-        }
-    });
+    // $('#home nav ul a').click(function(){
+    //     $.scrollTo (this.hash, 1000, {offset: -36});
+    //     if (Modernizr.mq('only screen and (max-width: 767px)')) {
+    //         $(this).parent().parent().slideUp(200);
+    //     }
+    //     if (this.attr('class') == 'button') {
+    //         return true;
+    //     } else {
+    //         return false;
+    //     }
+    // });
 
     // Make the speaker hexagon's clickable
     $('#speakers').find('li').click(function(){
