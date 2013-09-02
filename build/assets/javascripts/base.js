@@ -1,8 +1,4 @@
 jQuery(document).ready(function($) {
-	$('#speakers').find('a').click(function(){
-		return false;
-	});
-
     $('#nav-toggle').on('click', function() {
         $(this).next().slideToggle(200);
         return false;
@@ -17,6 +13,12 @@ jQuery(document).ready(function($) {
         } else {
             return false;
         }
+    });
+
+    // Make the speaker hexagon's clickable
+    $('#speakers').find('li').click(function(){
+        window.location = $(this).find('a').attr('href');
+        return-false;
     });
 
 	$("a[data-type]").on('click',function(e){

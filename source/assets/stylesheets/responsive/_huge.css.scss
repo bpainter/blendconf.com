@@ -4,7 +4,7 @@
     @include susy-grid-background;
     max-width: 100%;
   }
-  ul.hive {
+  .hive {
     max-width: ($hex-width*5)+($hex-margin)*4;
     &#keynotes {
       max-width: ($hex-width*4)+($hex-margin)*3;
@@ -33,6 +33,25 @@
     li:nth-child(9n-3) {
       margin-left: 105px;
     }
+    li.more{
+      margin-left: $hex-width*2+($hex-margin)*2;
+    }
+  }
+
+  //--------------------------------------------------------
+  // basic content
+  //--------------------------------------------------------
+  .basic-content {
+    #masthead {
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+
+  article {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   //--------------------------------------------------------
@@ -136,6 +155,14 @@
         &:last-child {
           @include push(0);
         }
+      }
+    }
+    .tertiary li {
+      &:nth-child(6n) {
+        @include push(.5);
+      }
+      &:nth-child(9n) {
+        @include push(0);
       }
     }
   }

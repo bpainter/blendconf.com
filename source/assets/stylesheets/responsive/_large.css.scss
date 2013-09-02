@@ -5,7 +5,8 @@
     max-width: 100%;
   }
   #home div > div[id],
-  #home div > form[id] {
+  #home div > form[id],
+  #sponsors {
     h2, .h2 {
       border-left: 0px;
       margin-left: auto;
@@ -34,6 +35,16 @@
       @include omega;
     }
   }
+
+  #masthead {
+    h1 {
+      text-align: center;
+    }
+    #speaker-detail & {
+      text-align: center;
+    }
+  }
+
   //--------------------------------------------------------
   // main nav
   //--------------------------------------------------------
@@ -226,6 +237,14 @@
     .community li {
       &:nth-child(4n) {
         @include push(0);
+      }
+    }
+    .tertiary li {
+      &:last-child {
+        @include push(0);
+      }
+      &:nth-child(9n) {
+        @include push(3);
       }
     }
   }

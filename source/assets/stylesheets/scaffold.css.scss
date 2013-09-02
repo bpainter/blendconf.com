@@ -30,9 +30,11 @@ body {
 			top: 0;
 			left: 50%;
 	}
-	p, h2, .h2 {
-		max-width: 700px;
-		// margin-left: 0;
+	h2, .h2 {
+		max-width: $max-container-width;
+	}
+	p {
+		max-width: $max-container-width/1.5;	
 	}
 }
 
@@ -41,22 +43,43 @@ h2, .h2 {
 	font-size: 42px;
 	font-weight: 200;
 	line-height: 1;
-	margin-bottom: $baseline*3;
+	margin: 0 auto $baseline*3;
+	max-width: $max-container-width;
 	padding-left: $sub-baseline*2;
 	text-align: left;
 	text-transform: uppercase;
 }
 p, ul {
 	margin: 0 auto 1em;
+	max-width: $max-container-width;
 	&:last-child {
 		margin-bottom: 0;
 	}
 }
 a {
-	color: darken($light-blue, 30%);
-	text-decoration: none;
-	&:hover {
-		color: #fff;
+	color: $lavender;
+	text-decoration: underline;
+}
+article {
+	background-color: transparent;
+	margin: 0 auto;
+	padding: $baseline*5 5% $baseline*3;
+	max-width: $max-container-width;
+	&.basic-content {
+		max-width: $max-container-width/1.4;
+		h2 {
+			margin-top: $baseline*2;
+			margin-bottom: $baseline;
+		}
+		ul {
+			padding-left: $baseline;
+		}
+		li {
+			margin-bottom: $sub-baseline;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
 	}
 }
 
@@ -76,6 +99,8 @@ nav[role="navigation"] {
 		background-color: $dark-gray;
 		display: none;
 		margin: 0 auto;
+		max-width: 100%;
+		// padding: 0 5%;
 		padding-bottom: $baseline;
 		position: relative;
 			top: $baseline*3;
@@ -91,7 +116,8 @@ nav[role="navigation"] {
 			display: block;
 			padding: $baseline;
 			text-align: center;
-			&:hover {
+			text-decoration: none;
+			&:hover, &:focus {
 				color: #fff;
 			}
 			&.button {
@@ -108,8 +134,10 @@ nav[role="navigation"] {
 		height: $sub-baseline*7;
 		line-height: $sub-baseline*7;
 		padding: 0 $sub-baseline*2;
+		text-decoration: none;
 	}
 	.home {
+
 		position: absolute;
 			top: $sub-baseline;
 			left: $sub-baseline;
@@ -300,7 +328,6 @@ nav[role="navigation"] {
 // speakers
 //--------------------------------------------------------
 #speakers {
-	background-color: #fff;
 	color: $dark-gray;
 	&:before {
 		border-top-color: $dark-gray !important;
@@ -319,7 +346,6 @@ nav[role="navigation"] {
 }
 .hexagon {
 	> li {
-		background-color: #ccc;
 		display: block;
 		margin: 0 0 $hex-margin*4 ;
 		position: relative;
@@ -424,6 +450,9 @@ nav[role="navigation"] {
 	padding: 4em 0 0;
 	width: 260px;
 	li {
+		*{
+			cursor: pointer;
+		}
 		&:nth-child(even) {
 			margin-left: $hex-margin*3;
 		}
@@ -438,6 +467,31 @@ nav[role="navigation"] {
 				background-image: url('/assets/images/content/speakers/#{$speaker}.jpg');
 			}
 		}
+		&.more {
+			&,
+			&:before,
+			&:after {
+				background-color: $dark-gray;
+			}
+			strong {
+				@include opacity(1);
+				text-decoration: underline;
+				top: 40%;
+			}
+		}
+	}
+}
+
+#speaker-detail {
+	#masthead {
+		a {
+			color: fff;
+		}
+	}
+}
+#speaker-index article {
+	p {
+		max-width: $max-container-width/1.5;
 	}
 }
 
@@ -448,7 +502,7 @@ nav[role="navigation"] {
 	background-color: $lavender;
 	color: darken($lavender, 40%);
 	&:before {
-		border-top-color: #fff !important;
+		border-top-color: $color-body-background !important;
 	}
 	a {
 		color: darken($lavender, 40%);
@@ -502,6 +556,8 @@ nav[role="navigation"] {
 	}
 	a.button {
 		background-color: darken($yellow, 20%);
+		display: block;
+		margin: 0 auto;
 		color: lighten($yellow, 30%);
 		text-decoration: none;
 		&:hover, &:focus {
@@ -526,9 +582,10 @@ nav[role="navigation"] {
 		&:hover {
 			color: darken($green, 80%);
 		}
-	}
+	} 
 	p {
 		margin-bottom: $baseline*3;
+		max-width: $max-container-width/1.5;	
 	}
 	img {
 		display: block;
@@ -559,6 +616,11 @@ nav[role="navigation"] {
 		}
 		&:last-child {
 			@include push(1);
+		}
+	}
+	.tertiary li {
+		&:last-child {
+			@include push(0);
 		}
 	}
 }
@@ -593,11 +655,38 @@ footer[role="contentinfo"] {
 			border-top-color: $red !important;
 		}
 	}
-	#code-of-conduct & {
+	#venue-activities & {
+		background-color: $yellow;
+		color: lighten($yellow, 35%);
+		&:before {
+			border-top-color: $yellow !important;
+		}
+	}
+	#code-of-conduct &,
+	#purpose & {
 		background-color: $red;
 		color: lighten($red, 35%);
 		&:before {
 			border-top-color: $red !important;
+		}
+	}
+	#speaker-index &,
+	#speaker-detail & {
+		background-color: $aqua;
+		color: lighten($aqua, 35%);
+		&:before {
+			border-top-color: $aqua !important;
+		}
+		a {
+			color: lighten($aqua, 35%);
+			font-size: 1.2em;
+			font-style: italic;
+			&:before {
+				content: "of ";
+			}
+			&:hover, &:focus {
+				text-decoration: underline;
+			}
 		}
 	}
 	&:before {
@@ -613,6 +702,8 @@ footer[role="contentinfo"] {
 		font-weight: 200;
 		line-height: 1;
 		text-transform: uppercase;
+		margin: 0 auto;
+		max-width: $max-container-width;
 	}
 }
 //--------------------------------------------------------
@@ -653,10 +744,12 @@ footer[role="contentinfo"] {
 	}
 	a {
 		color: $color-text;
-		cursor: default;
+		cursor: pointer;
 		font-size: .9em;
-		&:hover {
+		text-decoration: none;
+		&:hover, &:focus {
 			color: $color-text;
+			text-decoration: underline;
 		}
 	}
 	.description {
@@ -707,59 +800,6 @@ footer[role="contentinfo"] {
 		display: none !important; // just in-case something of a higher specificity tries overrides
 	}
 }
-//--------------------------------------------------------
-// basic content
-//--------------------------------------------------------
-.basic-content {
-	padding: $baseline*5 5% $baseline*3;
-	h2 {
-		margin-top: $baseline*2;
-		margin-bottom: $baseline;
-	}
-	ul {
-		margin-left: $baseline;
-	}
-	li {
-		margin-bottom: $sub-baseline;
-		&:last-child {
-			margin-bottom: 0;
-		}
-	}
-}
-// #basic-content {
-// 	padding: 2em 2em;
-// 	img {
-// 		display: block;
-// 		margin: 2em auto;
-// 		width: 100%;
-//   }
-//   p {
-// 		margin-bottom: 2em;
-//   }
-//   ul {
-// 		padding-left: 40px;
-//   }
-//   li {
-// 		line-height: 1.4;
-// 		margin-bottom: 1em;
-//   }
-//   h1 {
-// 		text-align: center;
-// 		text-transform: uppercase;
-//   }
-//   h1, h2 {
-// 		color: $aqua;
-//   }
-//   h2 {
-// 		font-size: 1.4em;
-//   }
-//   a {
-//   	color: $aqua;
-//   	&:hover {
-//   		color: darken($aqua, 10%);
-//   	}
-//   }
-// }
 
 // @media print {
 //   @import "themes/print";

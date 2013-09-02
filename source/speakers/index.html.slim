@@ -1,0 +1,18 @@
+---
+title: Blend Conference - A 3 Day Conference about User Experience, UI Design, and Development in Charlotte, NC
+id: speaker-index
+---
+
+#masthead role="banner"
+	h1 <strong>50 Speakers</strong> Talking User Experience, Design, and Development
+	
+article
+	#speakers
+		p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
+		ul.hive.hexagon
+			- data.speakers.each do |speaker|
+				li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
+					strong #{speaker.name} <span>#{speaker.company.name}</span>
+					a href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
+
+== partial "/layouts/partials/navigation"

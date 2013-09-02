@@ -2,31 +2,30 @@
   name: Adam Connor
   company:
     name: MadPow
-    url: ~
+    url: "http://www.madpow.com/"
   bio: "<p>As an Experience Design Director with Mad*Pow in Portsmouth, NH, Adam combines 10+ years of experience in interaction and experience design with a background in Computer Science, film, and visual design to create effective and easy-to-use digital products and services. He believes that no matter how utilitarian a tool is, at the core of its creation lies a story; uncovering that story is key to its success.</p><p>Adam is also a strong proponent of critique, not only in design, but also as a key component of collaboration, learning, and improvement. Occasionally, he shares his perspectives on design at adamconnor.com and discussingdesign.com.</p>"
   links:
-    twitter: ~
+    twitter: adamconnor
     github: ~
-    website: ~
-    dribbble: ~
+    website: "http://adamconnor.com/"
+    dribbble: adamconnor
   talk:
     type: Workshops
     day: 1
     discipline: ux
     session: 1
     title: "Discussing Design: The Art of Critique"
-    desc: "Our ability to critique speaks directly to the quality of the conversations we have around the ideas and designs we create."
-    fullDesc: "<p>This workshop will examine the language, rules and strategies for improving the conversations we have around designs through critique.</p><p>Collaboration requires us to share our work; to communicate our ideas with one another and collect other's thoughts in order to know whether the designs and creations we're producing are meeting the objectives of the project. But often we wrestle with collecting feedback. We get comments that are less then helpful because they seem irrelevant or unclear. Or we find that we're getting feedback and reactions at inopportune times rather than points in the process where they would have been useful in informing design decisions.</p><p>Our ability to critique speaks directly to the quality of the conversations we have with teammates, whether they be designers, developers, stakeholders or whomever. Designers frequently complain about the quality and uselessness of the feedback they are given, but we rarely take a step back and examine how to collect useful feedback and make our discussions around our designs more productive.</p><p>By taking the time to examine critique and how it fits into the design process and both an activity and an aspect of any communication we can focus our conversations and improve our ability to collaborate.</p><p>Participants in this workshop will explore various aspects of critique and the qualities that lead to strong and weak feedback through presentation materials and a series of hands-on activities. Each person will be provided with takeaways that can immediately be put to work to create a useful, collaborative environment for discussing designs.</p>"
+    desc: "<p>This workshop will examine the language, rules and strategies for improving the conversations we have around designs through critique.</p><p>Collaboration requires us to share our work; to communicate our ideas with one another and collect other's thoughts in order to know whether the designs and creations we're producing are meeting the objectives of the project. But often we wrestle with collecting feedback. We get comments that are less then helpful because they seem irrelevant or unclear. Or we find that we're getting feedback and reactions at inopportune times rather than points in the process where they would have been useful in informing design decisions.</p><p>Our ability to critique speaks directly to the quality of the conversations we have with teammates, whether they be designers, developers, stakeholders or whomever. Designers frequently complain about the quality and uselessness of the feedback they are given, but we rarely take a step back and examine how to collect useful feedback and make our discussions around our designs more productive.</p><p>By taking the time to examine critique and how it fits into the design process and both an activity and an aspect of any communication we can focus our conversations and improve our ability to collaborate.</p><p>Participants in this workshop will explore various aspects of critique and the qualities that lead to strong and weak feedback through presentation materials and a series of hands-on activities. Each person will be provided with takeaways that can immediately be put to work to create a useful, collaborative environment for discussing designs.</p>"
 - speaker:
   name: Albert Banks
   company:
     name: Myjive
-    url: ~
-  bio: ~
+    url: http://www.myjive.com
+  bio: "<p>Albert is the technical director at Myjive where he optimizes multi-platform digital productions.</p>"
   links:
-    twitter: ~
+    twitter: ufbert
     github: ~
-    website: ~
+    website: http://www.albertbanks.com/
     dribbble: ~
   talk:
     type: Workshops
@@ -34,18 +33,17 @@
     discipline: ui
     session: 2
     title: "Discovering Unexpected Ideas Using Generative Design"
-    desc: "Explore ways technology has evolved design, introduce brave new concepts and get hands-on training and tools to create your own generative designs."
-    fullDesc: ~
+    desc: "<p>Learn from the directors of Myjive how generative design can help you find new creative influences and wildly unexpected ideas. Generative design is the avant-garde practice that takes your graphics and uses computer algorithms to generate an infinite amount of visually compelling variations. At our Blend Conference workshop, we’ll explore other ways technology has evolved design, introduce brave new concepts and give you hands-on training and tools to create your own generative designs.</p>"
 - speaker:
   name: Amanda Costello
   company:
     name: The University of Minnesota
-    url: ~
-  bio: ~
+    url: "http://www.cehd.umn.edu/"
+  bio: "<p>Amanda Costello is the lead content strategist in the University of Minnesota’s College of Education and Human Development (CEHD), and the director of MinneWebCon, a grassroots knowledge-sharing web conference in Minnesota. She has worked for the University in various departments since 2002, and joined CEHD in 2007. A former English teacher in Japan, she values clear communication and having a plan (plus a couple of back-ups).</p><p>Amanda is an award-winning speaker on working with content specialists and the web, content strategy, building web teams, and sharing ideas to do good work. She enjoys filling out forms because it feels like taking a test where she knows all the answers.</p>"
   links:
-    twitter: ~
+    twitter: amandaesque
     github: ~
-    website: ~
+    website: http://amandaesque.com/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -53,16 +51,15 @@
     discipline: ux
     session: 2
     title: "I Don't Have Your Ph.D. - Working with Content Specialists & Experts"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Every field has its own form of content specialist—faculty in higher education, surgeons in hospitals, and curators in museums. However, a writer or content strategist may not have the same level of specialty knowledge. How do you make sense of and promote this expert knowledge if you have no background in that subject area, let alone an advanced degree?</p> <p>This session will draw from Amanda’s experience as a web designer and content strategist at the University of Minnesota, one of the country’s largest research institutions. Here you’ll find advice for establishing rapport and getting your work done:</p> <ul> <li>Hear how to build an expert’s trust in your knowledge and skills.</li> <li>Get tips for working with difficult specialist personalities, from the complete technophobe to the extreme early adopter.</li> <li>Learn how to channel your specialist’s expertise into great web content.</li> <li>Share your own questions, triumphs, and war stories.</li> </ul>"
 - speaker:
   name: Anders Frostenson
   company:
     name: Doberman
-    url: ~
-  bio: ~
+    url: http://doberman.se/
+  bio: "<p>Anders is the managing director of the Doberman New York office.</p>"
   links:
-    twitter: ~
+    twitter: frostenson
     github: ~
     website: ~
     dribbble: ~
@@ -72,18 +69,17 @@
     discipline: ux
     session: 1
     title: "The Design in Service Design"
-    desc: ~
-    fullDesc: "Service Design is often, well deserved, praised for its analytical and strategic advantages. But if we forget to acknowledge the most central aspect of the discipline it will loose its true glimmering power. Design as the element of surprise. Service Design is not Design just because we call it Design. We have to nourish it. Because the purpose of Service Design is to result in the delivery of a valuable experience, design must be a process of creating and executing."
+    desc: "<p>Service Design is often, well deserved, praised for its analytical and strategic advantages. But if we forget to acknowledge the most central aspect of the discipline it will loose its true glimmering power. Design as the element of surprise. Service Design is not Design just because we call it Design. We have to nourish it. Because the purpose of Service Design is to result in the delivery of a valuable experience, design must be a process of creating and executing.</p>"
 - speaker:
   name: Andrew Hinton
   company:
     name: The Understanding Group
-    url: ~
-  bio: ~
+    url: http://understandinggroup.com/
+  bio: "<p>Andrew is driven to make life better through creating great architectures with information — environments we’ve come to inhabit and rely upon just as much as our workplaces, homes and neighborhoods. He sees great, untapped potential in how organizations can improve the lives of employees and customers by better shaping information contexts and connections.</p><p>A well-known speaker, writer and long-time community member of the information architecture field, Andrew is a co-founder and past board member of the IA Institute. Over the years, he’s worked with clients and employers of all shapes and sizes, including Kimberly-Clark, RF Micro Devices, SRC.org, Vanguard, Sealy and Lowe’s Home Improvement.</p><p>A well-known speaker, writer and long-time community member of the information architecture field, Andrew is a co-founder and past board member of the IA Institute. Over the years, he’s worked with clients and employers of all shapes and sizes, including Kimberly-Clark, RF Micro Devices, SRC.org, Vanguard, Sealy and Lowe’s Home Improvement.</p><p>He’s currently at work on a book for O’Reilly Media on how information creates and shapes context, and what that means for design.</p>"
   links:
-    twitter: ~
+    twitter: inkblurt
     github: ~
-    website: ~
+    website: http://www.inkblurt.com/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -91,16 +87,15 @@
     discipline: ux
     session: 3
     title: "The World Is the Screen: Understanding Information Environments"
-    desc: ~
-    fullDesc: "Information is tricky stuff. We talk about it a lot, but what do we mean when we do? And how does something so abstract turn into tangible experiences for users? This talk is about how we can think about experiences as environments, made of different modes of information. We'll see some examples of how these modes affect the user experience, and learn a framework for thinking about design problems, regardless of channel, device, or flavor. "
+    desc: "<p>Information is tricky stuff. We talk about it a lot, but what do we mean when we do? And how does something so abstract turn into tangible experiences for users? This talk is about how we can think about experiences as environments, made of different modes of information. We'll see some examples of how these modes affect the user experience, and learn a framework for thinking about design problems, regardless of channel, device, or flavor.</p>"
 - speaker:
   name: Andrew Maier
   company:
     name: UX Booth
-    url: ~
-  bio: ~
+    url: http://www.uxbooth.com/
+  bio: "<p>A student and teacher within the user-centered design community, Andrew co-founded UX Booth in 2009 and currently serves as its Editor-in-Chief. He works with both clients as well as consultancies heading user experience initiatives.</p>"
   links:
-    twitter: ~
+    twitter: andrewmaier
     github: ~
     website: ~
     dribbble: ~
@@ -110,18 +105,17 @@
     discipline: ux
     session: 6
     title: Design for Literacy
-    desc: ~
-    fullDesc:
+    desc: "<p>Clay Shirky suggests that &quot;literacy, in any medium, means not just knowing how to read that medium, but also how to create in it, and to understand the difference between good and bad uses.&quot; In this talk we'll discuss ways in which literacy facilitates not just understanding but empowerment as well, allowing organizations and their customers to better communicate with one another.</p>"
 - speaker:
   name: Ashe Dryden
   company:
     name: Ashe Dryden Development
-    url: ~
+    url: http://ashedryden.com
   bio: ~
   links:
-    twitter: ~
-    github: ~
-    website: ~
+    twitter: ashedryden
+    github: ashedryden
+    website: http://ashedryden.com/
     dribbble: ~
   talk:
     type: Keynotes
@@ -129,37 +123,35 @@
     discipline: ~
     session: 7
     title: "Programming Diversity"
-    desc: ~
-    fullDesc: ""
+    desc: "<p>It's been scientifically proven that more diverse communities and workplaces create better products and the solutions to difficult problems are more complete and diverse themselves. Companies are struggling to find adequate talent. So why do we see so few women, people of color, and LGBTQ people at our events and on the about pages of our websites? Even more curiously, why do 60% of women leave the tech industry within 10 years? Why are fewer women choosing to pursue computer science and related degrees than ever before? Why have stories of active discouragement, dismissal, harassment, or worse become regular news?</p> <p>In this talk we’ll examine the causes behind the lack of diversity in our communities, events, and workplaces. We’ll discuss what we can do as community members, event organizers, and co-workers to not only combat this problem, but to encourage positive change by contributing to an atmosphere of inclusivity.</p> <p>Objectives:</p> <ul> <li>Educate about the lack of diversity and why it is a problem</li> <li>Examine what is contributing to both the pipeline issue as well as attrition</li> <li>Isolate what is and isn't working</li> <li>Inspire direct action by examining our own behavior and learning more about the people around us so we can empathize better</li> </ul>"
 - speaker:
   name: Ben Vandgrift
   company:
     name: Think Relevance
-    url: ~
+    url: http://thinkrelevance.com/
   bio: ~
   links:
-    twitter: ~
-    github: ~
-    website: ~
+    twitter: bvandgrift
+    github: bvandgrift
+    website: http://ben.vandgrift.com/
     dribbble: ~
   talk:
     type: Conference Speakers
     day: 2
     discipline: dev
     session: 1
-    title: "Specialization is for Insects"
+    title: "From Glider to Gulf Stream"
     desc: ~
-    fullDesc: "TBD"
 - speaker:
   name: Brandon Mathis
   company:
     name: Mongo HQ
-    url: ~
+    url: https://www.mongohq.com
   bio: ~
   links:
-    twitter: ~
-    github: ~
-    website: ~
+    twitter: imathis
+    github: imathis
+    website: http://brandonmathis.com/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -168,38 +160,35 @@
     session: 6
     title: "Be the Unicorn: A Pixel Pusher's Quest"
     desc: ~
-    fullDesc: TBD
 - speaker:
   name: Bryan Veloso
   company:
     name: Revyver
-    url: ~
-  bio: ~
+    url: http://revyver.com/
+  bio: "<p>Bryan Veloso is a Co-Founder and CEO of Los Angeles, California-based Revyver. Prior to founding Revyver, he worked for Github, Facebook, and Automattic, in varying design roles ranging from interaction design to marketing and creative direction.</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
+    twitter: bryanveloso
+    github: bryanveloso
+    website: http://avalonstar.com/
+    dribbble: bryan
   talk:
     type: Conference Speakers
     day: 3
     discipline: ui
     session: 1
     title: "Hybrids Rule Everything Around Me"
-    desc: ~
-    fullDesc: "<p>Hybridism is your new bicycle. Generalism is making a comeback. Specialization is dead. Being a \"jack-of-all-trades\" in this day and age is a sought after and almost enviable position to be in. But what does it mean to be a hybrid? It may take more than just learning outside the box.</p>
-              <p>Gather by the campfire and listen to the tale of one self-taught hybrid. After years of refusing to cross the asile, learn about what it took for him to do so. Hopefully you'll be able to find your own inner hybrid and trek your own journey forward effectively using the ecosystem this community has built.</p>"
+    desc: "<p>Hybridism is your new bicycle. Generalism is making a comeback. Specialization is dead. Being a &quot;jack-of-all-trades&quot; in this day and age is a sought after and almost enviable position to be in. But what does it mean to be a hybrid? It may take more than just learning outside the box.</p><p>Gather by the campfire and listen to the tale of one self-taught hybrid. After years of refusing to cross the asile, learn about what it took for him to do so. Hopefully you'll be able to find your own inner hybrid and trek your own journey forward effectively using the ecosystem this community has built.</p>"
 - speaker:
   name: Cameron Moll
   company:
     name: Authentic Jobs
-    url: ~
-  bio: ~
+    url: http://www.authenticjobs.com/
+  bio: "<p>Cameron Moll is a designer, speaker, and author living in Sarasota, Florida (United States) with his wife and four sons. He's the founder of Authentic Jobs Inc, among other endeavors.</p>"
   links:
-    twitter: ~
+    twitter: cameronmoll
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://www.cameronmoll.com/
+    dribbble: cameronmoll
   talk:
     type: Conference Speakers
     day: 3
@@ -207,17 +196,16 @@
     session: 4
     title: "Creative Authenticity"
     desc: ~
-    fullDesc: TBD
 - speaker:
   name: Carl Smith
   company:
     name: nGen Works
-    url: ~
-  bio: ~
+    url: http://www.ngenworks.com/
+  bio: "<p>Carl is the founding member of nGen Works. He's fortunate enough to have worked with some great teams that won the New York Art Directors Award for Interactive Development, The Hospitality Industry’s Best of Show Award, and two National C.A.S.E. awards for Educational Web Development. Featured in Kelly Goto’s best-selling book, Web Redesign: Workflow That Works.</p><p>He spends his free time complaining about sites that say &quote;click here,&quote; introducing his daughters to the best of ’70s television and praying they never make Spiderman 4.</p>"
   links:
-    twitter: ~
+    twitter: carlsmith
     github: ~
-    website: ~
+    website: http://about.me/smithcarl
     dribbble: ~
   talk:
     type: Keynotes
@@ -225,18 +213,17 @@
     discipline: ~
     session: 0
     title: "Your Money & Your Life"
-    desc: "Most businesses are built on a broken operating system. One that believes in old concepts of carrots and sticks. For decades we've ignored research that shows the path to a better culture, product and bottom line involves abandoning the notions of the past. It's time to embrace the reality that the needs and ambitions of the human beings we surround ourselves with can fuel a brighter tomorrow. Carl will share examples of sustainable change that improves every aspect of a company through adopting a management philosophy of doing less."
-    fullDesc: TBD
+    desc: "<p>Most businesses are built on a broken operating system. One that believes in old concepts of carrots and sticks. For decades we've ignored research that shows the path to a better culture, product and bottom line involves abandoning the notions of the past. It's time to embrace the reality that the needs and ambitions of the human beings we surround ourselves with can fuel a brighter tomorrow. Carl will share examples of sustainable change that improves every aspect of a company through adopting a management philosophy of doing less.</p>"
 - speaker:
   name: Greg Baugues
   company:
     name: Table XI
-    url: ~
-  bio: ~
+    url: http://www.tablexi.com/
+  bio: "<p>I live in Chicago with my beautiful wife, Rachel, and serve as Director of Client Services at Table XI. I enjoy speaking, writing, coding and cooking. I love Jesus, and would like to be more like him.</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
+    twitter: greggyb
+    github: gregbaugues
+    website: http://blog.baugues.com/
     dribbble: ~
   talk:
     type: Keynotes
@@ -244,18 +231,17 @@
     discipline: ~
     session: 7
     title: "Developers and Depression"
-    desc: ~
-    fullDesc: TBD
+    desc: "<p>I am a developer, and I have Type II BiPolar and ADHD.</p> <p>It's not something we talk about, but BiPolar, depression, and ADHD runs rampant in the developer community - they tend to correlate with higher intelligence. Many of the symptoms of this conditions make for great developers, but also cause incredible damage. We recently lost one of our co-workers because of untreated mental illness.</p> <p>I want to share my story - and let people know that it's okay to talk about these things, that it's nothing to be ashamed of, and how to get help, and how to help those around them.</p>"
 - speaker:
   name: Garren DiPasquale
   company:
     name: Bank of America
-    url: ~
-  bio: ~
+    url: https://www.bankofamerica.com/
+  bio: "<p>I started out wanting to be an architect but was fascinated with film. Then, after almost attending film school I decided design would allow me to be creative in many mediums and made the decision to pursue it as my career. I would consider myself easy going and laid back. I can solve the Rubiks cube (I can teach you) and don’t like seafood. I attend church (a lot) and help run a school in Haiti. I also enjoy photography, making home movies, Legos, wine with my wife on a fall evening and building tree-houses with my sons. The word most used to describe our family as a whole is “crazy”... In a good way.</p>"
   links:
-    twitter: ~
+    twitter: aduroguy
     github: ~
-    website: ~
+    website: http://www.garrendipasquale.biz/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -264,101 +250,88 @@
     session: 2
     title: "Incorporating Lean UX into Agile"
     desc: ~
-    fullDesc: ~
 - speaker:
   name: Garth Braithwaite
   company:
     name: Adobe
-    url: ~
+    url: http://www.adobe.com/
   bio: ~
   links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
+    twitter: GarthDB
+    github: GarthDB
+    website: http://www.garthdb.com/
+    dribbble: GarthDB
   talk:
     type: Conference Speakers
     day: 3
     discipline: ui
     session: 3
     title: "Designers Can Open Source"
-    desc: ~
-    fullDesc: "<p>This session will cover a few topics in relation to open source design, including:</p>
-                <ul>
-                  <li>Open source licenses</li>
-                  <li>Benefits of open sourcing design work</li>
-                  <li>How to open source work</li>
-                  <li>How to contribute design to open source projects</li>
-                  <li>How to make friends with other designers</li>
-                </ul>
-                <p>This topic is aimed at designers and some development practices will be discussed.</p>"
+    desc: "<p>This session will cover a few topics in relation to open source design, including:</p> <ul> <li>Open source licenses</li> <li>Benefits of open sourcing design work</li> <li>How to open source work</li> <li>How to contribute design to open source projects</li> <li>How to make friends with other designers</li> </ul> <p>This topic is aimed at designers and some development practices will be discussed.</p>"
 - speaker:
   name: James White
   company:
     name: Signal Noise
-    url: ~
-  bio: ~
+    url: http://blog.signalnoise.com/
+  bio: "<p>James White was born in 1977 and calls Dartmouth, Nova Scotia, Canada his home. His parents were never able to keep typewriter paper in the house as James would steal it for drawings as early as the age of 4. Upon graduation of highschool he attended a Graphic Design course in his hometown where he was introduced to Photoshop and Illustrator, tools he still uses today. His professional design career began in 1998 where he cut his teeth designing websites and print campaigns.</p> <p>James never stopped creating and working on his own projects that took up his evenings and weekends which resulted in the creation of Signalnoise Studio. James’ personal projects gained recognition in the industry and led him to working with Toyota, Universal Music, Nike, MTV, Google, Wired and many other clients.</p> <p>Today James is focusing on the alternative art movie poster industry, creating some pieces to compliment his favorite films. He also spends a lot of time on the road speaking at various design conventions and events around the world.</p>"
   links:
     twitter: ~
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://blog.signalnoise.com/
+    dribbble: Signalnoise
   talk:
     type: Conference Speakers
     day: 2
     discipline: ui
     session: 4
     title: "Design Renegade"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>In order to reach our goals in the upside-down world of graphic design, you need to be a rogue. A misfit. A renegade. James White from the Signalnoise Studio has based his career on doing things outside of the ordinary, turning his back on boardrooms and creative briefs in order to chase his design dreams with vengeance and rock n’ roll. He will be telling his story while discussing personal projects built from love and ambition in his small home office in Dartmouth, Nova Scotia. These led to him working with respected people all over the world, from his favourite metal band to film juggernaut Kevin Smith. James will talk about chasing your creative path, building your personal body of work, the value of supporting friends, and never forgetting the artist inside.</p>"
 - speaker:
   name: Jason Vanlue
   company:
     name: Code School
-    url: ~
-  bio: ~
+    url: http://www.codeschool.com/
+  bio: "<p>I'm a problem solver—I believe design is fundamentally about solving problems; making people's lives and the world around us better; and designing for the other side of the screen.</p><p>I lead the design team at Envy Labs, a web consultancy where we make things like Code School, and build digital products for Google, O'Reilly, GitHub, and Cisco. Most importantly, I’m a husband, and father. I'm an ex-swimmer, amateur cyclist, and a borderline crazy UNC Tarheel fan. I also like bourbon. And wine. And short sentences.</p>"
   links:
-    twitter: ~
+    twitter: jasonvanlue
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://jasonvanlue.com/
+    dribbble: jasonvanlue
   talk:
     type: Conference Speakers
     day: 3
     discipline: ux
     session: 1
     title: "Three Pipe Problems"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>There are real problems to be solved in this world. Three pipe problems. Design can solve these problems. We're designers, which means we get the opportunity…the privilege to solve them. What are we doing with that opportunity?</p>"
 - speaker:
   name: Jina Bolton
   company:
     name: Do
-    url: ~
-  bio: ~
+    url: https://do.com/
+  bio: "<p>Jina is a designer and artist living in San Francisco. She likes fancy food, whisky, dark and vintage fashion, Batman, and cats. She loves art in her coffee.</p> <p>Jina enjoys creating beautiful user experiences, speaking at conferences about it, and occasionally writing about it. She works as a product designer at Do. She is very happy there and is not looking for new work. Previously, Jina has worked as a visual and interaction designer at some amazing companies including Apple, Engine Yard, and Crush + Lovely.</p> <p>She is a fan of Sass. She ported 320 and Up over to Sass, and she is helping out with Team Sass Design and Susy Next.</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
+    twitter: jina
+    github: jina
+    website: http://sushiandrobots.com/
+    dribbble: jina
   talk:
     type: Conference Speakers
     day: 2
     discipline: dev
     session: 6
     title: "Realigning & Refactoring UI"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Often designers and developers see Markup and CSS Refactoring as a dreaded, monolithic task. Organization, architecture, clean up, optimization, documentation all seem tedious and overwhelming. However, if you're armed with the right tools and a solid foundation, you may find refactoring to be actually quite fun. Learn some Sass, markup, and documentation tips & tricks from a product designer's perspective. Start making refactoring a regular part of your design process and development workflows.</p>"
 - speaker:
   name: Joel Van Dyke
   company:
     name: Design Thinkers
-    url: ~
-  bio: ~
+    url: http://www.designthinkers.nl/
+  bio: "<p>Joel is the managing director at DesignThinkers Group U.S.A. His educational background in business and architecture has positioned him to think creatively about the application of design thinking and service innovation to business. Joel is especially passionate about the power that results from the alignment of organization’s purpose with customer needs and service offerings. Joel also leads Freeman & Major Architects, LLC, an architecture and strategic design firm based in Greenville, South Carolina. As an architect, Joel focuses on the alignment of facility design and organizational brand, while bringing innovation to both. Joel has an entrepreneur’s passion for new ideas and fostering collaboration.</p>"
   links:
-    twitter: ~
+    twitter: jpvandyke
     github: ~
-    website: ~
+    website: http://joelvandyke.com/
     dribbble: ~
   talk:
     type: Workshops
@@ -366,37 +339,36 @@
     discipline: ui
     session: 1
     title: "Think Like a Startup"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>For an established company, this workshop will help you see your business as if it were a Startup. The workshop will show attendees how to use our Startup Canvas tool to align values with organizational models, culture, propositions, business models and customer values and goals</p>"
 - speaker:
   name: John Long
   company:
     name: UserVoice
-    url: ~
-  bio: ~
+    url: https://www.uservoice.com
+  bio: "<p>John has a background in both programming and design. John's been involved with the Ruby on Rails community since it's inception. He's the creator of Radiant CMS, the first viable open source content management system for Ruby on Rails, and Serve, a rapid prototyping framework for Rails applications. Before coming to UserVoice, John freelanced for several years working with startups and small businesses of all kinds. His clients have included the Pragmatic Programmers, MemberHub.com, and The Scrum Alliance. John lives in Raleigh, NC with his dog Lily.</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
+    twitter: johnwlong
+    github: jlong
+    website: http://wiseheartdesign.com/
+    dribbble: johnwlong
   talk:
     type: Conference Speakers
     day: 3
     discipline: dev
     session: 2
     title: "Defensive Sass - modular styles for the modern web"
-    desc: "We've all found ourselves deep in the heart of a CSS project struggling with mangled CSS selectors, an array of disparately named files, and a deep and nagging feeling that perhaps our markup is not symantic as it should be. But a new hero is arising in CSS-land: Modular CSS. You may know him by one of his many names. SMACSS, Object-Oriented CSS, or BEM. Only he has the power to untangle our worst CSS nightmares. Only he can help us lay a foundation for large CSS projects. In this talk, John Long will delve deep into his bag of tricks to share practical advice about structuring your CSS. We'll talk about a number of helpful principles for simplifying your CSS and look at how modular CSS applies within the context of Sass. You will walk away challenged with something to apply to your current CSS project."
-    fullDesc: ~
+    desc: "<p>We've all found ourselves deep in the heart of a CSS project struggling with mangled CSS selectors, an array of disparately named files, and a deep and nagging feeling that perhaps our markup is not symantic as it should be. But a new hero is arising in CSS-land: Modular CSS. You may know him by one of his many names. SMACSS, Object-Oriented CSS, or BEM. Only he has the power to untangle our worst CSS nightmares. Only he can help us lay a foundation for large CSS projects. In this talk, John Long will delve deep into his bag of tricks to share practical advice about structuring your CSS. We'll talk about a number of helpful principles for simplifying your CSS and look at how modular CSS applies within the context of Sass. You will walk away challenged with something to apply to your current CSS project.</p>"
+    desc: ~
 - speaker:
   name: Kendra Shillington
   company:
     name: Design Thinkers
-    url: ~
-  bio: ~
+    url: http://www.designthinkers.nl/
+  bio: "<p>Kendra is a digital strategist dedicated to creating happy users. The word “interactive” is not just a channel or a category for her work. It’s a way of thinking; it’s how she see's the world, where it’s going, and how she hope's to get there. She is an interactive person in every sense of the word. She likes to own her work; She prefer's to work very hands-on. She chooses to work with clients in a relationship to acquire insights into how their businesses work and how their customers think. She crafts experiences for users, for people. For her it always comes back to why. She is looking for an opportunity to push the practice of experience design forward.</p>"
   links:
-    twitter: ~
+    twitter: kendrashill
     github: ~
-    website: ~
+    website: http://www.kendrashillington.com/
     dribbble: ~
   talk:
     type: Workshops
@@ -404,37 +376,35 @@
     discipline: ui
     session: 1
     title: "Think Like a Startup"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>For an established company, this workshop will help you see your business as if it were a Startup. The workshop will show attendees how to use our Startup Canvas tool to align values with organizational models, culture, propositions, business models and customer values and goals</p>"
 - speaker:
   name: Larry Staton
   company:
     name: Hendrick Automotive
-    url: ~
-  bio: ~
+    url: http://hendrickauto.com/
+  bio: "<p>Larry is a Ruby, JavaScript, Cocoa, iOS developer with a penchant for functional programming languages like LISP, Clojure, and Racket.</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
+    twitter: statonjr
+    github: statonjr
+    website: http://statonjr.github.io/
+    dribbble: statonjr
   talk:
     type: Conference Speakers
     day: 3
     discipline: dev
     session: 3
     title: "HTTP 101"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>We use the web everyday and we know about HTML and JavaScript and CSS, but what do we know about HTTP, the protocol that underlies the web? In this session, you'll learn about all about HTTP.</p>"
 - speaker:
   name: Leslie J. Morse
   company:
     name: Davisbase Consulting
-    url: ~
-  bio: ~
+    url: http://www.davisbase.com/
+  bio: "<p>Business Analyst by trade, collaborative entrepreneur at heart; Leslie has over 10 years of experience in information technology and digital business strategy.  Her diverse experience working in a start-up, small business, Fortune 500 & Fortune 50 organizations across a variety of industries partnered with her passion for high quality analysis and process optimization makes her well suited for assisting organization and individuals with embracing Agile. She is a constant student of the art of software development and has a firm believe that IT organizations are the undercurrent of any business and are the key for achieving success in an economy where technology investments and processes can cultivate or kill a company’s competitive advantage and  profitability.</p><p>Her attention to detail, engaging personality, strategic insight & communication style allow her to work across all levels of an organization building rapport and driving engagement with individual contributors as well as executive leadership.</p>"
   links:
-    twitter: ~
+    twitter: lesliejdotnet
     github: ~
-    website: ~
+    website: http://www.lesliej.net/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -442,19 +412,18 @@
     discipline: ux
     session: 4
     title: "A How-To Guide to Transferable Business Analysis Skills"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>This session will cover transferable Business Analysis skills. As professionals in UX or IT, we're always doing some level of BA even if it's not our primary role &quote;on paper.&quote; Leslie will give us a good overview of what a Business Analyst is/does and a how-to guide of some useful techniques anyone can apply</p>"
 - speaker:
   name: Leslie Jensen-Inman
   company:
     name: The Unicorn Institute
-    url: ~
-  bio: ~
+    url: http://unicorninstitute.com/
+  bio: "<p>Leslie has been designing since the ‘90’s. Her diverse professional background ranges from working as the graphic designer on a major motion picture to serving as a university professor.</p> <p>While a professor, Leslie earned her Doctorate in Learning and Leadership. Through project-based initiatives that applied design as a catalyst for sustainable change, her work—both in and out of the classroom—focused on creating meaningful relationships between education, industry, and community. Her experience, as a professional designer, professor, and doctoral candidate, gave Leslie a unique perspective to understand that most design students were not graduating with the skills they needed to thrive within industry. She recognized that this skill gap led to hiring companies being unable to hire the talent they needed.</p> <p>Leslie realized that companies needed to hire a specific kind of designer but they could not find the right talent. This lead Leslie to work on design education initiatives such as the development of a holistic curriculum for designers through the The Web Standards Project Education Task Force, the Open Web Education Alliance, and the WE (Web Education) Rock Summit/Tour.</p> <p>After years of service to the University, Leslie understood the constraints of a traditional higher education setting and realized that the constraints were not affording educators the opportunity to adequately prepare their students for a career beyond graduation. This realization inspired her to search for a better way to structure a learning environment to support the needs of students and hiring companies.</p>"
   links:
-    twitter: ~
+    twitter: jenseninman
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://www.jenseninman.com/
+    dribbble: jenseninman
   talk:
     type: Keynotes
     day: 3
@@ -462,15 +431,15 @@
     session: 0
     title: "Unicornucopia: Learn the Skills Needed to Survive and Thrive as a Creative Unicorn"
     desc: "Hiring managers need to hire creative unicorns with a specific skill set. And the skills they are looking for may surprise you. Learn how to hone and blend the right skills to have a creative career filled with an abundance of awesomeness."
-    fullDesc: ~
+    desc: ~
 - speaker:
   name: Lisa Welchman
   company:
     name: Welchman Pierpoint
-    url: ~
-  bio: ~
+    url: http://www.welchmanpierpoint.com/
+  bio: "<p>Lisa Welchman is a thought leader in corporate Web strategy and governance. She acts as a Web therapist, helping executives and senior Web strategists struggling with the changes the Internet has wrought and counseling them on how to overcome the organizational roadblocks which hinder corporate online efforts. Clients at The World Bank, Thomson Reuters, Research in Motion, and the U.S. Environmental Protection Agency turn to Lisa to help them better manage their organizations in the digital age.</p> <p>Prior to starting her consulting practice more than a decade ago, Lisa worked at Cisco Systems where she helped build an Internet publishing infrastructure that managed the whopping 800,000 pages of Cisco.com. Pre-Web, Lisa was a ratings analyst and coordinating producer for King World Productions.</p> <p>Lisa has sparked debate and dialogue globally about Web strategy through her blog posts, articles and presentations. She’s been featured in The New York Times, and she’s written for The CBS Interactive Network,  InternetEvolution.com, CIO Insight, Intranets, and Baseline Magazine.</p> <p>She’s a sought-after speaker who presents at conferences around the globe, including the 2010 United Nations Private Sector Forum where she participated in dialogue amongst, industry leaders, CEOs and heads of state regarding how to utilize technology to accelerate the meeting of the Millennium development goals.</p> <p>Lisa holds a BA in Philosophy from the University of North Carolina and was a Philosophy Fellow at Columbia University.</p>"
   links:
-    twitter: ~
+    twitter: lwelchman
     github: ~
     website: ~
     dribbble: ~
@@ -480,16 +449,15 @@
     discipline: ux
     session: 6
     title: "Web Governance: Where Strategy Meets Structure"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>I stop organizational conflict around website development by collaborating to create a web governance framework. I do this in four steps: First, I listen. I visit you and listen to all concerns from all stakeholders. Second, I validate. I write a memo articulating what I saw and heard and what I think your key problems are. This memo is usually five or fewer pages. In my experience, there are really only a few things causing big, pervasive problems. Third, I think. I follow up with stakeholders and brainstorm options for resolving your concerns, giving great consideration to your culture. Fourth, I collaborate. Together, we create a governance framework that will be viable and effective for your organization.</p>"
 - speaker:
   name: Magnus Bergmark
   company:
     name: Doberman
-    url: ~
-  bio: ~
+    url: http://www.doberman.se/
+  bio: "<p>Magnus Bergmark is Business Strategy Director at Doberman. As an experienced digital and service design strategist he leads the work in some of Doberman's larger accounts and helps companies design and innovate services that deliver market leading customer experiences. Magnus has a background as web entrepreneur and brand strategist and is an appreciated speaker at conferences and educations with focus on innovation, digital strategy and service design.</p>"
   links:
-    twitter: ~
+    twitter: mangepange
     github: ~
     website: ~
     dribbble: ~
@@ -499,37 +467,35 @@
     discipline: ux
     session: 1
     title: "The Design in Service Design"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Service Design is often, well deserved, praised for its analytical and strategic advantages. But if we forget to acknowledge the most central aspect of the discipline it will loose its true glimmering power. Design as the element of surprise. Service Design is not Design just because we call it Design. We have to nourish it. Because the purpose of Service Design is to result in the delivery of a valuable experience, design must be a process of creating and executing.</p>"
 - speaker:
   name: Marco Suarez
   company:
     name: Mailchimp
-    url: ~
-  bio: ~
+    url: http://mailchimp.com/
+  bio: "<p>Marco is an artist, designer, musician, husband, father, and believer</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
+    twitter: MarcoSuarez
+    github: MarcoSuarez
+    website: http://marcosuarez.com/
+    dribbble: MarcoSuarez
   talk:
     type: Conference Speakers
     day: 3
     discipline: ui
     session: 6
     title: "What I learned while starting an intensive design class"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>I took a job with The Iron Yard, a tech accelerator in Greenville, SC, to start an intensive design class. I quickly realized that my assumptions about education and design could not have been more wrong.</p>"
 - speaker:
   name: Marc Bolick
   company:
     name: Design Thinkers
-    url: ~
-  bio: ~
+    url: http://www.designthinkers.nl/
+  bio: "<p>Marc is a passionate practitioner of design thinking and service design methodologies, and loves balancing both left and right brain approaches to solving problems.  He has worked in all aspects of product and service creation for companies ranging from Fortune 100 multinationals to mid-sized European firms to start-ups.  For the past nine years he has run Dmarc8 International, a consulting firm focused on product innovation and strategic growth projects</p>"
   links:
-    twitter: ~
+    twitter: Dmarc8
     github: ~
-    website: ~
+    website: http://www.dmarc8.com/
     dribbble: ~
   talk:
     type: Workshops
@@ -537,19 +503,18 @@
     discipline: ui
     session: 1
     title: "Think Like a Startup"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>For an established company, this workshop will help you see your business as if it were a Startup. The workshop will show attendees how to use our Startup Canvas tool to align values with organizational models, culture, propositions, business models and customer values and goals</p>"
 - speaker:
   name: Matt Stevens
   company:
     name: Design Office of Matt Stevens
-    url: ~
-  bio: ~
+    url: http://hellomattstevens.com/
+  bio: "<p>A designer, illustrator, speaker and creative tinkerer living in Charlotte, North Carolina that believes you have to find ways to do work that you love, even if it means creating it for yourself. His MAX100 project grew from self-initiated web adventure, to Kickstarter project, to a published book sitting on coffee tables and in sneaker shops in over 25 countries.</p><p>He has created design and illustration for clients such as the NBA, Facebook, Nike, New York Magazine / Vulture, JJ's Red Hots, Wired Magazine, TBWA/London, The Salvation Army, The Designer Fund, and Dunkin Donuts. For clients big and small, he strives to create work that is effective, thoughtful and reflects a unique point of view.</p>"
   links:
-    twitter: ~
+    twitter: MattStevensCLT
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://cargocollective.com/mattstevens
+    dribbble: MattStevensCLT
   talk:
     type: Conference Speakers
     day: 2
@@ -557,17 +522,16 @@
     session: 6
     title: Fight to do the Work You Love
     desc: ~
-    fullDesc: ~
 - speaker:
   name: Rich Robinson
   company:
     name: Skookum
-    url: ~
+    url: http://skookum.com/
   bio: ~
   links:
-    twitter: ~
+    twitter: rrobinson81
     github: ~
-    website: ~
+    website: http://www.richardrobinson.me/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -576,34 +540,32 @@
     session: 2
     title: "Designers & Developers (In Harmony)"
     desc: ~
-    fullDesc: ~
 - speaker:
   name: Michael Parenteau
   company:
     name: Think Relevance
-    url: ~
-  bio: ~
+    url: http://thinkrelevance.com/
+  bio: "<p>Michael has been on a creative path since his first box of crayons. He is a husband, father... and devoted to making really cool things!</p><p>Born in Massachussets, but grew up all over, Michael has been to 49 of the 50 states. He's walked across the country and has been known to leave a trail of art hanging on the walls of those who've provided hospitality.</p><p>Michael works like everything's in a sketchbook & likes to embrace happy accidents. He believes that misplaced pixels are merely opportunities mid-process.</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
+    twitter: parenteau
+    github: michaelparenteau
+    website: http://michaelparenteau.com/
+    dribbble: michaelparenteau
   talk:
     type: Conference Speakers
     day: 3
     discipline: dev
     session: 5
     title: "Remote Pairing for Designers and Developers"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>The world we live in today allows us to work more closely together in a collaborative process than ever... and yet we are not limited by physical space. More and more people are working remote and in ways that they have found themselves more effective than ever. </p> <p>Here we will take a look at some of the tools and processes that are used to collaborate with each other, whether we are in the same, or maybe completely different, role or discipline. We will take a look at some tools and processes that were effective in a colocated world and how we have been bringing that to the distributed.</p>"
 - speaker:
   name: Michael Chatten
   company:
     name: Myjive
-    url: ~
+    url: http://www.myjive.com
   bio: ~
   links:
-    twitter: ~
+    twitter: michaelchatten
     github: ~
     website: ~
     dribbble: ~
@@ -613,19 +575,18 @@
     discipline: ui
     session: 2
     title: "Discovering Unexpected Ideas Using Generative Design"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Explore ways technology has evolved design, introduce brave new concepts and get hands-on training and tools to create your own generative designs.</p>"
 - speaker:
   name: Mike Bifulco
   company:
     name: Microsoft
-    url: ~
-  bio: ~
+    url: http://www.microsoft.com
+  bio: "<p>Mike is a User Experience Designer at Microsoft, specializing in Windows Store App Design. Professional human, amateur musician, cycling enthusiast, car nut. Crime fighter by night</p>"
   links:
-    twitter: ~
+    twitter: mbifulco
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://uxgeek.tumblr.com/
+    dribbble: mbifulco
   talk:
     type: Conference Speakers
     day: 2
@@ -633,36 +594,34 @@
     session: 5
     title: Designing for Windows 8 vs iOS and Android
     desc: ~
-    fullDesc: ~
 - speaker:
   name: Mindy Wagner
   company:
     name: Viget Labs
-    url: ~
-  bio: ~
+    url: http://viget.com/
+  bio: "<p>Mindy has been working as a professional web and graphic designer for over 10 years. She is currently a senior web designer at Viget Labs. She's into great design that adheres to web standards. She loves to work, and loves to learn new things.</p>"
   links:
-    twitter: ~
+    twitter: graphicsgirl
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://mindy-designs.com/
+    dribbble: mindywagner
   talk:
     type: Conference Speakers
     day: 2
     discipline: ui
     session: 5
     title: "Convincing Clients Without (Much) Bravado"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Coming up with a flawless design is only half the battle. You also have to get your best ideas past the clients even those who have trouble understanding traditional design deliverables. Not everyone is ready to walk into a room Don Draper style and say 'This. Or nothing'. But it’s our job to sell the best solution to even the toughest crowd, and you can still do plenty of convincing without the ego overload.  A little bit of psychology and a persistent stream of client collaboration go a long way. We’ll break down the process for keeping clients engaged and explore tricks for getting past obstacles in the approval process.</p>"
 - speaker:
   name: Nick Finck
   company:
     name: projekt202
-    url: ~
-  bio: ~
+    url: http://projekt202.com/
+  bio: "<p>Nick Finck is a user experience professional who has worked in the web industry for over a decade. He specializes in information architecture, interaction design, usability and user research for web and mobile.</p> <p>Nick has created web and mobile experiences for Fortune 500 companies including Adobe, Intel, REI, Boeing, Google, and Oprah.com. He lives and plays in Seattle, Washington, where he’s the User Experience Director at Ubermind, the leading digital agency specializing in mobile and emerging technologies.</p> <p>Prior to working at Ubermind he was a founder of Blue Flavor, a user experience consultancy, where they launched one of the very first web applications for the iPhone.</p> <p>Nick was the publisher of Digital Web Magazine, an online publication for web professionals, for ten years. He is actively involved in the web community, helping as adviser to such events as SXSW Interactive, the Information Architecture Summit, WebVisions, InfoCamp Seattle. Nick has also judged The Webby Awards and the SXSW Web Awards.</p> <p>He has built a reputation as a community volunteer, promoting growth within the web industry both locally and abroad. You can find Nick giving workshops for leading organizations such as Microsoft, Bill and Melinda Gates Foundation, and the Seattle Public Library. He has presented at most major conferences including SXSW, CHI, MIX, and more. Nick has also helped create an open source curriculum for web professionals and has lectured for and advised universities on their educational programs.</p>"
   links:
-    twitter: ~
+    twitter: nickf
     github: ~
-    website: ~
+    website: http://nickfinck.com/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -671,17 +630,16 @@
     session: 3
     title: The Nuances of UX
     desc: "<p>When doing any kind of design work, the devil is always in the details.  It is easy and often important for us to quickly rush through our wireframes and prototypes to meet a client deadline, but as professionals we must not overlook the subtleties that can turn a good experience into a great experience.  This talk is about the little details we see in apps and websites we use every day, but often fail to notice.  We fail to notice them because they provide for a much smoother user experience. You will learn how to design for these experiences even with a tight deadline and within a agile workflow. After this presentation you'll never look at another app or website the same again.</p>"
-    fullDesc: ~
 - speaker:
   name: Patrick Quattlebaum
   company:
     name: Adaptive Path
-    url: ~
-  bio: ~
+    url: http://www.adaptivepath.com/
+  bio: "<p>Patrick blends a deep knowledge of design with a pragmatic consulting approach to ensure the best ideas become real experiences.</p> <p>As Managing Director, Patrick guides the evolution of Adaptive Path’s services in response to the emerging needs of our clients.  He is also an in demand consultant who helps organizations envision, architect, and manifest new product and service experiences. He’s a passionate storyteller, facilitator, and teacher.</p> <p>Patrick joined the San Francisco studio after nearly a decade of service at Macquarium Intelligent Communications, where he built the firm’s user experience practice from the ground up, and crafted experience strategies across numerous industries and problem spaces.</p> <p>He received a MS in Information Design & Technology from the Georgia Institute of Technology, but he is thankful everyday for his humanities degree in English from the Honors College at the University of South Carolina. In fact, Patrick urges leaders in business and technology to look to the humanities for inspiration as we move beyond the industrial age. </p> <p>When not scribbling design ideas on walls, Patrick can usually be found walking around a city in search of a great meal, an engaging film, an improve class, or a good cup of coffee. He also loves to travel and hopes you will invite him to speak, teach, or consult in your neck of the woods soon.</p>"
   links:
-    twitter: ~
+    twitter: ptquattlebaum
     github: ~
-    website: ~
+    website: http://about.me/ptquattlebaum
     dribbble: ~
   talk:
     type: Workshops
@@ -689,18 +647,17 @@
     discipline: ux
     session: 2
     title: "Service Design Making"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Service design is more than thinking. You'll learn several lo-fi methods to generate and refine concepts for better service experiences.</p>"
 - speaker:
   name: Rachel Nabors
   company:
     name: RachelNabors.com
-    url: ~
+    url: http://rachelnabors.com/
   bio: ~
   links:
-    twitter: ~
-    github: ~
-    website: ~
+    twitter: rachelnabors
+    github: rachelnabors
+    website: http://www.rachelthegreat.com/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -708,18 +665,17 @@
     discipline: dev
     session: 4
     title: "JavaScript for Designers"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Coming to JavaScript from design without programming experience can be disorienting. jQuery makes it easy to get things done without a computer science degree. But dig a little deeper and you find yourself in unknown territory: What exactly does an object look like? What’s a method? Or a first-class object? And what is up with the turf warfare over functional vs. OOP? This talk is great for anyone without programming experience who wants to understand JavaScript and basic programming concepts better. Expect lots of 'ah-ha!' moments and funny illustrations from award-winning cartoonist turned front-end developer Rachel Nabors.</p>"
 - speaker:
   name: Rachel Parsons
   company:
     name: Cardinal Solutions
-    url: ~
-  bio: ~
+    url: http://www.cardinalsolutions.com
+  bio: "<p>Rachel has been programming professionally since 2003, but has been heavily involved in computers since the mid-90s. She was building computers in middle school, embraced web development in high school, and got serious about object oriented programming in college. Initially, she thought she wanted to be a web designer, but she found web design wasn’t challenging enough and returned to programming. When she learned java, she finally realized how fun programming is.</p> <p>Currently, she's a principal software developer for an IT consulting firm, Cardinal Solutions. She works for a variety of clients on a variety of applications including mobile apps, BI dashboards, web applications, windows applications, services, APIs, and everything in between.</p>"
   links:
-    twitter: ~
+    twitter: pinkeerach
     github: ~
-    website: ~
+    website: http://tech.prandom.com/blog/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -728,17 +684,16 @@
     session: 5
     title: "iOS Development: Designers + Developers"
     desc: ~
-    fullDesc: ~
 - speaker:
   name: Rikki Teeters
   company:
     name: Cardinal Solutions
-    url: ~
-  bio: ~
+    url: http://www.cardinalsolutions.com
+  bio: "<p>Rikki is an Experience Strategist and UX Consultant with a passion for problem solving based on the interactions between humans and technology. She was born with a curiosity for exploration and fascination with technology. Following her passion, she studied Interaction Design at Miami University and continued my education at Savannah College of Art & Design. In 2010, she discovered the field of User Experience design and began my mission to make the world a better place through UX. Currently, She is the Regional Co-coordinator for IxDA North America and she is working as a User Experience Strategist & Designer in Cincinnati, Ohio.</p>"
   links:
-    twitter: ~
+    twitter: RikkiCreative
     github: ~
-    website: ~
+    website: http://rikkixd.com/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -746,18 +701,17 @@
     discipline: ux
     session: 4
     title: "Creating a Holistic Financial Experience Strategy"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Large financial institutions have lost the trust of their customers. The traditional branch is not dead, it just needs to be revived. It is crucial for banks to create an Omin-Channel Experience Strategy in order to survive in the harsh economic climate. User Experience has a major impact on whether a organization is leading or falling behind. New unexpected competitors such as Simple and mBank are raising UX standards and making a big impact on the industry. Considering the rapid pace of change in the technology industry, organizations must not tie their Experience Strategy to specific technologies but instead focus on creating positive experience across all channels and touch points. During this talk we will discuss how to create a holistic financial experience strategy, while thinking about what this means for the future. </p>"
 - speaker:
   name: Ron Edelen
   company:
     name: Myjive
-    url: ~
-  bio: ~
+    url: http://www.myjive.com
+  bio: "<p>Ron Edelen, Creative Director and Partner at Myjive, a digital experience agency proven to create interactive and engaging digital marketing solutions. Our diverse team provides a wide range of marketing services including: advertising and branding; campaign strategy and measurement; emerging technologies, production and digital user experiences. Myjive has worked with brands like TEDxCharlotte, NAPA Filters, BMW Mini and VELUX through its offices in Charlotte, N.C. and Orlando, Fla. with a mission to help companies evolve in the digital age.</p>"
   links:
-    twitter: ~
+    twitter: ronedelen
     github: ~
-    website: ~
+    website: http://www.ronedelen.com/
     dribbble: ~
   talk:
     type: Workshops
@@ -765,37 +719,35 @@
     discipline: ui
     session: 2
     title: "Discovering Unexpected Ideas Using Generative Design"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Explore ways technology has evolved design, introduce brave new concepts and get hands-on training and tools to create your own generative designs.</p>"
 - speaker:
   name: Sara Blake
   company:
     name: ZSO
-    url: ~
-  bio: ~
+    url: http://hellozso.com/
+  bio: "<p>Sara Blake, AKA ZSO, is an NYC-based illustrator, designer, and fine artist. She is a graduate of NYU’s Gallatin School of Individualized Study with a concentration in Graphic Art and Postmodern Studies, but has worked in design and art direction since graduation. Based in the West Village, Sara now works as a freelance illustrator and exhibiting artist, as well as a freelance art director, who currently works for IBM. In addition, she owns and manages a small textile company called ZSO-NYC.</p>"
   links:
-    twitter: ~
+    twitter: helloZSO
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://hellozso.com/
+    dribbble: hellozso
   talk:
     type: Conference Speakers
     day: 2
     discipline: ui
     session: 3
     title: "The Love of Making"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>It's pretty simple really—we are who were were as children. Regardless of your discipline, your tools, your age, or your experience, I think the root of all our creative passions and fortitude comes down to very simple things: love and passion, and listening to our inner 3rd grader. I'll be taking everyone through some of my silly drawings and explaining how my childhood, poor eyesight, and simple love of making stuff translated into picture making, as well as showing lots of behind the scenes for my process of meshing digital tools with the hand-made.</p>"
 - speaker:
   name: Shay Howe
   company:
     name: Belly
-    url: ~
-  bio: ~
+    url: https://bellycard.com/
+  bio: "<p>As a designer and front end developer, Shay Howe has a passion for solving problems while building creative and intuitive products. Shay specializes in product design and interface development, specialties which he also writes and teaches about. Additionally, Shay helps co-organize Chicago Camps, Refresh Chicago, and UX Happy Hour</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
+    twitter: shayhowe
+    github: shayhowe
+    website: http://www.shayhowe.com/
     dribbble: ~
   talk:
     type: Workshops
@@ -803,16 +755,15 @@
     discipline: dev
     session: 1
     title: "Front-End Legos: Reusable HTML and CSS"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>HTML & CSS are a websites backbone. Attendees will be able to better organize their code, develop modular styles, and work with CSS specificity.</p>"
 - speaker:
   name: Teresa Rench
   company:
     name: Wells Fargo
-    url: ~
+    url: http://www.wellsfargo.com
   bio: '<p>Teresa is a User Experience Designer with over 15 years of experience in strategy, visual design, interaction design, information architecture, usability, and front-end development. Due to her wide range of skills as a generalist, she is a strong “utility player”, enabling her to act as a hands-on lead for interdisciplinary teams and fill multiple roles as needed to best suit the team and project.</p><p>Teresa has spent the majority of her career specializing in web-based applications and consulting with companies both large and small across a broad range of industries. She has more recently delved into cross-channel customer experience and service design. She currently works for Wells Fargo as a Customer Experience Lead</p>'
   links:
-    twitter: ~
+    twitter: techsavvydesign
     github: ~
     website: ~
     dribbble: ~
@@ -822,18 +773,18 @@
     discipline: ux
     session: 5
     title: "Collaborative by Design"
-    desc: "Teresa will share some tips and tricks she has learned along the way for creating a collaborative team working environment by opening lines of communication, encouraging cross-disciplinary education, and helping the team to maintain focus on the product and customer"
-    fullDesc: ~
+    desc: "</p>Teresa will share some tips and tricks she has learned along the way for creating a collaborative team working environment by opening lines of communication, encouraging cross-disciplinary education, and helping the team to maintain focus on the product and customer</p>"
+    desc: ~
 - speaker:
   name: Tessa Harmon
   company:
     name: Skookum
     url: ~
-  bio: ~
+  bio: "<p>Tessa is a software developer at Skookum, Charlotte native, plant eater, gin drinker, polka dot lover, co-organizer of Charlotte Front-End Developers and all around high contrast gal."
   links:
-    twitter: ~
-    github: ~
-    website: ~
+    twitter: TessaHarmon
+    github: TessaHarmon
+    website: http://tessaharmon.com/
     dribbble: ~
   talk:
     type: Workshops
@@ -841,37 +792,35 @@
     discipline: dev
     session: 2
     title: "Building Single Page Apps"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>A talk on the role of a generalist as a facilitator for collaboration in teams. How to foster a collaborative team culture, how to facilitate, how to communicate effectively and leave egos out of it by focusing on the product and the end user.</p>"
 - speaker:
   name: Tim Smith
   company:
     name: The East Wing
-    url: ~
-  bio: ~
+    url: http://theeastwing.net/
+  bio: "<p>Tim Smith is a user interface and web designer based in St. Paul, Minnesota. A natural host, Tim inspires people all over the world with his podcast, The East Wing, where he interviews some of the best from the web and creative industries.</p><p>When Tim isn't chatting on Twitter, organizing his next project or generally just geeking out, he's just as happy to be watching the Lakers or sipping some coffee, like a dude.</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
+    twitter: ttimsmith
+    github: ttimsmith
+    website: http://ttimsmith.com/
+    dribbble: ttimsmith
   talk:
     type: Conference Speakers
     day: 2
     discipline: ui
     session: 2
     title: "Become a Better Designer with Side Projects"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>It's been my experience that side projects have the ability to elevate designer, developers and more to a different level. If you choose these wisely, they can sharpen existing skills and create new ones. This session will cover side projects that have helped me, why they've helped, and suggestions for what you could do.</p>"
 - speaker:
   name: Vernon Kesner
   company:
     name: Ally
     url: ~
-  bio: ~
+  bio: "<p>Vernon Kesner is a web presentation architecture evangelist at Ally Bank. He started as a freelance web designer in 2002. He joined Ally Financial in 2010 and grew a team using HTML5, CSS3, Sass, Compass, Haml, & PhantonJS.</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
+    twitter: vernonk
+    github: vernonk
+    website: http://vernonkesner.com/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -880,36 +829,35 @@
     session: 2
     title: "Modular Development with RequireJS"
     desc: "Front-end development has suffered from a lack of dependency management resulting in lots of script tags loaded in a highly specific order and usually tightly coupled applications. In Modular Development with RequireJS, you'll learn how to segment your JavaScript into loosely coupled modules increasing the maintainability of your application"
-    fullDesc: ~
+    desc: ~
 - speaker:
   name: Wren Lanier
   company:
     name: Bramble
     url: ~
-  bio: ~
+  bio: "<p>Wren Lanier is a web designer and internet geek with a passion for creating smart, kick-ass sites that get the job done. She’s been building internet-things for fun and profit since 1999, with a passion for web standards and elegant user experience. Her favorite things include bagels, trouble-making, and pages that validate on the first try.</p>"
   links:
-    twitter: ~
+    twitter: heywren
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://wrenlanier.com/
+    dribbble: heywren
   talk:
     type: Conference Speakers
     day: 3
     discipline: ui
     session: 5
     title: "Secret Sauce: Designing on the Z-Axis"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>No matter what screen size you're designing for, multi-layered experiences are an important part of every designer's toolbox. Flat may be trendy, but depth is where it's at! I'll share my obsession with z-axis and show you ways it can be used to solve tricky UI problems and create deep, immersive experiences. </p>"
 - speaker:
   name: Wynn Netherland
   company:
     name: GitHub
-    url: ~
-  bio: ~
+    url: http://www.github.com
+  bio: "<p>Wynn is a full stack developer at GitHub. He grew up in Louisiana, went to school in Arkansas, but Texas is now home. He's been building on the web for over fifteen years, almost as long as he's been married to his high school sweetheart. He's worked in huge companies and small startups.</p>"
   links:
-    twitter: ~
-    github: ~
-    website: ~
+    twitter: pengwynn
+    github: pengwynn
+    website: http://wynnnetherland.com/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -917,56 +865,54 @@
     discipline: dev
     session: 4
     title: "Craft your own IDE in the shell"
-    desc: "In this talk we'll show you how to get off the ⌘+TAB merry go round and roll your own project-specific workspaces in the shell using tmux, Vim, Git, grc, and other open source text mode goodies. You'll spend less time setting up your tools to work and more time actually working."
-    fullDesc: ~
+    desc: "<p>In this talk we'll show you how to get off the ⌘+TAB merry go round and roll your own project-specific workspaces in the shell using tmux, Vim, Git, grc, and other open source text mode goodies. You'll spend less time setting up your tools to work and more time actually working.</p>"
+    desc: ~
 - speaker:
   name: Yesenia Perez-Cruz
   company:
     name: Happy Cog
-    url: ~
-  bio: ~
+    url: http://happycog.com/
+  bio: "<p>Yesenia joined the Happy Cog team just two weeks after graduating from Drexel University’s Antoinette Westphal College of Media Arts with a degree in graphic design. Four years, many design articles, and thousands of coffees later, she's had the pleasure of creating beautiful, intuitive design systems for clients like MTV, Zappos.com, and Iron Chef Jose Garces. </p> <p>An active member of the web community, Yesenia is passionate about sharing and learning from her peers. She's spoken at AIGA Philadelphia and Orlando about Designing for Content Management Systems. She shared her experiences about designing responsively at SXSW and Artifact Conference. She also is an instructor for Girl Develop It, an organization which empowers women to work on the web. She recently joined the A List Apart staff as an acquisitions scout. </p> <p>In her spare time, Yesenia enjoys watching cooking and singing competitions, personifying her two cats, organizing her enormous lipstick collection, going on hikes, and feeding her hungry alter-ego, Perez Chews. </p>"
   links:
-    twitter: ~
+    twitter: yeseniaa
     github: ~
-    website: ~
-    dribbble: ~
+    website: http://www.yeseniaperezcruz.com/
+    dribbble: yesenia
   talk:
     type: Conference Speakers
     day: 2
     discipline: ui
     session: 1
     title: "One Size Fits None: Creating Flexible Design Processes"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Yesenia will talk about how designing for an infinite amount of screen sizes has emphasized how important it is for a designer to be nimble. Through various case studies, She'll explain different problems she's solved in her design work and how the various tools in her 'toolkit' have helped her solve these problems. Through the talk, she will cover different parts of the design phase, from discovery through creating a design system.</p>"
 - speaker:
   name: Yoko Harada
   company:
     name: Think Relevance
-    url: ~
-  bio: ~
+    url: http://thinkrelevance.com/
+  bio: "<p>Yoko is an Open Source contributer. She has worked for JRuby and Nokogiri as a committer for years . Also, she has been contributed to Ruby community. Last fall, Yoko organized the first RailsGirls Tokyo, and try(:english) at Sapporo RubyKaigi. Now, she works for Relevance, Inc. as a developer and enjoys polyglot programming of Ruby, Java and Clojure.</p>"
   links:
     twitter: ~
-    github: ~
-    website: ~
-    dribbble: ~
+    github: yokolet
+    website: http://yokolet.blogspot.com/
+    dribbble: yokolet
   talk:
     type: Conference Speakers
     day: 2
     discipline: dev
     session: 3
     title: "Ruby Meets Clojure Flavored Database"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>Datomic is a new database categorized as NewSQL and was created by Rich Hickey. Everybody knows this big name and thinks of Clojure. It is true Datomic fits well to Clojure programming. However, it is not only for Clojure people. </p> <p>Absolutely, Rubyists can use it. We have Diametric gem (https://github.com/relevance/diametric). Using Diametric, we can dive into Datomic from Ruby, from Rails.</p> <p>On Diametric, Datomic's entity is an ActiveModel compliant. Diametric supports Rails' scaffolding.Its usage might look like Datamapper or MongoDB. Eventually, Diametric’s API design settled in a bit far from Ruby, Rails style. In another word, it is not ORM-like. Even though the API design may puzzle Rubyists, Diametric chose the one to expose Datomic's intrinsic properties. It is to leverage a good side of Datomic for us. I believe the more Rubyists use Diametric, the more they like it.</p> <p>In my talk, I’ll introduce Diametric gem and how to use it as well as why its API design is good for us. Also, I will cover how Ruby helped to integrate Datomic API in Diametric gem.</p>"
 - speaker:
   name: Zoe Gillenwater
   company:
     name: ATT
-    url: ~
-  bio: ~
+    url: http://www.att.com
+  bio: "<p>Zoe Mickley Gillenwater is a web designer, developer, and consultant who loves creating sites that work for as many people and devices as possible. She wrote an entire book on fluid web sites two years before &quote;responsive web design&quote; had a name (Flexible Web Design: Creating Liquid and Elastic Layouts with CSS), and has also authored the book Stunning CSS3: A Project-based Guide to the Latest in CSS and the video training title Web Accessibility Principles for lynda.com. She's written articles for publications like .net Magazine and Smashing Magazine, and has spoken at conferences like SXSW and Future of Web Design. Zoe currently works as a web accessibility specialist for AT&T's Customer Experience Team.</p>"
   links:
-    twitter: ~
+    twitter: zomigi
     github: ~
-    website: ~
+    website: http://zomigi.com/
     dribbble: ~
   talk:
     type: Conference Speakers
@@ -974,5 +920,4 @@
     discipline: dev
     session: 1
     title: "Putting Flexbox into practice"
-    desc: ~
-    fullDesc: ~
+    desc: "<p>The Flexible Box Layout module, called &quote;flexbox&quote; for short, is the most fully developed and well supported of CSS3’s wide array of new techniques for creating page layouts. Web developers are itching to use it, and with good reason—flexbox allows you to create fluid, responsive layouts without having to worry about crazy percentage grid widths, negative margins, float drop, and all those pesky CSS layout quirks we’ve dealt with for over a decade.</p> <p>It all sounds great, but how do you actually put it to use in the real world—today? In this session, you’ll learn when to use flexbox, what the browser-specific variants are, and how to use it to build responsive multi-column page layouts without the headache. Plus, for those of us who just want to dip a toe in for now, we’ll look at some practical ideas for how to use flexbox as progressive enhancement, adding it in bits and pieces on individual page components with graceful fallbacks.</p>"

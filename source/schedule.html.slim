@@ -2,12 +2,10 @@
 title: Blend Conference - A 3 Day Conference about User Experience, UI Design, and Development in Charlotte, NC
 id: sessions
 ---
-== partial "/layouts/partials/navigation"
-
 #masthead role="banner"
 	h1 An amazing <b>3-day schedule</b>
 
-.session-groups
+article.session-groups
 	.day#workshop-day
 		h2 Workshops
 		h3 Thursday, Sept. 5th
@@ -84,10 +82,3 @@ id: sessions
 		ul.party
 			li.time 7:00pm
 			li.description: h4 After Party
-
-	/ ul
-	/ 	/ - data.speakers.shuffle.first(9).each do |speaker|
-	/ 	- data.speakers.each do |speaker|
-	/ 		li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
-	/ 			strong #{speaker.name} <span>#{speaker.company.name}</span>
-	/ 			a href="#" <div class="right-hex"></div><div class="left-hex"></div>

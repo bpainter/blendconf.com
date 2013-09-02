@@ -127,6 +127,14 @@
     facebook: ~
     website: http://codepen.com/
 - sponsor:
+  type: tertiary
+  name: The Daemon Fund
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://daemonfund.com/
+- sponsor:
   type: community
   name: "iT-ology"
   description: ~

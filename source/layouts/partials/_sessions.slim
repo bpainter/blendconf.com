@@ -7,15 +7,15 @@ ul class="#{ talkType == 'Keynotes' ? 'keynotes' : 'session' }"
         li.description.ux class="session-#{i}"
           h4.title #{speaker.talk.title}
           h5.track User Experience Track
-          a.speaker href="#" Anders Frostenson & Magnus Bergmark
-          a.company href="#" #{speaker.company.name}
+          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" Anders Frostenson & Magnus Bergmark
+          a.company href="#{speaker.company.url}" #{speaker.company.name}
 
       - else
         li.description.ux
           h4.title #{speaker.talk.title}
           h5.track User Experience Track
-          a.speaker href="#" #{speaker.name}
-          a.company href="#" #{speaker.company.name}
+          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.name}
+          a.company href="#{speaker.company.url}" #{speaker.company.name}
           .simple-hexagon class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}" <div class="right-hex"></div><div class="left-hex"></div>
   - data.speakers.each_with_index do |speaker, i|
     - if speaker.talk.type == "#{talkType}" && speaker.talk.day == talkDay && speaker.talk.session == talkSession && speaker.talk.discipline == "ui"
@@ -23,33 +23,33 @@ ul class="#{ talkType == 'Keynotes' ? 'keynotes' : 'session' }"
         li.description.ux class="session-#{i}"
           h4.title #{speaker.talk.title}
           h5.track Design Track
-          a.speaker href="#" Joel Van Dyke, Kendra Shillington, & Marc Bolick
-          a.company href="#" #{speaker.company.name}
+          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" Joel Van Dyke, Kendra Shillington, & Marc Bolick
+          a.company href="#{speaker.company.url}" #{speaker.company.name}
       - elsif speaker.talk.title == "Discovering Unexpected Ideas Using Generative Design"
         li.description.ui class="session-#{i}"
           h4.title #{speaker.talk.title}
           h5.track Design Track
-          a.speaker href="#" Ron Edelen, Michael Chatten, & Albert Banks
-          a.company href="#" #{speaker.company.name}
+          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" Ron Edelen, Michael Chatten, & Albert Banks
+          a.company href="#{speaker.company.url}" #{speaker.company.name}
       - else
         li.description.ui
           h4.title #{speaker.talk.title}
           h5.track Design Track
-          a.speaker href="#" #{speaker.name}
-          a.company href="#" #{speaker.company.name}
+          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.name}
+          a.company href="#{speaker.company.url}" #{speaker.company.name}
   - data.speakers.each do |speaker|
     - if speaker.talk.type == "#{talkType}" && speaker.talk.day == talkDay && speaker.talk.session == talkSession && speaker.talk.discipline == "dev"
       li.description.dev
         h4.title #{speaker.talk.title}
         h5.track Development Track
-        a.speaker href="#" #{speaker.name}
-        a.company href="#" #{speaker.company.name}
+        a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.name}
+        a.company href="#{speaker.company.url}" #{speaker.company.name}
   - data.speakers.each do |speaker|
     - if speaker.talk.type == "Keynotes" && speaker.talk.day == talkDay && speaker.talk.session == talkSession
       li.description.dev
         h4.title #{speaker.talk.title}
         h5.track Keynote
-        a.speaker href="#" #{speaker.name}
-        a.company href="#" #{speaker.company.name}
+        a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.name}
+        a.company href="#{speaker.company.url}" #{speaker.company.name}
 
 

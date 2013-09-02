@@ -42,6 +42,10 @@ require 'susy'
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+# Generate speaker pages from /data/speakers.yml
+data.speakers.each do |speaker|
+  proxy "/speakers/#{speaker[:name].downcase.tr(" ", "-").tr(".", "")}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
+end
 
 
 # ----------------------------------------------

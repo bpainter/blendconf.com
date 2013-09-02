@@ -10,12 +10,10 @@ id: home
 
 	a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Primary" Register
 
-== partial "/layouts/partials/navigation"
-
 #skinny
 	h2 A slightly <b>different spin</b> on web conferences
 	ul
-		li <strong>50 Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
+		li <strong>50+ Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
 		li <strong>40 Talks</strong> Over the 2 conference days there will be 40 talks total spread across 3 tracks. Pick and choose the topics that you find interesting.
 		li <strong>6 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
 		li <strong>No Devices</strong> Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones won't be allowed to be used during the conference sessions.
@@ -33,13 +31,16 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 		a.button href="http://twitter.com/blendconf" Follow @blendconf
 
 #speakers
-	h2 <b>50 speakers</b> covering user experience, development, and design
+	h2 <b>50+ speakers</b> covering user experience, development, and design
 	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
 	ul.hive.hexagon
-		- data.speakers.each do |speaker|
+		- data.speakers.shuffle.first(9).each do |speaker|
 			li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
 				strong #{speaker.name} <span>#{speaker.company.name}</span>
-				a href="#" <div class="right-hex"></div><div class="left-hex"></div>
+				a href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
+		li class="more"
+				strong + 43 more
+				a href="/speakers/"
 
 #schedule
 	h2 An amazing <b>3-day schedule</b>
@@ -59,7 +60,7 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 			h4 Saturday, Sept. 7th
 			p Our blend day is something special. You still have 16 sessions to choose from but talks are aimed at helping you discover your inner generalist.
 
-	a==link_to "Full Schedule", "/schedule", :class => 'button'
+	a==link_to "Full Schedule", "/schedule/", :class => 'button'
 
 #venue
 	/ #map
@@ -68,4 +69,6 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 	p The conference will be held at <a href="http://www.blakehotelnc.com/" data-type="Hotel">The Sheraton</a> (formerly the Blake Hotel). <br /><strong>The Sheraton is now full.</strong>
 
 	p Hotels in downtown Charlotte have filled up. There is a 2nd very large convention at the Charlotte Convention Center the earlier part of the week. If you still haven't reserved your hotel room you could potentially <a href="https://www.airbnb.com/s/charlotte--NC?checkin=09%2F04%2F2013&checkout=09%2F08%2F2013&search_view=3&per_page=80&sw_lat=35.21521380185681&sw_lng=-80.85939171604912&ne_lat=35.241155153759394&ne_lng=-80.82763436131279&search_by_map=true">find something on AirBNB</a>.
+
+	a==link_to "Things to Do in Charlotte", "/venue/", :class => 'button'
 
