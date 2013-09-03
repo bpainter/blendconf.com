@@ -147,19 +147,19 @@
   company:
     name: Mongo HQ
     url: https://www.mongohq.com
-  bio: ~
+  bio: "Brandon Mathis is a designer/developer hybrid and a published author working at MongoHQ. He is married with two children and lives just outside of Birmingham, Alabama. He is passionate about open source and is best known for his work on Octopress and his contributions as a Compass core team member. He would prefer that you read his bio aloud with a British accent."
   links:
     twitter: imathis
     github: imathis
     website: http://brandonmathis.com/
-    dribbble: ~
+    dribbble: imathis
   talk:
     type: Conference Speakers
     day: 3
     discipline: dev
     session: 6
-    title: "Be the Unicorn: A Pixel Pusher's Quest"
-    desc: ~
+    title: "Design The Code: Letting Care and Curiosity Shape Your Career."
+    desc: "The question \"Should designers code?\" has been answered, and great software designers are in high demand. It's time to shape our careers around a belief that design is how it works. This talk will give you practical advice on how to follow your drive to create amazing products into new skills and new opportunities."
 - speaker:
   name: Bryan Veloso
   company:
