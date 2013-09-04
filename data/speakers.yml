@@ -147,7 +147,7 @@
   company:
     name: Mongo HQ
     url: https://www.mongohq.com
-  bio: "Brandon Mathis is a designer/developer hybrid and a published author working at MongoHQ. He is married with two children and lives just outside of Birmingham, Alabama. He is passionate about open source and is best known for his work on Octopress and his contributions as a Compass core team member. He would prefer that you read his bio aloud with a British accent."
+  bio: "<p>Brandon Mathis is a designer/developer hybrid and a published author working at MongoHQ. He is married with two children and lives just outside of Birmingham, Alabama. He is passionate about open source and is best known for his work on Octopress and his contributions as a Compass core team member. He would prefer that you read his bio aloud with a British accent.</p>"
   links:
     twitter: imathis
     github: imathis
