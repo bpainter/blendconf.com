@@ -129,7 +129,7 @@
   company:
     name: Think Relevance
     url: http://thinkrelevance.com/
-  bio: ~
+  bio: "<p>Ben has had a lot of jobs. As a technologist, he focuses on strategy and architecture, designing solutions within complex ecosystems. In the course of his long career he's worked with a wide array of tools and languages, from first-generation languages implemented on custom hardware to heterogeneous systems and environments deployed into virtualized data centers. As a professional, he has developed solutions for a vast landscape of industry. As a person, there's nothing he hates more than not knowing everything.</p><p>Relevance, inc. is his professional home. In his free time Ben can be found working on mobile products with Downforce Labs, mentoring aspiring entepreneurs at The Iron Yard and Startup Weekend, hacking away at any of the many local meetups, or hiking the back country of the Carolinas.</p><p>Ben lives right here in Charlotte; be sure and say hello.</p>"
   links:
     twitter: bvandgrift
     github: bvandgrift
@@ -141,7 +141,7 @@
     discipline: dev
     session: 1
     title: "From Glider to Gulf Stream"
-    desc: ~
+    desc: "<p>Ben Vandgrift discusses the reasons and routes to multidisciplinary mastery. Exploring two historic polymaths and their methods, Ben provides a template for learning and a rationale for pursuing mastery in lieu of specialization. Escape from the assembly line and be legendary.</p>"
 - speaker:
   name: Brandon Mathis
   company:
@@ -689,7 +689,7 @@
   company:
     name: Cardinal Solutions
     url: http://www.cardinalsolutions.com
-  bio: "<p>Rikki is an Experience Strategist and UX Consultant with a passion for problem solving based on the interactions between humans and technology. She was born with a curiosity for exploration and fascination with technology. Following her passion, she studied Interaction Design at Miami University and continued my education at Savannah College of Art & Design. In 2010, she discovered the field of User Experience design and began my mission to make the world a better place through UX. Currently, She is the Regional Co-coordinator for IxDA North America and she is working as a User Experience Strategist & Designer in Cincinnati, Ohio.</p>"
+  bio: "<p>Rikki is an Experience Strategist and UX Consultant with a passion for problem solving based on the interactions between humans and technology. She was born with a curiosity for exploration and fascination with technology. Following her passion, she studied Interaction Design at Miami University and continued her education at Savannah College of Art & Design. In 2010, she discovered the field of User Experience design and began her mission to make the world a better place through UX. Currently, Rikki is the Regional Co-coordinator for IxDA North America and is working as a User Experience Strategist & Designer in Cincinnati, Ohio.</p>"
   links:
     twitter: RikkiCreative
     github: ~

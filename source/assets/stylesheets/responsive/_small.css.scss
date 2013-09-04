@@ -69,6 +69,11 @@
         }
       }
     }
+    .primary {
+      li:last-child {
+        @include push(1.25);
+      }
+    }
     .tertiary, 
     .community {
       li {

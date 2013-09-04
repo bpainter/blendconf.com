@@ -23,6 +23,14 @@
     facebook: ~
     website: http://blogs.adobe.com/webplatform/
 - sponsor:
+  type: primary
+  name: Treehouse
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://teamtreehouse.com/
+- sponsor:
   type: secondary
   name: Lending Tree
   description: ~
