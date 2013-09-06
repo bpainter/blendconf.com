@@ -906,9 +906,9 @@
 - speaker:
   name: Zoe Gillenwater
   company:
-    name: ATT
-    url: http://www.att.com
-  bio: "<p>Zoe Mickley Gillenwater is a web designer, developer, and consultant who loves creating sites that work for as many people and devices as possible. She wrote an entire book on fluid web sites two years before &quote;responsive web design&quote; had a name (Flexible Web Design: Creating Liquid and Elastic Layouts with CSS), and has also authored the book Stunning CSS3: A Project-based Guide to the Latest in CSS and the video training title Web Accessibility Principles for lynda.com. She's written articles for publications like .net Magazine and Smashing Magazine, and has spoken at conferences like SXSW and Future of Web Design. Zoe currently works as a web accessibility specialist for AT&T's Customer Experience Team.</p>"
+    name: ~
+    url: ~
+    bio: "<p>Zoe Mickley Gillenwater is a web designer, developer, and consultant who loves creating sites that work for as many people and devices as possible. She wrote an entire book on fluid web sites two years before &quote;responsive web design&quote; had a name (Flexible Web Design: Creating Liquid and Elastic Layouts with CSS), and has also authored the book Stunning CSS3: A Project-based Guide to the Latest in CSS and the video training title Web Accessibility Principles for lynda.com. She's written articles for publications like .net Magazine and Smashing Magazine, and has spoken at conferences like SXSW and Future of Web Design.</p>"
   links:
     twitter: zomigi
     github: ~
