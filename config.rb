@@ -47,6 +47,7 @@ data.speakers.each do |speaker|
   proxy "/speakers/#{speaker[:name].downcase.tr(" ", "-").tr(".", "")}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
 end
 
+page "/2014.html", :layout => :bare_layout
 
 # ----------------------------------------------
 # Helpers

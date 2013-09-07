@@ -801,6 +801,21 @@ footer[role="contentinfo"] {
 	}
 }
 
+#unicorn-tickets {
+	background-color: $aqua;
+	text-align: center;
+	img {
+		display: block;
+		margin: 0 auto $baseline*2;
+		width: 80%;
+	}
+	#container {
+		margin: 20px auto;
+		padding: 5%;
+		max-width: 500px;
+	}
+}
+
 // @media print {
 //   @import "themes/print";
 // }
