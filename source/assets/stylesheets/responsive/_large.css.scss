@@ -247,6 +247,22 @@
       }
     }
   }
+  //--------------------------------------------------------
+  // wrapup
+  //--------------------------------------------------------
+  #wrapup {
+    #masthead {
+      h1 {
+        margin-bottom: $baseline/2;
+      }
+      p {
+        text-align: center;
+      }
+      .button {
+        margin: $baseline/2 auto 0;
+      }
+    }
+  }
 }
 
 

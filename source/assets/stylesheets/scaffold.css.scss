@@ -489,6 +489,8 @@ nav[role="navigation"] {
 		}
 	}
 }
+
+
 #speaker-index article {
 	p {
 		max-width: $max-container-width/1.5;
@@ -641,7 +643,8 @@ footer[role="contentinfo"] {
 #masthead {
 	padding: $baseline*3 5%;
 	position: relative;
-	#sessions & {
+	#sessions &, 
+	#wrapup & {
 		background-color: $lavender;
 		color: lighten($lavender, 35%);
 		&:before {
@@ -671,7 +674,8 @@ footer[role="contentinfo"] {
 		}
 	}
 	#speaker-index &,
-	#speaker-detail & {
+	#speaker-detail &,
+	#session-detail & {
 		background-color: $aqua;
 		color: lighten($aqua, 35%);
 		&:before {
@@ -719,7 +723,6 @@ footer[role="contentinfo"] {
 		font-style: italic;
 		font-weight: 200;
 		margin: 0 0 $baseline*2 $sub-baseline*2;
-	
 	}
 }
 .day {
@@ -760,7 +763,9 @@ footer[role="contentinfo"] {
 		font-size: 1.4em;
 		font-weight: bold;
 		line-height: 1.2;
-
+		a, a:hover {
+			color: $lavender;
+		}
 	}
 	.lunch h4,
 	.registration h4 {
@@ -816,6 +821,95 @@ footer[role="contentinfo"] {
 	}
 }
 
+//--------------------------------------------------------
+// Wrapup
+//--------------------------------------------------------
+.wrapup-video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+	iframe {
+		position: absolute;
+			top: 0;
+			left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+#wrapup {
+	#masthead {
+		h1 {
+			margin-bottom: $baseline*2;
+		}
+		.button {
+			display: block;
+			margin-top: $baseline;
+			padding: $baseline/3 $baseline;
+			width: 100%;
+		}
+	}
+	.sessions, .articles {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		h3 small {
+			font-size: .8em;
+		}
+		li {
+			border-bottom: 1px solid lighten($light-gray, 30%);
+			padding: $baseline/2 0 $baseline;
+		}
+		a {
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		.speaker, .author {
+			font-size: .8em;
+		}
+	}
+	.slides {
+		display: inline-block;
+		font-size: .8em;
+		margin-left: $sub-baseline;
+	}
+	.quotes {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			padding: $baseline 0;
+		}
+		.tweet {
+			margin-right: $baseline/2;
+		}
+		a {
+			display: inline-block;
+			text-decoration: none;
+			&:before {
+				content: "– ";
+			}
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+#session-detail {
+	#masthead {
+		a {
+			display: block;
+			margin: $baseline auto 0;
+			text-align: center;
+			&:before {
+				content: "";
+			}
+		}
+	}
+}
 // @media print {
 //   @import "themes/print";
 // }

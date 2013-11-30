@@ -13,6 +13,18 @@
       @include omega();
     }
   }
+  #wrapup {
+    .quotes {
+      @include clearfix;
+      li:nth-child(odd) {
+        @include span-columns(4);
+      }
+      li:nth-child(even) {
+        @include span-columns(4);
+        @include omega;
+      }
+    }
+  }
 }
 
   

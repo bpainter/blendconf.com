@@ -17,7 +17,12 @@ article.basic-content
 
 	.talk-details
 		h2 #{s.name.split[0..0].join(" ")}'s Presentation
-		h3== s.talk.title
+
+		- if s.talk.slides
+			h3: a href="#{s.talk.slides}"== s.talk.title
+		- else 
+			h3== s.talk.title
+
 		p== s.talk.desc
 
 / aside	
