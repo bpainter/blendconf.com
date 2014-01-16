@@ -15,3 +15,5 @@
 
 # Ignore system files
 .DS_Store
+.powder
+/tmp
