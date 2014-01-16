@@ -55,16 +55,14 @@ require 'susy'
 # end
 
 # Generate speaker pages from /data/speakers.yml
-data.speakers.each do |speaker|
-  proxy "/speakers/#{speaker[:name].downcase.tr(" ", "-").tr(".", "")}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
-end
+# data.speakers.each do |speaker|
+#   proxy "/speakers/#{speaker[:name].downcase.tr(" ", "-").tr(".", "")}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
+# end
 
 # Generate schedule detail pages from /data/speakers.yml
-data.speakers.each do |speaker|
-  proxy "/schedule/#{speaker[:talk][:title].downcase.tr(" ", "-").tr(".", "").tr(":", "")}.html", "/schedule/template.html", :locals => { :speaker => speaker }, :ignore => true
-end
-
-page "/2014.html", :layout => :bare_layout
+# data.speakers.each do |speaker|
+#   proxy "/schedule/#{speaker[:talk][:title].downcase.tr(" ", "-").tr(".", "").tr(":", "")}.html", "/schedule/template.html", :locals => { :speaker => speaker }, :ignore => true
+# end
 
 # ----------------------------------------------
 # Helpers
@@ -80,7 +78,6 @@ page "/2014.html", :layout => :bare_layout
 #   end
 # end
 
-# KSS
 helpers do
  # Calculate the years for a copyright
   def copyright_years(start_year)
@@ -114,13 +111,13 @@ set :images_dir, 'assets/images'
 # ----------------------------------------------
 configure :build do
   # For example, change the Compass output style for deployment
-  activate :minify_css
+  # activate :minify_css
 
   # Minify Javascript on build
-  activate :minify_javascript
+  # activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash
+  # activate :asset_hash
 
   # Change Compass configuration
   compass_config do |config|
@@ -131,8 +128,8 @@ configure :build do
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
-  require "middleman-smusher"
-  activate :smusher
+  # require "middleman-smusher"
+  # activate :smusher
 
   # Or use a different image path
   # set :http_path, "/Content/images/"

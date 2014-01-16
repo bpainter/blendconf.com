@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// Root
+// -----------------------------------------------------------------------------
+* {
+  @include box-sizing("border-box");
+}
+
+// 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+//    http://clagnut.com/blog/348/#c790
+// 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
+//    www.456bereastreet.com/archive/201012/controlling-text-size-in-safari-for-ios-without-disabling-user-zoom/
+// ----------------------------------------------------------------
+html {
+  @if $legacy-support-for-ie {
+    font-size: 100%; // 1
+  }
+  font-size: $base-font-size;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%; // 2
+  -ms-text-size-adjust: 100%; // 2
+  -webkit-font-smoothing: antialiased; // fixes issue with font icons rendering too bold
+}
+
+// Addresses margins handled incorrectly in IE6/7
+// ----------------------------------------------------------------
+body {
+    margin: 0;
+}

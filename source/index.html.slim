@@ -1,67 +1,70 @@
 ---
-title: Blend Conference - A 3 Day Conference about User Experience, UI Design, and Development in Charlotte, NC
+title: Blend Conference - A 3 Day Conference about User Experience, Design, and Front-End and Back-End Development in Charlotte, NC
 id: home
 ---
 
-#intro role="banner"
-	h1== image_tag 'content/blend-conference-logo.png', :alt => 'Blend Conference'
-	h2 September 5 - 7, 2013 <span>Charlotte, NC</span>
-	p A generalist conference featuring 50 diverse speakers sharing ideas and conversations about user experience, design, and web development. The 2013 conference was a success. Thank-you for making it amazing.
+#the-bare-minimum role="banner"
+	//h1== image_tag 'content/blend-conference-logo.png', :alt => 'Blend Conference'
+	h1#blend-logo Blend<span></span>Conf
+	h2 September 11 - 13, 2014 <span>in</span> glorious Charlotte, NC
 
-	a.button href="/wrapup/" Read the Wrap-up
-	/ a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Primary" Sold Out
+	a.button-large href="https://tito.io/blendconf/blendconf2014" <span>Early Bird Tickets</span> Register Now
 
-#skinny
-	h2 A slightly <b>different spin</b> on web conferences
+#the-details
+	h2 A slightly different spin on web conferences
+	p.leadin BlendConf is a generalist conference featuring 60+ diverse speakers sharing ideas and conversations about user experience, design, and development.
 	ul
-		li <strong>50+ Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
-		li <strong>40 Talks</strong> Over the 2 conference days there will be 40 talks total spread across 3 tracks. Pick and choose the topics that you find interesting.
-		li <strong>6 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
-		li <strong>No Devices</strong> Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones won't be allowed to be used during the conference sessions.
-		li <strong>Custom Notebooks</strong> We're going analog. Each attendee will receive a nice, custom BlendConf notebook along with something fancy to write with. You'll thank us later.
-		li <strong>Diversity</strong> We've spent fair amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
+		li <strong>60+ Speakers</strong> Some of the finest practitioners in user experience, design, and  development will be joining us to share some amazing ideas.
+		li <strong>52 Talks</strong> Over the 2 conference days there will be 42 talks total spread across 4 tracks. Pick and choose the topics that you find interesting.
+		li <strong>8 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
+		li <strong>No Devices</strong> You read that right. Laptops, tablets and phones won't be allowed to be used during the conference sessions.
+		li <strong>Custom Notebooks</strong> We're going analog. You'll receive a nice, custom notebook along with something fancy to write with.
+		li <strong>Diversity</strong> We've spent fair amount of time curating speakers a great mix of folks.You're going to really like them.
 
-form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
-	label.h2 for="mce-EMAIL" Stay up-to-date with the <b>latest details</b>
+form#the-not-spam action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
+	label.h2 for="mce-EMAIL" Keep track of us online to stay up-to-date with the latest details
 	.email-subscription
 		input#mce-EMAIL type="email" name="EMAIL" placeholder="Your Email Address"
 		button type="submit" Subscribe
 
 	.social-subscription
-		span.and And
 		a.button href="http://twitter.com/blendconf" Follow @blendconf
+		a.button href="http://lanyrd.com/2014/blendconf14" Lanyard
 
 #speakers
-	h2 <b>50+ speakers</b> covering user experience, development, and design
+	h2 60+ speakers covering user experience, development, and design
 	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
-	ul.hive.hexagon
-		- data.speakers.shuffle.first(9).each do |speaker|
-			li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
-				strong #{speaker.name} <span>#{speaker.company.name}</span>
-				a href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
-		li class="more"
-				strong + 43 more
-				a href="/speakers/"
+	/ ul.hive.hexagon
+	/ 	- data.speakers.shuffle.first(9).each do |speaker|
+	/ 		li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
+	/ 			strong #{speaker.name} <span>#{speaker.company.name}</span>
+	/ 			a href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
+	/ 	li class="more"
+	/ 			strong + 43 more
+	/ 			a href="/speakers/"
 
 #schedule
-	h2 An amazing <b>3-day schedule</b>
+	h2 An amazing 3-day schedule
 	p Each day of our web conference has 3 tracks going on at the same time covering user experience, design, and web development.
 
 	ul.schedules
 		li
-			h3==link_to "Workshops", "/schedule#workshop-day"
-			h4 Thursday, Sept. 5th
-			p During our workshop day there are 6 half-day to choose from. 3 in the morning and 3 in the evening.  You can pick from 2.
+			/ h3==link_to "Workshops", "/schedule#workshop-day"
+			h3 Workshops
+			h4 Thursday, Sept. 11th
+			p During our workshop day there are 8 half-day to choose from. There are 4 workshops in the morning and 4 workshops in the afternoon. Pick 2.
 		li
-			h3==link_to "Conference Day", "/schedule#conference-day"
-			h4 Friday, Sept. 6th
-			p The conference day is jam packed with two amazing keynote speakers and 16 sessions you can choose from.
+			/h3==link_to "Conference Day", "/schedule#conference-day"
+			h3 Conference Day 1
+			h4 Friday, Sept. 12th
+			p The conference day is jam packed with two amazing keynote speakers and 24 sessions you can choose from.
 		li
-			h3==link_to "Blend Day", "/schedule#blend-day"
-			h4 Saturday, Sept. 7th
-			p Our blend day is something special. You still have 16 sessions to choose from but talks are aimed at helping you discover your inner generalist.
+			/h3==link_to "Blend Day", "/schedule#blend-day"
+			h3 Conference Day 2 (also known as the Blend Day)
+			h4 Saturday, Sept. 13th
+			p Our blend day is something special. You still have 24 sessions to choose from but talks are aimed at helping you discover your inner generalist.
 
-	a==link_to "Full Schedule", "/schedule/", :class => 'button'
+	/ a==link_to "Full Schedule", "/schedule/", :class => 'button'
 
 #venue
 	/ #map

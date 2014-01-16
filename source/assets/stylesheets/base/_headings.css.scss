@@ -1,0 +1,35 @@
+// ----------------------------------------------------------------
+// Headings
+// ----------------------------------------------------------------
+// Addresses font sizes and margins set differently in IE6/7
+// Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
+// ----------------------------------------------------------------
+h1, .h1 {
+  font-size: $h1-font-size;
+  margin: $h1-margin;
+}
+
+h2, .h2 {
+  font-size: $h2-font-size;
+  margin: $h2-margin;
+}
+
+h3, .h3 {
+  font-size: $h3-font-size;
+  margin: $h3-margin;
+}
+
+h4, .h4 {
+  font-size: $h4-font-size;
+  margin: $h4-margin;
+}
+
+h5, .h5 {
+  font-size: $h5-font-size;
+  margin: $h5-margin;
+}
+
+h6, .h6 {
+  font-size: $h6-font-size;
+  margin: $h6-margin;
+}
