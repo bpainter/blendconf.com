@@ -5,23 +5,28 @@
 // Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
 // ----------------------------------------------------------------
 h1, .h1 {
-  font-size: $h1-font-size;
+  font: $h1-font-size $header-font-family;
   margin: $h1-margin;
+  text-transform: uppercase;
 }
 
 h2, .h2 {
-  font-size: $h2-font-size;
+  font: $h2-font-size $header-font-family;
+  line-height: 1.2;
   margin: $h2-margin;
+  text-transform: uppercase;
 }
 
 h3, .h3 {
-  font-size: $h3-font-size;
+  font: $h3-font-size $header-font-family;
   margin: $h3-margin;
+  text-transform: uppercase;
 }
 
 h4, .h4 {
   font-size: $h4-font-size;
   margin: $h4-margin;
+  text-transform: uppercase;
 }
 
 h5, .h5 {

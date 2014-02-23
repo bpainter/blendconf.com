@@ -14,8 +14,8 @@ html {
   @if $legacy-support-for-ie {
     font-size: 100%; // 1
   }
-  font-size: $base-font-size;
-  line-height: 1.5;
+  font: $root-font-size $base-font-family;
+  line-height: 1.4;
   -webkit-text-size-adjust: 100%; // 2
   -ms-text-size-adjust: 100%; // 2
   -webkit-font-smoothing: antialiased; // fixes issue with font icons rendering too bold
@@ -24,5 +24,7 @@ html {
 // Addresses margins handled incorrectly in IE6/7
 // ----------------------------------------------------------------
 body {
-    margin: 0;
+  background-color: $root-bg-color;
+  color: $text-color;
+  margin: 0;
 }

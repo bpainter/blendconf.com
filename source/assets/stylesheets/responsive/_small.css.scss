@@ -6,4 +6,50 @@
 //   }
 // }
 
+#the-bare-minimum {
+  p {
+    font-size: 1.3rem;
+  }
+  .diamond {
+    font-size: 1rem;
+  }
+}
 
+#the-difference {
+  ul {
+    @include clear;
+  }
+  li {
+    width: 48%;
+    &:nth-child(odd) {
+      float: left;
+    }
+    &:nth-child(even) {
+      float: right;
+    }
+    &:nth-child(5) {
+      &:before {
+        @include background-image(linear-gradient(lighten($green, 20%) 50%, $green));
+        bottom: -$sub-baseline*3;
+      }
+    }
+  }
+}
+
+.speakers-list {
+  // li:nth-child(3n+1) {
+  //   float: left;
+  // }
+  // li:nth-child(3n+2) {
+  //   float: right;
+  //   margin-top: -$speaker-diamond;
+  // }
+  // li:nth-child(3n+3) {
+  //   float: left;
+  //   margin-top: 70px;
+  //   margin-bottom: 70px;
+  //   margin-left: -$speaker-diamond/2;
+  //   position: relative;
+  //     left: 50%;
+  // }
+}

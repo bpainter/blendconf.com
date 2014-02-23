@@ -1,185 +1,185 @@
-- sponsor:
-  type: title
-  name: Cardinal Solutions
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.cardinalsolutions.com/
-- sponsor:
-  type: primary
-  name: MailChimp
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.mailchimp.com/
-- sponsor:
-  type: primary
-  name: Adobe
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://blogs.adobe.com/webplatform/
-- sponsor:
-  type: primary
-  name: Treehouse
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://teamtreehouse.com/
-- sponsor:
-  type: secondary
-  name: Lending Tree
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.lendingtree.com/
-- sponsor:
-  type: secondary
-  name: Mad*Pow
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.madpow.com/
-- sponsor:
-  type: secondary
-  name: The Idea People
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.theideapeople.com/
-- sponsor:
-  type: secondary
-  name: Digital Saber
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.digitalsaber.net/
-- sponsor:
-  type: tertiary
-  name: GitHub
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.github.com/
-- sponsor:
-  type: tertiary
-  name: Balsamiq
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.balsamiq.com/
-- sponsor:
-  type: tertiary
-  name: UserTesting
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.usertesting.com/
-- sponsor:
-  type: tertiary
-  name: Rosenfeld
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://rosenfeldmedia.com/
-- sponsor:
-  type: tertiary
-  name: Sticker Mule
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.stickermule.com/
-- sponsor:
-  type: tertiary
-  name: qCat
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://qcatpro.com/
-- sponsor:
-  type: tertiary
-  name: A Book Apart
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.abookapart.com/
-- sponsor:
-  type: tertiary
-  name: Cage
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://cageapp.com/
-- sponsor:
-  type: tertiary
-  name: Codepen
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://codepen.io/
-- sponsor:
-  type: tertiary
-  name: The Daemon Fund
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://daemonfund.com/
-- sponsor:
-  type: community
-  name: "iT-ology"
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://it-ology.org/
-- sponsor:
-  type: community
-  name: Detailed Block
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://detailedblock.com/
-- sponsor:
-  type: community
-  name: Packard Place
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://packardplace.us/
-- sponsor:
-  type: community
-  name: AWDG
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.meetup.com/atlantawebdesign/
-- sponsor:
-  type: community
-  name: AIGA Charlotte
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.aigacharlotte.org/
+# - sponsor:
+#   type: title
+#   name: Cardinal Solutions
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.cardinalsolutions.com/
+# - sponsor:
+#   type: primary
+#   name: MailChimp
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.mailchimp.com/
+# - sponsor:
+#   type: primary
+#   name: Adobe
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://blogs.adobe.com/webplatform/
+# - sponsor:
+#   type: primary
+#   name: Treehouse
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://teamtreehouse.com/
+# - sponsor:
+#   type: secondary
+#   name: Lending Tree
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.lendingtree.com/
+# - sponsor:
+#   type: secondary
+#   name: Mad*Pow
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.madpow.com/
+# - sponsor:
+#   type: secondary
+#   name: The Idea People
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.theideapeople.com/
+# - sponsor:
+#   type: secondary
+#   name: Digital Saber
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.digitalsaber.net/
+# - sponsor:
+#   type: tertiary
+#   name: GitHub
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.github.com/
+# - sponsor:
+#   type: tertiary
+#   name: Balsamiq
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.balsamiq.com/
+# - sponsor:
+#   type: tertiary
+#   name: UserTesting
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.usertesting.com/
+# - sponsor:
+#   type: tertiary
+#   name: Rosenfeld
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://rosenfeldmedia.com/
+# - sponsor:
+#   type: tertiary
+#   name: Sticker Mule
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.stickermule.com/
+# - sponsor:
+#   type: tertiary
+#   name: qCat
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://qcatpro.com/
+# - sponsor:
+#   type: tertiary
+#   name: A Book Apart
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.abookapart.com/
+# - sponsor:
+#   type: tertiary
+#   name: Cage
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://cageapp.com/
+# - sponsor:
+#   type: tertiary
+#   name: Codepen
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://codepen.io/
+# - sponsor:
+#   type: tertiary
+#   name: The Daemon Fund
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://daemonfund.com/
+# - sponsor:
+#   type: community
+#   name: "iT-ology"
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://it-ology.org/
+# - sponsor:
+#   type: community
+#   name: Detailed Block
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://detailedblock.com/
+# - sponsor:
+#   type: community
+#   name: Packard Place
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://packardplace.us/
+# - sponsor:
+#   type: community
+#   name: AWDG
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.meetup.com/atlantawebdesign/
+# - sponsor:
+#   type: community
+#   name: AIGA Charlotte
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.aigacharlotte.org/
 

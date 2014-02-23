@@ -1,0 +1,329 @@
+// ------------------------------------------------------------
+// Mixins
+// ------------------------------------------------------------
+@mixin diamond($size, $color, $type, $position:"") {
+  @if $type == "outline" {
+    border: 1px solid $color;
+  }
+  @if $type == "solid" {
+    background-color: $color;
+  }
+  @if $type == "solid-outlined" {
+    background-color: $color;
+    border: 1px solid rgba($text-color, .5);
+  }
+  @if $position == "relative" {
+    margin-top: -($size/2);
+    position: absolute;
+      top: 50%;
+      left: 0;
+  }
+  @if $position == "centered" {
+    margin-top: -($size/2);
+    margin-left: -($size/2);
+    position: absolute;
+      top: 0;
+      left: 50%;
+  }
+  @include rotate(-45deg);
+  @include transform-origin(0 100%);
+  content: "";
+  display: inline-block;
+  height: $size;
+  width: $size;
+}
+
+// ------------------------------------------------------------
+// buttons
+// ------------------------------------------------------------
+%button-large {
+  background-color: transparent;
+  display: inline-block;
+  border-style: solid;
+  border-width: 3px;
+  font-size: 1.4em;
+  padding: $sub-baseline*3 $baseline*3;
+  position: relative;
+  text-decoration: none;
+}
+@mixin button-large($background-color, $text-color) {
+  @extend %button-large;
+  @include transition(background-color, 250ms);
+  border-color: $background-color;
+  color: $background-color;
+  &:hover, &:focus {
+    background-color: $background-color;
+    color: $text-color;
+  }
+}
+.button-large {
+  @include button-large($text-color, $aqua);
+}
+
+// ------------------------------------------------------------
+// Forms
+// ------------------------------------------------------------
+input:not([type="radio"]),
+input:not([type="checkbox"]) {
+  border-width: 2px;
+  border-style: solid;
+}
+button {
+  margin-bottom: $baseline*2;
+}
+
+// ------------------------------------------------------------
+// Blend Logo
+// ------------------------------------------------------------
+#blend-logo {
+  font-size: 4.5em;
+  margin-bottom: 0;
+  img {
+    width: 100%;
+  }
+}
+
+// ------------------------------------------------------------
+// Leadin Paragraph
+// ------------------------------------------------------------
+.leadin {
+  font: 1.4em $leadin-font-family;
+  margin-bottom: $baseline;
+}
+// ------------------------------------------------------------
+// Homepage
+// ------------------------------------------------------------
+#home {
+  text-align: center;
+}
+%homepage-section {
+  // border-bottom: 1px solid rgba($text-color, .5);
+  padding: $baseline*4 4% $baseline*6;
+  position: relative;
+  &:before {
+    @include diamond($baseline*4, $text-color, solid, centered);
+  }
+  &:after {
+    @include diamond($baseline*4.2, rgba($text-color, .5), outline, centered);
+    margin-left: -43px;
+    margin-top: -43px;
+  }
+}
+
+// The Bare Minimum
+// ------------------------------------------------------------
+#the-bare-minimum {
+  @extend %homepage-section;
+  background-color: $aqua;
+  &:before, &:after {
+    display: none;
+  }
+  p {
+    font-size: 1em;
+    margin-bottom: $baseline*2;
+  }
+  .diamond {
+    display: inline-block;
+    margin: 0 $sub-baseline;
+    position: relative;
+    text-align: center;
+    width: 27px;
+    &:before {
+      @include diamond(24px, $text-color, outline, relative);
+    }
+  }
+  .button-large {
+    span {
+      font-size: .8rem;
+      position: absolute;
+        bottom: -$sub-baseline*6;
+        left: 0;
+        right: 0;
+      text-align: center;
+    }
+  }
+}
+
+// The Difference
+// ------------------------------------------------------------
+// diamond lines
+
+#the-difference {
+  @extend %homepage-section;
+  background-color: $green;
+  &:before {
+    // background-color: $green;
+  }
+  ul {
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    strong {
+      display: block;
+    }
+    li {
+      margin-bottom: $baseline;
+      padding-left: $sub-baseline*6;
+      position: relative;
+      &:after {
+        @include diamond($sub-baseline*3, lighten($green, 20%), outline, relative);
+        background-color: lighten($green, 20%);
+        position: absolute;
+          top: $sub-baseline*2;
+          left: 0;
+      }
+      &:before {
+        background-color: lighten($green, 20%);
+        content: "";
+        position: absolute;
+          top: $sub-baseline;
+          left: $sub-baseline+1;
+          bottom: -$sub-baseline*5;
+        width: $sub-baseline;
+      }
+      &:last-child {
+        &:before {
+          @include background-image(linear-gradient(lighten($green, 20%) 50%, $green));
+          bottom: -$sub-baseline*3;
+        }
+      }
+    }
+  }
+}
+
+// The Speakers
+// ------------------------------------------------------------
+#the-speakers {
+  @extend %homepage-section;
+  background-color: $yellow;
+  color: $dark-gray;
+}
+
+$speaker-diamond: $baseline*8;
+$speaker-margin: 33px;
+
+.speakers-list {
+  @include clear;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-perspective: 2000;
+  li {
+    // clear: both;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 500ms;
+    float: left;
+    height: $speaker-diamond;
+    margin: $speaker-margin;
+    position: relative;
+    width: $speaker-diamond;
+    &:nth-child(even) {
+      float: right;
+      margin-top: -$speaker-diamond/2;
+      margin-bottom: -$speaker-diamond/2;
+    }
+    &:hover,
+    &.hover {
+      -webkit-transform: rotateY(180deg);
+    }
+  }
+  a, .speaker-name {
+    -webkit-backface-visibility: hidden;
+  }
+  a {
+    @include diamond($speaker-diamond, $text-color, solid, relative);
+    overflow: hidden;
+  }
+  img {
+    @include rotate(45deg);
+    position: relative;
+      top: -$baseline*2;
+      left: -$baseline*2;
+    width: $baseline*12;
+  }
+  .speaker-name {
+    // @include rotate(45deg);
+    display: block;
+    // background-color: #ccc;
+    height: $speaker-diamond;
+    position: absolute;
+      top: 0;
+    width: $speaker-diamond;
+    -webkit-transform: rotateY(180deg);
+  }
+  .wrapper {
+    @include rotate(45deg);
+    display: block;
+    background-color: #ccc;
+    height: $speaker-diamond;
+    position: absolute;
+      top: 0;
+    width: $speaker-diamond;
+  }
+  strong {
+    display: block;
+    @include rotate(-45deg);
+    font: .9rem $header-font-family;
+    position: relative;
+      top: 64px;
+      left: 0;
+    text-transform: uppercase;
+    // width: $speaker-diamond;
+    span {
+      display: block;
+      font: .7rem $base-font-family;
+      text-transform: default;
+    }
+  }
+}
+// The Schedule
+// ------------------------------------------------------------
+#the-schedule {
+  @extend %homepage-section;
+  background-color: $red;
+  .schedules {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+  h4 {
+    margin-bottom: $sub-baseline*2;
+  }
+  small {
+    font-size: .8rem;
+  }
+  li {
+    margin-bottom: $baseline;
+  }
+
+}
+
+// The Venue
+// ------------------------------------------------------------
+#the-venue {
+  background-color: $lavender;
+  @extend %homepage-section;
+}
+// The Sponsors
+// ------------------------------------------------------------
+#the-sponsors {
+  @extend %homepage-section;
+}
+
+// The Not Spam
+// ------------------------------------------------------------
+#the-not-spam {
+  @extend %homepage-section;
+  input {
+    border-width: 0;
+    margin-bottom: $sub-baseline;
+  }
+  input, button {
+    width: 100%;
+  }
+}
