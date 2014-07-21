@@ -1,5 +1,5 @@
 nav#primary-nav role="navigation"
-  a.home href="/" Home
+  a.home href="/" BlendConf
   a#nav-toggle href="#nav-toggle" Menu
   ul
     li: a href="/purpose/" Purpose
@@ -9,3 +9,18 @@ nav#primary-nav role="navigation"
     / li: a href="/blog/" Blog
     li: a href="/code-of-conduct/" Code of Conduct
     li: a.button href="https://tito.io/blendconf/blendconf-2013" Sold Out
+
+
+ul.contact-links
+  li: a.button href="http://twitter.com/blendconf" Follow @blendconf
+  li: a.button href="mailto:hello@blendconf.com" Email
+  li: a.button href="http://lanyrd.com/2014/blendconf14" Phone
+  li: a.button href="http://lanyrd.com/2014/blendconf14" Lanyard
+  li: a.button href="http://lanyrd.com/2014/blendconf14" Flickr
+  li: a.button href="http://lanyrd.com/2014/blendconf14" Vimeo
+  li: a.button href="http://lanyrd.com/2014/blendconf14" Github
+
+footer role="contentinfo"
+  p
+    |&copy; #{copyright_years(2014)} BlendConf, LLC. All rights reserved.
+    == link_to ' refund policy ', '/refund-policy/'

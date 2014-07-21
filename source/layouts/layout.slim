@@ -13,26 +13,16 @@ head
   == partial "/layouts/partials/head"
 
 body id="#{current_page.data.id}"
+  .container
+    section role="main"
+      article.primary-content
+        == yield
+        == partial "/layouts/partials/sponsors"
 
-  #container role="main"
+      aside.secondary-content
 
-      == yield
-
-      == partial "/layouts/partials/sponsors"
-
-      form#the-not-spam action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
-        h2 Keep track of us online to stay up-to-date with the latest details
-        .email-subscription
-          input#mce-EMAIL type="email" name="EMAIL" placeholder="Your Email Address"
-          button.button-large type="submit" Subscribe
-
-        .social-subscription
-          a.button href="http://twitter.com/blendconf" Follow @blendconf
-          a.button href="http://lanyrd.com/2014/blendconf14" Lanyard
-
-      == partial "/layouts/partials/footer"
-
-  == partial "/layouts/partials/navigation"
+    section.sidebar
+      == partial "/layouts/partials/navigation"
 
   == partial "/layouts/partials/javascript"
 
