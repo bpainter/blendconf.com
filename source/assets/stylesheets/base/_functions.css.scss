@@ -1,4 +1,0 @@
-// Golden Ratio Calculation
-@function golden-ratio-scale($base, $level) {
-  @return $base/pow($golden-ratio, $level);
-}
