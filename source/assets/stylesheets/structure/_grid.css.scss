@@ -1,0 +1,82 @@
+@import "variables";
+//------------------------------------
+// Grid
+//------------------------------------
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6 {
+  background-color: rgba(#666, .5);
+}
+.xx {
+  > .col-1,
+  > .col-2 {
+    @include span(1 of 8);
+  }
+  > .col-2 {
+    @include omega;
+  }
+}
+.xxx {
+  > .col-1,
+  > .col-2,
+  > .col-3 {
+    @include span(1 of 5);
+  }
+  > .col-3 {
+    @include omega;
+  }
+}
+.xxxx {
+  > .col-1,
+  > .col-2,
+  > .col-3,
+  > .col-4 {
+    @include span(1 of 4);
+  }
+  > .col-4 {
+    @include omega;
+  }
+}
+.xxxxx {
+  > .col-1,
+  > .col-2,
+  > .col-3,
+  > .col-4,
+  > .col-5 {
+    @include span(1 of 3);
+  }
+  > .col-5 {
+    @include omega;
+  }
+}
+
+.xxxxxx {
+  > .col-1,
+  > .col-2,
+  > .col-3,
+  > .col-4,
+  > .col-5,
+  > .col-6 {
+    @include span(1 of 2);
+  }
+  > .col-6 {
+    @include omega;
+  }
+}
+.xi {
+  > .col-1 {
+    @include span(1 of 4);
+  }
+  > .col-2 {
+    @include span(1 of 12);
+    @include omega;
+  }
+}
+
+.ix {
+  > .col-1 {
+    @include span(1 of 12);
+  }
+  > .col-2 {
+    @include span(1 of 4);
+    @include omega;
+  }
+}

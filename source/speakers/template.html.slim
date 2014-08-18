@@ -1,0 +1,37 @@
+---
+title: ~
+id: speaker-detail
+---
+ruby:
+	s = locals[:speaker]
+
+#masthead role="banner"
+	h1 #{s.firstName} #{s.lastName}
+
+	- if s.companyWebsite
+		a href="#{s.companyWebsite}" #{s.company}
+	- else
+		a href="#" #{s.company}
+
+article.basic-content
+	.speaker-details
+		h2 A little more about #{s.firstName}
+		== s.bio
+
+	.talk-details
+		h2 #{s.firstName}'s Presentation
+
+		- if s.slides
+			h3: a href="#{s.slides}"== s.talkTitle
+		- else
+			h3== s.talkTitle
+
+		p== s.talkDescription
+
+/ aside
+/ 	a href="http://twitter.com/#{s.links.twitter}"= s.links.twitter
+/ 	a href="http://github.com//#{s.links.github}"= s.links.github
+/ 	a href="#{s.links.website}"= s.links.website
+/ 	a href="http://dribbble.com/#{s.links.dribbble}"= s.links.dribbble
+
+== partial "/layouts/partials/navigation"

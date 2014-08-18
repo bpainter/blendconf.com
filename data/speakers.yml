@@ -1,0 +1,1026 @@
+- speaker:
+  firstName: Aaron
+  lastName: Gustafson
+  type: Conference Speakers
+  discipline: Front-End
+  day: 2
+  session: 5
+  talkTitle: "Falling in Love with Forms"
+  talkDescription: "<p>In this session, we will explore forms from top to bottom, examining how they work and how their components can be incorporated with other elements to maximize accessibility, improve semantics, and allow for more flexible styling. You’ll get to see the complete picture with forms, including: </p> <ul> <li>new HTML5 field types;</li> <li>validation, error messages & formatting hints;</li> <li>how to mark up and style forms for the greatest flexibility in responsive designs; and</li> <li>best practices for enhancing forms with JavaScript.</li> </ul>"
+  company: Easy Designs
+  companyWebsite: http://easy-designs.net/
+  personalWebsite: http://aaron-gustafson.com/
+  personalTwitter: AaronGustafson
+  bio: "Aaron has been building websites for nearly two decades and, in that time, has cultivated a love of web standards and an in-depth knowledge of website strategy, architecture, and interface design, picking up several programming languages along the way.He has served as Technical Editor for A List Apart, is a contributing writer for .net Magazine, and has filled a small library with his technical writing and editing credits. His latest book is Adaptive Web Design: Crafting Rich Experiences with Progressive Enhancement."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Abby
+  lastName: Covert
+  type: Conference Speakers
+  discipline: User Experience
+  day: 2
+  session: 6
+  talkTitle: "How to Make Sense of Any Mess"
+  talkDescription: "<p>In a world where everything is getting more complex and we are all experiencing personal information overload, there is a growing need to understand the tools and processes that are used to make sense of complex subjects and situations. These tools aren't hard to learn or even tough to implement but they are also not part of many people's education.</p> <p>Information Architecture is a practice of making sense. A set of principles, lessons and tools to help anyone make sense of any thing. Whether you are - a student or professional, a designer, technologist or small business owner, an intern or executive - learn how information architecture can help you make sense of your next endeavor.</p>"
+  company: IA Institute
+  companyWebsite: iainstitute.org
+  personalWebsite: http://abbytheia.com/
+  personalTwitter: Abby_the_IA
+  bio: "Abby Covert is an independent information architect working and living in New York City. With a proven track record in establishing user-centric practices in a variety of creative environments, Abby also has a reputation for stellar information architecture work in a variety of consulting contexts. Abby prides herself on being an active organizer and mentor within the IA community. She served as Executive Producer for the IDEA conference in 2010 and the Information Architecture Summit in 2010 and 2012. She currently serves as Co Chair for the 15th annual Summit to be held in March 2014. Abby also serves as an adviser for and holds credit for inventing World Information Architecture Day, which held an inaugural event in 2012 with 14 locations globally serving over 1600 attendees. World IA Day 2014, now in its third year, looks to serve 20+ locations globally. Abby speaks and writes under the pseudonym Abby the IA, and currently serves as faculty for Parsons, The School of Visual Arts, General Assembly and Hyper Island."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Adam
+  lastName: Hunter
+  type: Workshops
+  discipline: Back-End
+  day: 1
+  session: 2
+  talkTitle: "Rangular: Blending Rails and Angular for Enterprise Applications"
+  talkDescription: ~
+  company: Tax Management Associates
+  companyWebsite: http://www.tma1.com/
+  personalWebsite: http://adamhunter.me/
+  personalTwitter: adamachine
+  bio: "Adam D. C. Hunter is Tax Management Associates Application Development Manager.  For the last four years he has managed teams of developers at TMA specializing in software solutions for state and local government revenue enhancement projects.  Adam is a leader in the Charlotte technology community; he has taught at local Ruby on Rails classes in Packard Place, instructed for the Charlotte Rails Girls event and has mentored junior programmers.  He also presents to various Charlotte technology organizations on emerging and advanced software technologies and practices. His passion lies in user interface and automation, which he applies in his field by meticulously crafting software and training developers to meet his exacting standards.  Prior to TMA, Adam worked for Basho, a noSQL start-up technology company, and has help various other technology related positions."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Alex
+  lastName: Gaynor
+  type: Conference Speakers
+  discipline: Back-End
+  day: 2
+  session: 1
+  talkTitle: "Beyond MVC"
+  talkDescription: "<p>For the past decade (time flies!) MVC web frameworks like Rails have dominated the landscape of web development. This talk will explore alternate patterns for developing web applications, and for frameworks themselves, and investigate whether MVC is ready for the challenges the always-changing web will bring.</p>"
+  company: Rackspace
+  companyWebsite: http://www.rackspace.com/
+  personalWebsite: http://alexgaynor.net/
+  personalTwitter: alex_gaynor
+  bio: "Alex is an open source engineer. He works on a wide variety of projects, mostly in Python, including Django, PyPy, CPython, and OpenStack. He serves on the board of directors for the Python Software Foundation and works for Rackspace. When he's not writing software Alex enjoys bagels and delis."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Allison
+  lastName: House
+  type: Conference Speakers
+  discipline: Design
+  day: 2
+  session: 6
+  talkTitle: "Getting Your First Design Job in Tech"
+  talkDescription: "When you have no work experience under your belt, how do you show employers you’d still be a great design hire? I’ll discuss my experience hiring and getting hired at tech startups like Dropbox, Codecademy, and Treehouse. I’ll also identify the characteristics that signal to employers you have an explosive trajectory—and make it easy for them to say, “Yes!”"
+  company: ~
+  companyWebsite: ~
+  personalWebsite: http://allisonhouse.co/
+  personalTwitter: house
+  bio: "Allison House is a product designer exploring the intersection of technology, design, and education. She writes about starting a career in design on her blog, http://allisonhouse.co. Her work includes Dropbox and Codecademy, and has been featured in the New York Times, TIME Magazine, Wall Street Journal, and more. She paints portraits and abstracts in her spare time."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Angel
+  lastName: Anderson
+  type: Workshops
+  discipline: User Experience
+  day: 1
+  session: 1
+  talkTitle: "C-Speak: Presenting UX To Deciders"
+  talkDescription: "<p>UX has hit puberty. Clients and stakeholders are aware of terms like ecosystems, user journeys, and touch-points, but their understanding of exactly what these things are and how to use them for shaping a meaningful strategy is still fuzzy. Business owners now believe that customer experience is one of the best sources for long-term competitive advantages, but they still struggle to foster and achieve great experiences.</p> <p>The good news is that clients increasing look to UX designers for answers about how our work can bring their business strategy to life. We are in a unique position to help companies evolve their strategy so that every touch-point becomes an opportunity for a great user experience. The catch is that to be successful, we must be fluent in the C-speak, the language of C-level executives and business directors, so we can help them recognize pain points and take the right steps to improving the user experience for their product, service, or brand.</p> <p>There is a more strategic role for designers, but traditional design skills will only get you so far. To get a seat at the table with C-level stakeholders and deciders, you must acquire new communication skills and new know-how. This workshop will cover:</p> <ul><li>C-speak 101 – the language of business strategy</li> <li>What UX can add to the conversation that others can’t</li> <li>5 capabilities to add to your repertoire</li> <li>Techniques for communicating decision makers</li></ul> <p>Designers are not generally taught how to define opportunities in ways that are credible in a business context. By learning to speak the language of C-level executives and senior business managers, we can communicate how all channels and touch-points must work together not just stylistically but with strategic intelligence to create a true and lasting value exchange between businesses and customers.</p>"
+  company: Crispin Porter + Bogusky
+  companyWebsite: http://www.cpbgroup.com/
+  personalWebsite: https://www.vizify.com/angel-anderson
+  personalTwitter: angel
+  bio: "Angel Anderson has 15+ years of experience humanizing digital products and services for clients such as Old Navy, Mattel, Best Buy, and American Express. Her design expertise has helped shape solutions for enterprise software platforms, large-scale web properties, and mobile apps with recent work focused on the link between physical and digital retail experiences. Angel is active in the Los Angeles design community as the founding IxDA Los Angeles local leader and as a guest lecturer at USC, UCLA, and The Arts Institute of California. When she's not designing, speaking, or traveling, Angel creates needle felted animals and tends a small urban farm with her family in Silverlake, California."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Anton
+  lastName: Repponen
+  type: Conference Speakers
+  discipline: Design
+  day: 2
+  session: 3
+  talkTitle: "Learnings from Collaborating across UX and Design"
+  talkDescription: "<p>Irene Pereyra, User Experience Director / Designer and Anton Repponen, Creative Director / Designer, will walk-through an in-depth ‘behind the scenes’ of the redesign of Wacom.com and the challenges in other large redesigns in a chronological manner: from how the projects started, to the successes and hurdles faced along the way, and ultimately to launch.</p> <p>This presentation is an opportunity to learn about the ideas that worked and the others that failed miserably. It is the ‘behind the scenes’ story of the real-life challenges faced by Anton and Irene, told in a refreshingly candid manner.</p>"
+  company: Fi
+  companyWebsite: http://www.f-i.com/
+  personalWebsite: http://repponen.com
+  personalTwitter: repponen
+  bio: "As Creative Director, Anton was responsible for delivering creative solutions for clients such as Google, Wacom, USA Today, HTC, Nickelodeon, Porsche and SAS. His client work has been awarded by Cannes, FWA, The Webbys and The European Design Awards."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Ben
+  lastName: Lehnert
+  type: Conference Speakers
+  discipline: User Experience
+  day: 3
+  session: 1
+  talkTitle: "Love & Trust – What we know about relationships holds true in products"
+  talkDescription: "<p>Why do some people fall in love with some products and others don’t? What does it take to get a product passed the first date toward a lifetime partner? This talk is about how you can apply the patterns of human relationships to design products that people fall in love with.</p>"
+  company: Wunderlist
+  companyWebsite: https://www.wunderlist.com/
+  personalWebsite: http://benedikt-lehnert.de
+  personalTwitter: blehnert
+  bio: "Benedikt is the Chief Design Officer at 6Wunderkinder, the makers of Wunderlist. As a writer, advisor and speaker Benedikt is an advocate for human-centered design and has made it his goal in life to create meaningful experiences for millions of people. Benedikt developed a character-driven design approach and believes that making technology more human leads to an emotional connection between user and product and in the end to a more successful business. Benedikt loves handmade things, typography, the sound of water, Wall-E, the smell of fabric softener and photography in black and white."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Cat
+  lastName: Noone
+  type: Conference Speakers
+  discipline: User Experience
+  day: 3
+  session: 1
+  talkTitle: "Love & Trust – What we know about relationships holds true in products"
+  talkDescription: "<p>Why do some people fall in love with some products and others don’t? What does it take to get a product passed the first date toward a lifetime partner? This talk is about how you can apply the patterns of human relationships to design products that people fall in love with.</p>"
+  company: Liberio
+  companyWebsite: http://www.liber.io/
+  personalWebsite: http://heyimcat.com/
+  personalTwitter: imcatnoone
+  bio: "Cat is a designer focused on building meaningful products. She is the Co-Founder and Design Chief of Liberio — Simple eBook creation and publishing through Google Drive. She advocates for the little details that make a big difference in design. Cat enjoys writing about design and tech, advising startups, speaking and working on side projects. Formerly in the special education field, she is a promoter and believer of technology in the classroom. In her spare time, Cat is a fan of making S'mores, getting lost in a good read, and a nail-biting TV series."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Chris
+  lastName: Coyier
+  type: Conference Speakers
+  discipline: Front-End
+  day: 2
+  session: 6
+  talkTitle: "SVG is for Everybody"
+  talkDescription: "<p>While SVG isn’t exactly new, browser support is just getting to the point that we can use it without much worry. Even if we do need fallbacks for older browsers, modern tools make it easy. This makes now the perfect time to learn about SVG and how it can help you in everyday web design. Perhaps the most compelling reason: SVG images look sharp at any dimension with tiny file sizes—which is great for making responsive websites responsibly. </p> <p>You’ll also learn how SVG helps make otherwise awkward shapes easy to make, and how to use it to make icons that are more accessible than with any other web-based icon creation technique. You’ll learn how SVG can make customized complex graphics on the fly, create compelling animations and other interactions, and empower some pretty great designerly effects. We’ll end by discovering a cornucopia of SVG source materials that are easy to find and even easier to work with.</p>"
+  company: Codepen
+  companyWebsite: http://codepen.io/
+  personalWebsite: css-tricks.com
+  personalTwitter: chriscoyier
+  bio: "Chris is the force behind CSS-Tricks, previously he was with Wufoo and SurveyMonkey as Lead Hucklebucker. Chris is a Wordpress expert having authored the Digging into Wordpress book and the Lynda.com Wordpress 3 tutorial series."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Clarissa
+  lastName: Peterson
+  type: Conference Speakers
+  discipline: Design
+  day: 2
+  session: 1
+  talkTitle: "Responsive Typography"
+  talkDescription: "<p>Your content is the most important feature of your website, so it's important to make sure that the text looks good and is easy to read no matter what device type or screen size it's being viewed on. One size does not fit all when it comes to typography, but you can use media queries to adjust type qualities such as size, line height, column width, margins, hyphenation, and even typeface depending on the viewport size. Learn how you can use CSS to apply design rules that will make your typography look better and perform better across devices. You'll also find out how typography affects the loading time of your website, and what you can do to improve performance.</p>"
+  company: Peterson/Kandy
+  companyWebsite: ~
+  personalWebsite: http://www.clarissapeterson.com/
+  personalTwitter: clarissa
+  bio: "Clarissa Peterson is a UX designer and developer, specializing in building responsive websites and training organizations in responsive design workflow. She frequently speaks on responsive design and mobile content strategy. Clarissa is also the author of Learning Responsive Web Design, coming soon from O’Reilly Media."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Claudina
+  lastName: Sarahe
+  type: Workshops
+  discipline: Front-End
+  day: 1
+  session: 1
+  talkTitle: "Getting to know Sass"
+  talkDescription: ~
+  company: OddBird
+  companyWebsite: http://oddbird.net/
+  personalWebsite: http://itsmisscs.me/
+  personalTwitter: itsmisscs
+  bio: "Radical entrepreneur, developer, organizer, teacher and author driven by a desire to make a difference and bring a smile to a face. Claudina Sarahe has been striving for a more beautiful and useable web since 2005. She has worked with notable brands such as PBS, Charlie Rose, Daniel Libeskind, Scholastic, Huffington Post, and Deep Dish TV. She was a founding member of the UNICEF Innovations team and is on the board of MACILE, a non-profit dedicated to advancing STEM in less advantaged communities. She's taught high schoolers in the Dominican Republic and West Harlem and is the curriculum co-lead for Black Girls Code NYC chapter. She co-founded Autotax.me (RIP), a 2013 Y Combinator finalist, organizes the monthly NYC Sass Meetup and is the chair of SassConf. When she's not pursuing her various projects she can be found molding ideas into experiences for humans with OddBird."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Clinton
+  lastName: Dreisbach
+  type: Conference Speakers
+  discipline: Back-End
+  day: 2
+  session: 5
+  talkTitle: "Clojure"
+  talkDescription: ~
+  company: The Iron Yard
+  companyWebsite: http://theironyard.com/
+  personalWebsite: http://dreisbach.us/
+  personalTwitter: cndreisbach
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Christy
+  lastName: Harner
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 5
+  talkTitle: "The Creation of a Brand"
+  talkDescription: "<p>Whether a startup company or a new product line for an existing business, Christy will discuss the process of creating a brand identity with a client. From market analysis and \"unique factor\" discovery to logo and tagline creation, from messaging and web design to social media campaigns and video production, we will walk through a typical brainstorming session and learn how to effectively win a client's heart and give them a product and brand identity that will exceed their expectations and bring to life their dream. </p>"
+  company: Binary Ventures
+  companyWebsite: http://binary.ventures/
+  personalWebsite: ~
+  personalTwitter: christyharner
+  bio: "Christy Harner is the Creative Principal and co-founder of Binary Ventures, a digital agency and app development firm in Charlotte, North Carolina. A serial entrepreneur, she has been a founding member of several other companies, including NexTable, Spendboss and Dream Big. Her passion is for design-- whether in film, illustration or web development. Every year, Christy helps dozens of startups create their entire identity--from logo to mobile apps to social media to film. She has a B.A. in Cross-Cultural Studies and has written several young adult novels, including Behind Every Illusion. In her spare time, she travels the world, spends time with her kids, and studies Mandarin Chinese."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Dan
+  lastName: Denny
+  type: Conference Speakers
+  discipline: Front-End
+  day: 2
+  session: 2
+  talkTitle: "Responsive Email Design and Tooling"
+  talkDescription: "<p>This presentation will cover a few small details on why you should be sending responsive email, but will focus on the techniques behind designing and building them. There will be code and tooling examples, as well as some repos for you to grab to try things out on your own.</p>"
+  company: Envy Labs
+  companyWebsite: http://envylabs.com/
+  personalWebsite: http://dandenney.com/
+  personalTwitter: dandenney
+  bio: 'Dan is a front-end dev at Envy Labs, where he works on Code School projects. He has been called a "seriously good copy and paster" and he puts those skills to use as he spends his days learning, unlearning and relearning how to build things for the web. Knowledge sharing is one of his biggest passions, so he founded the Front-End Design Conference in St. Petersburg in 2009.'
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Darcy
+  lastName: Clarke
+  type: Conference Speakers
+  discipline: Front-End
+  day: 3
+  session: 3
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: ~
+  companyWebsite: "#"
+  personalWebsite: http://darcyclarke.me/
+  personalTwitter: darcy
+  bio: "Darcy Clarke is an award winning Front-end Developer, Designer, User Experience Advocate & Entrepreneur. He speaks, mentors, builds & promotes all things HTML5, CSS3, JS & Open Source related."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Diana
+  lastName: Lucaci
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 6
+  talkTitle: "Neuromarketing"
+  talkDescription: "Coming soon..."
+  company: True Impact
+  companyWebsite: http://trueimpact.ca
+  personalWebsite:
+  personalTwitter: dianalucaci
+  bio: "Diana Lucaci is the CEO and Founder of True Impact Marketing, the leading Canadian neuromarketing strategy and research firm. True Impact Marketing has been featured on CBC The National, CBC Radio One - The Current, Rogers TV, Reader's Digest, Newstalk 1010, BizTV Canada, Strategy Magazine, TEDx Richmond Hill, etc. Diana was named one of Marketing Mag's Top 30 under Thirty for 2013. Diana is also the Canadian Chair of the Neuromarketing Science & Business Association (NMSBA), and speaks at various Advertising, Marketing and Market Research conferences."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Eric M
+  lastName: Suzanne
+  type: Conference Speakers
+  discipline: Front-End
+  day: 3
+  session: 4
+  talkTitle: "The Magic of Sassy Maps"
+  talkDescription: "<p>Maps are a powerful new data type in Sass 3.3 — giving you key-value pairs without the pain of nested lists, or the clutter of variables. Maps are great for site settings, mixin arguments, data storage, and more. We'll explore maps from the insane to the mundane, and find ways to incorporate them into any web project — from sites and apps, to Sass libraries and frameworks.</p>"
+  company: Oddbird
+  companyWebsite: http://oddbird.net/
+  personalWebsite: http://ericsuzanne.com/
+  personalTwitter: ericmsuzanne
+  bio: "Eric Suzanne builds custom web software with OddBird, soundscapes with Teacup Gorilla, and performance art with Vicious Trap. He is the author of two forthcoming novels and many original performance pieces, core developer on the Compass project, creator of Susy (Sass layout engine), True (Sass unit testing), and other open-source projects. Eric has developed work for Mozilla, Junyo, SpringGun Press, The Operating System, The Media Archeology Lab, Illiterate Magazine, and Pittsburgh’s City Theatre."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Garrett
+  lastName: Johnson
+  type: Conference Speakers
+  discipline: Back-End
+  day: 3
+  session: 5
+  talkTitle: "Reaching asynchronous cloud nine in JavaScript"
+  talkDescription: "<p>Asynchronous code can be tough to manage, even for a seasoned JavaScript developer. Sometimes it seems like the only options are a pyramid nested callbacks, a pyramid of nested promises, or trying some functional tricks that your friend Monad told you about in math class. Well, thanks to one of the language enhancements in ES6, we have a new option: clear and concise code with generators.</p> <p>In this talk I will walk you through the underlying concepts of generators and how they can be applied to control the asynchronous behavior in your web or nodejs applications.</p>"
+  company: Segment.io
+  companyWebsite: http://www.segement.io
+  personalWebsite: http://garrett-johnson.info/
+  personalTwitter: gjohnson391
+  bio: "Garrett Johnson is a local Charlotte resident where he works remotely as a Software Engineer for Segmentio and co-manages the local JavaScript and Go meetups."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Greg
+  lastName: Hoy
+  type: Conference Speakers
+  discipline: Design
+  day: 2
+  session: 5
+  talkTitle: "Work is the Magic Bullet"
+  talkDescription: "<p>\"No one looks back on their lives and remembers the nights they had plenty of sleep\" — J. Cornelius</p> <p>Your personal success isn't just delivered to you on a silver platter. You have to hustle and make things happen yourself. Getting ahead means working hard, smart, and building trust along the way.</p> <p>If getting ahead in your line of work means getting promoted and/or making more money, Greg is here to assist you. Bosses promote hard, smart workers. And you don't have to pull 60-80 hour work weeks to do it. You just have to know what they are looking for.</p> <p>Greg has been managing teams for two decades. Through the course of his experience, he's learned that the people who are most likely to advance in their careers are those who embody specific characteristics — characteristics he will share with you that you can put into action immediately. When it comes to review time, you manager will be looking for them. If you follow them, you'll have a significant advantage.</p>"
+  company: Happy Cog
+  companyWebsite: http://happycog.com/
+  personalWebsite: http://greghoy.com/
+  personalTwitter: hoyboy
+  bio: "As CEO, Greg Hoy brings 20 years of interactive design and management experience to Happy Cog. Greg began his career in sales and marketing in 1992, before turning his focus to interactive design in 1994. He worked as a web designer for 10 years, and has managed teams since 1997. His career spans the publishing, media, insurance, and tech consulting industries. An entrepreneur at his core, he has launched several successful companies. Greg and industry pioneer Jeffrey Zeldman partnered in 2006 to expand Happy Cog's footprint to Philadelphia, and later further expanded the company's reach and capabilities by merging with boutique design studio Airbag Industries in 2009. Greg received his BA in Management from Gettysburg College, where he now is an active alumni and serves on the college's Marketing and Communications committee."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Heather
+  lastName: O'Neill
+  type: Conference Speakers
+  discipline: User Experience
+  day: 3
+  session: 5
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Above the Fold
+  companyWebsite: http://www.abovethefolddesign.com/
+  personalWebsite:
+  personalTwitter: hlrjo
+  bio: "A seasoned UX consultant, researcher and speaker, I've seen the realm of user experience expand to be increasingly intentional and nuanced. As a co-owner of UX design firm, Above the Fold, I've helped clients increase sales, decrease CSR calls, maximize efficiency and more. I'm a big believer in the \"anyone can do it\" philosophy, and I've led several workshops on usability testing, and coached teams to success in incorporating UX into their dev projects."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Heather
+  lastName: Payne
+  type: Conference Speakers
+  discipline: Front-End
+  day: 3
+  session: 5
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: HackerYou
+  companyWebsite: "#"
+  personalWebsite: http://heatherpayne.ca/
+  personalTwitter: heatherpayne
+  bio: "Heather Payne is the CEO of HackerYou, Canada’s original programming bootcamp and to date, the only one of dozens around North America that was founded by women. HackerYou offers Toronto’s best full- and part-time courses for people who want to learn to code. Heather also operates a 7000-square foot digital literacy education facility in the heart of downtown Toronto called The Lab. In 2011, Heather founded Ladies Learning Code, a Canadian not-for-profit organization that runs popular workshops for women (and men, and girls and boys) who want to learn computer programming and other technical skills in a social and collaborative way. Ladies Learning Code now has chapters in over a dozen cities across Canada and a thriving program for youth. In 2012, Heather spent a year working on a project for the Mozilla Foundation: her job was to build a community of people and organizations in Toronto who care about raising youth as creators – not just consumers – of technology and the web. The project was granted $365,000 in funding from the Ontario Trillium Foundation. Heather was an early investor in ShopLocket, and was recently named one of Canada’s 100 Most Powerful Women in the Trendsetters & Trailblazers category."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Irene
+  lastName: Pereyra
+  type: Conference Speakers
+  discipline: Design
+  day: 2
+  session: 3
+  talkTitle: "Learnings from Collaborating across UX and Design"
+  talkDescription: "<p>Irene Pereyra, User Experience Director / Designer and Anton Repponen, Creative Director / Designer, will walk-through an in-depth ‘behind the scenes’ of the redesign of Wacom.com and the challenges in other large redesigns in a chronological manner: from how the projects started, to the successes and hurdles faced along the way, and ultimately to launch.</p> <p>This presentation is an opportunity to learn about the ideas that worked and the others that failed miserably. It is the ‘behind the scenes’ story of the real-life challenges faced by Anton and Irene, told in a refreshingly candid manner.</p>"
+  company: Fi
+  companyWebsite: http://www.f-i.com/
+  personalWebsite: http://www.irenepereyra.com/
+  personalTwitter: ~
+  bio: "Irene Pereyra, User Experience Director / Designer and Anton Repponen, Creative Director / Designer, will walk-through an in-depth ‘behind the scenes’ of the redesign of Wacom.com and the challenges in other large redesigns in a chronological manner: from how the projects started, to the successes and hurdles faced along the way, and ultimately to launch. This presentation is an opportunity to learn about the ideas that worked and the others that failed miserably. It is the ‘behind the scenes’ story of the real-life challenges faced by Anton and Irene, told in a refreshingly candid manner."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: J.
+  lastName: Cornelius
+  type: Conference Speakers
+  discipline: User Experience
+  day: 2
+  session: 1
+  talkTitle: "Digital Fluency and User Experience"
+  talkDescription: "<p>People have explored the globe since the beginning of history, and have encountered new languages and methods of communication. The Web has done great things to bring us together across languages and cultures, but that doesn't mean we all understand things the same way, even if we are speaking the same language. This new digital landscape still has much to be explored.</p> <p>In this talk we'll look at the idea of digital fluency and how different levels of understanding can impact experience in ways we might not have considered before. We'll look at some of the psychology behind how fluency influences judgement and perception of digital experiences, and how we can approach experience design to build meaningful connections with the people who use our creations.</p>"
+  company: Nine Labs
+  companyWebsite: http://ninelabs.com/
+  personalWebsite: http://jcornelius.com/
+  personalTwitter: jc
+  bio: "J has been making websites and software for the web since 1998, and has been credited with creating several software features web designers and developers take for granted today. He's passionate about efficient, usable, aesthetically pleasing design. He is the President of Nine Labs, an experience and strategy consultancy where he works with companies far and wide to improve their products and services. He's also the President of the Atlanta Web Design Group, and founder of the Web Afternoon conference series."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Jason
+  lastName: Toth
+  type: Conference Speakers
+  discipline: User Experience
+  day: 2
+  session: 5
+  talkTitle: "More Than UI: How the Brand Plays a Role in the User Experience"
+  talkDescription: "<p>For years, branding and user experience design seem to be a discipline mixture more reminiscent of oil and water than peanut butter and jelly. However, the need for companies to communicate their values, messages, personality and products in a multi-channel yet consistent experience makes the line between branding and experience design razor thin. Touching on the intersection of marketing, service design, product design, technology, and customer/user experience, this talk will consider what the UX designer’s role could be within this landscape and whether or not we are (or should be) considering the brand experience in user experience design.</p>"
+  company: Viget
+  companyWebsite: "#"
+  personalWebsite: http://jtothdesign.com/
+  personalTwitter: tothy
+  bio: "With a range of professional experiences and design training including architecture, graphic design, and interaction design, Jason has worked in the software and web design industry for the past 10 years. He brings a wealth of industry knowledge in web strategy, usability, and information design, which he uses to create experiences that merge client needs with strong visual and interactive strategies. Jason’s user experience efforts have included projects for Puma, Google, Conservation International, WRAL, Duke University, and GoPole to name just a few. Previously, Jason worked at IBM where he was a senior user experience designer responsible for the design and strategy of products in their social collaboration software suite. Jason is active at the College of Design at NC State University, participating in numerous reviews, design projects, and undergraduate charrettes. Jason earned his B.S. in Architecture from the University of Virginia and a Master's of Graphic Design from NC State University. Prior to working as a User Experience Designer, he worked professionally as a freelance graphic designer and an intern architect."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Jason
+  lastName: Hunter
+  type: Conference Speakers
+  discipline: Back-End
+  day: 2
+  session: 3
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Red Ventures
+  companyWebsite: "#"
+  personalWebsite: ~
+  personalTwitter: hunterjm
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Jen
+  lastName: Myers
+  type: Conference Speakers
+  discipline: Front-End
+  day: 3
+  session: 1
+  talkTitle: "Shepherding Unicorns: How to be a Good Web Mentor"
+  talkDescription: "<p>The web industry moves fast - so fast that web education often has a difficult time keeping up with it. What can those of us currently in the industry do to teach and support the new generation of web creators? Let's talk about strategies, resources and inspirations that we can use to help grow students, apprentices and colleagues into well-rounded designers and developers who understand how to create beautiful and functional web products from the ground up.</p>"
+  company: Dev Bootcamp
+  companyWebsite: "#"
+  personalWebsite: http://jenmyers.net/
+  personalTwitter: antiheroine
+  bio: "Jen Myers is a web designer/developer and part of the instructor team at Dev Bootcamp in Chicago. In 2011, she founded the Columbus, Ohio chapter of Girl Develop It, an organization that provides introductory coding classes aimed at women, and currently serves there as an organizational advisor. She speaks regularly about design, development and diversity, and focuses on finding new ways to make both technology and technology education accessible to everyone."
+  slides: ~
+  video: ~
+
+- speaker:
+  firstName: Jen
+  lastName: Simmons
+  type: Conference Speakers
+  discipline: Front-End
+  day: 2
+  session: 1
+  talkTitle: "Modern Layouts: Getting Out of Our Ruts"
+  talkDescription: "<p>In the early years of the web, there was a lot of variation and experimentation with where to put content on a web page. Then, it seems we all settled into a handful of patterns and stayed there for over a decade. It wasn’t until the arrival of responsive design that new ideas for page layout started appearing. Now with new CSS properties for layout landing in browsers, we may be about to see a bigger renaissance in layout design patterns. How can we better use the space inside the glass rectangle? What layout innovations could help users better find and focus on what they want? Take a walk through where we’ve been, where we might be going, and how we can better design for the true medium at hand. This talk features practical examples of what's newly possible, along with access to a code repo for you to play with later. </p>"
+  company: The Web Ahead
+  companyWebsite: "#"
+  personalWebsite: http://jensimmons.com/
+  personalTwitter: jensimmons
+  bio: "Jen Simmons is a designer who builds stuff, too. She’s best-known as the host of The Web Ahead, a podcast about changing technologies and the future of the web. Creating websites since 1996, Jen designs innovative sites and products using the latest web technology, pushing the envelope of what's possible. She's also an independent consultant and trainer, helping teams transition to a responsive design process and envision implementations of the HTML5 APIs."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Jennifer
+  lastName: Pahlka
+  type: Keynotes
+  discipline: Keynote
+  day: 2
+  session: 0
+  talkTitle: "The Future of Interfaces to Government"
+  talkDescription: "Coming soon..."
+  company: Code for America
+  companyWebsite: http://www.codeforamerica.org/
+  personalWebsite: ~
+  personalTwitter: pahlkadot
+  bio: "Jennifer is the founder and executive director of Code for America, which works to make government work for the people, by the people, in the 21st century.  She recently served as US Deputy Chief Technology Officer in the White House Office of Science and Technology Policy.  Prior to CfA, Jennifer worked in technology media, on the Web 2.0 and Gov 2.0 events for TechWeb with O'Reilly Media and the Game Developers Conference and associated media with CMP.  She is known for her TED talk, Coding a Better Government, and the recipient of several awards, including MIT’s Kevin Lynch Award, the Oxford Internet Institute’s Internet and Society Award, and the National Democratic Institute’s Democracy Award.  She lives in Oakland, CA with her family and seven chickens."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Jessie
+  lastName: Shternshus
+  type: Workshops
+  discipline: User Experience
+  day: 1
+  session: 2
+  talkTitle: "Think like them: Solving UX Problems"
+  talkDescription: "Stuck on a problem? Don’t understand your user?  This interactive workshop will give you the tools to have empathy and understanding for your user and then effectively collaborate with your team to come up with creative ways to their solve problems."
+  company: The Improv Effect
+  companyWebsite: http://www.improveffect.com/
+  personalWebsite: ~
+  personalTwitter: TheImprovEffect
+  bio: "As the founder and owner of The IMPROV EFFECT, Jessie weds her lifelong passion for and expertise in applied improv with the fast pace and demands of the corporate world. She travels worldwide creating powerful learning environments for developers, designers, product owners, and many other teams, that will enable them to become better listeners, team players, problem solvers, innovators and collaborators."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Julia
+  lastName: Elman
+  type: Conference Speakers
+  discipline: Back-End
+  day: 2
+  session: 2
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: The Iron Yard
+  companyWebsite: "#"
+  personalWebsite: http://juliaelman.com/
+  personalTwitter: juliaelman
+  bio: "Julia has been working her brand of web skills for nearly a decade. She started out as a designer for an internal marketing group at a travel agency in Los Angeles, and quickly honed her skills as a web designer using HTML/CSS. Her creative nature drove her to find work at Hallmark Cards, Inc. She worked mostly on Flash development and on projects such as the Product (RED) campaign and Hallmark’s site re-design. In 2007, her team was awarded the AIGA award for Web Design as a result of their work on the Product (RED) microsite. She first learned about Django after attending the 2008 SXSW Interactive Festival. She was amazed at how rapidly you can create useful web applications using Django. Shortly after the festival, she left Hallmark to work at the Lawrence Journal World as a Junior Designer/Developer, where Django originated. She worked on projects such as Ellington CMS and Marketplace, where she developed applications, designed templates, and wrote client-side documentation. "
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Kimberly
+  lastName: Bryant
+  type: Keynotes
+  discipline: Keynote
+  day: 3
+  session: 0
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Black Girls Code
+  companyWebsite: "#"
+  personalWebsite: http://about.me/KimberlyBryant
+  personalTwitter: 6Gems
+  bio: "Kimberly Bryant is the Founder and Executive Director of Black Girls CODE, a non-profit organization dedicated to introducing girls of color (ages 7-17) to the field of technology and computer programming with a concentration on entrepreneurial concepts.  Ms. Bryant's has enjoyed a very successful 20+ year professional career in the pharmaceutical and biotech industries as an Engineering Manager in a series of technical leadership roles for various Fortune 100 companies such as Genentech, Merck,  and Pfizer.  Since 2011 Ms. Bryant has helped Black Girl CODE grow from a local organization serving only the Bay Area, to an international non-profit  organization with chapters in 7 US cities and Johannesburg, South Africa serving over 2000 African/African-American, Latina, and Native American girls.  Ms. Bryant serves on the National Champions Board for the National Girls Collaborative Project, and the National Board of the NCWIT K-12 Alliance.  In August 2012, Kimberly Bryant was also given the honor of receiving the prestigious Jefferson Award for Community Service for her work to support communities in the Bay Area.   In 2013 Black Girls Code and was selected by Business Insider in 2013 on its list of BusinessInsider.com’s list of The 25 Most Influential African-Americans in Technology and was named to The Root 100 list, and the Ebony Power 100 list in 2013. Ms. Bryant was honored in 2013 as a Champion of Change by the White House for her work in tech inclusion and for her focus on bridging the digital divide for girls.  She has been identified as a thought leader in the area of tech inclusion and has spoken on the topic at events such as Personal Democracy Forum, TedX Kansas City, Platform Summit, Big Ideas Festival, SXSW, and others."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Laura Helen
+  lastName: Winn
+  type: Conference Speakers
+  discipline: Design
+  day: 2
+  session: 2
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Smart Design
+  companyWebsite: "#"
+  personalWebsite: http://www.hikecon.com/
+  personalTwitter: LauraHelenWinn
+  bio: "Laura Helen Winn is a visual designer who focuses on digital services and products. She works with the designers, researchers, and engineers at Smart Design in San Francisco, where she bring projects to life–from user research to final designs. Laura is driven by thinking critically about design as a discipline, and encouraging new designers to do the same. That's why she co-founded Hike, a conference for new designers, presented by The Secret Handshake. Her mission is to empower new designers to do the hard work required to reach their aspirations."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Leah
+  lastName: Silber
+  type: Conference Speakers
+  discipline: Back-End
+  day: 3
+  session: 3
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Tilde Inc
+  companyWebsite: "#"
+  personalWebsite: http://about.me/leahsilber
+  personalTwitter: wifelette
+  bio: "Leah is a member of the Ember Core Team, a recently retired member of the jQuery Core Team, and one of the organizers behind the annual Golden Gate Ruby Conference, EmberConf and RailsConf. She spends most of her daytime hours at the startup she founded, Tilde Inc., where she works with numerous open source projects to help build communities and events."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Lisa Maria
+  lastName: Martin
+  type: Conference Speakers
+  discipline: User Experience
+  day: 3
+  session: 4
+  talkTitle: "Polishing Your Content Publishing Process"
+  talkDescription: "<p>You're starting to incorporate content strategy into your organization, building up (or elbowing your way into) a process that shepherds content from concept to implementation.</p> <p>And yet: there are bottlenecks and broken tools, slowdowns and workarounds. Despite the big ideas and deliverables, the process of producing and publishing content is still awfully messy.</p> <p>Luckily, you've got the skills to improve it. In this session, we'll talk about how the content strategy work you're already doing can help identify and untangle the knots in your team and workflow, and lead to a more sustainable content production process.</p>"
+  company: Independent Content Strategist
+  companyWebsite: http://lisamariamartin.com/
+  personalWebsite: http://lisamariamartin.com/
+  personalTwitter: redsesame
+  bio: "Lisa Maria Martin is a content strategist, information architect, and writer based in Washington, DC. She is also an editor at A List Apart. In her previous lives, she’s been a copywriter, a designer, a journalist, and a lecturer at several universities, extolling the virtues of MLA citation and Oxford commas. You can follow her on Twitter @redsesame (but she mostly tweets about doges and Star Trek. Fair warning)."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Mark
+  lastName: Boulton
+  type: Conference Speakers
+  discipline: User Experience
+  day: 2
+  session: 4
+  talkTitle: "My Handbook"
+  talkDescription: "</p>Over the years, every designer picks up a ton of little tips and tricks along the way. Scraps of code, ways of doing things, stories of how not to do it, and how to do it. In this talk, Mark will share some thoughts from his notebook. You'll hear tales of designing by committee, the death of typesetting, content mountains and what happened when he led a team of designers in India for a week.</p>"
+  company: Mark Boulton Design
+  companyWebsite: "http://www.markboultondesign.com/"
+  personalWebsite: http://www.markboulton.co.uk/
+  personalTwitter: markboulton
+  bio: "Mark Boulton runs a small design studio, Mark Boulton Design, working with clients such as ESPN, CERN, Al Jazeera and Drupal. In the past, he worked for the BBC and Agency.com, designing experiences for all manner of clients and people across the world. He also runs a small publishing imprint, Five Simple Steps, and a tool for making grids for web: Gridset."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Mark
+  lastName: Geyer
+  type: Workshops
+  discipline: Design
+  day: 1
+  session: 1
+  talkTitle: "Interface Animations Workshop"
+  talkDescription: "<p>Join Mark as he interprets traditional animation principles on how they might help you create better interface animations. Create CSS transitions and animations that perform well. Learn After Effects to create mini static prototypes that can double up as dribbble shots. Talk about current interaction tools that help convey your interactions and animations. Prototype animations in an environment like AngularJS with minimal effort.</p>"
+  company: Salesforce
+  companyWebsite: "#"
+  personalWebsite: http://markgeyer.com/
+  personalTwitter: markgeyer
+  bio: "Mark is designer who does a little bit of everything. His passion lies in designing product systems, crafting animations, and making illustrations. Mark has three jobs... he's a dad of three, a husband, and he works at Salesforce as a Lead Product Designer. He loves cats."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Mark
+  lastName: Shropshire
+  type: Conference Speakers
+  discipline: Back-End
+  day: 3
+  session: 4
+  talkTitle: "Building Modern Web Applications with Meteor"
+  talkDescription: "<p>Meteor is a pure JavaScript full stack framework for creating realtime interactive applications. Its simplicity allows for quick prototyping and building more complex applications faster than ever. The Meteor Development Group has created a framework which shifts away from the traditional web framework paradigm, while building on trusted open-source technologies.</p> <p>This session will cover the following:</p> <ul><li>What is Meteor what makes it so special</li> <li>How to install and use Meteor</li> <li>Meteor app demo with code examples</li></ul>"
+  company: Classic Graphics
+  companyWebsite: https://www.knowclassic.com/
+  personalWebsite: http://mark.shropshires.net/
+  personalTwitter: shrop
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Mark
+  lastName: Wilson
+  type: Workshops
+  discipline: Back-End
+  day: 1
+  session: 1
+  talkTitle: "Microsoft Azure Hands On"
+  talkDescription: "Coming soon..."
+  company: Logical Advantage
+  companyWebsite: http://www.logicaladvantage.com/
+  personalWebsite: http://about.me/developerinfra
+  personalTwitter: DeveloperInfra
+  bio: "Software craftsman, consultant and agile .NET/JavaScript web developer. User group leader and event planner. Loving husband, dog foster, and Disney aficionado. Mark specializes in cloud computing and web application development. Client side languages include HTML5, JavaScript, and CSS3. Server side technologies include Microsoft Visual C#, ASP.NET MVC, and SQL Server. He is a Senior .NET Developer at Logical Advantage (www.logicaladvantage.com) in Charlotte, NC. A self-motivated, energetic team leader able to quickly learn new technologies and tools. Experienced in all phases of the agile software development methodology. Focused on building applications that enhance and help people–not hinder them. Committed to providing the highest level of customer service and satisfaction. Delivers custom Business Process Management/Automation and Business Intelligence products and services. Mark lives with his wife and a house full of dogs, most of them being foster dogs. Hobbies include helping his wife with her non-profit animal rescue, promoting the development community, and everything Disney."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Martha
+  lastName: Girdler
+  type: Conference Speakers
+  discipline: Front-End
+  day: 2
+  session: 3
+  talkTitle: "Teaching with JavaScript"
+  talkDescription: "<p>I am a self taught programmer. I grew up in Alabama where the opportunity to learn about computers was not readily available. After I completed Hacker School I began hosting hack days and user groups in my community to share the opportunity I had been given. Through these experiences I learned how to teach and how to support those who want to learn. In particular, I found that learning JavaScript is an excellent first step to help students fall in love with programming.</p> <p>In this talk I'll share what I've learned with you. We'll cover common barriers to entry, how to mitigate them, and I'll show you the kinds of projects encourage new programmers to stick with it.</p>"
+  company: Uber
+  companyWebsite: "#"
+  personalWebsite: http://marthakelly.github.io/
+  personalTwitter: marthakelly
+  bio: "Martha Kelly Girdler is an artist turned self-taught Software Engineer. She studied Art/Art History and Design at Auburn University, became obsessed with programming at Hacker School in New York City, and now works on making Driver Operations insanely efficient at Uber. She is a bit obsessed with teaching people about •:*¨☆ computers ☆¨*:•, kittens, and chanel mademoiselle."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Melissa
+  lastName: Avery-Weir
+  type: Conference Speakers
+  discipline: Front-End
+  day: 3
+  session: 2
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Lending Tree
+  companyWebsite: "#"
+  personalWebsite: http://irrsinn.net/
+  personalTwitter: averymd
+  bio: "Melissa is a front-end/.NET/Django UX developer currently plying their trade for local Charlotte companies LendingTree and Future Proof Games. They've been doing web development in one way or another since about 2000, when blogging was new and classic ASP with Access databases was all the rage for single developers. They flourish in the end-to-end processes of software and game creation: that never-ending, never-perfect crafting that produces art, valued services, profit, and -- with success -- joy for users."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Michael
+  lastName: Labriola
+  type: Workshops
+  discipline: Front-End
+  day: 1
+  session: 2
+  talkTitle: "Hands-on with Polymer"
+  talkDescription: "<p>Web Components allow for the viewing of web applications as a set of encapsulated, maintainable and reusable components. This half-day session will teach participants to work with the Polymer libraries to begin creating web components today, while learning about concepts such as the Shadow DOM, HTML Imports and Custom elements. This is a bleeding edge session, based on pre-alpha software, but it’s also insanely cool and undeniably useful. Michelle Yaiser and Michael Labriola invite you to come learn how to integrate these pieces into your process today in order to bring sanity and reuse to your world.</p>"
+  company: Digital Primates
+  companyWebsite: http://www.digitalprimates.net/
+  personalWebsite: http://www.digitalprimates.net/
+  personalTwitter: mlabriola
+  bio: "Michael Labriola is Senior Consultant at Digital Primates, architect of several open source projects, and a PMC member and committer for Apache Flex. He has been developing Internet applications since 1995 and has consulted for many of the world’s top brands. Michael is the co-author of five books on Internet technologies, an international speaker and team mentor and has delivered solutions for enterprises worldwide using a variety of platforms and technologies. His free time is spent escaping from technology through wine and food."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Michelle
+  lastName: Yaiser
+  type: Workshops
+  discipline: Front-End
+  day: 1
+  session: 2
+  talkTitle: "Hands-on with Polymer"
+  talkDescription: "<p>Web Components allow for the viewing of web applications as a set of encapsulated, maintainable and reusable components. This half-day session will teach participants to work with the Polymer libraries to begin creating web components today, while learning about concepts such as the Shadow DOM, HTML Imports and Custom elements. This is a bleeding edge session, based on pre-alpha software, but it’s also insanely cool and undeniably useful. Michelle Yaiser and Michael Labriola invite you to come learn how to integrate these pieces into your process today in order to bring sanity and reuse to your world.</p>"
+  company: Adobe
+  companyWebsite: "#"
+  personalWebsite: http://michelleyaiser.com/
+  personalTwitter: MichelleYaiser
+  bio: "Michelle Yaiser directs user research and helps plan educational content on Adobe’s Creative Cloud Learning team. Prior to joining Adobe she taught development at the college level and now enjoys working with new technologies and planning lessons without having to grade homework.  She plays the clarinet and races cars (yes on a race track with other cars), and would love to have her own TARDIS."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Mike
+  lastName: Monteiro
+  type: Keynotes
+  discipline: Keynote
+  day: 3
+  session: 7
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Mule Design
+  companyWebsite: http://muledesign.com/
+  personalWebsite: http://mikemonteiro.com/
+  personalTwitter: monteiro
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Netta
+  lastName: Marshall
+  type: Conference Speakers
+  discipline: Design
+  day: 2
+  session: 4
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Watsi
+  companyWebsite: "#"
+  personalWebsite: http://www.nettamarshall.com/
+  personalTwitter: nettatheninja
+  bio: "Netta Marshall is a designer and photographer based in San Francisco, California. She enjoys nighttime bike rides, and pillow fights, strumming guitars, and baking cookies."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Nicole
+  lastName: Fenton
+  type: Conference Speakers
+  discipline: User Experience
+  day: 3
+  session: 6
+  talkTitle: "Interface Writing: Code for Humans"
+  talkDescription: "<p>We build systems to help real people. But honestly, are we being that helpful in our interfaces? Or are we treating the copy as an afterthought and letting people fend for themselves? Instead of debating the latest design trends, let’s reflect on something that isn’t going away: the text on your website.</p> <p>In this session, we’ll look at how strings, labels, forms, and flows shape the user experience. You’ll learn how to write clear copy and guide your readers through multipart interfaces in a friendly way.</p>"
+  company: Swell Content
+  companyWebsite: "#"
+  personalWebsite: http://www.nicolefenton.com/
+  personalTwitter: nicoleslaw
+  bio: "Nicole Fenton is an independent writer and editor in Brooklyn. She is the coauthor of Nicely Said: Writing for the Web with Style and Purpose (New Riders, 2014). Previously, Nicole was a content strategist at a large social network, a small design studio, and a startup incubator in San Francisco. She started her professional writing practice in 2005 at Apple, where she served as communications lead for five years."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Pamela
+  lastName: Pavliscak
+  type: Conference Speakers
+  discipline: User Experience
+  day: 2
+  session: 3
+  talkTitle: "Design for the One Little Thing that Changes Everything"
+  talkDescription: "<p>So much of the news about technology is that it's bad for us - it's tapping in to our worst possible selves, it makes us anxious, we get caught in a dopamine loop. We'd just be happier without it. Or would we? Maybe, just maybe, there are things that make people happy when they use a favorite website and tap into a trusted mobile app. This session looks at the principles that the happiest websites and app share. A combination of data,  little things, not-so-little things, social science, experiments, and real life uncovers some moments of truth about happy user experience. Come away with a short list of patterns, across sites and apps, that make people happy.</p>
+"
+  company: Change Sciences
+  companyWebsite: "#"
+  personalWebsite: https://www.changesciences.com/
+  personalTwitter: paminthelab
+  bio: "Pamela is founder of Change Sciences, a user experience research and strategy firm for Fortune 500s, startups, and other smart companies. Over the past 15 years, she’s logged thousands of hours in the field trying to better understand how people use technology and run hundreds of UX studies on almost every type of site you could imagine. Lately, she's been thinking about how to  bring together quantitative data and qualitative insights. She's also been encouraging women entrepreneurs, working with schools to create maker labs, and speaking about data fluency."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Paul
+  lastName: Boag
+  type: Conference Speakers
+  discipline: User Experience
+  day: 3
+  session: 3
+  talkTitle: "Digital Adaptation – Time to Untie your Hands"
+  talkDescription: "<p>Do you feel like you are doing your job with one hand tied behind your back? Are you frustrated by company practices that are horribly antiquated and inappropriate for the digital world. Does your boss or client fail to understand the unique characteristics of the web?</p> <p>If so you are not alone. The majority of traditional businesses are struggling to adapt to the digital economy and need your help even if they don’t realise it. In his talk Paul explains why this is, and what we (as the web community) can do about it. He highlights that to build a great website we have to be the catalyst for organisational change and recommends ways to start that happening.</p> <p>Things you will learn include:</p> <ul> <li>Why so many organisations are failing to adapt.</li> <li>Why it falls to you to instigate the change in company culture.</li> <li>Practical ways of instigating change.</li> <li>Why your primary job isn’t to build websites, despite what your boss or client might think.</li> </ul>"
+  company: Headscape
+  companyWebsite: "#"
+  personalWebsite: http://boagworld.com/
+  personalTwitter: boagworld
+  bio: "Paul Boag has been working with the web since 1994. He is now co-founder of the digital agency Headscape, where he works closely with clients to establish their web strategy. Paul is a prolific writer having written Digital Adaptation, Website Owners Manual, Client Centric Web Design and numerous articles for publications such as .net magazine, Smashing Magazine and the econsultancy.com. Paul also speaks extensively on various aspects of web design both at conferences across the world and on his award winning web design podcast boagworld."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Paul
+  lastName: Trani
+  type: Workshops
+  discipline: Design
+  day: 1
+  session: 2
+  talkTitle: "Designing Killer Apps & Websites Using Photoshop"
+  talkDescription: "<p>A large percentage of Photoshop users use it for screen design, and for good reason. In this session you will learn the features that make Photoshop perfect for screen design: smart guides, linked smart objects, tricks to generate graphics and creating CSS are just a few features to exploit. But it doesn’t stop there; Paul will then show you how to use Photoshop content in other apps like Muse, Reflow and Dreamweaver to easily create compelling website and apps.</p> <p>The audience will learn:</p> <ul><li>How to use Photoshop to design</li> <li>Reusing assets across multiple files</li> <li>Outputting graphics</li> <li>Using graphics in HTML and apps.</li></ul>"
+  company: Adobe
+  companyWebsite: http://www.adobe.com/
+  personalWebsite: http://paultrani.com/
+  personalTwitter: paultrani
+  bio: "Paul Trani is a Creative Suite Evangelist for Adobe Systems, focusing on workflows that empower designers and developers to publish to multiple screens and platforms. Paul has been an Adobe Certified Instructor and CourseWare creator for over a decade and as a writer and prolific trainer, Paul has earned top author status at Lynda.com and has created a constant stream of content for AdobeTV, as well as his own tutorials on www.paultrani.com. Prior to joining Adobe, Paul led a team of interactive designers and developers at Starz Entertainment producing multi-million dollar web and mobile campaigns. When he is not traversing the globe he can be found hiking somewhere in the Colorado mountains (and he’s not telling where)."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Rachel
+  lastName: Ober
+  type: Conference Speakers
+  discipline: Back-End
+  day: 3
+  session: 6
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Paperless Post
+  companyWebsite: "#"
+  personalWebsite: http://rachelober.com/
+  personalTwitter: rachelober
+  bio: "Rachel is a software engineer at Paperless Post in New York City who focuses on front-end technologies and the user interface. She has taught at General Assembly in Manhattan and has contributed to their Front-end and Ruby on Rails curriculum that is used at their various campuses around the world. Starting in 2013, Rachel organizes and volunteers her time teaching women Ruby and Ruby on Rails through RailsBridge NYC. Rachel is an avid paper crafter and loves to talk about her Pembroke Welsh Corgi, Isabella."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Rebecca
+  lastName: Murphey
+  type: Conference Speakers
+  discipline: Front-End
+  day: 2
+  session: 4
+  talkTitle: "Ain't No Party Like A Third-Party JS Party"
+  talkDescription: "<p>You've got the hang of this whole JavaScript thing. Your code works on ancient browsers, and positively sings on new ones. AMD, SPA, MVC -- you can do that stuff in your sleep, amirite? </p> <p>But now your users are trying to type in your Very Important Form, and nothing is showing up; you loaded Backbone into your app <i>right there on line 1</i>, but <code>window.Backbone</code> is nowhere to be found; that widget that's supposed to end up in a certain div is showing up somewhere completely different; calls to jQuery's <code>.css()</code> are doing absolutely nothing; and, rarely but not never, your app just doesn't load at all.</p> <p>You <i>thought</i> you had the hang of this whole JavaScript thing, but now you're in the world of third-party JavaScript, where all you control is a single script tag and where it's all but impossible to dream up every hostile environment in which your code will be expected to work. \"It works on my machine\" has never rung quite so hollow.</p> <p>In this talk, we'll take a look at some of the delightful bugs we've had to solve at Bazaarvoice while working on the third-party JavaScript app that collects and displays ratings and reviews for some of the world's largest retailers.</p>"
+  company: BazaarVoice
+  companyWebsite: "#"
+  personalWebsite: http://rmurphey.com/
+  personalTwitter: rmurphey
+  bio: "Rebecca Murphey is a staff software engineer at Bazaarvoice, where she leads the team that develops the third-party JavaScript application for collecting and displaying ratings, reviews, and other social commerce content. She is a frequent speaker on the topic of code organization and best practices at various JavaScript conferences, including Front-End Ops Conf, the 2014 jQuery Conference in San Diego, JSConf US 2013, JSConf US 2011, JSConf EU 2010, Full Frontal 2012, Fronteers 2012, and many others. She lives in Austin, TX, with her partner, their son, and their dog."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Scott
+  lastName: Stroud
+  type: Conference Speakers
+  discipline: User Experience
+  day: 2
+  session: 2
+  talkTitle: "Designing for Love"
+  talkDescription: "<p>Spike Jonze's movie Her is about a man falling in love with his OS. The film is science fiction, and the forecasts are both exciting and challenging. As we imagine what’s next, the goal for UX designers is not how to make devices more human or more lovable. The questions we should chase are: How can we create products to sustain and amplify our human relationships rather than to replace or deflect them? Are we looking for technology to meet our needs or help us become less needful? How can we design Things that coax more good from our brains and our hearts?</p>"
+  company: NPR
+  companyWebsite: "#"
+  personalWebsite: http://www.npr.org/
+  personalTwitter: sstroud
+  bio: "Scott is a UX consultant, collaborating with organizations on their digital product strategy: interaction design, user testing, behavioral design and Lean UX methodologies. He was a principal interaction designer of the original NPR iPad app and the NPR.org responsive website. He is also a certified yoga teacher and writer."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Scott
+  lastName: Hanselman
+  type: Keynotes
+  discipline: Keynote
+  day: 2
+  session: 7
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Microsoft
+  companyWebsite: "#"
+  personalWebsite: http://www.hanselman.com/
+  personalTwitter: shanselman
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Scott
+  lastName: Hanselman
+  type: Conference Speakers
+  discipline: Back-End
+  day: 2
+  session: 4
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Microsoft
+  companyWebsite: "#"
+  personalWebsite: http://www.hanselman.com/
+  personalTwitter: shanselman
+  bio: "Scott is a web developer who has been blogging at http://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He's written a number of books and spoken in person to almost a half million developers worldwide."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Sophie
+  lastName: Shepherd
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 3
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Happy Cog
+  companyWebsite: "#"
+  personalWebsite: http://sophieshepherd.com/
+  personalTwitter: sophshepherd
+  bio: "Sophie is a designer at Happy Cog in Austin, TX. With a history in both filmmaking and digital publishing, she realized that web design falls right at the intersection of some of her favorite things—storytelling, graphic design, and code. She freelanced for two years before joining Happy Cog full time. She cares deeply about designing websites that are simple, easily navigable, and full of necessary, applicable content. When not designing, Sophie enjoys cooking, drinking beer outside, riding her bike, road trips, and camping. She is active in the Austin web design community, where she organizes the Dribbble Meetup and teaches Intro to Responsive Design and Intro to Sass for Girl Develop It."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Sougwen
+  lastName: Chung
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 1
+  talkTitle: "Process, Poetics and Performance"
+  talkDescription: "<p>How can established techniques in art making and composition find a new voice in the current cultural, technological and creative landscape?</p> <p>Sougwen Chung shares her approach and reflects on her artistic development and forthcoming curiosities. From her origins as a violinist, to an artist working within the realm of intricate and textural audio-visuals and installation, Chung will trace her process of being inspired by tactile materials against a connection and disconnection with digital technology. In this talk, Sougwen will communicate an interdisciplinary perspective on culling influences and inquiry for exploring transitional edges in creative practice.</p>"
+  company: Freelance
+  companyWebsite: "#"
+  personalWebsite: http://sougwen.com/
+  personalTwitter: sougwen
+  bio: "Canadian-born, Chinese-raised, New York-based. Sougwen Chung is an interdisciplinary artist whose work explores transitional edges. Her artistic practice spans installation, sculpture, still image, drawing and performance, informing her multi-faceted approach to experiential art. Chung’s work iterates on the expressive agency of form catalyzed with software, sound, light and space. Her installations involve multiple layers of light on intricate structures, taking a variety of media and transforming it into spatial experiences. Her work has been featured in exhibitions in North America, Europe and Asia. Recent venues include the Museum of Contemporary Art in Geneva, Switzerland and 319 Scholes in Brooklyn, New York. Additionally, Chung has been featured in The New Yorker, Dazed and Confused, Cool Hunting and The Creators Project."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Stacey
+  lastName: Mulcahy
+  type: Conference Speakers
+  discipline: Back-End
+  day: 3
+  session: 2
+  talkTitle: "Hardware for a Soft World"
+  talkDescription: "<p>From microcontrollers to the Kinect, devices that were never meant to speak to each other and some that never should, this session will take a look at how to transition from the world of software into the one of hardware.</p> <p>Collaborative projects will be shown and some electronic basics will be shared.</p>"
+  company: Microsoft
+  companyWebsite: "http://www.microsoft.com/"
+  personalWebsite: http://thebitchwhocodes.com/
+  personalTwitter: bitchwhocodes
+  bio: "Stacey Mulcahy is a technical evangelist with Microsoft for Windows 8. Prior, she was the Lead Developer working with a variety of technologies at Big Spaceship, a digital agency based out of Brooklyn, NY. She has worked at Teknision and Fuel Industries in Ottawa, Canada, and IQ Interactive in Atlanta in a variety of technical roles. A technical editor and instructor, Stacey enjoys sharing her love for her work in interactive development. She considers her lack of verbal filter and extreme candor just a small part of her charm."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Steve
+  lastName: Klabnik
+  type: Conference Speakers
+  discipline: Back-End
+  day: 2
+  session: 6
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Balanced
+  companyWebsite: "#"
+  personalWebsite: http://www.steveklabnik.com/
+  personalTwitter: steveklabnik
+  bio: 'Hypermedia enthusiast, prolific open source contributor, Philosopher In Residence at Balanced Payments. Currently writing "Designing Hypermedia APIs," "Rust for Rubyists," and "Rails 4 in Action."'
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Tiffany
+  lastName: Chu
+  type: Conference Speakers
+  discipline: ~
+  day: ~
+  session: ~
+  talkTitle: "Civic Design: Charlotte Code for America"
+  talkDescription: "Coming soon..."
+  company: Code for America
+  companyWebsite: http://www.codeforamerica.org/
+  personalWebsite: http://t-chu.com/
+  personalTwitter: tchu88
+  bio: "Tiffany is a designer, researcher, and urbanist. She is currently a Fellow at Code for America partnering with the City of Charlotte, and is passionate about helping cities and organizations become more accessible and user-centered through design and technology. Previously, Tiffany launched the UX research practice at Zipcar, worked as an innovation consultant at Continuum, and wrote for Dwell. Tiffany has a background in architecture and urban planning from MIT."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Val
+  lastName: Head
+  type: Conference Speakers
+  discipline: Front-End
+  day: 3
+  session: 6
+  talkTitle: "Web Designer/ Motion Designer"
+  talkDescription: "<p>With the current state of CSS and JavaScript the web has seriously stepped up its animation game. As web designers and developers we’ve never had to understand animation principles like we do now. Smart animation comes from thinking like a motion designer when adding animations and transitions to our web work. There is a huge depth of knowledge we can pull from while we design and build the new UIs of the web.</p> <p>In this session we will demonstrate key animation principles like timing, offsets, and others as they apply to UI work on the web. And we'll cover principles specific to UI animation that will make your work both usable and delightful. Consider this your crash course into becoming a web animation pro! </p>"
+  company: Ladies in Tech
+  companyWebsite: http://ladiesintech.com/
+  personalWebsite: http://www.valhead.com/
+  personalTwitter: vlh
+  bio: "Val Head is a designer and consultant based in Philadelphia. Her work ranges from projects on the web to interactive installations to print. She is the author of The Pocket Guide to CSS Animations, teaches CSS Animations on Lynda.com, and hosts the All The Right Moves tutorial screencast. You can find her on stage speaking at events like An Event Apart and encouraging others to do the same as the co-host of the Ladies in Tech podcast. She also founded the popular Web Design Day conference, and leads workshops around the world on animation for the web and creative coding."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: TBD
+  lastName: TBD
+  type: Conference Speakers
+  discipline: User Experience
+  day: 3
+  session: 2
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: ~
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: TBD
+  lastName: TBD
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 2
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: ~
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: TBD
+  lastName: TBD
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 4
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: ~
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: TBD
+  lastName: TBD
+  type: Conference Speakers
+  discipline: Back-End
+  day: 3
+  session: 1
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: ~
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
