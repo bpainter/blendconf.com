@@ -2,7 +2,7 @@
 title: ~
 id: speaker-detail
 ---
-ruby: 
+ruby:
 	s = locals[:speaker]
 
 #masthead role="banner"
@@ -18,14 +18,18 @@ article.basic-content
 	.talk-details
 		h2 #{s.name.split[0..0].join(" ")}'s Presentation
 
+		- if s.talk.video
+			.video
+				iframe src="//player.vimeo.com/video/#{s.talk.video}" frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""allowfullscreen=""
+
 		- if s.talk.slides
 			h3: a href="#{s.talk.slides}"== s.talk.title
-		- else 
+		- else
 			h3== s.talk.title
 
 		p== s.talk.desc
 
-/ aside	
+/ aside
 / 	a href="http://twitter.com/#{s.links.twitter}"= s.links.twitter
 / 	a href="http://github.com//#{s.links.github}"= s.links.github
 / 	a href="#{s.links.website}"= s.links.website

@@ -61,7 +61,7 @@ end
 
 # Generate schedule detail pages from /data/speakers.yml
 data.speakers.each do |speaker|
-  proxy "/schedule/#{speaker[:talk][:title].downcase.tr(" ", "-").tr(".", "").tr(":", "")}.html", "/schedule/template.html", :locals => { :speaker => speaker }, :ignore => true
+  proxy "/schedule/#{speaker[:talk][:title].downcase.tr(" ", "-").tr(".", "").tr(":", "").tr(",", "").tr("+", "")}.html", "/schedule/template.html", :locals => { :speaker => speaker }, :ignore => true
 end
 
 page "/2014.html", :layout => :bare_layout
