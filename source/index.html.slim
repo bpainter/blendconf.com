@@ -5,18 +5,17 @@ id: home
 
 #intro role="banner"
 	h1== image_tag 'content/blend-conference-logo.png', :alt => 'Blend Conference'
-	h2 September 5 - 7, 2013 <span>Charlotte, NC</span>
-	p A generalist conference featuring 50 diverse speakers sharing ideas and conversations about user experience, design, and web development. The 2013 conference was a success. Thank-you for making it amazing.
+	h2 September 11-13, 2014 <span>Charlotte, NC</span>
+	p A generalist conference featuring 60+ diverse speakers sharing ideas and conversations about user experience, design, front-end and back-end development. The 2013 conference was a success. Thank-you for making it amazing.
 
-	a.button href="/wrapup/" Read the Wrap-up
-	/ a.button href="https://tito.io/blendconf/blendconf-2013" data-type="Register - Primary" Sold Out
+	a.button href="https://ti.to/blendconf/blendconf2014/" data-type="Register - Primary" Buy a Ticket
 
 #skinny
 	h2 A slightly <b>different spin</b> on web conferences
 	ul
-		li <strong>50+ Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
-		li <strong>40 Talks</strong> Over the 2 conference days there will be 40 talks total spread across 3 tracks. Pick and choose the topics that you find interesting.
-		li <strong>6 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
+		li <strong>60+ Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
+		li <strong>48 Talks</strong> Over the 2 conference days there will be 48 talks total spread across 4 tracks. Pick and choose the topics that you find interesting.
+		li <strong>8 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
 		li <strong>No Devices</strong> Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones won't be allowed to be used during the conference sessions.
 		li <strong>Custom Notebooks</strong> We're going analog. Each attendee will receive a nice, custom BlendConf notebook along with something fancy to write with. You'll thank us later.
 		li <strong>Diversity</strong> We've spent fair amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
@@ -32,34 +31,34 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 		a.button href="http://twitter.com/blendconf" Follow @blendconf
 
 #speakers
-	h2 <b>50+ speakers</b> covering user experience, development, and design
+	h2 <b>60+ speakers</b> covering user experience, development, and design
 	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
 	ul.hive.hexagon
 		- data.speakers.shuffle.first(9).each do |speaker|
-			li class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}"
-				strong #{speaker.name} <span>#{speaker.company.name}</span>
-				a href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
+			li class="#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "")}"
+				strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
+				a href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
 		li class="more"
-				strong + 43 more
+				strong + many more
 				a href="/speakers/"
 
 #schedule
 	h2 An amazing <b>3-day schedule</b>
-	p Each day of our web conference has 3 tracks going on at the same time covering user experience, design, and web development.
+	p Each day of our web conference has 4 tracks going on at the same time covering user experience, design, and front-end and back-end development.
 
 	ul.schedules
 		li
 			h3==link_to "Workshops", "/schedule#workshop-day"
-			h4 Thursday, Sept. 5th
-			p During our workshop day there are 6 half-day to choose from. 3 in the morning and 3 in the evening.  You can pick from 2.
+			h4 Thursday, Sept. 11th
+			p During our workshop day there are 8 half-day workshops to choose from. 4 in the morning and 4 in the evening.  You can choose 2.
 		li
 			h3==link_to "Conference Day", "/schedule#conference-day"
-			h4 Friday, Sept. 6th
-			p The conference day is jam packed with two amazing keynote speakers and 16 sessions you can choose from.
+			h4 Friday, Sept. 12th
+			p The conference day is jam packed with two amazing keynote speakers and 24 sessions you can choose from.
 		li
 			h3==link_to "Blend Day", "/schedule#blend-day"
-			h4 Saturday, Sept. 7th
-			p Our blend day is something special. You still have 16 sessions to choose from but talks are aimed at helping you discover your inner generalist.
+			h4 Saturday, Sept. 13th
+			p Our blend day is something special. You still have 24 sessions to choose from but talks are aimed at helping you discover your inner generalist.
 
 	a==link_to "Full Schedule", "/schedule/", :class => 'button'
 
@@ -67,9 +66,7 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 	/ #map
 	h2 Classic <b>Venue & Hotel</b> in Downtown Charlotte
 
-	p The conference will be held at <a href="http://www.blakehotelnc.com/" data-type="Hotel">The Sheraton</a> (formerly the Blake Hotel). <br /><strong>The Sheraton is now full.</strong>
-
-	p Hotels in downtown Charlotte have filled up. There is a 2nd very large convention at the Charlotte Convention Center the earlier part of the week. If you still haven't reserved your hotel room you could potentially <a href="https://www.airbnb.com/s/charlotte--NC?checkin=09%2F04%2F2013&checkout=09%2F08%2F2013&search_view=3&per_page=80&sw_lat=35.21521380185681&sw_lng=-80.85939171604912&ne_lat=35.241155153759394&ne_lng=-80.82763436131279&search_by_map=true">find something on AirBNB</a>.
+	p The conference will be held at The <a href="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=3986&language=en_US">Charlotte Sheraton Hotel</a>. The room block will expire on August, 8th. To make a reservation call their reservations desk 1-800-325-3535 and let them know you're booking a room for "Blend Conference".
 
 	a==link_to "Things to Do in Charlotte", "/venue/", :class => 'button'
 

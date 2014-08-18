@@ -2,30 +2,32 @@
 title: ~
 id: speaker-detail
 ---
-ruby: 
+ruby:
 	s = locals[:speaker]
 
 #masthead role="banner"
-	h1= s.name
-	a href="#{s.company.url}" #{s.company.name}
-
+	h1= s.firstName s.lastName
+	- if s.companyWebsite
+		a href="#{s.companyWebsite}" #{s.company}
+	- else
+		a href="#" #{s.company}
 
 article.basic-content
 	.speaker-details
-		h2 A little more about #{s.name.split[0..0].join(" ")}
+		h2 A little more about #{s.firstName}
 		== s.bio
 
 	.talk-details
-		h2 #{s.name.split[0..0].join(" ")}'s Presentation
+		h2 #{s.firstName}'s Presentation
 
-		- if s.talk.slides
-			h3: a href="#{s.talk.slides}"== s.talk.title
-		- else 
-			h3== s.talk.title
+		- if s.slides
+			h3: a href="#{s.slides}"== s.talkTitle
+		- else
+			h3== s.talkTitle
 
-		p== s.talk.desc
+		p== s.talkDescription
 
-/ aside	
+/ aside
 / 	a href="http://twitter.com/#{s.links.twitter}"= s.links.twitter
 / 	a href="http://github.com//#{s.links.github}"= s.links.github
 / 	a href="#{s.links.website}"= s.links.website

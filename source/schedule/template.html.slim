@@ -2,24 +2,24 @@
 title: ~
 id: session-detail
 ---
-ruby: 
+ruby:
 	s = locals[:speaker]
 
 #masthead role="banner"
-	h1= s.talk.title
-	- if s.talk.slides
-		a.slides href="#{s.talk.slides}" View Slides
+	h1= s.talkTitle
+	- if s.slides
+		a.slides href="#{s.slides}" View Slides
 
 
 article.basic-content
-	.talk-details	
-		== s.talk.desc
+	.talk-details
+		== s.talkDescription
 
 	.speaker-details
-		h2 About #{s.name}
+		h2 About #{s.firstName}
 		== s.bio
 
-/ aside	
+/ aside
 / 	a href="http://twitter.com/#{s.links.twitter}"= s.links.twitter
 / 	a href="http://github.com//#{s.links.github}"= s.links.github
 / 	a href="#{s.links.website}"= s.links.website

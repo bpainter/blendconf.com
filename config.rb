@@ -56,12 +56,12 @@ require 'susy'
 
 # Generate speaker pages from /data/speakers.yml
 data.speakers.each do |speaker|
-  proxy "/speakers/#{speaker[:name].downcase.tr(" ", "-").tr(".", "")}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
+  proxy "/speakers/#{speaker[:firstName].downcase.tr(" ", "-").tr(".", "")}-#{speaker[:lastName].downcase.tr(" ", "-").tr(".", "")}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
 end
 
 # Generate schedule detail pages from /data/speakers.yml
 data.speakers.each do |speaker|
-  proxy "/schedule/#{speaker[:talk][:title].downcase.tr(" ", "-").tr(".", "").tr(":", "")}.html", "/schedule/template.html", :locals => { :speaker => speaker }, :ignore => true
+  proxy "/schedule/#{speaker[:talkTitle].downcase.tr(" ", "-").tr(".", "").tr(":", "")}.html", "/schedule/template.html", :locals => { :speaker => speaker }, :ignore => true
 end
 
 page "/2014.html", :layout => :bare_layout

@@ -2,53 +2,31 @@ ul class="#{ talkType == 'Keynotes' ? 'keynotes' : 'session' }"
   li.time #{talkTime}
 
   - data.speakers.each_with_index do |speaker, i|
-    - if speaker.talk.type == "#{talkType}" && speaker.talk.day == talkDay && speaker.talk.session == talkSession && speaker.talk.discipline == "ux"
-      - if speaker.talk.title == "The Design in Service Design"
-        li.description.ux class="session-#{i}"
-          h4.title: a href="/schedule/#{speaker.talk.title.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talk.title}
-          h5.track User Experience Track
-          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" Anders Frostenson & Magnus Bergmark
-          a.company href="#{speaker.company.url}" #{speaker.company.name}
-
-      - else
-        li.description.ux
-          h4.title: a href="/schedule/#{speaker.talk.title.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talk.title}
-          h5.track User Experience Track
-          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.name}
-          a.company href="#{speaker.company.url}" #{speaker.company.name}
-          .simple-hexagon class="#{speaker.name.downcase.tr(" ", "-").tr(".", "")}" <div class="right-hex"></div><div class="left-hex"></div>
+    - if speaker.type == "#{talkType}" && speaker.day == talkDay && speaker.session == talkSession && speaker.discipline == "User Experience"
+      li.description.user-experience
+        h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+        h5.track User Experience Track
+        a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.firstName} #{speaker.lastName}
+        a.company href="#{speaker.companyWebsite}" #{speaker.company}
   - data.speakers.each_with_index do |speaker, i|
-    - if speaker.talk.type == "#{talkType}" && speaker.talk.day == talkDay && speaker.talk.session == talkSession && speaker.talk.discipline == "ui"
-      - if speaker.talk.title == "Think Like a Startup"
-        li.description.ux class="session-#{i}"
-          h4.title: a href="/schedule/#{speaker.talk.title.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talk.title}
-          h5.track Design Track
-          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" Joel Van Dyke, Kendra Shillington, & Marc Bolick
-          a.company href="#{speaker.company.url}" #{speaker.company.name}
-      - elsif speaker.talk.title == "Discovering Unexpected Ideas Using Generative Design"
-        li.description.ui class="session-#{i}"
-          h4.title: a href="/schedule/#{speaker.talk.title.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talk.title}
-          h5.track Design Track
-          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" Ron Edelen, Michael Chatten, & Albert Banks
-          a.company href="#{speaker.company.url}" #{speaker.company.name}
-      - else
-        li.description.ui
-          h4.title: a href="/schedule/#{speaker.talk.title.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talk.title}
-          h5.track Design Track
-          a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.name}
-          a.company href="#{speaker.company.url}" #{speaker.company.name}
+    - if speaker.type == "#{talkType}" && speaker.day == talkDay && speaker.session == talkSession && speaker.discipline == "Design"
+      li.description.design
+        h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+        h5.track Design Track
+        a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.firstName} #{speaker.lastName}
+        a.company href="#{speaker.companyWebsite}" #{speaker.company}
   - data.speakers.each do |speaker|
-    - if speaker.talk.type == "#{talkType}" && speaker.talk.day == talkDay && speaker.talk.session == talkSession && speaker.talk.discipline == "dev"
+    - if speaker.type == "#{talkType}" && speaker.day == talkDay && speaker.session == talkSession && speaker.discipline == "Front-End"
+      li.description.front-end
+        h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+        h5.track Front-End Track
+        a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.firstName} #{speaker.lastName}
+        a.company href="#{speaker.companyWebsite}" #{speaker.company}
+  - data.speakers.each do |speaker|
+    - if speaker.type == "#{talkType}" && speaker.day == talkDay && speaker.session == talkSession && speaker.discipline == "Back-End"
       li.description.dev
         h4.title: a href="/schedule/#{speaker.talk.title.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talk.title}
-        h5.track Development Track
-        a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.name}
-        a.company href="#{speaker.company.url}" #{speaker.company.name}
-  - data.speakers.each do |speaker|
-    - if speaker.talk.type == "Keynotes" && speaker.talk.day == talkDay && speaker.talk.session == talkSession
-      li.description.dev
-        h4.title: a href="/schedule/#{speaker.talk.title.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talk.title}
-        h5.track Keynote
+        h5.track Back-End Track
         a.speaker href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.name}
         a.company href="#{speaker.company.url}" #{speaker.company.name}
 
