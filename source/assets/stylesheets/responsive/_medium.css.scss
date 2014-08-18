@@ -5,20 +5,21 @@
 #skinny {
   @include clearfix;
   li {
-
+    @include span(6 of 12);
   }
   li:nth-child(even) {
-
+    @include omega;
   }
 }
-#wrapup {
-  .quotes {
-    @include clearfix;
-    li:nth-child(odd) {
-
-    }
-    li:nth-child(even) {
-
-    }
+#schedule {
+  @include clearfix;
+  li {
+    @include span(4 of 12);
+  }
+  li:last-child {
+    @include omega;
+  }
+  a.button {
+    clear: both;
   }
 }

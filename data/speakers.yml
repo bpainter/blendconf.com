@@ -1,68 +1,4 @@
 - speaker:
-  firstName: TBD
-  lastName: TBD
-  type: Conference Speakers
-  discipline: User Experience
-  day: 3
-  session: 2
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: ~
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
-- speaker:
-  firstName: TBD
-  lastName: TBD
-  type: Conference Speakers
-  discipline: Design
-  day: 3
-  session: 2
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: ~
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
-- speaker:
-  firstName: TBD
-  lastName: TBD
-  type: Conference Speakers
-  discipline: Design
-  day: 3
-  session: 4
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: ~
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
-- speaker:
-  firstName: TBD
-  lastName: TBD
-  type: Conference Speakers
-  discipline: Back-End
-  day: 3
-  session: 1
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: ~
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
-- speaker:
   firstName: Aaron
   lastName: Gustafson
   type: Conference Speakers
@@ -101,7 +37,7 @@
   discipline: Back-End
   day: 1
   session: 2
-  talkTitle: "Rangular: Blending Rails and Angular for enterprise applications"
+  talkTitle: "Rangular: Blending Rails and Angular for Enterprise Applications"
   talkDescription: ~
   company: Tax Management Associates
   companyWebsite: http://www.tma1.com/
@@ -518,7 +454,7 @@
   discipline: Keynote
   day: 2
   session: 0
-  talkTitle: "The future of interfaces to government"
+  talkTitle: "The Future of Interfaces to Government"
   talkDescription: "Coming soon..."
   company: Code for America
   companyWebsite: http://www.codeforamerica.org/
@@ -898,22 +834,6 @@
 - speaker:
   firstName: Scott
   lastName: Hanselman
-  type: Conference Speakers
-  discipline: Back-End
-  day: 2
-  session: 4
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: Microsoft
-  companyWebsite: "#"
-  personalWebsite: http://www.hanselman.com/
-  personalTwitter: shanselman
-  bio: "Scott is a web developer who has been blogging at http://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He's written a number of books and spoken in person to almost a half million developers worldwide."
-  slides: ~
-  video: ~
-- speaker:
-  firstName: Scott
-  lastName: Hanselman
   type: Keynotes
   discipline: Keynote
   day: 2
@@ -925,6 +845,22 @@
   personalWebsite: http://www.hanselman.com/
   personalTwitter: shanselman
   bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Scott
+  lastName: Hanselman
+  type: Conference Speakers
+  discipline: Back-End
+  day: 2
+  session: 4
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Microsoft
+  companyWebsite: "#"
+  personalWebsite: http://www.hanselman.com/
+  personalTwitter: shanselman
+  bio: "Scott is a web developer who has been blogging at http://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He's written a number of books and spoken in person to almost a half million developers worldwide."
   slides: ~
   video: ~
 - speaker:
@@ -1021,5 +957,69 @@
   personalWebsite: http://www.valhead.com/
   personalTwitter: vlh
   bio: "Val Head is a designer and consultant based in Philadelphia. Her work ranges from projects on the web to interactive installations to print. She is the author of The Pocket Guide to CSS Animations, teaches CSS Animations on Lynda.com, and hosts the All The Right Moves tutorial screencast. You can find her on stage speaking at events like An Event Apart and encouraging others to do the same as the co-host of the Ladies in Tech podcast. She also founded the popular Web Design Day conference, and leads workshops around the world on animation for the web and creative coding."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: TBD
+  lastName: TBD
+  type: Conference Speakers
+  discipline: User Experience
+  day: 3
+  session: 2
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: ~
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: TBD
+  lastName: TBD
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 2
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: ~
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: TBD
+  lastName: TBD
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 4
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: ~
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: TBD
+  lastName: TBD
+  type: Conference Speakers
+  discipline: Back-End
+  day: 3
+  session: 1
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: ~
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
   slides: ~
   video: ~

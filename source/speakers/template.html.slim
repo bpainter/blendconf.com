@@ -6,7 +6,8 @@ ruby:
 	s = locals[:speaker]
 
 #masthead role="banner"
-	h1= s.firstName s.lastName
+	h1 #{s.firstName} #{s.lastName}
+
 	- if s.companyWebsite
 		a href="#{s.companyWebsite}" #{s.company}
 	- else

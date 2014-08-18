@@ -166,7 +166,7 @@ nav[role="navigation"] {
 	}
   h1 {
 		margin: 0 auto .5em;
-		max-width: 320px;
+		max-width: 500px;
 		padding-bottom: 0;
   }
   h2 {
@@ -496,6 +496,11 @@ nav[role="navigation"] {
 		max-width: $max-container-width/1.5;
 	}
 }
+#speakers .tbd-tbd,
+#sessions .speaker[href*="tbd-tbd"] {
+	display: none !important;
+}
+
 
 //--------------------------------------------------------
 // schedule
@@ -583,6 +588,17 @@ nav[role="navigation"] {
 		text-decoration: underline;
 		&:hover {
 			color: darken($green, 80%);
+		}
+	}
+	a.button {
+		background-color: darken($green, 20%);
+		display: block;
+		margin: 0 auto;
+		color: lighten($green, 30%);
+		text-decoration: none;
+		&:hover, &:focus {
+			background-color: darken($green, 25%);
+			color: lighten($green, 40%);
 		}
 	}
 	p {
@@ -685,9 +701,6 @@ footer[role="contentinfo"] {
 			color: lighten($aqua, 35%);
 			font-size: 1.2em;
 			font-style: italic;
-			&:before {
-				content: "of ";
-			}
 			&:hover, &:focus {
 				text-decoration: underline;
 			}
@@ -723,6 +736,9 @@ footer[role="contentinfo"] {
 		font-style: italic;
 		font-weight: 200;
 		margin: 0 0 $baseline*2 $sub-baseline*2;
+	}
+	h4.title a {
+		display: block;
 	}
 }
 .day {

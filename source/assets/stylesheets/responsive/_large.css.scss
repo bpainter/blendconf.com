@@ -20,17 +20,16 @@
   @include clearfix;
   ul {
     margin: 0 auto;
-    // max-width: 850px;
   }
   li {
-
+    @include span(4 of 12);
     min-height: 180px;
   }
   li:nth-child(even) {
-
+    @include span(4 of 12);
   }
   li:nth-child(3n) {
-
+    @include omega;
   }
 }
 
@@ -55,7 +54,7 @@ nav[role="navigation"] {
   ul {
     background-color: transparent;
     display: block;
-    margin: 0 0 0 80px;
+    margin: 0;
     padding-bottom: 0;
     top: -9px;
     #home & {
@@ -99,7 +98,7 @@ nav[role="navigation"] {
 #be-notified {
   .email-subscription {
     float: left;
-    width: columns(6);
+    width: 58%;
   }
   .social-subscription {
     float: right;
@@ -161,15 +160,15 @@ nav[role="navigation"] {
   .day, .time {
     clear: both;
   }
-  .session {
-    @include clearfix;
-    .ux, .ui, .dev {
-
-    }
-    .dev {
-
-    }
-  }
+  // .session {
+  //   @include clearfix;
+  //   .user-experience, .design, .front-end, .back-end {
+  //     @include span(3 of 12);
+  //   }
+  //   .back-end {
+  //     @include omega;
+  //   }
+  // }
 }
 #schedule {
   .schedules {

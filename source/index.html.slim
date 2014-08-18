@@ -6,19 +6,20 @@ id: home
 #intro role="banner"
 	h1== image_tag 'content/blend-conference-logo.png', :alt => 'Blend Conference'
 	h2 September 11-13, 2014 <span>Charlotte, NC</span>
-	p A generalist conference featuring 60+ diverse speakers sharing ideas and conversations about user experience, design, front-end and back-end development. The 2013 conference was a success. Thank-you for making it amazing.
+	p A generalist conference featuring 60+ diverse speakers sharing ideas and conversations about user experience, design, front-end and back-end development.
 
 	a.button href="https://ti.to/blendconf/blendconf2014/" data-type="Register - Primary" Buy a Ticket
 
 #skinny
 	h2 A slightly <b>different spin</b> on web conferences
 	ul
-		li <strong>60+ Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
-		li <strong>48 Talks</strong> Over the 2 conference days there will be 48 talks total spread across 4 tracks. Pick and choose the topics that you find interesting.
-		li <strong>8 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
 		li <strong>No Devices</strong> Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones won't be allowed to be used during the conference sessions.
 		li <strong>Custom Notebooks</strong> We're going analog. Each attendee will receive a nice, custom BlendConf notebook along with something fancy to write with. You'll thank us later.
 		li <strong>Diversity</strong> We've spent fair amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
+		li <strong>60+ Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
+		li <strong>48 Talks</strong> Over the 2 conference days there will be 48 talks total spread across 4 tracks. Pick and choose the topics that you find interesting.
+		li <strong>8 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
+
 
 form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
 	label.h2 for="mce-EMAIL" Stay up-to-date with the <b>latest details</b>
@@ -34,13 +35,18 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 	h2 <b>60+ speakers</b> covering user experience, development, and design
 	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
 	ul.hive.hexagon
-		- data.speakers.shuffle.first(9).each do |speaker|
-			li class="#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "")}"
-				strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
-				a href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
-		li class="more"
-				strong + many more
-				a href="/speakers/"
+		- data.speakers.shuffle.first(16).each do |speaker|
+			- if speaker.firstName != "TBD"
+				- if speaker.lastName == "Hanselman" && speaker.discipline != "Back-End"
+					li class="#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}"
+						strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
+						a href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
+				- else
+					li class="#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}"
+						strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
+						a href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
+
+	a.button href="/speakers/" View All Speakers
 
 #schedule
 	h2 An amazing <b>3-day schedule</b>
@@ -66,7 +72,7 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 	/ #map
 	h2 Classic <b>Venue & Hotel</b> in Downtown Charlotte
 
-	p The conference will be held at The <a href="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=3986&language=en_US">Charlotte Sheraton Hotel</a>. The room block will expire on August, 8th. To make a reservation call their reservations desk 1-800-325-3535 and let them know you're booking a room for "Blend Conference".
+	p The conference will be held at The <a href="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=3986&language=en_US">Charlotte Sheraton Hotel</a>. The room block has expired but they should still have room. To make a reservation call their reservations desk 1-800-325-3535 and let them know you're booking a room for "Blend Conference".
 
 	a==link_to "Things to Do in Charlotte", "/venue/", :class => 'button'
 

@@ -57,7 +57,7 @@ require 'susy'
 # Generate speaker pages from /data/speakers.yml
 data.speakers.each do |speaker|
   if speaker.firstName != "TBD"
-    proxy "/speakers/#{speaker[:firstName].downcase.tr(" ", "-").tr(".", "")}-#{speaker[:lastName].downcase.tr(" ", "-").tr(".", "")}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
+    proxy "/speakers/#{speaker[:firstName].downcase.tr(" ", "-").tr(".", "")}-#{speaker[:lastName].downcase.tr(" ", "-").tr(".", "").tr("'", "")}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
   end
 end
 

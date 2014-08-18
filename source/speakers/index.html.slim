@@ -9,10 +9,13 @@ id: speaker-index
 article
 	#speakers
 		p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
+
 		ul.hive.hexagon
 			- data.speakers.each do |speaker|
-				li class="#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "")}"
+				li class="#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}"
 					strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
-					a href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
+					a href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
+
+
 
 == partial "/layouts/partials/navigation"
