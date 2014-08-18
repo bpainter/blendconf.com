@@ -34,7 +34,7 @@ body {
 		max-width: $max-container-width;
 	}
 	p {
-		max-width: $max-container-width/1.5;	
+		max-width: $max-container-width/1.5;
 	}
 }
 
@@ -584,10 +584,10 @@ nav[role="navigation"] {
 		&:hover {
 			color: darken($green, 80%);
 		}
-	} 
+	}
 	p {
 		margin-bottom: $baseline*3;
-		max-width: $max-container-width/1.5;	
+		max-width: $max-container-width/1.5;
 	}
 	img {
 		display: block;
@@ -610,7 +610,7 @@ nav[role="navigation"] {
 			padding: $baseline;
 		}
 	}
-	.community li, 
+	.community li,
 	.tertiary li {
 		@include span-columns(2);
 		&:nth-child(even) {
@@ -643,7 +643,7 @@ footer[role="contentinfo"] {
 #masthead {
 	padding: $baseline*3 5%;
 	position: relative;
-	#sessions &, 
+	#sessions &,
 	#wrapup & {
 		background-color: $lavender;
 		color: lighten($lavender, 35%);
@@ -710,6 +710,28 @@ footer[role="contentinfo"] {
 		max-width: $max-container-width;
 	}
 }
+// Video Embed
+.video {
+	position: relative;
+	margin-bottom: $baseline*2;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+	iframe,
+	object,
+	embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+
 //--------------------------------------------------------
 // sessions
 //--------------------------------------------------------

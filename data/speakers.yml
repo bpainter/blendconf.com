@@ -17,6 +17,7 @@
     title: "Discussing Design: The Art of Critique"
     desc: "<p>This workshop will examine the language, rules and strategies for improving the conversations we have around designs through critique.</p><p>Collaboration requires us to share our work; to communicate our ideas with one another and collect other's thoughts in order to know whether the designs and creations we're producing are meeting the objectives of the project. But often we wrestle with collecting feedback. We get comments that are less then helpful because they seem irrelevant or unclear. Or we find that we're getting feedback and reactions at inopportune times rather than points in the process where they would have been useful in informing design decisions.</p><p>Our ability to critique speaks directly to the quality of the conversations we have with teammates, whether they be designers, developers, stakeholders or whomever. Designers frequently complain about the quality and uselessness of the feedback they are given, but we rarely take a step back and examine how to collect useful feedback and make our discussions around our designs more productive.</p><p>By taking the time to examine critique and how it fits into the design process and both an activity and an aspect of any communication we can focus our conversations and improve our ability to collaborate.</p><p>Participants in this workshop will explore various aspects of critique and the qualities that lead to strong and weak feedback through presentation materials and a series of hands-on activities. Each person will be provided with takeaways that can immediately be put to work to create a useful, collaborative environment for discussing designs.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Albert Banks
   company:
@@ -36,6 +37,7 @@
     title: "Discovering Unexpected Ideas Using Generative Design"
     desc: "<p>Learn from the directors of Myjive how generative design can help you find new creative influences and wildly unexpected ideas. Generative design is the avant-garde practice that takes your graphics and uses computer algorithms to generate an infinite amount of visually compelling variations. At our Blend Conference workshop, we’ll explore other ways technology has evolved design, introduce brave new concepts and give you hands-on training and tools to create your own generative designs.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Amanda Costello
   company:
@@ -55,6 +57,7 @@
     title: "I Don't Have Your Ph.D. - Working with Content Specialists & Experts"
     desc: "<p>Every field has its own form of content specialist—faculty in higher education, surgeons in hospitals, and curators in museums. However, a writer or content strategist may not have the same level of specialty knowledge. How do you make sense of and promote this expert knowledge if you have no background in that subject area, let alone an advanced degree?</p> <p>This session will draw from Amanda’s experience as a web designer and content strategist at the University of Minnesota, one of the country’s largest research institutions. Here you’ll find advice for establishing rapport and getting your work done:</p> <ul> <li>Hear how to build an expert’s trust in your knowledge and skills.</li> <li>Get tips for working with difficult specialist personalities, from the complete technophobe to the extreme early adopter.</li> <li>Learn how to channel your specialist’s expertise into great web content.</li> <li>Share your own questions, triumphs, and war stories.</li> </ul>"
     slides: ~
+    video: ~
 - speaker:
   name: Anders Frostenson
   company:
@@ -74,6 +77,7 @@
     title: "The Design in Service Design"
     desc: "<p>Service Design is often, well deserved, praised for its analytical and strategic advantages. But if we forget to acknowledge the most central aspect of the discipline it will loose its true glimmering power. Design as the element of surprise. Service Design is not Design just because we call it Design. We have to nourish it. Because the purpose of Service Design is to result in the delivery of a valuable experience, design must be a process of creating and executing.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Andrew Hinton
   company:
@@ -93,6 +97,7 @@
     title: "The World Is the Screen: Understanding Information Environments"
     desc: "<p>Information is tricky stuff. We talk about it a lot, but what do we mean when we do? And how does something so abstract turn into tangible experiences for users? This talk is about how we can think about experiences as environments, made of different modes of information. We'll see some examples of how these modes affect the user experience, and learn a framework for thinking about design problems, regardless of channel, device, or flavor.</p>"
     slides: "http://speakerdeck.com/andrewhinton/the-world-is-the-screen-blend-conference-2013"
+    video: ~
 - speaker:
   name: Andrew Maier
   company:
@@ -112,6 +117,7 @@
     title: Design for Literacy
     desc: "<p>Clay Shirky suggests that &quot;literacy, in any medium, means not just knowing how to read that medium, but also how to create in it, and to understand the difference between good and bad uses.&quot; In this talk we'll discuss ways in which literacy facilitates not just understanding but empowerment as well, allowing organizations and their customers to better communicate with one another.</p>"
     slides: "http://www.slideshare.net/andrewmaier/design-literacy-26109121"
+    video: ~
 - speaker:
   name: Ashe Dryden
   company:
@@ -131,6 +137,7 @@
     title: "Programming Diversity"
     desc: "<p>It's been scientifically proven that more diverse communities and workplaces create better products and the solutions to difficult problems are more complete and diverse themselves. Companies are struggling to find adequate talent. So why do we see so few women, people of color, and LGBTQ people at our events and on the about pages of our websites? Even more curiously, why do 60% of women leave the tech industry within 10 years? Why are fewer women choosing to pursue computer science and related degrees than ever before? Why have stories of active discouragement, dismissal, harassment, or worse become regular news?</p> <p>In this talk we’ll examine the causes behind the lack of diversity in our communities, events, and workplaces. We’ll discuss what we can do as community members, event organizers, and co-workers to not only combat this problem, but to encourage positive change by contributing to an atmosphere of inclusivity.</p> <p>Objectives:</p> <ul> <li>Educate about the lack of diversity and why it is a problem</li> <li>Examine what is contributing to both the pipeline issue as well as attrition</li> <li>Isolate what is and isn't working</li> <li>Inspire direct action by examining our own behavior and learning more about the people around us so we can empathize better</li> </ul>"
     slides: "http://speakerdeck.com/ashedryden/blendconf-keynote-programming-diversity"
+    video: ~
 - speaker:
   name: Ben Vandgrift
   company:
@@ -150,6 +157,7 @@
     title: "From Glider to Gulf Stream"
     desc: "<p>Ben Vandgrift discusses the reasons and routes to multidisciplinary mastery. Exploring two historic polymaths and their methods, Ben provides a template for learning and a rationale for pursuing mastery in lieu of specialization. Escape from the assembly line and be legendary.</p>"
     slides: "http://www.slideshare.net/sfamiliar/from-glider-to-gulf-stream-v1-blendconf-2013-charlotte-nc"
+    video: ~
 - speaker:
   name: Brandon Mathis
   company:
@@ -169,6 +177,7 @@
     title: "Design The Code: Letting Care and Curiosity Shape Your Career."
     desc: "<p>The question \"Should designers code?\" has been answered, and great software designers are in high demand. It's time to shape our careers around a belief that design is how it works. This talk will give you practical advice on how to follow your drive to create amazing products, learning new skills and making the most of your career.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Bryan Veloso
   company:
@@ -188,6 +197,7 @@
     title: "Hybrids Rule Everything Around Me"
     desc: "<p>Hybridism is your new bicycle. Generalism is making a comeback. Specialization is dead. Being a &quot;jack-of-all-trades&quot; in this day and age is a sought after and almost enviable position to be in. But what does it mean to be a hybrid? It may take more than just learning outside the box.</p><p>Gather by the campfire and listen to the tale of one self-taught hybrid. After years of refusing to cross the asile, learn about what it took for him to do so. Hopefully you'll be able to find your own inner hybrid and trek your own journey forward effectively using the ecosystem this community has built.</p>"
     slides: "https://speakerdeck.com/bryan/hybrids-rule-everything-around-me-blendconf"
+    video: ~
 - speaker:
   name: Cameron Moll
   company:
@@ -207,6 +217,7 @@
     title: "Creative Authenticity"
     desc: ~
     slides: ~
+    video: ~
 - speaker:
   name: Carl Smith
   company:
@@ -226,6 +237,7 @@
     title: "Your Money & Your Life"
     desc: "<p>Most businesses are built on a broken operating system. One that believes in old concepts of carrots and sticks. For decades we've ignored research that shows the path to a better culture, product and bottom line involves abandoning the notions of the past. It's time to embrace the reality that the needs and ambitions of the human beings we surround ourselves with can fuel a brighter tomorrow. Carl will share examples of sustainable change that improves every aspect of a company through adopting a management philosophy of doing less.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Greg Baugues
   company:
@@ -245,6 +257,7 @@
     title: "Developers, Designers, and Depression"
     desc: "<p>I am a developer, and I have Type II BiPolar and ADHD.</p> <p>It's not something we talk about, but BiPolar, depression, and ADHD runs rampant in the developer community - they tend to correlate with higher intelligence. Many of the symptoms of this conditions make for great developers, but also cause incredible damage. We recently lost one of our co-workers because of untreated mental illness.</p> <p>I want to share my story - and let people know that it's okay to talk about these things, that it's nothing to be ashamed of, and how to get help, and how to help those around them.</p>"
     slides: ~
+    video: 84366461
 - speaker:
   name: Garren DiPasquale
   company:
@@ -264,6 +277,7 @@
     title: "Incorporating Lean UX into Agile"
     desc: "<p>Designing holistically within a short iteration agile environment can be complicated. Incorporating lean principals into your agile process can help you create better software that aligns to a holistic user experience strategy. We'll cover strategies from the lean playbook as well as other practical processes to move from coping with the agile process to embracing it.</p>"
     slides: "https://speakerdeck.com/aduro/incorporating-lean-ux-into-agile"
+    video: ~
 - speaker:
   name: Garth Braithwaite
   company:
@@ -283,6 +297,7 @@
     title: "Designers Can Open Source"
     desc: "<p>This session will cover a few topics in relation to open source design, including:</p> <ul> <li>Open source licenses</li> <li>Benefits of open sourcing design work</li> <li>How to open source work</li> <li>How to contribute design to open source projects</li> <li>How to make friends with other designers</li> </ul> <p>This topic is aimed at designers and some development practices will be discussed.</p>"
     slides: "https://speakerdeck.com/garthdb/designers-can-open-source"
+    video: ~
 - speaker:
   name: James White
   company:
@@ -302,6 +317,7 @@
     title: "Design Renegade"
     desc: "<p>In order to reach our goals in the upside-down world of graphic design, you need to be a rogue. A misfit. A renegade. James White from the Signalnoise Studio has based his career on doing things outside of the ordinary, turning his back on boardrooms and creative briefs in order to chase his design dreams with vengeance and rock n’ roll. He will be telling his story while discussing personal projects built from love and ambition in his small home office in Dartmouth, Nova Scotia. These led to him working with respected people all over the world, from his favourite metal band to film juggernaut Kevin Smith. James will talk about chasing your creative path, building your personal body of work, the value of supporting friends, and never forgetting the artist inside.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Jason Vanlue
   company:
@@ -321,6 +337,7 @@
     title: "Three Pipe Problems"
     desc: "<p>There are real problems to be solved in this world. Three pipe problems. Design can solve these problems. We're designers, which means we get the opportunity…the privilege to solve them. What are we doing with that opportunity?</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Jina Bolton
   company:
@@ -340,6 +357,7 @@
     title: "Realigning & Refactoring UI"
     desc: "<p>Often designers and developers see Markup and CSS Refactoring as a dreaded, monolithic task. Organization, architecture, clean up, optimization, documentation all seem tedious and overwhelming. However, if you're armed with the right tools and a solid foundation, you may find refactoring to be actually quite fun. Learn some Sass, markup, and documentation tips & tricks from a product designer's perspective. Start making refactoring a regular part of your design process and development workflows.</p>"
     slides: "https://speakerdeck.com/jina/refactoring-web-interfaces"
+    video: ~
 - speaker:
   name: Joel Van Dyke
   company:
@@ -359,6 +377,7 @@
     title: "Think Like a Startup"
     desc: "<p>For an established company, this workshop will help you see your business as if it were a Startup. The workshop will show attendees how to use our Startup Canvas tool to align values with organizational models, culture, propositions, business models and customer values and goals</p>"
     slides: ~
+    video: ~
 - speaker:
   name: John Long
   company:
@@ -378,8 +397,10 @@
     title: "Defensive Sass - modular styles for the modern web"
     desc: "<p>We've all found ourselves deep in the heart of a CSS project struggling with mangled CSS selectors, an array of disparately named files, and a deep and nagging feeling that perhaps our markup is not symantic as it should be. But a new hero is arising in CSS-land: Modular CSS. You may know him by one of his many names. SMACSS, Object-Oriented CSS, or BEM. Only he has the power to untangle our worst CSS nightmares. Only he can help us lay a foundation for large CSS projects. In this talk, John Long will delve deep into his bag of tricks to share practical advice about structuring your CSS. We'll talk about a number of helpful principles for simplifying your CSS and look at how modular CSS applies within the context of Sass. You will walk away challenged with something to apply to your current CSS project.</p>"
     slides: ~
+    video: ~
     desc: ~
     slides: "https://speakerdeck.com/jlong/defensive-sass-modular-styles-for-the-modern-web-1"
+    video: ~
 - speaker:
   name: Kendra Shillington
   company:
@@ -399,6 +420,7 @@
     title: "Think Like a Startup"
     desc: "<p>For an established company, this workshop will help you see your business as if it were a Startup. The workshop will show attendees how to use our Startup Canvas tool to align values with organizational models, culture, propositions, business models and customer values and goals</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Larry Staton
   company:
@@ -418,6 +440,7 @@
     title: "HTTP 101"
     desc: "<p>We use the web everyday and we know about HTML and JavaScript and CSS, but what do we know about HTTP, the protocol that underlies the web? In this session, you'll learn about all about HTTP.</p>"
     slides: "https://speakerdeck.com/statonjr/http-101"
+    video: ~
 - speaker:
   name: Leslie J. Morse
   company:
@@ -437,6 +460,7 @@
     title: "A How-To Guide to Transferable Business Analysis Skills"
     desc: "<p>This session will cover transferable Business Analysis skills. As professionals in UX or IT, we're always doing some level of BA even if it's not our primary role &quote;on paper.&quote; Leslie will give us a good overview of what a Business Analyst is/does and a how-to guide of some useful techniques anyone can apply</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Leslie Jensen-Inman
   company:
@@ -456,8 +480,10 @@
     title: "Unicornucopia: Learn the Skills Needed to Survive and Thrive as a Creative Unicorn"
     desc: "Hiring managers need to hire creative unicorns with a specific skill set. And the skills they are looking for may surprise you. Learn how to hone and blend the right skills to have a creative career filled with an abundance of awesomeness."
     slides: ~
+    video: ~
     desc: ~
     slides: ~
+    video: ~
 - speaker:
   name: Lisa Welchman
   company:
@@ -477,6 +503,7 @@
     title: "Web Governance: Where Strategy Meets Structure"
     desc: "<p>I stop organizational conflict around website development by collaborating to create a web governance framework. I do this in four steps: First, I listen. I visit you and listen to all concerns from all stakeholders. Second, I validate. I write a memo articulating what I saw and heard and what I think your key problems are. This memo is usually five or fewer pages. In my experience, there are really only a few things causing big, pervasive problems. Third, I think. I follow up with stakeholders and brainstorm options for resolving your concerns, giving great consideration to your culture. Fourth, I collaborate. Together, we create a governance framework that will be viable and effective for your organization.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Magnus Bergmark
   company:
@@ -496,6 +523,7 @@
     title: "The Design in Service Design"
     desc: "<p>Service Design is often, well deserved, praised for its analytical and strategic advantages. But if we forget to acknowledge the most central aspect of the discipline it will loose its true glimmering power. Design as the element of surprise. Service Design is not Design just because we call it Design. We have to nourish it. Because the purpose of Service Design is to result in the delivery of a valuable experience, design must be a process of creating and executing.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Marco Suarez
   company:
@@ -515,6 +543,7 @@
     title: "What I learned while starting an intensive design class"
     desc: "<p>I took a job with The Iron Yard, a tech accelerator in Greenville, SC, to start an intensive design class. I quickly realized that my assumptions about education and design could not have been more wrong.</p>"
     slides: "https://speakerdeck.com/marcosuarez/what-i-learned-starting-an-intensive-design-class"
+    video: ~
 - speaker:
   name: Marc Bolick
   company:
@@ -534,6 +563,7 @@
     title: "Think Like a Startup"
     desc: "<p>For an established company, this workshop will help you see your business as if it were a Startup. The workshop will show attendees how to use our Startup Canvas tool to align values with organizational models, culture, propositions, business models and customer values and goals</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Matt Stevens
   company:
@@ -553,6 +583,7 @@
     title: Fight to do the Work You Love
     desc: ~
     slides: ~
+    video: ~
 - speaker:
   name: Rich Robinson
   company:
@@ -572,6 +603,7 @@
     title: "Designers & Developers (In Harmony)"
     desc: "<p>Designers and developers don't have to be at odds. In this talk, Rich Robinson will dispel myths and stereotypes about the designer/developer relationship and provide actionable tips for working together in an Agile environment.<p><p>If you've ever struggled to communicate with a designer or developer, this talk is for you.</p>"
     slides: "https://speakerdeck.com/richrobinson/designers-and-developers-in-harmony"
+    video: ~
 - speaker:
   name: Michael Parenteau
   company:
@@ -591,6 +623,7 @@
     title: "Remote Pairing for Designers and Developers"
     desc: "<p>The world we live in today allows us to work more closely together in a collaborative process than ever... and yet we are not limited by physical space. More and more people are working remote and in ways that they have found themselves more effective than ever. </p> <p>Here we will take a look at some of the tools and processes that are used to collaborate with each other, whether we are in the same, or maybe completely different, role or discipline. We will take a look at some tools and processes that were effective in a colocated world and how we have been bringing that to the distributed.</p>"
     slides: "https://speakerdeck.com/michaelparenteau/remote-pairing-for-designers-and-developers"
+    video: ~
 - speaker:
   name: Michael Chatten
   company:
@@ -610,6 +643,7 @@
     title: "Discovering Unexpected Ideas Using Generative Design"
     desc: "<p>Explore ways technology has evolved design, introduce brave new concepts and get hands-on training and tools to create your own generative designs.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Mike Bifulco
   company:
@@ -629,6 +663,7 @@
     title: Designing for Windows 8 vs iOS and Android
     desc: ~
     slides: "http://www.slideshare.net/mbifulco1/designing-windows-81-apps-from-the-ground-up"
+    video: ~
 - speaker:
   name: Mindy Wagner
   company:
@@ -648,6 +683,7 @@
     title: "Convincing Clients Without (Much) Bravado"
     desc: "<p>Coming up with a flawless design is only half the battle. You also have to get your best ideas past the clients even those who have trouble understanding traditional design deliverables. Not everyone is ready to walk into a room Don Draper style and say 'This. Or nothing'. But it’s our job to sell the best solution to even the toughest crowd, and you can still do plenty of convincing without the ego overload.  A little bit of psychology and a persistent stream of client collaboration go a long way. We’ll break down the process for keeping clients engaged and explore tricks for getting past obstacles in the approval process.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Nick Finck
   company:
@@ -667,6 +703,7 @@
     title: The Nuances of UX
     desc: "<p>When doing any kind of design work, the devil is always in the details.  It is easy and often important for us to quickly rush through our wireframes and prototypes to meet a client deadline, but as professionals we must not overlook the subtleties that can turn a good experience into a great experience.  This talk is about the little details we see in apps and websites we use every day, but often fail to notice.  We fail to notice them because they provide for a much smoother user experience. You will learn how to design for these experiences even with a tight deadline and within a agile workflow. After this presentation you'll never look at another app or website the same again.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Patrick Quattlebaum
   company:
@@ -686,6 +723,7 @@
     title: "Service Design Making"
     desc: "<p>Service design is more than thinking. You'll learn several lo-fi methods to generate and refine concepts for better service experiences.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Rachel Nabors
   company:
@@ -705,6 +743,7 @@
     title: "JavaScript for Designers"
     desc: "<p>Coming to JavaScript from design without programming experience can be disorienting. jQuery makes it easy to get things done without a computer science degree. But dig a little deeper and you find yourself in unknown territory: What exactly does an object look like? What’s a method? Or a first-class object? And what is up with the turf warfare over functional vs. OOP? This talk is great for anyone without programming experience who wants to understand JavaScript and basic programming concepts better. Expect lots of 'ah-ha!' moments and funny illustrations from award-winning cartoonist turned front-end developer Rachel Nabors.</p>"
     slides: "http://rachelnabors.com/javascript-for-designers"
+    video: ~
 - speaker:
   name: Rachel Parsons
   company:
@@ -724,6 +763,7 @@
     title: "iOS Development: Designers + Developers"
     desc: ~
     slides: "http://www.slideshare.net/pinkeerach/blend-conf2013"
+    video: ~
 - speaker:
   name: Rikki Teeters
   company:
@@ -743,6 +783,7 @@
     title: "Creating a Holistic Financial Experience Strategy"
     desc: "<p>Large financial institutions have lost the trust of their customers. The traditional branch is not dead, it just needs to be revived. It is crucial for banks to create an Omin-Channel Experience Strategy in order to survive in the harsh economic climate. User Experience has a major impact on whether a organization is leading or falling behind. New unexpected competitors such as Simple and mBank are raising UX standards and making a big impact on the industry. Considering the rapid pace of change in the technology industry, organizations must not tie their Experience Strategy to specific technologies but instead focus on creating positive experience across all channels and touch points. During this talk we will discuss how to create a holistic financial experience strategy, while thinking about what this means for the future. </p>"
     slides: "http://www.slideshare.net/RikkiTeeters/creating-a-holistic-financial-experience-strategy"
+    video: ~
 - speaker:
   name: Ron Edelen
   company:
@@ -762,6 +803,7 @@
     title: "Discovering Unexpected Ideas Using Generative Design"
     desc: "<p>Explore ways technology has evolved design, introduce brave new concepts and get hands-on training and tools to create your own generative designs.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Sara Blake
   company:
@@ -781,6 +823,7 @@
     title: "The Love of Making"
     desc: "<p>It's pretty simple really—we are who were were as children. Regardless of your discipline, your tools, your age, or your experience, I think the root of all our creative passions and fortitude comes down to very simple things: love and passion, and listening to our inner 3rd grader. I'll be taking everyone through some of my silly drawings and explaining how my childhood, poor eyesight, and simple love of making stuff translated into picture making, as well as showing lots of behind the scenes for my process of meshing digital tools with the hand-made.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Shay Howe
   company:
@@ -800,6 +843,7 @@
     title: "Front-End Legos: Reusable HTML and CSS"
     desc: "<p>HTML & CSS are a websites backbone. Attendees will be able to better organize their code, develop modular styles, and work with CSS specificity.</p>"
     slides: "https://speakerdeck.com/shayhowe/front-end-legos-workshop-reusable-html-and-css"
+    video: ~
 - speaker:
   name: Teresa Rench
   company:
@@ -819,8 +863,10 @@
     title: "Collaborative by Design"
     desc: "</p>Teresa will share some tips and tricks she has learned along the way for creating a collaborative team working environment by opening lines of communication, encouraging cross-disciplinary education, and helping the team to maintain focus on the product and customer</p>"
     slides: ~
+    video: ~
     desc: ~
     slides: "https://speakerdeck.com/techsavvydesigner/collaborative-by-design"
+    video: ~
 - speaker:
   name: Tessa Harmon
   company:
@@ -840,6 +886,7 @@
     title: "Building Single Page Apps"
     desc: "<p>A talk on the role of a generalist as a facilitator for collaboration in teams. How to foster a collaborative team culture, how to facilitate, how to communicate effectively and leave egos out of it by focusing on the product and the end user.</p>"
     slides: "https://speakerdeck.com/tessaharmon/build-single-page-apps"
+    video: ~
 - speaker:
   name: Tim Smith
   company:
@@ -859,6 +906,7 @@
     title: "Become a Better Designer with Side Projects"
     desc: "<p>It's been my experience that side projects have the ability to elevate designer, developers and more to a different level. If you choose these wisely, they can sharpen existing skills and create new ones. This session will cover side projects that have helped me, why they've helped, and suggestions for what you could do.</p>"
     slides: "https://speakerdeck.com/ttimsmith/become-a-better-designer-with-side-projects-blend-conf"
+    video: ~
 - speaker:
   name: Vernon Kesner
   company:
@@ -878,8 +926,10 @@
     title: "Modular Development with RequireJS"
     desc: "Front-end development has suffered from a lack of dependency management resulting in lots of script tags loaded in a highly specific order and usually tightly coupled applications. In Modular Development with RequireJS, you'll learn how to segment your JavaScript into loosely coupled modules increasing the maintainability of your application"
     slides: ~
+    video: ~
     desc: ~
     slides: "https://speakerdeck.com/vernonk/modular-development-with-requirejs"
+    video: ~
 - speaker:
   name: Wren Lanier
   company:
@@ -899,6 +949,7 @@
     title: "Secret Sauce: Designing on the Z-Axis"
     desc: "<p>No matter what screen size you're designing for, multi-layered experiences are an important part of every designer's toolbox. Flat may be trendy, but depth is where it's at! I'll share my obsession with z-axis and show you ways it can be used to solve tricky UI problems and create deep, immersive experiences. </p>"
     slides: "https://speakerdeck.com/heywren/secret-sauce-designing-on-the-z-axis-blend-conference-2013"
+    video: ~
 - speaker:
   name: Wynn Netherland
   company:
@@ -918,8 +969,10 @@
     title: "Craft your own IDE in the shell"
     desc: "<p>In this talk we'll show you how to get off the ⌘+TAB merry go round and roll your own project-specific workspaces in the shell using tmux, Vim, Git, grc, and other open source text mode goodies. You'll spend less time setting up your tools to work and more time actually working.</p>"
     slides: ~
+    video: ~
     desc: ~
     slides: ~
+    video: ~
 - speaker:
   name: Yesenia Perez-Cruz
   company:
@@ -939,6 +992,7 @@
     title: "One Size Fits None: Creating Flexible Design Processes"
     desc: "<p>Yesenia will talk about how designing for an infinite amount of screen sizes has emphasized how important it is for a designer to be nimble. Through various case studies, She'll explain different problems she's solved in her design work and how the various tools in her 'toolkit' have helped her solve these problems. Through the talk, she will cover different parts of the design phase, from discovery through creating a design system.</p>"
     slides: ~
+    video: ~
 - speaker:
   name: Yoko Harada
   company:
@@ -958,6 +1012,7 @@
     title: "Ruby Meets Clojure Flavored Database"
     desc: "<p>Datomic is a new database categorized as NewSQL and was created by Rich Hickey. Everybody knows this big name and thinks of Clojure. It is true Datomic fits well to Clojure programming. However, it is not only for Clojure people. </p> <p>Absolutely, Rubyists can use it. We have Diametric gem (https://github.com/relevance/diametric). Using Diametric, we can dive into Datomic from Ruby, from Rails.</p> <p>On Diametric, Datomic's entity is an ActiveModel compliant. Diametric supports Rails' scaffolding.Its usage might look like Datamapper or MongoDB. Eventually, Diametric’s API design settled in a bit far from Ruby, Rails style. In another word, it is not ORM-like. Even though the API design may puzzle Rubyists, Diametric chose the one to expose Datomic's intrinsic properties. It is to leverage a good side of Datomic for us. I believe the more Rubyists use Diametric, the more they like it.</p> <p>In my talk, I’ll introduce Diametric gem and how to use it as well as why its API design is good for us. Also, I will cover how Ruby helped to integrate Datomic API in Diametric gem.</p>"
     slides: "http://diametric-at-blendconf2013.herokuapp.com/slideshow"
+    video: ~
 - speaker:
   name: Zoe Gillenwater
   company:
@@ -977,3 +1032,4 @@
     title: "Putting Flexbox into practice"
     desc: "<p>The Flexible Box Layout module, called &quote;flexbox&quote; for short, is the most fully developed and well supported of CSS3’s wide array of new techniques for creating page layouts. Web developers are itching to use it, and with good reason—flexbox allows you to create fluid, responsive layouts without having to worry about crazy percentage grid widths, negative margins, float drop, and all those pesky CSS layout quirks we’ve dealt with for over a decade.</p> <p>It all sounds great, but how do you actually put it to use in the real world—today? In this session, you’ll learn when to use flexbox, what the browser-specific variants are, and how to use it to build responsive multi-column page layouts without the headache. Plus, for those of us who just want to dip a toe in for now, we’ll look at some practical ideas for how to use flexbox as progressive enhancement, adding it in bits and pieces on individual page components with graceful fallbacks.</p>"
     slides: "http://www.slideshare.net/zomigi/putting-flexbox-into-practice"
+    video: ~

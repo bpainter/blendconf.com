@@ -2,7 +2,7 @@
 title: ~
 id: session-detail
 ---
-ruby: 
+ruby:
 	s = locals[:speaker]
 
 #masthead role="banner"
@@ -12,14 +12,18 @@ ruby:
 
 
 article.basic-content
-	.talk-details	
+  - if s.talk.video
+    .video
+      iframe src="//player.vimeo.com/video/#{s.talk.video}" frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""allowfullscreen=""
+
+	.talk-details
 		== s.talk.desc
 
 	.speaker-details
 		h2 About #{s.name}
 		== s.bio
 
-/ aside	
+/ aside
 / 	a href="http://twitter.com/#{s.links.twitter}"= s.links.twitter
 / 	a href="http://github.com//#{s.links.github}"= s.links.github
 / 	a href="#{s.links.website}"= s.links.website
