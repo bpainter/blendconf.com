@@ -34,7 +34,7 @@ body {
 		max-width: $max-container-width;
 	}
 	p {
-		max-width: $max-container-width/1.5;	
+		max-width: $max-container-width/1.5;
 	}
 }
 
@@ -584,10 +584,10 @@ nav[role="navigation"] {
 		&:hover {
 			color: darken($green, 80%);
 		}
-	} 
+	}
 	p {
 		margin-bottom: $baseline*3;
-		max-width: $max-container-width/1.5;	
+		max-width: $max-container-width/1.5;
 	}
 	img {
 		display: block;
@@ -610,9 +610,9 @@ nav[role="navigation"] {
 			padding: $baseline;
 		}
 	}
-	.community li, 
+	.community li,
 	.tertiary li {
-		@include span-columns(2);
+		@include span(2 of 12);
 		&:nth-child(even) {
 			@include omega();
 		}
@@ -643,7 +643,7 @@ footer[role="contentinfo"] {
 #masthead {
 	padding: $baseline*3 5%;
 	position: relative;
-	#sessions &, 
+	#sessions &,
 	#wrapup & {
 		background-color: $lavender;
 		color: lighten($lavender, 35%);

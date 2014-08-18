@@ -1,268 +1,259 @@
-@include with-grid-settings(12) {
-  #container {
-    @include container;
-    @include susy-grid-background;
-    max-width: 100%;
+#container {
+  @include container;
+  max-width: 100%;
+}
+#home div > div[id],
+#home div > form[id],
+#sponsors {
+  h2, .h2 {
+    border-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    text-align: center;
   }
-  #home div > div[id],
-  #home div > form[id],
-  #sponsors {
-    h2, .h2 {
-      border-left: 0px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 0;
-      text-align: center;
-    }
-    > p {
-      text-align: center;
-    }
+  > p {
+    text-align: center;
   }
-  #skinny {
-    @include clearfix;
-    ul {
-      margin: 0 auto;
-      // max-width: 850px;
-    }
-    li {
-      @include span-columns(4);
-      min-height: 180px;
-    }
-    li:nth-child(even) {
-      @include remove-omega;
-    }
-    li:nth-child(3n) {
-      @include omega;
-    }
-  }
-
-  #masthead {
-    h1 {
-      text-align: center;
-    }
-    #speaker-detail & {
-      text-align: center;
-    }
-  }
-
-  //--------------------------------------------------------
-  // main nav
-  //--------------------------------------------------------
-  nav[role="navigation"] {
-    height: $baseline*3;
-    line-height: auto;
+}
+#skinny {
+  @include clearfix;
+  ul {
     margin: 0 auto;
-    min-height: auto;
-    padding: 0;
-    ul {
-      background-color: transparent;
-      display: block;
-      margin: 0 0 0 80px;
-      padding-bottom: 0;
-      top: -9px;
-      #home & {
-        margin-left: 0;
-      }
-    }
-    li {
-      display: inline-block;
-      margin: 0 $sub-baseline;
-      &:first-child a {
-        border: 0;
-      }
-      &:last-child {
-        position: absolute;
-          right: 6px;
-        a {
-          padding: 0 $baseline;
-        }
-      }
-      a {
-        border: 0;
-        display: inline-block;
-        height: $baseline*2;
-        line-height: $baseline*2;
-        padding: $baseline $sub-baseline;
-      }
-    }
-    #nav-toggle {
-      display: none;
-    }
-    .home {
-      background-color: inherit;
-      #home & {
-        display: none;
-      }
-    }
+    // max-width: 850px;
   }
-  //--------------------------------------------------------
-  // newsletter / updates
-  //--------------------------------------------------------
-  #be-notified {
-    .email-subscription {
-      float: left;
-      width: columns(6);
-    }
-    .social-subscription {
-      float: right;
-      padding: $sub-baseline*5 0 0 $baseline*4;
-      position: relative;
-      width: columns(6);
-    }
-    .and {
-      float: left;
-      margin: 0;
-      position: absolute;
-        left: 0;
-      &:before, &:after {
-        display: none;
-      }
-    }
-    .button {
-      float: left;
-    }
-  }
+  li {
 
-  //--------------------------------------------------------
-  // speaker hive
-  //--------------------------------------------------------
-  .hive {
-    width: ($hex-width*3)+($hex-margin)*2;
-    // reset from the previous mq
-    li:nth-child(3n+1),
-    li:nth-child(3n+2),
-    li:nth-child(3n+3) {
-      margin-left: 0;
-    }
-    li:nth-child(5n+1) {
-      float: left;
-    }
-    li:nth-child(5n+2) {
-      float: left;
-      margin-left: $hex-margin;
-    }
-    li:nth-child(5n+3) {
-      float: left;
-      margin-left: $hex-margin;
-    }
-    li:nth-child(5n+4) {
-      float: left;
-      margin-left: 108px;
-    }
-    li:nth-child(5n+5) {
-      float: left;
-      margin-left: $hex-margin;
-    }
+    min-height: 180px;
   }
+  li:nth-child(even) {
 
-  //--------------------------------------------------------
-  // schedule / sessions
-  //--------------------------------------------------------
-  .session-groups {
-    @include clearfix;
-    .day, .time {
-      clear: both;
-    }
-    .session {
-      @include clearfix;
-      .ux, .ui, .dev {
-        @include span-columns(4);
-      }
-      .dev {
-        @include omega();
-      }
-    }
   }
-  #schedule {
-    .schedules {
-      @include clearfix;
-      margin-bottom: 0;
-      li {
-        @include span-columns(4);
-        &:last-child {
-          @include omega();
-        }
-      }
-      p {
-        text-align: left;
-      }
-    }
-  }
-  #sponsors {
-    .title {
+  li:nth-child(3n) {
 
-    }
-    .primary {
-      li {
-        @include reset-columns();
-        @include span-columns(6);  
-      }
-    }
-    .secondary {
-      li {
-        @include reset-columns();
-        @include span-columns(4);
-        &:nth-child(even) {
-          @include remove-omega();
-        }
-        &:nth-child(3n) {
-          @include omega();
-        }
-        &:last-child {
-          @include push(4);
-        }
-      }
-    }
-    .tertiary,
-    .community {
-      li {
-        @include reset-columns();
-        @include span-columns(3);
-        &:nth-child(even) {
-          @include reset-columns();
-          @include span-columns(3);
-        }
-        &:nth-child(3n) {
-          @include remove-omega();
-        }
-        &:nth-child(4n) {
-          @include omega();
-        }
-        &:last-child {
-          @include push(4.35);
-        }
-      }
-    }
-    .community li {
-      &:nth-child(4n) {
-        @include push(0);
-      }
-    }
-    .tertiary li {
-      &:last-child {
-        @include push(0);
-      }
-      &:nth-child(9n) {
-        @include push(3);
-      }
-    }
-  }
-  //--------------------------------------------------------
-  // wrapup
-  //--------------------------------------------------------
-  #wrapup {
-    #masthead {
-      h1 {
-        margin-bottom: $baseline/2;
-      }
-      p {
-        text-align: center;
-      }
-      .button {
-        margin: $baseline/2 auto 0;
-      }
-    }
   }
 }
 
+#masthead {
+  h1 {
+    text-align: center;
+  }
+  #speaker-detail & {
+    text-align: center;
+  }
+}
 
+//--------------------------------------------------------
+// main nav
+//--------------------------------------------------------
+nav[role="navigation"] {
+  height: $baseline*3;
+  line-height: auto;
+  margin: 0 auto;
+  min-height: auto;
+  padding: 0;
+  ul {
+    background-color: transparent;
+    display: block;
+    margin: 0 0 0 80px;
+    padding-bottom: 0;
+    top: -9px;
+    #home & {
+      margin-left: 0;
+    }
+  }
+  li {
+    display: inline-block;
+    margin: 0 $sub-baseline;
+    &:first-child a {
+      border: 0;
+    }
+    &:last-child {
+      position: absolute;
+        right: 6px;
+      a {
+        padding: 0 $baseline;
+      }
+    }
+    a {
+      border: 0;
+      display: inline-block;
+      height: $baseline*2;
+      line-height: $baseline*2;
+      padding: $baseline $sub-baseline;
+    }
+  }
+  #nav-toggle {
+    display: none;
+  }
+  .home {
+    background-color: inherit;
+    #home & {
+      display: none;
+    }
+  }
+}
+//--------------------------------------------------------
+// newsletter / updates
+//--------------------------------------------------------
+#be-notified {
+  .email-subscription {
+    float: left;
+    width: columns(6);
+  }
+  .social-subscription {
+    float: right;
+    padding: $sub-baseline*5 0 0 $baseline*4;
+    position: relative;
+    width: columns(6);
+  }
+  .and {
+    float: left;
+    margin: 0;
+    position: absolute;
+      left: 0;
+    &:before, &:after {
+      display: none;
+    }
+  }
+  .button {
+    float: left;
+  }
+}
+
+//--------------------------------------------------------
+// speaker hive
+//--------------------------------------------------------
+.hive {
+  width: ($hex-width*3)+($hex-margin)*2;
+  // reset from the previous mq
+  li:nth-child(3n+1),
+  li:nth-child(3n+2),
+  li:nth-child(3n+3) {
+    margin-left: 0;
+  }
+  li:nth-child(5n+1) {
+    float: left;
+  }
+  li:nth-child(5n+2) {
+    float: left;
+    margin-left: $hex-margin;
+  }
+  li:nth-child(5n+3) {
+    float: left;
+    margin-left: $hex-margin;
+  }
+  li:nth-child(5n+4) {
+    float: left;
+    margin-left: 108px;
+  }
+  li:nth-child(5n+5) {
+    float: left;
+    margin-left: $hex-margin;
+  }
+}
+
+//--------------------------------------------------------
+// schedule / sessions
+//--------------------------------------------------------
+.session-groups {
+  @include clearfix;
+  .day, .time {
+    clear: both;
+  }
+  .session {
+    @include clearfix;
+    .ux, .ui, .dev {
+
+    }
+    .dev {
+
+    }
+  }
+}
+#schedule {
+  .schedules {
+    @include clearfix;
+    margin-bottom: 0;
+    li {
+
+      &:last-child {
+
+      }
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
+#sponsors {
+  .title {
+
+  }
+  .primary {
+    li {
+
+    }
+  }
+  .secondary {
+    li {
+
+      &:nth-child(even) {
+
+      }
+      &:nth-child(3n) {
+
+      }
+      &:last-child {
+
+      }
+    }
+  }
+  .tertiary,
+  .community {
+    li {
+
+      &:nth-child(even) {
+
+      }
+      &:nth-child(3n) {
+
+      }
+      &:nth-child(4n) {
+
+      }
+      &:last-child {
+
+      }
+    }
+  }
+  .community li {
+    &:nth-child(4n) {
+
+    }
+  }
+  .tertiary li {
+    &:last-child {
+
+    }
+    &:nth-child(9n) {
+
+    }
+  }
+}
+//--------------------------------------------------------
+// wrapup
+//--------------------------------------------------------
+#wrapup {
+  #masthead {
+    h1 {
+      margin-bottom: $baseline/2;
+    }
+    p {
+      text-align: center;
+    }
+    .button {
+      margin: $baseline/2 auto 0;
+    }
+  }
+}

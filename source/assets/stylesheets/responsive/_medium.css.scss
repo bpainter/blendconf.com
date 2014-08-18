@@ -1,31 +1,24 @@
-@include with-grid-settings(8) {
-  #container {
-    @include container;
-    @include susy-grid-background;
-    max-width: 100%;
+#container {
+  @include container;
+  max-width: 100%;
+}
+#skinny {
+  @include clearfix;
+  li {
+
   }
-  #skinny {
+  li:nth-child(even) {
+
+  }
+}
+#wrapup {
+  .quotes {
     @include clearfix;
-    li {
-      @include span-columns(4);
+    li:nth-child(odd) {
+
     }
     li:nth-child(even) {
-      @include omega();
-    }
-  }
-  #wrapup {
-    .quotes {
-      @include clearfix;
-      li:nth-child(odd) {
-        @include span-columns(4);
-      }
-      li:nth-child(even) {
-        @include span-columns(4);
-        @include omega;
-      }
+
     }
   }
 }
-
-  
-

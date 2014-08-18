@@ -1,106 +1,99 @@
-@include with-grid-settings(6) {
-  #container {
-    @include container;
-    @include susy-grid-background;
+#container {
+  @include container;
+  max-width: 100%;
+}
+
+.button {
+  max-width: 370px;
+  #be-notified  &,
+  nav[role="navigation"] & {
     max-width: 100%;
-  }
-
-  .button {
-    max-width: 370px;
-    #be-notified  &,
-    nav[role="navigation"] & {
-      max-width: 100%;
-    }
-  }
-
-  .hive {
-    width: 400px;
-    // reset from the previous mq
-    li:nth-child(even) {
-      margin-left: 0;
-    }
-    li {
-      float: left;
-      margin-bottom: $hex-margin*3;
-    }
-    li:nth-child(3n+1) {
-      float: left;
-    }
-    li:nth-child(3n+2) {
-      float: right;
-    }
-    li:nth-child(3n+3) {
-      margin-left: 105px;
-    }
-  }
-  // Workshops
-  .workshop {
-    @include clearfix;
-    h4 {
-      margin: 4em 0 0 1em;
-    }
-    h4, p {
-      text-align: left;
-    }
-    ul {
-      float: left;
-      padding: 0;
-      width: auto;
-    }
-    li {
-      margin: 4em 1em 4em;
-      left: 0;
-    }
-  }
-
-  #sponsors {
-    .title {
-      li {
-        @include span-columns(4);
-        @include push(1);
-      }
-    }
-    .secondary,
-    .primary {
-      li {
-        @include span-columns(3);
-        &:nth-child(even) {
-          @include omega();
-        }
-      }
-    }
-    .primary {
-      li:last-child {
-        @include push(1.25);
-      }
-    }
-    .tertiary, 
-    .community {
-      li {
-        @include reset-columns();
-        @include span-columns(2);
-        &:nth-child(even) {
-          @include remove-omega();
-        }
-        &:nth-child(3n) {
-          @include omega();
-        }
-        &:last-child {
-          @include push(0);
-        }
-      }
-    }
-    .tertiary li {
-      &:last-child {
-        @include push(2);
-      }
-    }
-    .community li {
-      &:nth-child(4n) {
-        @include push(1);
-      }
-    }
   }
 }
 
+.hive {
+  width: 400px;
+  // reset from the previous mq
+  li:nth-child(even) {
+    margin-left: 0;
+  }
+  li {
+    float: left;
+    margin-bottom: $hex-margin*3;
+  }
+  li:nth-child(3n+1) {
+    float: left;
+  }
+  li:nth-child(3n+2) {
+    float: right;
+  }
+  li:nth-child(3n+3) {
+    margin-left: 105px;
+  }
+}
+// Workshops
+.workshop {
+  @include clearfix;
+  h4 {
+    margin: 4em 0 0 1em;
+  }
+  h4, p {
+    text-align: left;
+  }
+  ul {
+    float: left;
+    padding: 0;
+    width: auto;
+  }
+  li {
+    margin: 4em 1em 4em;
+    left: 0;
+  }
+}
 
+#sponsors {
+  .title {
+    li {
+
+    }
+  }
+  .secondary,
+  .primary {
+    li {
+
+      &:nth-child(even) {
+
+      }
+    }
+  }
+  .primary {
+    li:last-child {
+
+    }
+  }
+  .tertiary,
+  .community {
+    li {
+
+      &:nth-child(even) {
+
+      }
+      &:nth-child(3n) {
+
+      }
+      &:last-child {
+
+      }
+    }
+  }
+  .tertiary li {
+    &:last-child {
+
+    }
+  }
+  .community li {
+    &:nth-child(4n) {
+
+    }
+  }
+}
