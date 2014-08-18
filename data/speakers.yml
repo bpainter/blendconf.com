@@ -271,8 +271,8 @@
   slides: ~
   video: ~
 - speaker:
-  firstName: Eric Suzanne
-  lastName: Meyer
+  firstName: Eric M
+  lastName: Suzanne
   type: Conference Speakers
   discipline: Front-End
   day: 3
@@ -283,7 +283,7 @@
   companyWebsite: http://oddbird.net/
   personalWebsite: http://ericsuzanne.com/
   personalTwitter: ericmsuzanne
-  bio: "Eric Meyer builds custom web software with OddBird, soundscapes with Teacup Gorilla, and performance art with Vicious Trap. He is the author of two forthcoming novels and many original performance pieces, core developer on the Compass project, and creator of Susy (for web layout), True (for Sass unit testing), and various other open-source projects. Eric has developed work for Mozilla, Junyo, SpringGun Press, The Operating System, The Media Archeology Lab, Illiterate Magazine, and Pittsburgh’s City Theatre. He did not, however, write the CSS Reset."
+  bio: "Eric Suzanne builds custom web software with OddBird, soundscapes with Teacup Gorilla, and performance art with Vicious Trap. He is the author of two forthcoming novels and many original performance pieces, core developer on the Compass project, creator of Susy (Sass layout engine), True (Sass unit testing), and other open-source projects. Eric has developed work for Mozilla, Junyo, SpringGun Press, The Operating System, The Media Archeology Lab, Illiterate Magazine, and Pittsburgh’s City Theatre."
   slides: ~
   video: ~
 - speaker:
