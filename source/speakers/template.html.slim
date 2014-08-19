@@ -23,7 +23,7 @@ article.basic-content
 				iframe src="//player.vimeo.com/video/#{s.talk.video}" frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""allowfullscreen=""
 
 		- if s.talk.slides
-			h3: a href="#{s.talk.slides}"== s.talk.title
+			h3: a href="#{s.talk.slides}" #{s.talk.title} (slides)
 		- else
 			h3== s.talk.title
 
