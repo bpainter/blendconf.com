@@ -646,10 +646,10 @@
   discipline: Front-End
   day: 3
   session: 2
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: Lending Tree
-  companyWebsite: "#"
+  talkTitle: "Simple Accessibility: The Bare Minimum for Compassionate Development"
+  talkDescription: "<p>As front-end developers, we bear significant responsibility to ensure that our teams’ creations can be used by real people. We’re often told that accessibility is a “nice idea,” but that it’s too costly to learn, implement, or validate, or that people who “need accessibility” can just ask someone to help them. We then build sites and apps for an audience of mythical people with exceptional eyesight and hearing, full range of motion in their bodies, impeccable memory, and as much attention span as we think they should have.</p><p>We can do better, and if we want to take pride in crafting quality software, we must. Learn what accessibility really covers, how to incorporate it into ongoing development, and how to verify we’re doing it correctly.</p>"
+  company: Future Proof Games
+  companyWebsite: http://futureproofgames.com
   personalWebsite: http://irrsinn.net/
   personalTwitter: averymd
   bio: "Melissa is a front-end/.NET/Django UX developer currently plying their trade for local Charlotte companies LendingTree and Future Proof Games. They've been doing web development in one way or another since about 2000, when blogging was new and classic ASP with Access databases was all the rage for single developers. They flourish in the end-to-end processes of software and game creation: that never-ending, never-perfect crafting that produces art, valued services, profit, and -- with success -- joy for users."
