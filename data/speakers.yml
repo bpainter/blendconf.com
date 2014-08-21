@@ -127,6 +127,22 @@
   slides: ~
   video: ~
 - speaker:
+  firstName: Brad
+  lastName: Weaver
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 2
+  talkTitle: "How to Do Great Work Without Losing Your Shirt (and Soul)"
+  talkDescription: "<p>Most of us who are any good at design, development, or UX got into this because we love it, not because we saw dollar signs. We grew up with concert posters, comic books, and t-shirts letting us know that creative is cool, and we'd like to keep it that way. But what happens when you've been at this for a while and you're still making fry cook wages (or so it seems)? Billing hourly, outsourcing, using templates, and all of the other less than exciting parts of the job creep in.</p> <p>So how do you create great work, stay fresh, and avoid starvation all at once? Let's have a chat about real dollars, real projects, and real solutions to figure out how we can do what we love without losing our shirts and souls.</p>"
+  company: Nine Labs
+  companyWebsite: http://www.ninelabs.com/
+  personalWebsite: ~
+  personalTwitter: sbradweaver
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
   firstName: Cat
   lastName: Noone
   type: Conference Speakers
@@ -171,7 +187,7 @@
   companyWebsite: ~
   personalWebsite: http://www.clarissapeterson.com/
   personalTwitter: clarissa
-  bio: "Clarissa Peterson is a UX designer and developer, specializing in building responsive websites and training organizations in responsive design workflow. She frequently speaks on responsive design and mobile content strategy. Clarissa is also the author of Learning Responsive Web Design, coming soon from O’Reilly Media."
+  bio: "Clarissa Peterson is a UX designer and web developer, and co-founder of Peterson/Kandy, a Montreal-based digital consultancy specializing in creating responsive websites. Clarissa frequently speaks and gives workshops on responsive design, mobile strategy, and user experience. She is the author of Learning Responsive Web Design: A Beginner's Guide, available now from O'Reilly Media."
   slides: ~
   video: ~
 - speaker:
