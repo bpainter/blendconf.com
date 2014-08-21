@@ -32,6 +32,38 @@ end
 # First: gem install susy --pre
 require 'susy'
 
+
+# ----------------------------------------------
+# Helpers
+# ----------------------------------------------
+
+# Automatic image dimensions on image_tag helper
+# activate :automatic_image_sizes
+
+# Methods defined in the helpers block are available in templates
+# helpers do
+#   def some_helper
+#     "Helping"
+#   end
+# end
+
+helpers do
+ # Calculate the years for a copyright
+  def copyright_years(start_year)
+    end_year = Date.today.year
+    if start_year == end_year
+      start_year.to_s
+    else
+      start_year.to_s + '-' + end_year.to_s
+    end
+  end
+
+  def clean_data(url)
+    url.downcase.tr(" ", "-").tr(".", "").tr(":", "").tr("(", "").tr(")", "").tr(" &", "").tr("'", "").tr(",","")
+  end
+end
+
+
 # ----------------------------------------------
 # Page options, layouts, aliases and proxies
 # ----------------------------------------------
@@ -57,47 +89,14 @@ require 'susy'
 # Generate speaker pages from /data/speakers.yml
 data.speakers.each do |speaker|
   if speaker.firstName != "TBD"
-    proxy "/speakers/#{speaker[:firstName].downcase.tr(" ", "-").tr(".", "")}-#{speaker[:lastName].downcase.tr(" ", "-").tr(".", "").tr("'", "")}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
+    proxy "/speakers/#{clean_data(speaker[:firstName])}-#{clean_data(speaker[:lastName])}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
   end
 end
 
 # Generate schedule detail pages from /data/speakers.yml
 data.speakers.each do |speaker|
   if speaker.talkTitle != "TBD"
-    proxy "/schedule/#{speaker[:talkTitle].downcase.tr(" ", "-").tr(".", "").tr(":", "")}.html", "/schedule/template.html", :locals => { :speaker => speaker }, :ignore => true
-  end
-end
-
-page "/2014.html", :layout => :bare_layout
-
-# ----------------------------------------------
-# Helpers
-# ----------------------------------------------
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
-# KSS
-helpers do
- # Calculate the years for a copyright
-  def copyright_years(start_year)
-    end_year = Date.today.year
-    if start_year == end_year
-      start_year.to_s
-    else
-      start_year.to_s + '-' + end_year.to_s
-    end
-  end
-
-  def clean_data(url)
-    url.downcase.tr(" ", "-").tr(".", "").tr(":", "").tr("(", "").tr(")", "").tr(" &", "").tr("'", "").tr(",","")
+    proxy "/schedule/#{clean_data(speaker[:talkTitle])}.html", "/schedule/template.html", :locals => { :speaker => speaker }, :ignore => true
   end
 end
 
