@@ -139,7 +139,7 @@
   companyWebsite: http://www.ninelabs.com/
   personalWebsite: ~
   personalTwitter: sbradweaver
-  bio: ~
+  bio: "Brad Weaver is a Partner & Director of Design at Nine Labs. He designs, he codes, he writes, he UXs, he slices and dices. Brad went to school to be a lawyer, then he came to his senses and has spent the last 15 years as a UX generalist with a geek's heart of gold. His experience includes product development, interactive, branding, and market segmentation. He's been the big cheese, the plebeian, the middle manager, and the class clown. He's also folded clothes, pumped gas, bagged groceries, sold cell phones, and climbed the Great Wall of China. He likes beer, scotch, Oxford commas, and Jesus, but not in that order. He's worked with clients including MTV, Verizon, Bank of America, AT&T, ESPN, Disney, Columbia Records, NATO, SunTrust, The PGA, Olive Garden, Coca-Cola, Big Brothers Big Sisters, United Health Group, The Home Depot, Chick-fil-A, Macy’s, Hard Rock Café, and more."
   slides: ~
   video: ~
 - speaker:
@@ -720,6 +720,23 @@
   slides: ~
   video: ~
 - speaker:
+  firstName: Moses
+  lastName: Ngone
+  type: Conference Speakers
+  discipline: Back-End
+  day: 3
+  session: 1
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Nine Labs
+  companyWebsite: http://www.ninelabs.com
+  personalWebsite: http://mospired.com/
+  personalTwitter: mospired
+  bio: ~
+  slides: ~
+  video: ~
+
+- speaker:
   firstName: Netta
   lastName: Marshall
   type: Conference Speakers
@@ -858,10 +875,10 @@
   talkTitle: "TBD"
   talkDescription: "Coming soon..."
   company: Microsoft
-  companyWebsite: "#"
+  companyWebsite: "http://www.microsoft.com"
   personalWebsite: http://www.hanselman.com/
   personalTwitter: shanselman
-  bio: ~
+  bio: "Scott is a web developer who has been blogging at http://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has worked in tech for over 20 years building large systems with a number of nondenominational technologies. Scott has three podcasts: The Hanselminutes Podcast for tech talk, This Developer’s Life on developers’ lives and loves, and Ratchet and the Geek for pop culture and tech media. He’s written a number of books and spoken in person to almost a half million developers worldwide"
   slides: ~
   video: ~
 - speaker:
@@ -871,10 +888,10 @@
   discipline: Back-End
   day: 2
   session: 4
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
+  talkTitle: "JavaScript, the Cloud & Virtualization"
+  talkDescription: "<p>One day we woke up and things were different. Suddenly we are scripting against thousands of Virtual Machines from the command line while creating things today with JavaScript in the browser that were impossible yesterday.</p>"
   company: Microsoft
-  companyWebsite: "#"
+  companyWebsite: "http://www.microsoft.com"
   personalWebsite: http://www.hanselman.com/
   personalTwitter: shanselman
   bio: "Scott is a web developer who has been blogging at http://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He's written a number of books and spoken in person to almost a half million developers worldwide."
@@ -887,13 +904,13 @@
   discipline: Design
   day: 3
   session: 3
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
+  talkTitle: "Designing for Clients: Working Together For The Health of the Project"
+  talkDescription: "<p>With sites out there like \"Clients From Hell\" it can be easy to see clients as our opposition and to forget that they are actually our lifeblood and the sole reason that many designers have been able to make a career out of their passions. In this talk, Sophie will explain the importance of joining forces with clients rather than setting up against them. She will provide tips about educating, selling design, and keeping clients excited about the work at hand.</p>"
   company: Happy Cog
   companyWebsite: "#"
   personalWebsite: http://sophieshepherd.com/
   personalTwitter: sophshepherd
-  bio: "Sophie is a designer at Happy Cog in Austin, TX. With a history in both filmmaking and digital publishing, she realized that web design falls right at the intersection of some of her favorite things—storytelling, graphic design, and code. She freelanced for two years before joining Happy Cog full time. She cares deeply about designing websites that are simple, easily navigable, and full of necessary, applicable content. When not designing, Sophie enjoys cooking, drinking beer outside, riding her bike, road trips, and camping. She is active in the Austin web design community, where she organizes the Dribbble Meetup and teaches Intro to Responsive Design and Intro to Sass for Girl Develop It."
+  bio: "Sophie is a Senior Designer in Happy Cog's Austin office. She cares deeply about designing websites that are simple, easily navigable, and full of necessary, applicable content. When not designing, Sophie enjoys cooking, drinking beer outside, riding her bike, road trips, and camping. She is active in the Austin web design community, where she organizes the Dribbble Meetup and teaches Intro to Responsive Design and Intro to Sass for Girl Develop It."
   slides: ~
   video: ~
 - speaker:
@@ -998,39 +1015,7 @@
   type: Conference Speakers
   discipline: Design
   day: 3
-  session: 2
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: ~
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
-- speaker:
-  firstName: TBD
-  lastName: TBD
-  type: Conference Speakers
-  discipline: Design
-  day: 3
   session: 4
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: ~
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
-- speaker:
-  firstName: TBD
-  lastName: TBD
-  type: Conference Speakers
-  discipline: Back-End
-  day: 3
-  session: 1
   talkTitle: "TBD"
   talkDescription: "Coming soon..."
   company: ~

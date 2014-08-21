@@ -95,6 +95,10 @@ helpers do
       start_year.to_s + '-' + end_year.to_s
     end
   end
+
+  def clean_data(url)
+    url.downcase.tr(" ", "-").tr(".", "").tr(":", "").tr("(", "").tr(")", "").tr(" &", "").tr("'", "").tr(",","")
+  end
 end
 
 # ----------------------------------------------

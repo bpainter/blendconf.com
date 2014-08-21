@@ -5,66 +5,66 @@ ul class="#{ talkType == 'Keynotes' ? 'keynotes' : 'session' }"
     - if speaker.type == "#{talkType}" && speaker.day == talkDay && speaker.session == talkSession && speaker.discipline == "User Experience"
       - if speaker.talkTitle == "Love & Trust – What we know about relationships holds true in products" && speaker.lastName == "Lehnert"
         li.description.user-experience
-          h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+          h4.title: a href="/schedule/#{clean_data(speaker.talkTitle)}/" #{speaker.talkTitle}
           h5.track User Experience Track
-          a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'","")}/" #{speaker.firstName} #{speaker.lastName}
+          a.speaker href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" #{speaker.firstName} #{speaker.lastName}
           a.company href="#{speaker.companyWebsite}" #{speaker.company}
           <br />
           a.speaker href="/speakers/cat-noone/" Cat Noone
           a.company href="http://www.liber.io/" Liberio
       -elsif speaker.talkTitle != "Love & Trust – What we know about relationships holds true in products"
         li.description.user-experience
-          h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+          h4.title: a href="/schedule/#{clean_data(speaker.talkTitle)}/" #{speaker.talkTitle}
           h5.track User Experience Track
-          a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'","")}/" #{speaker.firstName} #{speaker.lastName}
+          a.speaker href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" #{speaker.firstName} #{speaker.lastName}
           a.company href="#{speaker.companyWebsite}" #{speaker.company}
   - data.speakers.each_with_index do |speaker, i|
     - if speaker.type == "#{talkType}" && speaker.day == talkDay && speaker.session == talkSession && speaker.discipline == "Design"
       - if speaker.talkTitle == "Learnings from Collaborating across UX and Design" && speaker.lastName == "Repponen"
         li.description.user-experience
-          h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+          h4.title: a href="/schedule/#{clean_data(speaker.talkTitle)}/" #{speaker.talkTitle}
           h5.track Design Track
-          a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'","")}/" #{speaker.firstName} #{speaker.lastName}
+          a.speaker href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" #{speaker.firstName} #{speaker.lastName}
           a.company href="#{speaker.companyWebsite}" #{speaker.company}
           <br />
           a.speaker href="/speakers/irene-pereyra/" Irene Pereyra
           a.company href="#{speaker.companyWebsite}" #{speaker.company}
       - elsif speaker.talkTitle != "Learnings from Collaborating across UX and Design" && speaker.lastName != "Pereyra"
         li.description.design
-          h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+          h4.title: a href="/schedule/#{clean_data(speaker.talkTitle)}/" #{speaker.talkTitle}
           h5.track Design Track
-          a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'","")}/" #{speaker.firstName} #{speaker.lastName}
+          a.speaker href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" #{speaker.firstName} #{speaker.lastName}
           a.company href="#{speaker.companyWebsite}" #{speaker.company}
   - data.speakers.each do |speaker|
     - if speaker.type == "#{talkType}" && speaker.day == talkDay && speaker.session == talkSession && speaker.discipline == "Front-End"
       - if speaker.talkTitle == "Hands-on with Polymer" && speaker.lastName == "Labriola"
         li.description.front-end
-          h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+          h4.title: a href="/schedule/#{clean_data(speaker.talkTitle)}/" #{speaker.talkTitle}
           h5.track Front-End Track
-          a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'","")}/" #{speaker.firstName} #{speaker.lastName}
+          a.speaker href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" #{speaker.firstName} #{speaker.lastName}
           a.company href="#{speaker.companyWebsite}" #{speaker.company}
           <br />
           a.speaker href="/speakers/michelle-yaiser/" Michelle Yaiser
           a.company href="http://www.adobe.com" Adobe
       - elsif speaker.talkTitle != "Hands-on with Polymer"
         li.description.front-end
-          h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+          h4.title: a href="/schedule/#{clean_data(speaker.talkTitle)}/" #{speaker.talkTitle}
           h5.track Front-End Track
-          a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'","")}/" #{speaker.firstName} #{speaker.lastName}
+          a.speaker href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" #{speaker.firstName} #{speaker.lastName}
           a.company href="#{speaker.companyWebsite}" #{speaker.company}
   - data.speakers.each do |speaker|
     - if speaker.type == "#{talkType}" && speaker.day == talkDay && speaker.session == talkSession && speaker.discipline == "Back-End"
       li.description.back-end
-        h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+        h4.title: a href="/schedule/#{clean_data(speaker.talkTitle)}/" #{speaker.talkTitle}
         h5.track Back-End Track
-        a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'","")}/" #{speaker.firstName} #{speaker.lastName}
+        a.speaker href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" #{speaker.firstName} #{speaker.lastName}
         a.company href="#{speaker.companyWebsite}" #{speaker.company}
   - data.speakers.each do |speaker|
     - if speaker.type == "#{talkType}" && speaker.day == talkDay && speaker.session == talkSession && speaker.discipline == "Keynote"
       li.description.keynote
-        h4.title: a href="/schedule/#{speaker.talkTitle.downcase.tr(" ", "-").tr(".", "").tr(":", "")}/" #{speaker.talkTitle}
+        h4.title: a href="/schedule/#{clean_data(speaker.talkTitle)}/" #{speaker.talkTitle}
         h5.track Keynote
-        a.speaker href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'","")}/" #{speaker.firstName} #{speaker.lastName}
+        a.speaker href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" #{speaker.firstName} #{speaker.lastName}
         a.company href="#{speaker.companyWebsite}" #{speaker.company}
 
 

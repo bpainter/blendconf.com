@@ -34,17 +34,18 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 #speakers
 	h2 <b>60+ speakers</b> covering user experience, development, and design
 	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
+
 	ul.hive.hexagon
-		- data.speakers.shuffle.first(16).each do |speaker|
-			- if speaker.firstName != "TBD"
-				- if speaker.lastName == "Hanselman" && speaker.discipline != "Back-End"
-					li class="#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}"
-						strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
-						a href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
-				- else
-					li class="#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}"
-						strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
-						a href="/speakers/#{speaker.firstName.downcase.tr(" ", "-").tr(".", "")}-#{speaker.lastName.downcase.tr(" ", "-").tr(".", "").tr("'", "")}/" <div class="right-hex"></div><div class="left-hex"></div>
+	  - data.speakers.each do |speaker|
+	    - if speaker.firstName != "TBD"
+	      - if speaker.lastName == "Hanselman" && speaker.discipline != "Back-End"
+	        li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
+	          strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
+	          a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" <div class="right-hex"></div><div class="left-hex"></div>
+	      - elsif speaker.lastName != "Hanselman"
+	        li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
+	          strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
+	          a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" <div class="right-hex"></div><div class="left-hex"></div>
 
 	a.button href="/speakers/" View All Speakers
 

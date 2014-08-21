@@ -500,6 +500,11 @@ nav[role="navigation"] {
 #sessions .speaker[href*="tbd-tbd"] {
 	display: none !important;
 }
+#sessions a[href*="tbd"] {
+	color: $color-text;
+	cursor: default;
+	text-decoration: none;
+}
 
 
 //--------------------------------------------------------
@@ -836,6 +841,7 @@ footer[role="contentinfo"] {
 		max-width: 500px;
 	}
 }
+
 
 //--------------------------------------------------------
 // Wrapup
