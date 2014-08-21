@@ -213,13 +213,13 @@
   discipline: Back-End
   day: 2
   session: 5
-  talkTitle: "Clojure"
-  talkDescription: ~
+  talkTitle: "Full-Stack Clojure"
+  talkDescription: "<p>Using libraries like Hoplon and Castra, Clojure can be used to develop web applications from client to server, making the communication between them easy to write and understand.</p>"
   company: The Iron Yard
   companyWebsite: http://theironyard.com/
   personalWebsite: http://dreisbach.us/
   personalTwitter: cndreisbach
-  bio: ~
+  bio: "Clinton is an instructor at The Iron Yard and a Clojure and Ruby hacker."
   slides: ~
   video: ~
 - speaker:
