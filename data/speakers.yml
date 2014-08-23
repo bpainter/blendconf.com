@@ -872,8 +872,8 @@
   discipline: Keynote
   day: 2
   session: 7
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
+  talkTitle: "JavaScript, The Cloud, and the rise of the New Virtual Machine"
+  talkDescription: "<p>One day we woke up and things were different. Suddenly we are scripting against thousands of Virtual Machines from the command line while creating things today with JavaScript in the browser that were impossible yesterday.</p>"
   company: Microsoft
   companyWebsite: "http://www.microsoft.com"
   personalWebsite: http://www.hanselman.com/
@@ -888,8 +888,8 @@
   discipline: Back-End
   day: 2
   session: 4
-  talkTitle: "JavaScript, the Cloud & Virtualization"
-  talkDescription: "<p>One day we woke up and things were different. Suddenly we are scripting against thousands of Virtual Machines from the command line while creating things today with JavaScript in the browser that were impossible yesterday.</p>"
+  talkTitle: "Azure for non-Microsoft People"
+  talkDescription: "<p>Join Scott as he shows you a practical, no-BS intro to Azure. 20% of Azure runs Linux, and you can easily deploy sites in PHP, node, Java and more. Push with Git, fire up a thousand VMs, and script it all with an open source node library. It's a whole new game and a whole no cloud. This talk wll will be 95% code and demos.</p>"
   company: Microsoft
   companyWebsite: "http://www.microsoft.com"
   personalWebsite: http://www.hanselman.com/
