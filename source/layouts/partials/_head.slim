@@ -1,11 +1,36 @@
 meta charset="utf-8"
 
 / Use title if it's in the page YAML frontmatter
-title #{current_page.data.title}
+title #{current_page.data.title} | Blend Conference: Sept 11-13
 meta name="description" content="#{current_page.data.description}"/
 
 / Prevents zooming
 meta name="viewport" content="width=device-width, initial-scale=1"
+
+/ Twitter and Open Graph Meta Content
+// If normal page
+meta name="twitter:card" content="summary"
+
+// if video
+meta name="twitter:card" content="player" / video content
+meta name="twitter:player" content="https://vimeo.com/68967326"
+
+// If speaker or talk
+meta name="twitter:card" content="summary_large_image"
+meta name="twitter:image:src" content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg"
+
+// Everything
+meta name="twitter:site" content="@blendconf"
+meta name="twitter:title" content="Bob’s Beard"
+meta name="twitter:description" content="Bob chops his beard."
+meta name="twitter:url" content="Bob chops his beard."
+meta name="twitter:creator" content="@nickbilton"
+
+
+meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/"
+meta property="og:title" content="A Twitter for My Sister"
+meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling."
+meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg"
 
 == stylesheet_link_tag "base", "scaffold"
 == javascript_include_tag "libs/modernizr"
