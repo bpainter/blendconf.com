@@ -1,38 +1,95 @@
----
-title: ~
-id: session-detail
----
 ruby:
-	s = locals[:speaker]
+  s = locals[:speaker]
 
-#masthead role="banner"
-	h1= s.talkTitle
-	- if s.slides
-		a.slides href="#{s.slides}" View Slides
+doctype html
+
+/[if lt IE 7]
+  html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"
+/[if IE 7]
+  html class="no-js lt-ie9 lt-ie8" lang="en"
+/[if IE 8]
+  html class="no-js lt-ie9" lang="en"
+/[if gt IE 8]
+  html class="no-js" lang="en"
+
+head
+  meta charset="utf-8"
+
+  / Use title if it's in the page YAML frontmatter
+  title #{s.talkTitle} with #{s.firstName} #{s.lastName} | Blend Conference: Sept 11-13 in Charlotte, NC
+
+  meta name="description" content="#{sanitize(s.talkDescription)}"
+
+  / Prevents zooming
+  meta name="viewport" content="width=device-width, initial-scale=1"
+
+  / Twitter and Open Graph Meta Content
+  // If normal page
+  // meta name="twitter:card" content="summary"
+  // If speaker or talk
+  meta name="twitter:card" content="summary_large_image"
+
+  // if video
+  // meta name="twitter:card" content="player"
+  // meta name="twitter:player" content="https://vimeo.com/68967326"
+
+  // 280x150
+  meta name="twitter:image:src" content="http://www.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
+
+  // Everything
+  meta name="twitter:site" content="@blendconf"
+  meta name="twitter:title" content="#{s.talkTitle} with #{s.firstName} #{s.lastName} | Blend Conference Sept 11-13"
+  meta name="twitter:description" content="#{sanitize(s.talkDescription)}"
+  meta name="twitter:url" content="http://www.blendconf.com#{current_page.url}"
+  meta name="twitter:creator" content="@blendconf"
+
+  meta property="og:url" content="http://www.blendconf.com#{current_page.url}"
+  meta property="og:title" content="#{s.talkTitle} with #{s.firstName} #{s.lastName} | Blend Conference Sept 11-13"
+  meta property="og:description" content="#{sanitize(s.talkDescription)}"
+  // 600 x 315
+  meta property="og:image" content="http://www.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
+
+  == stylesheet_link_tag "base", "scaffold"
+  == javascript_include_tag "libs/modernizr"
+
+body id="speaker-detail"
+
+  #container role="main"
+
+    #masthead role="banner"
+    	h1= s.talkTitle
+    	- if s.slides
+    		a.slides href="#{s.slides}" View Slides
 
 
-article.basic-content
-	.talk-details
-		== s.talkDescription
+    article.basic-content
+    	.talk-details
+    		== s.talkDescription
 
-	.speaker-details
-		h2 About #{s.firstName} #{s.lastName}
-		== s.bio
+    	.speaker-details
+    		h2 About #{s.firstName} #{s.lastName}
+    		== s.bio
 
-    - if s.talkTitle == "Hands-on with Polymer"
-      h2 About Michelle Yaiser
-      p Michelle Yaiser directs user research and helps plan educational content on Adobe’s Creative Cloud Learning team. Prior to joining Adobe she taught development at the college level and now enjoys working with new technologies and planning lessons without having to grade homework. She plays the clarinet and races cars (yes on a race track with other cars), and would love to have her own TARDIS.
-    - elsif s.talkTitle == "Learnings from Collaborating across UX and Design"
-      h2 About Irene Pereyra
-      p Irene Pereyra, User Experience Director / Designer and Anton Repponen, Creative Director / Designer, will walk-through an in-depth ‘behind the scenes’ of the redesign of Wacom.com and the challenges in other large redesigns in a chronological manner: from how the projects started, to the successes and hurdles faced along the way, and ultimately to launch. This presentation is an opportunity to learn about the ideas that worked and the others that failed miserably. It is the ‘behind the scenes’ story of the real-life challenges faced by Anton and Irene, told in a refreshingly candid manner.
-    - elsif s.talkTitle == "Love & Trust – What we know about relationships holds true in products"
-      h2 About Cat Noone
-      p Cat is a designer focused on building meaningful products. She is the Co-Founder and Design Chief of Liberio — Simple eBook creation and publishing through Google Drive. She advocates for the little details that make a big difference in design. Cat enjoys writing about design and tech, advising startups, speaking and working on side projects. Formerly in the special education field, she is a promoter and believer of technology in the classroom. In her spare time, Cat is a fan of making S'mores, getting lost in a good read, and a nail-biting TV series.
+        - if s.talkTitle == "Hands-on with Polymer"
+          h2 About Michelle Yaiser
+          p Michelle Yaiser directs user research and helps plan educational content on Adobe’s Creative Cloud Learning team. Prior to joining Adobe she taught development at the college level and now enjoys working with new technologies and planning lessons without having to grade homework. She plays the clarinet and races cars (yes on a race track with other cars), and would love to have her own TARDIS.
+        - elsif s.talkTitle == "Learnings from Collaborating across UX and Design"
+          h2 About Irene Pereyra
+          p Irene Pereyra, User Experience Director / Designer and Anton Repponen, Creative Director / Designer, will walk-through an in-depth ‘behind the scenes’ of the redesign of Wacom.com and the challenges in other large redesigns in a chronological manner: from how the projects started, to the successes and hurdles faced along the way, and ultimately to launch. This presentation is an opportunity to learn about the ideas that worked and the others that failed miserably. It is the ‘behind the scenes’ story of the real-life challenges faced by Anton and Irene, told in a refreshingly candid manner.
+        - elsif s.talkTitle == "Love & Trust – What we know about relationships holds true in products"
+          h2 About Cat Noone
+          p Cat is a designer focused on building meaningful products. She is the Co-Founder and Design Chief of Liberio — Simple eBook creation and publishing through Google Drive. She advocates for the little details that make a big difference in design. Cat enjoys writing about design and tech, advising startups, speaking and working on side projects. Formerly in the special education field, she is a promoter and believer of technology in the classroom. In her spare time, Cat is a fan of making S'mores, getting lost in a good read, and a nail-biting TV series.
 
-/ aside
-/ 	a href="http://twitter.com/#{s.links.twitter}"= s.links.twitter
-/ 	a href="http://github.com//#{s.links.github}"= s.links.github
-/ 	a href="#{s.links.website}"= s.links.website
-/ 	a href="http://dribbble.com/#{s.links.dribbble}"= s.links.dribbble
+    / aside
+    / 	a href="http://twitter.com/#{s.links.twitter}"= s.links.twitter
+    / 	a href="http://github.com//#{s.links.github}"= s.links.github
+    / 	a href="#{s.links.website}"= s.links.website
+    / 	a href="http://dribbble.com/#{s.links.dribbble}"= s.links.dribbble
 
-== partial "/layouts/partials/navigation"
+    == partial "/layouts/partials/sponsors"
+    == partial "/layouts/partials/footer"
+
+  == partial "/layouts/partials/navigation"
+
+  == partial "/layouts/partials/javascript"
+

@@ -1,5 +1,7 @@
 ---
-title: Blend Conference - A 3 Day Conference about User Experience, UI Design, and Development in Charlotte, NC
+title: Home
+description: "A generalist conference with a no-device policy, featuring 60+ diverse speakers sharing ideas and conversations about user experience, design, front-end and back-end development."
+socialImage: blendconf-social-banner.jpg
 id: home
 ---
 
@@ -36,7 +38,7 @@ form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=
 	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
 
 	ul.hive.hexagon
-	  - data.speakers.each do |speaker|
+	  - data.speakers.shuffle.first(16).each do |speaker|
 	    - if speaker.firstName != "TBD"
 	      - if speaker.lastName == "Hanselman" && speaker.discipline != "Back-End"
 	        li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"

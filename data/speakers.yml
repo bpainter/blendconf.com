@@ -357,8 +357,8 @@
   discipline: Front-End
   day: 3
   session: 5
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
+  talkTitle: "Lessons Learned from Teaching Thousands of People to Code"
+  talkDescription: "<p>In this session, Heather will share lessons learned from three years of teaching people how to code - first through founding the Canadian not-for-profit Ladies Learning Code, and then through running Canada's original programming bootcamp, HackerYou. She'll share stories of lives changed, amazing projects created by relative beginners, as well as the challenges involved in teaching beginners to code, and how to overcome them. You'll leave this session feeling inspired about the next generation of developers, and maybe even motivated to do your part to expose more beginners to the amazing world of creating - not just consuming - technology and the web. It might leave you looking at the junior developers at your company through a new lens.</p>"
   company: HackerYou
   companyWebsite: "#"
   personalWebsite: http://heatherpayne.ca/
@@ -743,10 +743,10 @@
   discipline: Design
   day: 2
   session: 4
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
+  talkTitle: "Good Design for Good Reason"
+  talkDescription: "<p>Design has the biggest potential for impact in the non-profit space, but much of the world's design power goes elsewhere. In this talk, you'll hear about my experiences designing for good at a non-profit aiming to expand access to healthcare to every person on the planet.</p>"
   company: Watsi
-  companyWebsite: "#"
+  companyWebsite: "https://watsi.org/"
   personalWebsite: http://www.nettamarshall.com/
   personalTwitter: nettatheninja
   bio: "Netta Marshall is a designer and photographer based in San Francisco, California. She enjoys nighttime bike rides, and pillow fights, strumming guitars, and baking cookies."

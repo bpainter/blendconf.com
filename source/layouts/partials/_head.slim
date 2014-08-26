@@ -1,36 +1,40 @@
 meta charset="utf-8"
 
 / Use title if it's in the page YAML frontmatter
-title #{current_page.data.title} | Blend Conference: Sept 11-13
+title #{current_page.data.title} | Blend Conference: Sept 11-13 in Charlotte, NC
+
 meta name="description" content="#{current_page.data.description}"/
+
 
 / Prevents zooming
 meta name="viewport" content="width=device-width, initial-scale=1"
 
 / Twitter and Open Graph Meta Content
 // If normal page
-meta name="twitter:card" content="summary"
-
-// if video
-meta name="twitter:card" content="player" / video content
-meta name="twitter:player" content="https://vimeo.com/68967326"
-
+// meta name="twitter:card" content="summary"
 // If speaker or talk
 meta name="twitter:card" content="summary_large_image"
-meta name="twitter:image:src" content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg"
+
+// if video
+// meta name="twitter:card" content="player"
+// meta name="twitter:player" content="https://vimeo.com/68967326"
+
+// 280x150
+meta name="twitter:image:src" content="http://www.blendconf.com/assets/images/content/#{current_page.data.socialImage}"
 
 // Everything
 meta name="twitter:site" content="@blendconf"
-meta name="twitter:title" content="Bob’s Beard"
-meta name="twitter:description" content="Bob chops his beard."
-meta name="twitter:url" content="Bob chops his beard."
-meta name="twitter:creator" content="@nickbilton"
+meta name="twitter:title" content="#{current_page.data.title} | Blend Conference Sept 11-13"
+meta name="twitter:description" content="#{current_page.data.description}"
+meta name="twitter:url" content="http://www.blendconf.com#{current_page.url}"
+meta name="twitter:creator" content="@blendconf"
 
 
-meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/"
-meta property="og:title" content="A Twitter for My Sister"
-meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling."
-meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg"
+meta property="og:url" content="http://www.blendconf.com#{current_page.url}"
+meta property="og:title" content="#{current_page.data.title} | Blend Conference Sept 11-13"
+meta property="og:description" content="#{current_page.data.description}"
+// 600 x 315
+meta property="og:image" content="http://www.blendconf.com/assets/images/content/#{current_page.data.socialImage}"
 
 == stylesheet_link_tag "base", "scaffold"
 == javascript_include_tag "libs/modernizr"

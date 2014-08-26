@@ -61,6 +61,10 @@ helpers do
   def clean_data(url)
     url.downcase.tr(" ", "-").tr(".", "").tr(":", "").tr("(", "").tr(")", "").tr(" &", "").tr("'", "").tr(",","")
   end
+
+  def sanitize(html)
+    html.gsub( %r{</?[^>]+?>}, '' )
+  end
 end
 
 
@@ -86,10 +90,18 @@ end
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+# page "/speakers/template.html", :layout => "bare_layout"
+# page "/schedule/template.html", :layout => "bare_layout"
+page "/speakers/*", :layout => "bare_layout"
+page "/schedule/*", :layout => "bare_layout"
+
+page "/speakers/index.html", :layout => "layout"
+page "/schedule/index.html", :layout => "layout"
+
 # Generate speaker pages from /data/speakers.yml
 data.speakers.each do |speaker|
   if speaker.firstName != "TBD"
-    proxy "/speakers/#{clean_data(speaker[:firstName])}-#{clean_data(speaker[:lastName])}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => true
+    proxy "/speakers/#{clean_data(speaker[:firstName])}-#{clean_data(speaker[:lastName])}.html", "/speakers/template.html", :locals => { :speaker => speaker }, :ignore => false
   end
 end
 
