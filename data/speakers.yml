@@ -38,7 +38,7 @@
   day: 1
   session: 2
   talkTitle: "Rangular: Blending Rails and Angular for Enterprise Applications"
-  talkDescription: ~
+  talkDescription: "Coming soon..."
   company: Tax Management Associates
   companyWebsite: http://www.tma1.com/
   personalWebsite: http://adamhunter.me/
@@ -198,7 +198,7 @@
   day: 1
   session: 1
   talkTitle: "Getting to know Sass"
-  talkDescription: ~
+  talkDescription: "Coming soon..."
   company: OddBird
   companyWebsite: http://oddbird.net/
   personalWebsite: http://itsmisscs.me/
@@ -341,11 +341,11 @@
   discipline: User Experience
   day: 3
   session: 5
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: Above the Fold
-  companyWebsite: http://www.abovethefolddesign.com/
-  personalWebsite:
+  talkTitle: "How Usable Are You?"
+  talkDescription: "<p>As UX professionals, we spend a lot of our time thinking about the usability of software. But how often do you stop to think about how usable you are – to your colleagues, stakeholders and peers? Many of the same considerations apply to people as to applications. So if you find that you’re not getting your points across, getting materials thrown “over the wall” to you, or not being invited to the conversations you know you should be part of… maybe it’s time for a usability review. Luckily, there are some things you can do to help your “users” gain more understanding and to produce better outcomes for everyone. We’ll cover how to more effectively interact with a team in order to get benefits for yourself and for the whole team, preventing problems down the line while making your working life much happier.</p>"
+  company: Pixels for Humans
+  companyWebsite: ~
+  personalWebsite: ~
   personalTwitter: hlrjo
   bio: "A seasoned UX consultant, researcher and speaker, I've seen the realm of user experience expand to be increasingly intentional and nuanced. As a co-owner of UX design firm, Above the Fold, I've helped clients increase sales, decrease CSR calls, maximize efficiency and more. I'm a big believer in the \"anyone can do it\" philosophy, and I've led several workshops on usability testing, and coached teams to success in incorporating UX into their dev projects."
   slides: ~
@@ -503,9 +503,9 @@
   day: 2
   session: 2
   talkTitle: "TBD"
-  talkDescription: "Coming soon..."
+  talkDescription: "To The Moon And Back: Taking the Leap Towards Solving Big Problems"
   company: The Iron Yard
-  companyWebsite: "#"
+  companyWebsite: "<p>President John F. Kennedy was a visionary. In 1962, he proposed the seemingly impossible challenge of walking on the Moon. On July 20, 1969, that challenge became a reality. It was a moment in our history that propelled us into moving beyond our self-imposed limitations of what we, as human beings, are capable of doing. </p> <p>Today, we see how this vision of space travel has affected our love and work on technology. Our multiple devices and subscriptions guide us through our daily lives, which has changed the way we see our world. </p> <p>But how does this love for technology propel us forward to solve the most difficult problems we face as a society: ever growing issues, such as hunger, poverty, climate change, social inequality and injustice?</p> <p>This talk reflects upon where we are as technologists, where we have been and how we can start focusing again on solving hard problems. We’ll go over ways attendees can contribute their talents, gifts and ideas to varying initiatives around the globe which are taking on these challenging issues.</p>"
   personalWebsite: http://juliaelman.com/
   personalTwitter: juliaelman
   bio: "Julia has been working her brand of web skills for nearly a decade. She started out as a designer for an internal marketing group at a travel agency in Los Angeles, and quickly honed her skills as a web designer using HTML/CSS. Her creative nature drove her to find work at Hallmark Cards, Inc. She worked mostly on Flash development and on projects such as the Product (RED) campaign and Hallmark’s site re-design. In 2007, her team was awarded the AIGA award for Web Design as a result of their work on the Product (RED) microsite. She first learned about Django after attending the 2008 SXSW Interactive Festival. She was amazed at how rapidly you can create useful web applications using Django. Shortly after the festival, she left Hallmark to work at the Lawrence Journal World as a Junior Designer/Developer, where Django originated. She worked on projects such as Ellington CMS and Marketplace, where she developed applications, designed templates, and wrote client-side documentation. "

@@ -10,21 +10,34 @@
   /     - if sponsor.type == "title"
   /       li
   /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
-  / ul.primary
+
+  / ul.platinum
   /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "primary"
+  /     - if sponsor.type == "platinum"
   /       li
   /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
 
-  / ul.secondary
+  / ul.gold
   /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "secondary"
+  /     - if sponsor.type == "gold"
   /       li
   /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
 
-  / ul.tertiary
+  / ul.silver
   /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "tertiary"
+  /     - if sponsor.type == "silver"
+  /       li
+  /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
+
+  / ul.bronze
+  /   - data.sponsors.each do |sponsor|
+  /     - if sponsor.type == "bronze"
+  /       li
+  /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
+
+  / ul.aluminum
+  /   - data.sponsors.each do |sponsor|
+  /     - if sponsor.type == "aluminum"
   /       li
   /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
 

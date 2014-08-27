@@ -59,7 +59,7 @@ helpers do
   end
 
   def clean_data(url)
-    url.downcase.tr(" ", "-").tr(".", "").tr(":", "").tr("(", "").tr(")", "").tr(" &", "").tr("'", "").tr(",","")
+    url.downcase.tr(" ", "-").tr(".", "").tr(":", "").tr("(", "").tr(")", "").tr(" &", "").tr("'", "").tr(",","").tr("?","")
   end
 
   def sanitize(html)

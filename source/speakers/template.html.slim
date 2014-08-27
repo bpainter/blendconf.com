@@ -18,7 +18,7 @@ head
 	/ Use title if it's in the page YAML frontmatter
 	title #{s.firstName} #{s.lastName} | Blend Conference: Sept 11-13 in Charlotte, NC
 
-	meta name="description" content="#{sanitize(s.bio)}"
+	meta name="description" content="#{s.bio}"
 
 	/ Prevents zooming
 	meta name="viewport" content="width=device-width, initial-scale=1"
@@ -39,13 +39,13 @@ head
 	// Everything
 	meta name="twitter:site" content="@blendconf"
 	meta name="twitter:title" content="#{s.firstName} #{s.lastName} | Blend Conference Sept 11-13"
-	meta name="twitter:description" content="#{sanitize(s.bio)}"
+	meta name="twitter:description" content="#{s.bio}"
 	meta name="twitter:url" content="http://www.blendconf.com#{current_page.url}"
 	meta name="twitter:creator" content="@blendconf"
 
 	meta property="og:url" content="http://www.blendconf.com#{current_page.url}"
 	meta property="og:title" content="#{s.firstName} #{s.lastName} | Blend Conference Sept 11-13"
-	meta property="og:description" content="#{sanitize(s.bio)}"
+	meta property="og:description" content="#{s.bio}"
 	// 600 x 315
 	meta property="og:image" content="http://www.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
 
