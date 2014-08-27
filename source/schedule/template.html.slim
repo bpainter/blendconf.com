@@ -34,20 +34,20 @@ head
   // meta name="twitter:player" content="https://vimeo.com/68967326"
 
   // 280x150
-  meta name="twitter:image:src" content="http://www.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
+  meta name="twitter:image:src" content="http://2014.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
 
   // Everything
   meta name="twitter:site" content="@blendconf"
   meta name="twitter:title" content="#{s.talkTitle} with #{s.firstName} #{s.lastName} | Blend Conference Sept 11-13"
   meta name="twitter:description" content="#{sanitize(s.talkDescription)}"
-  meta name="twitter:url" content="http://www.blendconf.com#{current_page.url}"
+  meta name="twitter:url" content="http://2014.blendconf.com#{current_page.url}"
   meta name="twitter:creator" content="@blendconf"
 
-  meta property="og:url" content="http://www.blendconf.com#{current_page.url}"
+  meta property="og:url" content="http://2014.blendconf.com#{current_page.url}"
   meta property="og:title" content="#{s.talkTitle} with #{s.firstName} #{s.lastName} | Blend Conference Sept 11-13"
   meta property="og:description" content="#{sanitize(s.talkDescription)}"
   // 600 x 315
-  meta property="og:image" content="http://www.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
+  meta property="og:image" content="http://2014.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
 
   == stylesheet_link_tag "base", "scaffold"
   == javascript_include_tag "libs/modernizr"
