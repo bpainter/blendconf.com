@@ -726,16 +726,15 @@
   discipline: Back-End
   day: 3
   session: 1
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
+  talkTitle: "The Web Developer's Toolbag"
+  talkDescription: "<p>The web developers workflow can dramatically change everyday. With the influx of new tools, processes and applications, we all sometimes feel like we need to learn how to use all of them.</p> <p>Well in this talk, we will explore the use and combination of some new \"shinies\", old and tested ones and a couple of hidden rarely used ones.</p> <p>We will piece it all together and make a great toolchain that doesn't get you overwhelmed. Tools include  grunt, phing, capistrano,boxen, hubot, vagrant and a few more</p>"
   company: Nine Labs
   companyWebsite: http://www.ninelabs.com
   personalWebsite: http://mospired.com/
   personalTwitter: mospired
-  bio: ~
+  bio: "Moses is the Director of Engineering at Nine Labs. After many years curating code for the likes of Cengage and Sharecare, he took the leap and created his solo consultancy Mospired while managing projects at Epic Labs. When not at the office, Mo loves sharing ideas and giving back to the community. As an active member of Atlanta web community, he participates and speaks on various topics related to web development. On any given weekend he is glued to the screen fueling his \"fanhood\" of the Arsenal Football Club (Gunners) and or looking out for the ever elusive super car. Ask him about it."
   slides: ~
   video: ~
-
 - speaker:
   firstName: Netta
   lastName: Marshall
