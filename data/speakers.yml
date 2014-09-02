@@ -823,10 +823,10 @@
   discipline: Back-End
   day: 3
   session: 6
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
+  talkTitle: "Team Communication Through Code"
+  talkDescription: "<p>Over the past year, Paperless Post has grown tremendously in terms of goals, accomplishments, and new employees. We’ve come to find that with that rapid expansion are some growing pains that necessitated us to rethink and retool how we communicated within our individual teams as well as across teams. But the question becomes, how can we communicate our core beliefs and impart our knowledge of the code base to new team members as quickly and seamlessly as possible without losing the camaraderie and gained experience of a smaller start up? This talk will discuss some of the techniques and tools we use to communicate within and among our teams as well as examine ways to improve ourselves further.</p>"
   company: Paperless Post
-  companyWebsite: "#"
+  companyWebsite: "http://paperlesspost.com/"
   personalWebsite: http://rachelober.com/
   personalTwitter: rachelober
   bio: "Rachel is a software engineer at Paperless Post in New York City who focuses on front-end technologies and the user interface. She has taught at General Assembly in Manhattan and has contributed to their Front-end and Ruby on Rails curriculum that is used at their various campuses around the world. Starting in 2013, Rachel organizes and volunteers her time teaching women Ruby and Ruby on Rails through RailsBridge NYC. Rachel is an avid paper crafter and loves to talk about her Pembroke Welsh Corgi, Isabella."
