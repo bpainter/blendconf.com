@@ -277,8 +277,8 @@
   discipline: Design
   day: 3
   session: 6
-  talkTitle: "Neuromarketing"
-  talkDescription: "Coming soon..."
+  talkTitle: "Neuromarketing: The Next Generation of Customer Intelligence"
+  talkDescription: "<p>\"If I had asked people what they wanted, they would've said faster horses.\" - Henry Ford</p> <p>The future of customer-centric and experiential marketing relies heavily on your understanding of the customer. Traditional methods like surveys and focus groups tell you WHO is interested, and WHAT they're buying, but not WHY. Understanding why people do what they do is now made possible with scalable, portable and predictable neuroscience and biometric technologies. </p> <p>This introductory session will cover:</p> <ul><li>Introduction to Neuromarketing</li> <li>The current methods of gathering customer intelligence</li> <li>Separating fact from fiction and what can be accurately measured</li> <li>Available technologies and case studies</li> <li>The future of consumer neuroscience research.</li></ul>"
   company: True Impact
   companyWebsite: http://trueimpact.ca
   personalWebsite:
@@ -502,10 +502,10 @@
   discipline: Back-End
   day: 2
   session: 2
-  talkTitle: "TBD"
-  talkDescription: "To The Moon And Back: Taking the Leap Towards Solving Big Problems"
-  company: The Iron Yard
-  companyWebsite: "<p>President John F. Kennedy was a visionary. In 1962, he proposed the seemingly impossible challenge of walking on the Moon. On July 20, 1969, that challenge became a reality. It was a moment in our history that propelled us into moving beyond our self-imposed limitations of what we, as human beings, are capable of doing. </p> <p>Today, we see how this vision of space travel has affected our love and work on technology. Our multiple devices and subscriptions guide us through our daily lives, which has changed the way we see our world. </p> <p>But how does this love for technology propel us forward to solve the most difficult problems we face as a society: ever growing issues, such as hunger, poverty, climate change, social inequality and injustice?</p> <p>This talk reflects upon where we are as technologists, where we have been and how we can start focusing again on solving hard problems. We’ll go over ways attendees can contribute their talents, gifts and ideas to varying initiatives around the globe which are taking on these challenging issues.</p>"
+  talkTitle: "To The Moon And Back: Taking the Leap Towards Solving Big Problems"
+  talkDescription: "<p>President John F. Kennedy was a visionary. In 1962, he proposed the seemingly impossible challenge of walking on the Moon. On July 20, 1969, that challenge became a reality. It was a moment in our history that propelled us into moving beyond our self-imposed limitations of what we, as human beings, are capable of doing. </p> <p>Today, we see how this vision of space travel has affected our love and work on technology. Our multiple devices and subscriptions guide us through our daily lives, which has changed the way we see our world. </p> <p>But how does this love for technology propel us forward to solve the most difficult problems we face as a society: ever growing issues, such as hunger, poverty, climate change, social inequality and injustice?</p> <p>This talk reflects upon where we are as technologists, where we have been and how we can start focusing again on solving hard problems. We’ll go over ways attendees can contribute their talents, gifts and ideas to varying initiatives around the globe which are taking on these challenging issues.</p>"
+  company: ~
+  companyWebsite: ~
   personalWebsite: http://juliaelman.com/
   personalTwitter: juliaelman
   bio: "Julia has been working her brand of web skills for nearly a decade. She started out as a designer for an internal marketing group at a travel agency in Los Angeles, and quickly honed her skills as a web designer using HTML/CSS. Her creative nature drove her to find work at Hallmark Cards, Inc. She worked mostly on Flash development and on projects such as the Product (RED) campaign and Hallmark’s site re-design. In 2007, her team was awarded the AIGA award for Web Design as a result of their work on the Product (RED) microsite. She first learned about Django after attending the 2008 SXSW Interactive Festival. She was amazed at how rapidly you can create useful web applications using Django. Shortly after the festival, she left Hallmark to work at the Lawrence Journal World as a Junior Designer/Developer, where Django originated. She worked on projects such as Ellington CMS and Marketplace, where she developed applications, designed templates, and wrote client-side documentation. "
@@ -1001,7 +1001,7 @@
   session: 2
   talkTitle: "Sell Your Story, Grow Your Business: How to Create Engaging Content That Attracts and Converts"
   talkDescription: "<ul><li>The Why Factor - top 4 emotional drivers that motivate people to take action and stick around as loyal customers</li> <li>How to strategize marketing campaigns around story for maximum ROI. (ie, people don’t connect to the product, they buy into the story behind it.)</li> <li>How to create compelling story-driven copy that pre-qualifies prospects while building a community of lifetime customers who are brand warriors</li></ul>"
-  company: Summer Copywriting
+  company: Sūmèr Copywriting
   companyWebsite: http://www.sumercopywriting.com/
   personalWebsite: ~
   personalTwitter: ~
