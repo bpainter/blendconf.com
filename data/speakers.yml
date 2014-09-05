@@ -689,6 +689,22 @@
   video: ~
 - speaker:
   firstName: Michelle
+  lastName: Salater
+  type: Conference Speakers
+  discipline: User Experience
+  day: 3
+  session: 2
+  talkTitle: "Sell Your Story, Grow Your Business: How to Create Engaging Content That Attracts and Converts"
+  talkDescription: "<ul><li>The Why Factor - top 4 emotional drivers that motivate people to take action and stick around as loyal customers</li> <li>How to strategize marketing campaigns around story for maximum ROI. (ie, people don’t connect to the product, they buy into the story behind it.)</li> <li>How to create compelling story-driven copy that pre-qualifies prospects while building a community of lifetime customers who are brand warriors</li></ul>"
+  company: Sūmèr Copywriting
+  companyWebsite: http://www.sumercopywriting.com/
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: "Michelle Salater is the CEO of Sūmèr, LLC, a copywriting and content marketing firm for businesses that need a clear, optimized message that attracts and converts. Michelle frequently speaks to business owners on how to engage prospects and nurture loyal customer following using the power of story and measurable content marketing strategies. She is an award-winning writer and content expert featured in Entrepreneur Magazine, MyBusiness Magazine, and Under30CEO, among others. In 2009, Michelle won the Charleston Business Journal’s Forty under 40 award for her business and community leadership. She has spoken globally, including in Harare, Zimbabwe, for the Big Africa Conference. More recently, Michelle was interviewed on the Barry Moltz Business Insanity talk radio show."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Michelle
   lastName: Yaiser
   type: Workshops
   discipline: Front-End
@@ -765,6 +781,22 @@
   personalWebsite: http://www.nicolefenton.com/
   personalTwitter: nicoleslaw
   bio: "Nicole Fenton is an independent writer and editor in Brooklyn. She is the coauthor of Nicely Said: Writing for the Web with Style and Purpose (New Riders, 2014). Previously, Nicole was a content strategist at a large social network, a small design studio, and a startup incubator in San Francisco. She started her professional writing practice in 2005 at Apple, where she served as communications lead for five years."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Nora
+  lastName: Richardson
+  type: Conference Speakers
+  discipline: Design
+  day: 3
+  session: 4
+  talkTitle: "TBD"
+  talkDescription: "Coming soon..."
+  company: Spot-on Branding
+  companyWebsite: www.spot-onbranding.com
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: "Nora D. Richardson is a life-long learner, creative and a big believer in making the world better and more beautiful place through effective branding. Founder of her own branding design firm, Spot-On Branding, LLC, Nora is known as the \"big picture\" brand consultant and designer for small to mid-sized companies. She believes that you are never too small to look big. Nora speaks to business owners and students about branding and is regularly featured on websites such as Biznik, Brandergy, and Blogher.  She has been published in The New York Times and The Costco Connection as well as been a co-host on an International Radio Show about branding, which reached listeners across three continents. Although she focus’ on small to mid-sized businesses, she has branded and designed for several Fortune 500 companies, including Kahlúa, the Olympics, and Northwest Airlines."
   slides: ~
   video: ~
 - speaker:
@@ -992,35 +1024,4 @@
   bio: "Val Head is a designer and consultant based in Philadelphia. Her work ranges from projects on the web to interactive installations to print. She is the author of The Pocket Guide to CSS Animations, teaches CSS Animations on Lynda.com, and hosts the All The Right Moves tutorial screencast. You can find her on stage speaking at events like An Event Apart and encouraging others to do the same as the co-host of the Ladies in Tech podcast. She also founded the popular Web Design Day conference, and leads workshops around the world on animation for the web and creative coding."
   slides: ~
   video: ~
-- speaker:
-  firstName: Michelle
-  lastName: Salater
-  type: Conference Speakers
-  discipline: User Experience
-  day: 3
-  session: 2
-  talkTitle: "Sell Your Story, Grow Your Business: How to Create Engaging Content That Attracts and Converts"
-  talkDescription: "<ul><li>The Why Factor - top 4 emotional drivers that motivate people to take action and stick around as loyal customers</li> <li>How to strategize marketing campaigns around story for maximum ROI. (ie, people don’t connect to the product, they buy into the story behind it.)</li> <li>How to create compelling story-driven copy that pre-qualifies prospects while building a community of lifetime customers who are brand warriors</li></ul>"
-  company: Sūmèr Copywriting
-  companyWebsite: http://www.sumercopywriting.com/
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: "Michelle Salater is the CEO of Sūmèr, LLC, a copywriting and content marketing firm for businesses that need a clear, optimized message that attracts and converts. Michelle frequently speaks to business owners on how to engage prospects and nurture loyal customer following using the power of story and measurable content marketing strategies. She is an award-winning writer and content expert featured in Entrepreneur Magazine, MyBusiness Magazine, and Under30CEO, among others. In 2009, Michelle won the Charleston Business Journal’s Forty under 40 award for her business and community leadership. She has spoken globally, including in Harare, Zimbabwe, for the Big Africa Conference. More recently, Michelle was interviewed on the Barry Moltz Business Insanity talk radio show."
-  slides: ~
-  video: ~
-- speaker:
-  firstName: TBD
-  lastName: TBD
-  type: Conference Speakers
-  discipline: Design
-  day: 3
-  session: 4
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: ~
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
+
