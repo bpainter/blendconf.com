@@ -293,7 +293,7 @@
   discipline: Front-End
   day: 3
   session: 4
-  talkTitle: "The Magic of Sassy Maps"
+  talkTitle: "Sass Map Magic"
   talkDescription: "<p>Maps are a powerful new data type in Sass 3.3 — giving you key-value pairs without the pain of nested lists, or the clutter of variables. Maps are great for site settings, mixin arguments, data storage, and more. We'll explore maps from the insane to the mundane, and find ways to incorporate them into any web project — from sites and apps, to Sass libraries and frameworks.</p>"
   company: Oddbird
   companyWebsite: http://oddbird.net/
