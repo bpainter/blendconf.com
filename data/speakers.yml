@@ -983,13 +983,13 @@
   discipline: Back-End
   day: 2
   session: 6
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: Balanced
-  companyWebsite: "#"
+  talkTitle: "Applications, Languages, and Libraries"
+  talkDescription: "<p>Different kinds of programming require different kinds of skills. Steve has worked on a number of projects over the years, being one of the most active contributors on GitHub, and will give a talk about his experiences working on three kinds of projects: applications, libraries, and languages. He'll discuss the unique challenges of each kind, which might make sense for you to contribute to, and war stories from being on too many core teams.</p>"
+  company: Freelance, Mozilla
+  companyWebsite: "https://github.com/rust-lang"
   personalWebsite: http://www.steveklabnik.com/
   personalTwitter: steveklabnik
-  bio: 'Hypermedia enthusiast, prolific open source contributor, Philosopher In Residence at Balanced Payments. Currently writing "Designing Hypermedia APIs," "Rust for Rubyists," and "Rails 4 in Action."'
+  bio: 'Hypermedia enthusiast, prolific open source contributor, on contract with Mozilla to write documentation for Rust. Currently writing "Designing Hypermedia APIs," "Rust for Rubyists," and "Rails 4 in Action."'
   slides: ~
   video: ~
 - speaker:
