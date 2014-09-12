@@ -94,7 +94,6 @@ end
 # page "/schedule/template.html", :layout => "bare_layout"
 page "/speakers/*", :layout => "bare_layout"
 page "/schedule/*", :layout => "bare_layout"
-
 page "/speakers/index.html", :layout => "layout"
 page "/schedule/index.html", :layout => "layout"
 
