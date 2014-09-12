@@ -97,9 +97,6 @@ page "/schedule/*", :layout => "bare_layout"
 
 page "/speakers/index.html", :layout => "layout"
 page "/schedule/index.html", :layout => "layout"
-page "/schedule/thursday/*", :layout => "layout"
-page "/schedule/friday/*", :layout => "layout"
-page "/schedule/saturday/*", :layout => "layout"
 
 # Generate speaker pages from /data/speakers.yml
 data.speakers.each do |speaker|
