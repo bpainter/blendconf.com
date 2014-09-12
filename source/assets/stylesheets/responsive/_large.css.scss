@@ -240,6 +240,18 @@ nav[role="navigation"] {
     }
   }
 }
+
+.sponsor-logos {
+  li {
+    @include span(4 of 12);
+    &:nth-child(even) {
+      @include span(4 of 12);
+    }
+    &:nth-child(3n) {
+      @include omega();
+    }
+  }
+}
 //--------------------------------------------------------
 // wrapup
 //--------------------------------------------------------

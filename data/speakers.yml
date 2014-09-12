@@ -261,11 +261,11 @@
   discipline: Front-End
   day: 3
   session: 3
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: ~
-  companyWebsite: "#"
-  personalWebsite: http://darcyclarke.me/
+  talkTitle: "You, Me & the Future of Online Video"
+  talkDescription: "<p>In this talk we’ll examine the past, present and future of video, the most immersive type of content, on the web; Including solutions for solving cross-platform implementation problems and insights/examples of new technologies like video decodes, JavaScript-based codecs (ORBX.js) and much more. Along the way we’ll touch on accessible libraries, new standards/implementations and the importance of DRM and the EME spec to the way we develop video-based experiences on the web.</p>"
+  company: Blanche
+  companyWebsite: http://blanche.is
+  personalWebsite: http://darcyclarke.me
   personalTwitter: darcy
   bio: "Darcy Clarke is an award winning Front-end Developer, Designer, User Experience Advocate & Entrepreneur. He speaks, mentors, builds & promotes all things HTML5, CSS3, JS & Open Source related."
   slides: ~

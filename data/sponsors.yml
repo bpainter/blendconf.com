@@ -1,35 +1,11 @@
 - sponsor:
-  type: aluminum
-  name: A Book Apart
+  type: title
+  name: Cardinal Solutions
   description: ~
   links:
     twitter: ~
     facebook: ~
-    website: http://www.abookapart.com/
-- sponsor:
-  type: silver
-  name: Adobe
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://blogs.adobe.com/webplatform/
-- sponsor:
-  type: silver
-  name: MailChimp
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.mailchimp.com/
-- sponsor:
-  type: aluminum
-  name: "O'Reilly"
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.oreilly.com/
+    website: http://www.cardinalsolutions.com/
 - sponsor:
   type: platinum
   name: Red Ventures
@@ -55,13 +31,37 @@
     facebook: ~
     website: http://www.salesforce.com/
 - sponsor:
-  type: aluminum
-  name: Stickermule
+  type: silver
+  name: MailChimp
   description: ~
   links:
     twitter: ~
     facebook: ~
-    website: http://www.stickermule.com/
+    website: http://www.mailchimp.com/
+- sponsor:
+  type: silver
+  name: Mandrill
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.mandrill.com/
+- sponsor:
+  type: silver
+  name: Adobe
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.adobe.com/creativecloud.html/
+- sponsor:
+  type: gold
+  name: Github
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.github.com/
 - sponsor:
   type: gold
   name: Uber
@@ -72,12 +72,36 @@
     website: http://www.uber.com/
 - sponsor:
   type: aluminum
-  name: Codepen
+  name: A Book Apart
   description: ~
   links:
     twitter: ~
     facebook: ~
-    website: http://codepen.io/
+    website: http://www.abookapart.com/
+- sponsor:
+  type: aluminum
+  name: "O'Reilly"
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.oreilly.com/
+- sponsor:
+  type: aluminum
+  name: "Rosenfeld"
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: https://rosenfeldmedia.com/
+- sponsor:
+  type: aluminum
+  name: Stickermule
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.stickermule.com/
 - sponsor:
   type: community
   name: "iT-ology"
@@ -110,6 +134,22 @@
     twitter: ~
     facebook: ~
     website: http://www.meetup.com/atlantawebdesign/
+- sponsor:
+  type: community
+  name: Code for Charlotte
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.aigacharlotte.org/
+- sponsor:
+  type: community
+  name: UXPA Triangle
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://triuxpa.org/
 - sponsor:
   type: community
   name: AIGA Charlotte

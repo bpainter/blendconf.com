@@ -171,4 +171,15 @@ article {
   }
 }
 
-
+.sponsor-logos {
+  li {
+    @include span(3 of 12);
+    &:nth-child(even),
+    &:nth-child(3n) {
+      @include span(3 of 12);
+    }
+    &:nth-child(4n) {
+      @include omega;
+    }
+  }
+}

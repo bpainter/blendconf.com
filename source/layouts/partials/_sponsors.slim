@@ -17,11 +17,10 @@
   /       li
   /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
 
-  / ul.gold
-  /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "gold"
-  /       li
-  /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
+  ul.gold.sponsor-logos
+    - data.sponsors.each do |sponsor|
+      li
+        a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{clean_data(sponsor.name)}.png"
 
   / ul.silver
   /   - data.sponsors.each do |sponsor|
