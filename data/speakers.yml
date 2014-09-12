@@ -69,13 +69,13 @@
   discipline: Design
   day: 2
   session: 6
-  talkTitle: "Getting Your First Design Job in Tech"
+  talkTitle: "Start at the Top: Getting Your First Design Job in Tech"
   talkDescription: "When you have no work experience under your belt, how do you show employers you’d still be a great design hire? I’ll discuss my experience hiring and getting hired at tech startups like Dropbox, Codecademy, and Treehouse. I’ll also identify the characteristics that signal to employers you have an explosive trajectory—and make it easy for them to say, “Yes!”"
   company: ~
   companyWebsite: ~
-  personalWebsite: http://allisonhouse.co/
+  personalWebsite: http://allison.house
   personalTwitter: house
-  bio: "Allison House is a product designer exploring the intersection of technology, design, and education. She writes about starting a career in design on her blog, http://allisonhouse.co. Her work includes Dropbox and Codecademy, and has been featured in the New York Times, TIME Magazine, Wall Street Journal, and more. She paints portraits and abstracts in her spare time."
+  bio: "Allison House is a product designer exploring the intersections of art, technology, education. She writes about starting a career in design on her blog, http://allison.house. Her work includes Dropbox and Codecademy, and has been featured in the New York Times, TIME Magazine, Wall Street Journal, and more. She paints portraits and abstracts in her spare time."
   slides: ~
   video: ~
 - speaker:
@@ -983,13 +983,13 @@
   discipline: Back-End
   day: 2
   session: 6
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
-  company: Balanced
-  companyWebsite: "#"
+  talkTitle: "Applications, Languages, and Libraries"
+  talkDescription: "<p>Different kinds of programming require different kinds of skills. Steve has worked on a number of projects over the years, being one of the most active contributors on GitHub, and will give a talk about his experiences working on three kinds of projects: applications, libraries, and languages. He'll discuss the unique challenges of each kind, which might make sense for you to contribute to, and war stories from being on too many core teams.</p>"
+  company: Freelance, Mozilla
+  companyWebsite: "https://github.com/rust-lang"
   personalWebsite: http://www.steveklabnik.com/
   personalTwitter: steveklabnik
-  bio: 'Hypermedia enthusiast, prolific open source contributor, Philosopher In Residence at Balanced Payments. Currently writing "Designing Hypermedia APIs," "Rust for Rubyists," and "Rails 4 in Action."'
+  bio: 'Hypermedia enthusiast, prolific open source contributor, on contract with Mozilla to write documentation for Rust. Currently writing "Designing Hypermedia APIs," "Rust for Rubyists," and "Rails 4 in Action."'
   slides: ~
   video: ~
 - speaker:
