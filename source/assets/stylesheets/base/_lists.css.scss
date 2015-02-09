@@ -1,0 +1,41 @@
+// ----------------------------------------------------------------
+// Lists: ordered, unordered, and definition
+// ----------------------------------------------------------------
+
+// Addresses margins set differently in IE6/7
+// ----------------------------------------------------------------
+@if $legacy-support-for-ie {
+  dl,
+  menu,
+  ol,
+  ul {
+    margin: 1em 0;
+  }
+}
+
+@if $legacy-support-for-ie {
+  dd {
+    margin: 0 0 0 40px;
+  }
+}
+
+// Addresses paddings set differently in IE6/7
+// ----------------------------------------------------------------
+@if $legacy-support-for-ie {
+  menu,
+  ol,
+  ul {
+    padding: 0 0 0 40px;
+  }
+}
+
+// Corrects list images handled incorrectly in IE7
+// ----------------------------------------------------------------
+nav {
+  ul,
+  ol {
+    @if $legacy-support-for-ie {
+      list-style-image: none;
+    }    
+  }
+}

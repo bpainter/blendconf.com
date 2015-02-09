@@ -12,7 +12,7 @@
   personalWebsite: http://aaron-gustafson.com/
   personalTwitter: AaronGustafson
   bio: "Aaron has been building websites for nearly two decades and, in that time, has cultivated a love of web standards and an in-depth knowledge of website strategy, architecture, and interface design, picking up several programming languages along the way.He has served as Technical Editor for A List Apart, is a contributing writer for .net Magazine, and has filled a small library with his technical writing and editing credits. His latest book is Adaptive Web Design: Crafting Rich Experiences with Progressive Enhancement."
-  slides: ~
+  slides: http://www.slideshare.net/AaronGustafson/falling-in-love-with-forms-blendconf-2014
   video: ~
 - speaker:
   firstName: Abby
@@ -188,7 +188,7 @@
   personalWebsite: http://www.clarissapeterson.com/
   personalTwitter: clarissa
   bio: "Clarissa Peterson is a UX designer and web developer, and co-founder of Peterson/Kandy, a Montreal-based digital consultancy specializing in creating responsive websites. Clarissa frequently speaks and gives workshops on responsive design, mobile strategy, and user experience. She is the author of Learning Responsive Web Design: A Beginner's Guide, available now from O'Reilly Media."
-  slides: ~
+  slides: http://www.slideshare.net/clarissapeterson/responsive-typographyii
   video: ~
 - speaker:
   firstName: Claudina
@@ -348,7 +348,7 @@
   personalWebsite: ~
   personalTwitter: hlrjo
   bio: "A seasoned UX consultant, researcher and speaker, I've seen the realm of user experience expand to be increasingly intentional and nuanced. As a co-owner of UX design firm, Above the Fold, I've helped clients increase sales, decrease CSR calls, maximize efficiency and more. I'm a big believer in the \"anyone can do it\" philosophy, and I've led several workshops on usability testing, and coached teams to success in incorporating UX into their dev projects."
-  slides: ~
+  slides: http://www.slideshare.net/pixelsforhumans/how-usableareyou-blend2014slides
   video: ~
 - speaker:
   firstName: Heather
@@ -621,7 +621,7 @@
   personalWebsite: http://mark.shropshires.net/
   personalTwitter: shrop
   bio: ~
-  slides: ~
+  slides: https://speakerdeck.com/shrop/building-modern-web-applications-with-meteor
   video: ~
 - speaker:
   firstName: Mark
@@ -1022,6 +1022,6 @@
   personalWebsite: http://www.valhead.com/
   personalTwitter: vlh
   bio: "Val Head is a designer and consultant based in Philadelphia. Her work ranges from projects on the web to interactive installations to print. She is the author of The Pocket Guide to CSS Animations, teaches CSS Animations on Lynda.com, and hosts the All The Right Moves tutorial screencast. You can find her on stage speaking at events like An Event Apart and encouraging others to do the same as the co-host of the Ladies in Tech podcast. She also founded the popular Web Design Day conference, and leads workshops around the world on animation for the web and creative coding."
-  slides: ~
+  slides: https://speakerdeck.com/valhead/motion-designer-blend-conf-2014
   video: ~
 

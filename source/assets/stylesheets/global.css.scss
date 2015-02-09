@@ -1,0 +1,93 @@
+// Compass needs to be loaded first to allow the use of
+// their mixins and various other goodies.
+@import "compass";
+
+// Susy is a fixed or fluid width grid system built on
+// top of Compass. It needs to be loaded after Compass.
+//
+// if by chance you get the error "File to import not
+// found or unreadable: susy" clean up the sass cache
+// & recompile the SASS files with 'compass clean' via
+// the command line
+@import "susy";
+
+// ----------------------------------------------------------------
+// The global file concatenates a series of normalize files,
+// variables, and modules so we can service as few CSS files to
+// the browser as possible.
+// ----------------------------------------------------------------
+
+// Setup
+// ----------------------------------------------------------------
+@import "base/variables";
+@import "base/functions";
+@import "base/mixins";
+@import "base/utilities";
+
+// Normalize elements
+// ----------------------------------------------------------------
+@import "base/root";
+@import "base/code";
+@import "base/emphasis";
+@import "base/fonts";
+@import "base/forms";
+@import "base/headings";
+@import "base/html5";
+@import "base/images";
+@import "base/links";
+@import "base/lists";
+@import "base/misc";
+@import "base/mixins";
+@import "base/paragraphs";
+@import "base/quotes";
+@import "base/tables";
+
+// ----------------------------------------------------------------
+// Scaffold
+// ----------------------------------------------------------------
+@import "scaffolds/grid";
+@import "scaffolds/scaffold";
+
+// ----------------------------------------------------------------
+// Modules
+// ----------------------------------------------------------------
+
+
+// ----------------------------------------------------------------
+// Theme
+// ----------------------------------------------------------------
+@import "themes/blendconf2014";
+
+//--------------------------------------------------------
+// Small Device Styles - Mobile First
+// We're starting with tablet in
+// portrait mode as our base device
+//--------------------------------------------------------
+// Mobile
+//--------------------------------------------------------
+@media only screen and (min-width: $breakpoint-small) {
+  @import "responsive/small";
+}
+
+// Tablet
+//--------------------------------------------------------
+@media only screen and (min-width: $breakpoint-medium) {
+  @import "responsive/medium";
+}
+
+@media only screen and (min-width: 700px) {
+}
+
+// Desktop
+//--------------------------------------------------------
+@media only screen and (min-width: $breakpoint-large) {
+  @import "responsive/large";
+}
+@media only screen and (min-width: $breakpoint-huge) {
+  @import "responsive/huge";
+}
+
+// Retina/High Density Displays
+// @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+//   @import "responsive/hdd";
+// }

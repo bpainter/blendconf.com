@@ -96,6 +96,14 @@
     website: https://rosenfeldmedia.com/
 - sponsor:
   type: aluminum
+  name: "Oliver Wyman"
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.oliverwyman.com/
+- sponsor:
+  type: aluminum
   name: Stickermule
   description: ~
   links:

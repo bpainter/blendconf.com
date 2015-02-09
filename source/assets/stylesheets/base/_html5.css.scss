@@ -1,0 +1,45 @@
+// ----------------------------------------------------------------
+// HTML5 display definitions
+// ----------------------------------------------------------------
+
+// Corrects block display not defined in IE6/7/8/9 & FF3
+// ----------------------------------------------------------------
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+// Corrects inline-block display not defined in IE6/7/8/9 & FF3
+// ----------------------------------------------------------------
+audio,
+canvas,
+video {
+  display: inline-block;
+  @if $legacy-support-for-ie {
+    *display: inline;
+    *zoom: 1;
+  }
+}
+
+// 1. Prevents modern browsers from displaying 'audio' without controls
+// 2. Remove excess height in iOS5 devices
+// ----------------------------------------------------------------
+audio:not([controls]) {
+  display: none; // 1
+  height: 0; // 2
+}
+
+// Addresses styling for 'hidden' attribute not present in IE8/9
+// ----------------------------------------------------------------
+[hidden] {
+  display: none;
+}

@@ -1,0 +1,20 @@
+// ----------------------------------------------------------------
+// Links
+// ----------------------------------------------------------------
+
+// 1. Addresses outline displayed oddly in Chrome
+// 2. Improves readability when focused and also mouse hovered in all browsers
+//    people.opera.com/patrickl/experiments/keyboard/test
+// ----------------------------------------------------------------
+a {
+  // 1
+  &:focus {
+    outline: thin dotted;
+  }
+
+  // 2
+  &:hover,
+  &:active {
+    outline: 0;
+  }
+}
