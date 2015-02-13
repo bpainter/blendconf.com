@@ -1,9 +1,13 @@
 ---
-title: ~
 id: speaker-detail
 ---
 ruby:
 	s = locals[:speaker]
+
+- content_for(:title) do
+	= s.name + " talks about " + s.talk.title + " BlendConf 2013 in Charlotte, NC"
+	
+end
 
 #masthead role="banner"
 	h1= s.name

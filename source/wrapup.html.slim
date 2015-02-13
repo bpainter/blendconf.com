@@ -5,7 +5,7 @@ id: wrapup
 
 #masthead role="banner"
   h1 We had a fantastic 2013 conference
-  p Get ready for BlendConf 2014. Same format, amazing speakers, awesome food, and fabulous conversations. <a href="https://tito.io/blendconf/blendconf2014" class="button">Get a ticket for 2014</a>
+  p Get ready for BlendConf 2014. Same format, amazing speakers, awesome food, and fabulous conversations. <a href="https://tito.io/blendconf/blendconf2015" class="button">Get a ticket for 2015</a>
 
 article.basic-content
   .wrapup-video
@@ -18,8 +18,9 @@ article.basic-content
     - data.speakers.each do |speaker|
       li
         .speaker== speaker.name
-        - if speaker.talk.slides
-          h3: a href="#{speaker.talk.slides}" #{speaker.talk.title} <small>(Slides)</small>
+        - if speaker.talk.video
+          h3: a href="/schedule/#{speaker.talk.title.downcase.tr(" ", "-").tr(".", "").tr(":", "").tr(",", "").tr("+", "")}/" #{speaker.talk.title}
+          / h3: a href="/speakers/#{speaker.name.downcase.tr(" ", "-").tr(".", "")}/" #{speaker.talk.title}
         - else 
           h3: #{speaker.talk.title}
         

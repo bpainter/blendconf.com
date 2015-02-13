@@ -57,7 +57,7 @@
     ul {
       background-color: transparent;
       display: block;
-      margin: 0 0 0 80px;
+      margin: 0;
       padding-bottom: 0;
       top: -9px;
       #home & {
@@ -90,9 +90,6 @@
     }
     .home {
       background-color: inherit;
-      #home & {
-        display: none;
-      }
     }
   }
   //--------------------------------------------------------
