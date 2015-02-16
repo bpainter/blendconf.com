@@ -29,7 +29,7 @@
   personalTwitter: Abby_the_IA
   bio: "Abby Covert is an independent information architect working and living in New York City. With a proven track record in establishing user-centric practices in a variety of creative environments, Abby also has a reputation for stellar information architecture work in a variety of consulting contexts. Abby prides herself on being an active organizer and mentor within the IA community. She served as Executive Producer for the IDEA conference in 2010 and the Information Architecture Summit in 2010 and 2012. She currently serves as Co Chair for the 15th annual Summit to be held in March 2014. Abby also serves as an adviser for and holds credit for inventing World Information Architecture Day, which held an inaugural event in 2012 with 14 locations globally serving over 1600 attendees. World IA Day 2014, now in its third year, looks to serve 20+ locations globally. Abby speaks and writes under the pseudonym Abby the IA, and currently serves as faculty for Parsons, The School of Visual Arts, General Assembly and Hyper Island."
   slides: ~
-  video: ~
+  video: 115271304
 - speaker:
   firstName: Adam
   lastName: Hunter
@@ -38,7 +38,7 @@
   day: 1
   session: 2
   talkTitle: "Rangular: Blending Rails and Angular for Enterprise Applications"
-  talkDescription: "Coming soon..."
+  talkDescription: ~
   company: Tax Management Associates
   companyWebsite: http://www.tma1.com/
   personalWebsite: http://adamhunter.me/
@@ -61,7 +61,7 @@
   personalTwitter: alex_gaynor
   bio: "Alex is an open source engineer. He works on a wide variety of projects, mostly in Python, including Django, PyPy, CPython, and OpenStack. He serves on the board of directors for the Python Software Foundation and works for Rackspace. When he's not writing software Alex enjoys bagels and delis."
   slides: ~
-  video: ~
+  video: 114549434
 - speaker:
   firstName: Allison
   lastName: House
@@ -77,7 +77,7 @@
   personalTwitter: house
   bio: "Allison House is a product designer exploring the intersections of art, technology, education. She writes about starting a career in design on her blog, http://allison.house. Her work includes Dropbox and Codecademy, and has been featured in the New York Times, TIME Magazine, Wall Street Journal, and more. She paints portraits and abstracts in her spare time."
   slides: ~
-  video: ~
+  video: 115271305
 - speaker:
   firstName: Angel
   lastName: Anderson
@@ -125,7 +125,7 @@
   personalTwitter: blehnert
   bio: "Benedikt is the Chief Design Officer at 6Wunderkinder, the makers of Wunderlist. As a writer, advisor and speaker Benedikt is an advocate for human-centered design and has made it his goal in life to create meaningful experiences for millions of people. Benedikt developed a character-driven design approach and believes that making technology more human leads to an emotional connection between user and product and in the end to a more successful business. Benedikt loves handmade things, typography, the sound of water, Wall-E, the smell of fabric softener and photography in black and white."
   slides: ~
-  video: ~
+  video: 115298954
 - speaker:
   firstName: Brad
   lastName: Weaver
@@ -141,7 +141,7 @@
   personalTwitter: sbradweaver
   bio: "Brad Weaver is a Partner & Director of Design at Nine Labs. He designs, he codes, he writes, he UXs, he slices and dices. Brad went to school to be a lawyer, then he came to his senses and has spent the last 15 years as a UX generalist with a geek's heart of gold. His experience includes product development, interactive, branding, and market segmentation. He's been the big cheese, the plebeian, the middle manager, and the class clown. He's also folded clothes, pumped gas, bagged groceries, sold cell phones, and climbed the Great Wall of China. He likes beer, scotch, Oxford commas, and Jesus, but not in that order. He's worked with clients including MTV, Verizon, Bank of America, AT&T, ESPN, Disney, Columbia Records, NATO, SunTrust, The PGA, Olive Garden, Coca-Cola, Big Brothers Big Sisters, United Health Group, The Home Depot, Chick-fil-A, Macy’s, Hard Rock Café, and more."
   slides: ~
-  video: ~
+  video: 119086852
 - speaker:
   firstName: Cat
   lastName: Noone
@@ -157,7 +157,7 @@
   personalTwitter: imcatnoone
   bio: "Cat is a designer focused on building meaningful products. She is the Co-Founder and Design Chief of Liberio — Simple eBook creation and publishing through Google Drive. She advocates for the little details that make a big difference in design. Cat enjoys writing about design and tech, advising startups, speaking and working on side projects. Formerly in the special education field, she is a promoter and believer of technology in the classroom. In her spare time, Cat is a fan of making S'mores, getting lost in a good read, and a nail-biting TV series."
   slides: ~
-  video: ~
+  video: 115298954
 - speaker:
   firstName: Chris
   lastName: Coyier
@@ -173,7 +173,7 @@
   personalTwitter: chriscoyier
   bio: "Chris is the force behind CSS-Tricks, previously he was with Wufoo and SurveyMonkey as Lead Hucklebucker. Chris is a Wordpress expert having authored the Digging into Wordpress book and the Lynda.com Wordpress 3 tutorial series."
   slides: ~
-  video: ~
+  video: 115298951
 - speaker:
   firstName: Clarissa
   lastName: Peterson
@@ -189,7 +189,7 @@
   personalTwitter: clarissa
   bio: "Clarissa Peterson is a UX designer and web developer, and co-founder of Peterson/Kandy, a Montreal-based digital consultancy specializing in creating responsive websites. Clarissa frequently speaks and gives workshops on responsive design, mobile strategy, and user experience. She is the author of Learning Responsive Web Design: A Beginner's Guide, available now from O'Reilly Media."
   slides: http://www.slideshare.net/clarissapeterson/responsive-typographyii
-  video: ~
+  video: 114549436
 - speaker:
   firstName: Claudina
   lastName: Sarahe
@@ -198,7 +198,7 @@
   day: 1
   session: 1
   talkTitle: "Getting to know Sass"
-  talkDescription: "Coming soon..."
+  talkDescription: ~
   company: OddBird
   companyWebsite: http://oddbird.net/
   personalWebsite: http://itsmisscs.me/
@@ -221,7 +221,7 @@
   personalTwitter: cndreisbach
   bio: "Clinton is an instructor at The Iron Yard and a Clojure and Ruby hacker."
   slides: ~
-  video: ~
+  video: 115271300
 - speaker:
   firstName: Christy
   lastName: Harner
@@ -253,7 +253,7 @@
   personalTwitter: dandenney
   bio: 'Dan is a front-end dev at Envy Labs, where he works on Code School projects. He has been called a "seriously good copy and paster" and he puts those skills to use as he spends his days learning, unlearning and relearning how to build things for the web. Knowledge sharing is one of his biggest passions, so he founded the Front-End Design Conference in St. Petersburg in 2009.'
   slides: ~
-  video: ~
+  video: 114549444
 - speaker:
   firstName: Darcy
   lastName: Clarke
@@ -269,7 +269,7 @@
   personalTwitter: darcy
   bio: "Darcy Clarke is an award winning Front-end Developer, Designer, User Experience Advocate & Entrepreneur. He speaks, mentors, builds & promotes all things HTML5, CSS3, JS & Open Source related."
   slides: ~
-  video: ~
+  video: 115826192
 - speaker:
   firstName: Diana
   lastName: Lucaci
@@ -285,7 +285,7 @@
   personalTwitter: dianalucaci
   bio: "Diana Lucaci is the CEO and Founder of True Impact Marketing, the leading Canadian neuromarketing strategy and research firm. True Impact Marketing has been featured on CBC The National, CBC Radio One - The Current, Rogers TV, Reader's Digest, Newstalk 1010, BizTV Canada, Strategy Magazine, TEDx Richmond Hill, etc. Diana was named one of Marketing Mag's Top 30 under Thirty for 2013. Diana is also the Canadian Chair of the Neuromarketing Science & Business Association (NMSBA), and speaks at various Advertising, Marketing and Market Research conferences."
   slides: ~
-  video: ~
+  video: 115937298
 - speaker:
   firstName: Eric M
   lastName: Suzanne
@@ -301,7 +301,7 @@
   personalTwitter: ericmsuzanne
   bio: "Eric Suzanne builds custom web software with OddBird, soundscapes with Teacup Gorilla, and performance art with Vicious Trap. He is the author of two forthcoming novels and many original performance pieces, core developer on the Compass project, creator of Susy (Sass layout engine), True (Sass unit testing), and other open-source projects. Eric has developed work for Mozilla, Junyo, SpringGun Press, The Operating System, The Media Archeology Lab, Illiterate Magazine, and Pittsburgh’s City Theatre."
   slides: ~
-  video: ~
+  video: 115826194
 - speaker:
   firstName: Garrett
   lastName: Johnson
@@ -317,7 +317,7 @@
   personalTwitter: gjohnson391
   bio: "Garrett Johnson is a local Charlotte resident where he works remotely as a Software Engineer for Segmentio and co-manages the local JavaScript and Go meetups."
   slides: ~
-  video: ~
+  video: 115298956
 - speaker:
   firstName: Greg
   lastName: Hoy
@@ -333,7 +333,7 @@
   personalTwitter: hoyboy
   bio: "As CEO, Greg Hoy brings 20 years of interactive design and management experience to Happy Cog. Greg began his career in sales and marketing in 1992, before turning his focus to interactive design in 1994. He worked as a web designer for 10 years, and has managed teams since 1997. His career spans the publishing, media, insurance, and tech consulting industries. An entrepreneur at his core, he has launched several successful companies. Greg and industry pioneer Jeffrey Zeldman partnered in 2006 to expand Happy Cog's footprint to Philadelphia, and later further expanded the company's reach and capabilities by merging with boutique design studio Airbag Industries in 2009. Greg received his BA in Management from Gettysburg College, where he now is an active alumni and serves on the college's Marketing and Communications committee."
   slides: ~
-  video: ~
+  video: 115271301
 - speaker:
   firstName: Heather
   lastName: O'Neill
@@ -349,7 +349,7 @@
   personalTwitter: hlrjo
   bio: "A seasoned UX consultant, researcher and speaker, I've seen the realm of user experience expand to be increasingly intentional and nuanced. As a co-owner of UX design firm, Above the Fold, I've helped clients increase sales, decrease CSR calls, maximize efficiency and more. I'm a big believer in the \"anyone can do it\" philosophy, and I've led several workshops on usability testing, and coached teams to success in incorporating UX into their dev projects."
   slides: http://www.slideshare.net/pixelsforhumans/how-usableareyou-blend2014slides
-  video: ~
+  video: 115937297
 - speaker:
   firstName: Heather
   lastName: Payne
@@ -365,7 +365,7 @@
   personalTwitter: heatherpayne
   bio: "Heather Payne is the CEO of HackerYou, Canada’s original programming bootcamp and to date, the only one of dozens around North America that was founded by women. HackerYou offers Toronto’s best full- and part-time courses for people who want to learn to code. Heather also operates a 7000-square foot digital literacy education facility in the heart of downtown Toronto called The Lab. In 2011, Heather founded Ladies Learning Code, a Canadian not-for-profit organization that runs popular workshops for women (and men, and girls and boys) who want to learn computer programming and other technical skills in a social and collaborative way. Ladies Learning Code now has chapters in over a dozen cities across Canada and a thriving program for youth. In 2012, Heather spent a year working on a project for the Mozilla Foundation: her job was to build a community of people and organizations in Toronto who care about raising youth as creators – not just consumers – of technology and the web. The project was granted $365,000 in funding from the Ontario Trillium Foundation. Heather was an early investor in ShopLocket, and was recently named one of Canada’s 100 Most Powerful Women in the Trendsetters & Trailblazers category."
   slides: ~
-  video: ~
+  video: 115946692
 - speaker:
   firstName: Irene
   lastName: Pereyra
@@ -413,7 +413,7 @@
   personalTwitter: tothy
   bio: "With a range of professional experiences and design training including architecture, graphic design, and interaction design, Jason has worked in the software and web design industry for the past 10 years. He brings a wealth of industry knowledge in web strategy, usability, and information design, which he uses to create experiences that merge client needs with strong visual and interactive strategies. Jason’s user experience efforts have included projects for Puma, Google, Conservation International, WRAL, Duke University, and GoPole to name just a few. Previously, Jason worked at IBM where he was a senior user experience designer responsible for the design and strategy of products in their social collaboration software suite. Jason is active at the College of Design at NC State University, participating in numerous reviews, design projects, and undergraduate charrettes. Jason earned his B.S. in Architecture from the University of Virginia and a Master's of Graphic Design from NC State University. Prior to working as a User Experience Designer, he worked professionally as a freelance graphic designer and an intern architect."
   slides: ~
-  video: ~
+  video: 115271302
 - speaker:
   firstName: Jason
   lastName: Hunter
@@ -429,7 +429,7 @@
   personalTwitter: hunterjm
   bio: "Jason Hunter has been a Software Engineer at Red Ventures in various capacities over the past 4 years.  Most recently, he heads up development for the insurance division.  In 2010, Jason took the reigns of the local PHP User Group but has been woefully negligent of late.  He also helps organize the annual TechCLT Holiday Party, which brings together people from many of the local technology user groups for end of year festivities.  In his (little) free time, he enjoys taking his car to the track and spending time with his lovely wife and daughter."
   slides: ~
-  video: ~
+  video: 114568898
 - speaker:
   firstName: Jen
   lastName: Myers
@@ -445,8 +445,7 @@
   personalTwitter: antiheroine
   bio: "Jen Myers is a web designer/developer and part of the instructor team at Dev Bootcamp in Chicago. In 2011, she founded the Columbus, Ohio chapter of Girl Develop It, an organization that provides introductory coding classes aimed at women, and currently serves there as an organizational advisor. She speaks regularly about design, development and diversity, and focuses on finding new ways to make both technology and technology education accessible to everyone."
   slides: ~
-  video: ~
-
+  video: 115298955
 - speaker:
   firstName: Jen
   lastName: Simmons
@@ -471,14 +470,14 @@
   day: 2
   session: 0
   talkTitle: "The Future of Interfaces to Government"
-  talkDescription: "Coming soon..."
+  talkDescription: ~
   company: Code for America
   companyWebsite: http://www.codeforamerica.org/
   personalWebsite: ~
   personalTwitter: pahlkadot
   bio: "Jennifer is the founder and executive director of Code for America, which works to make government work for the people, by the people, in the 21st century.  She recently served as US Deputy Chief Technology Officer in the White House Office of Science and Technology Policy.  Prior to CfA, Jennifer worked in technology media, on the Web 2.0 and Gov 2.0 events for TechWeb with O'Reilly Media and the Game Developers Conference and associated media with CMP.  She is known for her TED talk, Coding a Better Government, and the recipient of several awards, including MIT’s Kevin Lynch Award, the Oxford Internet Institute’s Internet and Society Award, and the National Democratic Institute’s Democracy Award.  She lives in Oakland, CA with her family and seven chickens."
   slides: ~
-  video: ~
+  video: 114549440
 - speaker:
   firstName: Jessie
   lastName: Shternshus
@@ -510,7 +509,7 @@
   personalTwitter: juliaelman
   bio: "Julia has been working her brand of web skills for nearly a decade. She started out as a designer for an internal marketing group at a travel agency in Los Angeles, and quickly honed her skills as a web designer using HTML/CSS. Her creative nature drove her to find work at Hallmark Cards, Inc. She worked mostly on Flash development and on projects such as the Product (RED) campaign and Hallmark’s site re-design. In 2007, her team was awarded the AIGA award for Web Design as a result of their work on the Product (RED) microsite. She first learned about Django after attending the 2008 SXSW Interactive Festival. She was amazed at how rapidly you can create useful web applications using Django. Shortly after the festival, she left Hallmark to work at the Lawrence Journal World as a Junior Designer/Developer, where Django originated. She worked on projects such as Ellington CMS and Marketplace, where she developed applications, designed templates, and wrote client-side documentation. "
   slides: ~
-  video: ~
+  video: 114568893
 - speaker:
   firstName: Kimberly
   lastName: Bryant
@@ -518,15 +517,15 @@
   discipline: Keynote
   day: 3
   session: 0
-  talkTitle: "TBD"
-  talkDescription: "Coming soon..."
+  talkTitle: "Black Girls Code"
+  talkDescription: ~
   company: Black Girls Code
   companyWebsite: "#"
   personalWebsite: http://about.me/KimberlyBryant
   personalTwitter: 6Gems
   bio: "Kimberly Bryant is the Founder and Executive Director of Black Girls CODE, a non-profit organization dedicated to introducing girls of color (ages 7-17) to the field of technology and computer programming with a concentration on entrepreneurial concepts.  Ms. Bryant's has enjoyed a very successful 20+ year professional career in the pharmaceutical and biotech industries as an Engineering Manager in a series of technical leadership roles for various Fortune 100 companies such as Genentech, Merck,  and Pfizer.  Since 2011 Ms. Bryant has helped Black Girl CODE grow from a local organization serving only the Bay Area, to an international non-profit  organization with chapters in 7 US cities and Johannesburg, South Africa serving over 2000 African/African-American, Latina, and Native American girls.  Ms. Bryant serves on the National Champions Board for the National Girls Collaborative Project, and the National Board of the NCWIT K-12 Alliance.  In August 2012, Kimberly Bryant was also given the honor of receiving the prestigious Jefferson Award for Community Service for her work to support communities in the Bay Area.   In 2013 Black Girls Code and was selected by Business Insider in 2013 on its list of BusinessInsider.com’s list of The 25 Most Influential African-Americans in Technology and was named to The Root 100 list, and the Ebony Power 100 list in 2013. Ms. Bryant was honored in 2013 as a Champion of Change by the White House for her work in tech inclusion and for her focus on bridging the digital divide for girls.  She has been identified as a thought leader in the area of tech inclusion and has spoken on the topic at events such as Personal Democracy Forum, TedX Kansas City, Platform Summit, Big Ideas Festival, SXSW, and others."
   slides: ~
-  video: ~
+  video: 114568900
 - speaker:
   firstName: Laura Helen
   lastName: Winn
@@ -551,7 +550,7 @@
   day: 3
   session: 3
   talkTitle: "Building OSS-Centric Companies (and why you want to)"
-  talkDescription: "Coming soon..."
+  talkDescription: ~
   company: Tilde Inc
   companyWebsite: "#"
   personalWebsite: http://about.me/leahsilber
@@ -574,7 +573,7 @@
   personalTwitter: redsesame
   bio: "Lisa Maria Martin is a content strategist, information architect, and writer based in Washington, DC. She is also an editor at A List Apart. In her previous lives, she’s been a copywriter, a designer, a journalist, and a lecturer at several universities, extolling the virtues of MLA citation and Oxford commas. You can follow her on Twitter @redsesame (but she mostly tweets about doges and Star Trek. Fair warning)."
   slides: ~
-  video: ~
+  video: 115826196
 - speaker:
   firstName: Mark
   lastName: Boulton
@@ -590,7 +589,7 @@
   personalTwitter: markboulton
   bio: "Mark Boulton runs a small design studio, Mark Boulton Design, working with clients such as ESPN, CERN, Al Jazeera and Drupal. In the past, he worked for the BBC and Agency.com, designing experiences for all manner of clients and people across the world. He also runs a small publishing imprint, Five Simple Steps, and a tool for making grids for web: Gridset."
   slides: ~
-  video: ~
+  video: 114587985
 - speaker:
   firstName: Mark
   lastName: Geyer
@@ -622,7 +621,7 @@
   personalTwitter: shrop
   bio: ~
   slides: https://speakerdeck.com/shrop/building-modern-web-applications-with-meteor
-  video: ~
+  video: 115826198
 - speaker:
   firstName: Mark
   lastName: Wilson
@@ -631,7 +630,7 @@
   day: 1
   session: 1
   talkTitle: "Microsoft Azure Hands On"
-  talkDescription: "Coming soon..."
+  talkDescription: ~
   company: Logical Advantage
   companyWebsite: http://www.logicaladvantage.com/
   personalWebsite: http://about.me/developerinfra
@@ -654,7 +653,7 @@
   personalTwitter: marthakelly
   bio: "Martha Kelly Girdler is an artist turned self-taught Software Engineer. She studied Art/Art History and Design at Auburn University, became obsessed with programming at Hacker School in New York City, and now works on making Driver Operations insanely efficient at Uber. She is a bit obsessed with teaching people about •:*¨☆ computers ☆¨*:•, kittens, and chanel mademoiselle."
   slides: ~
-  video: ~
+  video: 114587986
 - speaker:
   firstName: Melissa
   lastName: Avery-Weir
@@ -670,7 +669,7 @@
   personalTwitter: averymd
   bio: "Melissa is a front-end/.NET/Django UX developer currently plying their trade for local Charlotte companies LendingTree and Future Proof Games. They've been doing web development in one way or another since about 2000, when blogging was new and classic ASP with Access databases was all the rage for single developers. They flourish in the end-to-end processes of software and game creation: that never-ending, never-perfect crafting that produces art, valued services, profit, and -- with success -- joy for users."
   slides: ~
-  video: ~
+  video: 119086853
 - speaker:
   firstName: Michael
   lastName: Labriola
@@ -702,7 +701,7 @@
   personalTwitter: ~
   bio: "Michelle Salater is the CEO of Sūmèr, LLC, a copywriting and content marketing firm for businesses that need a clear, optimized message that attracts and converts. Michelle frequently speaks to business owners on how to engage prospects and nurture loyal customer following using the power of story and measurable content marketing strategies. She is an award-winning writer and content expert featured in Entrepreneur Magazine, MyBusiness Magazine, and Under30CEO, among others. In 2009, Michelle won the Charleston Business Journal’s Forty under 40 award for her business and community leadership. She has spoken globally, including in Harare, Zimbabwe, for the Big Africa Conference. More recently, Michelle was interviewed on the Barry Moltz Business Insanity talk radio show."
   slides: ~
-  video: ~
+  video: 119086854
 - speaker:
   firstName: Michelle
   lastName: Yaiser
@@ -734,7 +733,7 @@
   personalTwitter: monteiro
   bio: "Mike Monteiro is the co-founder and design director of Mule Design, an interactive design studio whose work has been called \"delightfully hostile\" by the New Yorker.  He prefers elegant, simple sites with clear language that serve a real need. He prefers that designers have strong spines. Mike writes and speaks frequently about the craft and business of design. In early 2011, he gave a CreativeMornings talk entitled \"F— You, Pay Me\" that uplifted the downtrodden the world over, and he can be heard weekly as the co-host of Let’s Make Mistakes. His book about handling yourself professionally as a designer, Design Is a Job, was published by A Book Apart in 2012, and is being incorporated as a textbook in design programs across the country."
   slides: ~
-  video: ~
+  video: 115258555
 - speaker:
   firstName: Moses
   lastName: Ngone
@@ -750,7 +749,7 @@
   personalTwitter: mospired
   bio: "Moses is the Director of Engineering at Nine Labs. After many years curating code for the likes of Cengage and Sharecare, he took the leap and created his solo consultancy Mospired while managing projects at Epic Labs. When not at the office, Mo loves sharing ideas and giving back to the community. As an active member of Atlanta web community, he participates and speaks on various topics related to web development. On any given weekend he is glued to the screen fueling his \"fanhood\" of the Arsenal Football Club (Gunners) and or looking out for the ever elusive super car. Ask him about it."
   slides: ~
-  video: ~
+  video: 119086850
 - speaker:
   firstName: Netta
   lastName: Marshall
@@ -766,7 +765,7 @@
   personalTwitter: nettatheninja
   bio: "Netta Marshall is a designer and photographer based in San Francisco, California. She enjoys nighttime bike rides, and pillow fights, strumming guitars, and baking cookies."
   slides: ~
-  video: ~
+  video: 114587988
 - speaker:
   firstName: Nicole
   lastName: Fenton
@@ -782,7 +781,7 @@
   personalTwitter: nicoleslaw
   bio: "Nicole Fenton is an independent writer and editor in Brooklyn. She is the coauthor of Nicely Said: Writing for the Web with Style and Purpose (New Riders, 2014). Previously, Nicole was a content strategist at a large social network, a small design studio, and a startup incubator in San Francisco. She started her professional writing practice in 2005 at Apple, where she served as communications lead for five years."
   slides: ~
-  video: ~
+  video: 115937299
 - speaker:
   firstName: Nora
   lastName: Richardson
@@ -798,7 +797,7 @@
   personalTwitter: ~
   bio: "Nora D. Richardson is a life-long learner, creative and a big believer in making the world better and more beautiful place through effective branding. Founder of her own branding design firm, Spot-On Branding, LLC, Nora is known as the \"big picture\" brand consultant and designer for small to mid-sized companies. She believes that you are never too small to look big. Nora speaks to business owners and students about branding and is regularly featured on websites such as Biznik, Brandergy, and Blogher.  She has been published in The New York Times and The Costco Connection as well as been a co-host on an International Radio Show about branding, which reached listeners across three continents. Although she focus’ on small to mid-sized businesses, she has branded and designed for several Fortune 500 companies, including Kahlúa, the Olympics, and Northwest Airlines."
   slides: ~
-  video: ~
+  video: 115937296
 - speaker:
   firstName: Pamela
   lastName: Pavliscak
@@ -815,7 +814,7 @@
   personalTwitter: paminthelab
   bio: "Pamela is founder of Change Sciences, a user experience research and strategy firm for Fortune 500s, startups, and other smart companies. Over the past 15 years, she’s logged thousands of hours in the field trying to better understand how people use technology and run hundreds of UX studies on almost every type of site you could imagine. Lately, she's been thinking about how to  bring together quantitative data and qualitative insights. She's also been encouraging women entrepreneurs, working with schools to create maker labs, and speaking about data fluency."
   slides: ~
-  video: ~
+  video: 114587987
 - speaker:
   firstName: Paul
   lastName: Boag
@@ -863,7 +862,7 @@
   personalTwitter: rachelober
   bio: "Rachel is a software engineer at Paperless Post in New York City who focuses on front-end technologies and the user interface. She has taught at General Assembly in Manhattan and has contributed to their Front-end and Ruby on Rails curriculum that is used at their various campuses around the world. Starting in 2013, Rachel organizes and volunteers her time teaching women Ruby and Ruby on Rails through RailsBridge NYC. Rachel is an avid paper crafter and loves to talk about her Pembroke Welsh Corgi, Isabella."
   slides: ~
-  video: ~
+  video: 115937300
 - speaker:
   firstName: Rebecca
   lastName: Murphey
@@ -879,7 +878,7 @@
   personalTwitter: rmurphey
   bio: "Rebecca Murphey is a staff software engineer at Bazaarvoice, where she leads the team that develops the third-party JavaScript application for collecting and displaying ratings, reviews, and other social commerce content. She is a frequent speaker on the topic of code organization and best practices at various JavaScript conferences, including Front-End Ops Conf, the 2014 jQuery Conference in San Diego, JSConf US 2013, JSConf US 2011, JSConf EU 2010, Full Frontal 2012, Fronteers 2012, and many others. She lives in Austin, TX, with her partner, their son, and their dog."
   slides: ~
-  video: ~
+  video: 115258556
 - speaker:
   firstName: Scott
   lastName: Stroud
@@ -895,7 +894,7 @@
   personalTwitter: sstroud
   bio: "Scott is a UX consultant, collaborating with organizations on their digital product strategy: interaction design, user testing, behavioral design and Lean UX methodologies. He was a principal interaction designer of the original NPR iPad app and the NPR.org responsive website. He is also a certified yoga teacher and writer."
   slides: ~
-  video: ~
+  video: 114568896
 - speaker:
   firstName: Scott
   lastName: Hanselman
@@ -927,7 +926,7 @@
   personalTwitter: shanselman
   bio: "Scott is a web developer who has been blogging at http://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He's written a number of books and spoken in person to almost a half million developers worldwide."
   slides: ~
-  video: ~
+  video: 115258557
 - speaker:
   firstName: Sophie
   lastName: Shepherd
@@ -943,7 +942,7 @@
   personalTwitter: sophshepherd
   bio: "Sophie is a Senior Designer in Happy Cog's Austin office. She cares deeply about designing websites that are simple, easily navigable, and full of necessary, applicable content. When not designing, Sophie enjoys cooking, drinking beer outside, riding her bike, road trips, and camping. She is active in the Austin web design community, where she organizes the Dribbble Meetup and teaches Intro to Responsive Design and Intro to Sass for Girl Develop It."
   slides: ~
-  video: ~
+  video: 114609980
 - speaker:
   firstName: Sougwen
   lastName: Chung
@@ -975,7 +974,7 @@
   personalTwitter: bitchwhocodes
   bio: "Stacey Mulcahy is a technical evangelist with Microsoft for Windows 8. Prior, she was the Lead Developer working with a variety of technologies at Big Spaceship, a digital agency based out of Brooklyn, NY. She has worked at Teknision and Fuel Industries in Ottawa, Canada, and IQ Interactive in Atlanta in a variety of technical roles. A technical editor and instructor, Stacey enjoys sharing her love for her work in interactive development. She considers her lack of verbal filter and extreme candor just a small part of her charm."
   slides: ~
-  video: ~
+  video: 119086856
 - speaker:
   firstName: Steve
   lastName: Klabnik
@@ -991,7 +990,7 @@
   personalTwitter: steveklabnik
   bio: 'Hypermedia enthusiast, prolific open source contributor, on contract with Mozilla to write documentation for Rust. Currently writing "Designing Hypermedia APIs," "Rust for Rubyists," and "Rails 4 in Action."'
   slides: ~
-  video: ~
+  video: 115298952
 - speaker:
   firstName: Tiffany
   lastName: Chu
@@ -1000,7 +999,7 @@
   day: ~
   session: ~
   talkTitle: "Civic Design: Charlotte Code for America"
-  talkDescription: "Coming soon..."
+  talkDescription: ~
   company: Code for America
   companyWebsite: http://www.codeforamerica.org/
   personalWebsite: http://t-chu.com/

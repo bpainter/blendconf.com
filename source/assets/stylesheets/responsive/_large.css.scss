@@ -268,3 +268,19 @@ nav[role="navigation"] {
     }
   }
 }
+
+#wrapup .quotes li:nth-child(even) {
+  width: 48.71795%;
+  float: left;
+  margin-right: 2.5641%;
+  display: inline;
+  float: right;
+  margin-right: 0;
+  display: inline;
+}
+#wrapup .quotes li:nth-child(odd) {
+  width: 48.71795%;
+  float: left;
+  margin-right: 2.5641%;
+  display: inline;
+}

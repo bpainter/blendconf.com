@@ -63,7 +63,7 @@ helpers do
   end
 
   def sanitize(html)
-    html.gsub( %r{</?[^>]+?>}, '' )
+    # html.gsub( %r{</?[^>]+?>}, '' )
   end
 end
 
