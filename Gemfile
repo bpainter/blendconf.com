@@ -6,15 +6,15 @@ source 'https://rubygems.org'
 # the following line to use "https"
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.3.5"
+gem "middleman", "~>3.3.8"
 # gem "middleman-deploy"
 gem "middleman-smusher"
 
-gem "compass", "~> 1.0.0"
-gem "sass", "~> 3.3.14"
+gem "sass"
+gem 'bourbon'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.3.4"
+gem "middleman-livereload"
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
@@ -27,11 +27,8 @@ platforms :mri_18 do
 end
 
 # CSS Grid System
-gem "susy", "~> 2.1.3"
+gem "susy", "~> 2.2.2"
 
 # Slim HTML Preprocessor
 gem "slim"
 gem "redcarpet"
-
-# Living styleguide generator
-# gem "kss"

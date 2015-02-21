@@ -1,8 +1,41 @@
-// Headings
-@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+// Light
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Open Sans'), local('OpenSans'), url(/assets/fonts/OpenSans-Light.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(/assets/fonts/OpenSans-LightItalic.ttf) format('ttf');
+}
 
-// Lead in or primary paragraphs
-@import url(http://fonts.googleapis.com/css?family=Amaranth);
+// Normal
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(/assets/fonts/OpenSans-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(/assets/fonts/OpenSans-Italic.ttf) format('ttf');
+}
 
-// Text
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600);
+// SemiBold
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(/assets/fonts/OpenSans-Semibold.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(/assets/fonts/OpenSans-SemiboldItalic.ttf) format('ttf');) format('woff2');
+}

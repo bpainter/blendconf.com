@@ -8,7 +8,7 @@
 // CLEARFIX
 // --------------------------------------------------
 // For clearing floats like a boss h5bp.com/q
-@mixin clearfix {
+%clearfix {
   *zoom: 1;
   &:before,
   &:after {
@@ -71,7 +71,7 @@
 // --------------------------------------------------
 // image replacement
 // --------------------------------------------------
-@mixin hide-text {
+%hide-text {
   font: 0/0 a;
   color: transparent;
   text-shadow: none;

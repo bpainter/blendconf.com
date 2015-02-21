@@ -32,6 +32,7 @@
 .hidden-desktop{}
 
 // clearfix
+%clearfix, 
 .clearfix {
   @include clearfix();
 }

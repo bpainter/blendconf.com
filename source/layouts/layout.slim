@@ -16,13 +16,14 @@ body id="#{current_page.data.id}"
 
   #container role="main"
 
-      == yield
+    == yield
 
-      == partial "/layouts/partials/sponsors"
-      == partial "/layouts/partials/footer"
+    / == partial "/layouts/partials/sponsors"
+    == partial "/layouts/partials/icons"
+    == partial "/layouts/partials/footer"
 
-  == partial "/layouts/partials/navigation"
+    / == partial "/layouts/partials/navigation"
 
-  == partial "/layouts/partials/javascript"
+    == partial "/layouts/partials/javascript"
 
 

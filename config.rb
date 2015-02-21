@@ -24,9 +24,9 @@ set :markdown, :fenced_code_blocks => true, :autolink => true, :smartypants => t
 # CSS Processing
 # ----------------------------------------------
 # Compass
-compass_config do |config|
-  config.output_style = :expanded
-end
+# compass_config do |config|
+#   config.output_style = :expanded
+# end
 
 # Susy grids in Compass
 # First: gem install susy --pre
@@ -59,7 +59,7 @@ helpers do
   end
 
   def clean_data(url)
-    url.downcase.tr(" ", "-").tr(".", "").tr(":", "").tr("(", "").tr(")", "").tr(" &", "").tr("'", "").tr(",","").tr("?","")
+    url.to_s.downcase.tr(" ", "-").tr(".", "").tr(":", "").tr("(", "").tr(")", "").tr(" &", "").tr("'", "").tr(",","").tr("?","")
   end
 
   def sanitize(html)
@@ -132,10 +132,10 @@ set :images_dir, 'assets/images'
 # ----------------------------------------------
 configure :build do
   # For example, change the Compass output style for deployment
-  activate :minify_css
+  # activate :minify_css
 
   # Minify Javascript on build
-  activate :minify_javascript
+  # activate :minify_javascript
 
   # Enable cache buster
   # activate :asset_hash
@@ -149,8 +149,8 @@ configure :build do
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
-  require "middleman-smusher"
-  activate :smusher
+  # require "middleman-smusher"
+  # activate :smusher
 
   # Or use a different image path
   # set :http_path, "/Content/images/"

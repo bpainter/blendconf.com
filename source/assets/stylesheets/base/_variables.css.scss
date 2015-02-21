@@ -1,12 +1,6 @@
 @charset "utf-8";
 
 // ----------------------------------------------------------------
-// Import Compass for CSS3 mixins & Susy for the grid system
-// ----------------------------------------------------------------
-@import 'compass';
-@import 'susy';
-
-// ----------------------------------------------------------------
 // Global variables
 // ----------------------------------------------------------------
 // Set to true if you want to add support for IE6 and IE7
@@ -52,7 +46,7 @@ $sans-font-family: "Oswald ", "Helvetica Neue", Helvetica;
 
 $header-font-family: "Oswald", "Helvetica Neue", Helvetica;
 $leadin-font-family: "Amaranth", "Georgia";
-$base-font-family:   "Open Sand", "Helvetica Neue", Helvetica;
+$base-font-family:   "Open Sans", "Helvetica Neue", Helvetica;
 
 // ----------------------------------------------------------------
 // Susy Grid

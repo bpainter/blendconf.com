@@ -1,286 +1,76 @@
-#container {
-  @include container;
-  max-width: 100%;
-}
-#home div > div[id],
-#home div > form[id],
-#sponsors {
-  h2, .h2 {
-    border-left: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0;
-    text-align: center;
+#intro {
+  float: right;
+  // margin: 21px;
+  margin: 23px;
+  padding: 115px 38px;
+  width: 722px;
+  h2 {
+    margin: $baseline 0 $baseline*3;
+    padding: 0 0 $baseline*3;
   }
-  > p {
-    text-align: center;
+  p {
+    // font-size: 1.4em;
+    margin-bottom: $baseline*3;
   }
 }
-#skinny {
-  @include clearfix;
-  ul {
-    margin: 0 auto;
-  }
-  li {
-    @include span(4 of 12);
-    min-height: 180px;
-  }
-  li:nth-child(even) {
-    @include span(4 of 12);
-  }
-  li:nth-child(3n) {
-    @include omega;
-  }
-}
-
-#masthead {
-  h1 {
-    text-align: center;
-  }
-  #speaker-detail & {
-    text-align: center;
-  }
-}
-
-//--------------------------------------------------------
-// main nav
-//--------------------------------------------------------
-nav[role="navigation"] {
-  height: $baseline*3;
-  line-height: auto;
-  margin: 0 auto;
-  min-height: auto;
-  padding: 0;
-  ul {
-    background-color: transparent;
-    display: block;
-    margin: 0;
-    padding-bottom: 0;
-    top: -9px;
-    #home & {
-      margin-left: 0;
-    }
-  }
+.button-group {
+  text-align: center;
   li {
     display: inline-block;
-    margin: 0 $sub-baseline;
-    &:first-child a {
-      border: 0;
-    }
+    margin-right: $sub-baseline*2;
     &:last-child {
-      position: absolute;
-        right: 6px;
-      a {
-        padding: 0 $baseline;
-      }
-    }
-    a {
-      border: 0;
-      display: inline-block;
-      height: $baseline*2;
-      line-height: $baseline*2;
-      padding: $baseline $sub-baseline;
+      margin-right: 0;
     }
   }
-  #nav-toggle {
+  [class^="button"] {
+    width: auto;
+  }
+}
+footer {
+  clear: both;
+  padding: 38px;
+  small {
+    clear: both;
+    padding-top: $baseline*2;
+  }
+}
+.social-links {
+  float: left;
+  margin-bottom: 0;
+  li {
+    width: auto;
+    margin-right: $sub-baseline;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  a {
+    height: 60px;
+    width: 60px;
+  }
+  .icon {
+    width: 30px;
+  }
+}
+
+form {
+  float: right;
+  margin: -20px 0 0 0;
+  padding: 0;
+  &:before,
+  &:after {
     display: none;
   }
-  .home {
-    background-color: inherit;
-    #home & {
-      display: none;
-    }
+  input, 
+  .button-primary {
+    display: inline-block;
+    width: auto;
   }
-}
-//--------------------------------------------------------
-// newsletter / updates
-//--------------------------------------------------------
-#be-notified {
-  .email-subscription {
-    float: left;
-    width: 58%;
+  input {
+    margin: 0 $sub-baseline*2 0 0;
+    width: auto;
   }
-  .social-subscription {
-    float: right;
-    padding: $sub-baseline*5 0 0 $baseline*4;
-    position: relative;
-    width: columns(6);
+  .button-primary {
+    width: auto;
   }
-  .and {
-    float: left;
-    margin: 0;
-    position: absolute;
-      left: 0;
-    &:before, &:after {
-      display: none;
-    }
-  }
-  .button {
-    float: left;
-  }
-}
-
-//--------------------------------------------------------
-// speaker hive
-//--------------------------------------------------------
-.hive {
-  width: ($hex-width*3)+($hex-margin)*2;
-  // reset from the previous mq
-  li:nth-child(3n+1),
-  li:nth-child(3n+2),
-  li:nth-child(3n+3) {
-    margin-left: 0;
-  }
-  li:nth-child(5n+1) {
-    float: left;
-  }
-  li:nth-child(5n+2) {
-    float: left;
-    margin-left: $hex-margin;
-  }
-  li:nth-child(5n+3) {
-    float: left;
-    margin-left: $hex-margin;
-  }
-  li:nth-child(5n+4) {
-    float: left;
-    margin-left: 108px;
-  }
-  li:nth-child(5n+5) {
-    float: left;
-    margin-left: $hex-margin;
-  }
-}
-
-//--------------------------------------------------------
-// schedule / sessions
-//--------------------------------------------------------
-.session-groups {
-  @include clearfix;
-  .day, .time {
-    clear: both;
-  }
-  // .session {
-  //   @include clearfix;
-  //   .user-experience, .design, .front-end, .back-end {
-  //     @include span(3 of 12);
-  //   }
-  //   .back-end {
-  //     @include omega;
-  //   }
-  // }
-}
-#schedule {
-  .schedules {
-    @include clearfix;
-    margin-bottom: 0;
-    li {
-
-      &:last-child {
-
-      }
-    }
-    p {
-      text-align: left;
-    }
-  }
-}
-#sponsors {
-  .title {
-
-  }
-  .primary {
-    li {
-
-    }
-  }
-  .secondary {
-    li {
-
-      &:nth-child(even) {
-
-      }
-      &:nth-child(3n) {
-
-      }
-      &:last-child {
-
-      }
-    }
-  }
-  .tertiary,
-  .community {
-    li {
-
-      &:nth-child(even) {
-
-      }
-      &:nth-child(3n) {
-
-      }
-      &:nth-child(4n) {
-
-      }
-      &:last-child {
-
-      }
-    }
-  }
-  .community li {
-    &:nth-child(4n) {
-
-    }
-  }
-  .tertiary li {
-    &:last-child {
-
-    }
-    &:nth-child(9n) {
-
-    }
-  }
-}
-
-.sponsor-logos {
-  li {
-    @include span(4 of 12);
-    &:nth-child(even) {
-      @include span(4 of 12);
-    }
-    &:nth-child(3n) {
-      @include omega();
-    }
-  }
-}
-//--------------------------------------------------------
-// wrapup
-//--------------------------------------------------------
-#wrapup {
-  #masthead {
-    h1 {
-      margin-bottom: $baseline/2;
-    }
-    p {
-      text-align: center;
-    }
-    .button {
-      margin: $baseline/2 auto 0;
-    }
-  }
-}
-
-#wrapup .quotes li:nth-child(even) {
-  width: 48.71795%;
-  float: left;
-  margin-right: 2.5641%;
-  display: inline;
-  float: right;
-  margin-right: 0;
-  display: inline;
-}
-#wrapup .quotes li:nth-child(odd) {
-  width: 48.71795%;
-  float: left;
-  margin-right: 2.5641%;
-  display: inline;
 }

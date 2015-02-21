@@ -8,7 +8,7 @@
 // borders, etc. for the box model
 // ---------------------------------------------------- 
 * {
-    @include box-sizing("border-box");
+    @include box-sizing(border-box);
 }
 
 // ---------------------------------------------------- 
