@@ -1,3 +1,22 @@
+html, body {
+  height: 100%;
+}
+#container {
+  height: 100%;
+}
+#intro {
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 220px;
+  .wrapper {
+    margin-top: -237px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+  }
+}
 #intro {
   float: right;
   // margin: 21px;
@@ -27,6 +46,10 @@
   }
 }
 footer {
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
   clear: both;
   padding: 38px;
   small {
