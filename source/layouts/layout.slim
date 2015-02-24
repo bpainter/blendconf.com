@@ -15,8 +15,9 @@ head
 body id="#{current_page.data.id}"
 
   #container role="main"
-
-    == yield
+    #intro
+      .wrapper
+        == yield
 
     / == partial "/layouts/partials/sponsors"
     == partial "/layouts/partials/icons"

@@ -4,25 +4,56 @@ html, body {
 #container {
   height: 100%;
 }
-#intro {
-  position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 220px;
-  .wrapper {
-    margin-top: -237px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-  }
-}
+
 #intro {
   float: right;
   // margin: 21px;
   margin: 23px;
+  // overflow: auto;
   padding: 115px 38px;
+  position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 220px;
   width: 722px;
+  #code-of-conduct &,
+  #refund-policy & {
+    overflow-x: auto;
+    &::-webkit-scrollbar * {
+      background:transparent;
+    }
+    &:before,
+    &:after {
+      // background-color: $yellow;
+      height: 125px;
+      position: fixed;
+      width: 722px;
+      z-index: 10;
+    }
+    &:before {
+      @include background-image( linear-gradient($yellow 20%, rgba($yellow, 0)));
+      top: 23px;
+      right: 23px;
+    }
+    &:after {
+      @include background-image( linear-gradient(darken(rgba($yellow, 0), 10%), darken($yellow, 10%)));
+      bottom: 240px;
+      right: 23px;
+    }
+  }
+  .wrapper {
+    margin-top: -312px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    #code-of-conduct &,
+    #refund-policy & {
+      margin-top: 0;
+      position: inherit;
+      top: auto;
+    }
+  }
   h2 {
     margin: $baseline 0 $baseline*3;
     padding: 0 0 $baseline*3;

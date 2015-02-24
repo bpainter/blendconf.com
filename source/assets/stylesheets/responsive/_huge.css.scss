@@ -6,6 +6,12 @@ body {
 
 #intro {
   bottom: 140px;
+  #code-of-conduct &,
+  #refund-policy & {
+    &:after {
+      bottom: 160px;
+    }
+  }
 }
 footer {
   small {

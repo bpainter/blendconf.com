@@ -4,7 +4,6 @@
 @import "structure/functions";
 @import "structure/variables";
 @import "structure/mixins";
-@import "base/fonts";
 
 body {
   background: #ccc url('/assets/images/layout/blendconf-bg-2.jpg') right center no-repeat;
@@ -39,6 +38,10 @@ body {
     max-width: 500px;
     width: 100%;
   }
+  h1 {
+    text-align: center;
+    margin-bottom: $baseline*2;
+  }
   h2 {
     font-size: .9em;
     letter-spacing: .2em;
@@ -56,13 +59,37 @@ body {
         right: 40%;
     }
   }
-  p {
+  p{
     font-size: 1.2em;
     font-weight: 200;
     line-height: 1.6;
     margin: 0 auto 10%;
     max-width: 500px;
     text-align: center;
+    #code-of-conduct &,
+    #refund-policy & {
+      font-size: 1em;
+      text-align: left;
+    }
+    a {
+      color: $red;
+      display: inline-block;
+    }
+  }
+  ul {
+    font-size: 1em;
+    font-weight: 200;
+    margin: 0 auto;
+    padding-left: $baseline*2;
+    max-width: 500px;
+    padding-bottom: $sub-baseline*2;
+    li {
+      line-height: 1.6;
+      margin-bottom: $sub-baseline*2;
+    }
+  }
+  .button-group {
+    padding-left: 0;
   }
 }
 
