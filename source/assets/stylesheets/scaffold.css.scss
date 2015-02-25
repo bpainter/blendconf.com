@@ -257,15 +257,15 @@ footer {
 
 // Laptop / Tablet - Horizontal
 //--------------------------------------------------------
-@media only screen and (min-height: 500px) and (max-height: 900px) and (min-width: $breakpoint-large) {
+@media only screen and (min-height: 500px) and (max-height: 1000px) and (min-width: $breakpoint-large) {
   #intro {
     // overflow: auto;
-    padding: 38px 38px;
-    .wrapper {
-      margin-top: -200px;
-      position: absolute;
-    }
     #home & {
+      padding: 38px 38px;
+      .wrapper {
+        margin-top: -200px;
+        position: absolute;
+      }
       h1 {
         margin-bottom: $sub-baseline*2;
       }
