@@ -248,11 +248,40 @@ footer {
   @import "responsive/medium";
 }
 
+
 // Desktop
 //--------------------------------------------------------
 @media only screen and (min-width: $breakpoint-large) {
   @import "responsive/large";
 }
+
+// Laptop / Tablet - Horizontal
+//--------------------------------------------------------
+@media only screen and (min-height: 500px) and (max-height: 900px) and (min-width: $breakpoint-large) {
+  #intro {
+    // overflow: auto;
+    padding: 38px 38px;
+    .wrapper {
+      margin-top: -200px;
+      position: absolute;
+    }
+    #home & {
+      h1 {
+        margin-bottom: $sub-baseline*2;
+      }
+      h2 {
+        margin: 0 0 $baseline;
+        padding: 0 0 $baseline;
+      }
+      p {
+        font-size: 1em;
+        margin-bottom: $baseline;
+      }  
+    }
+    
+  }
+}
+
 @media only screen and (min-width: $breakpoint-huge) {
   @import "responsive/huge";
 }
