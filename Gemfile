@@ -2,11 +2,7 @@
 # the following line to use "https"
 source 'https://rubygems.org'
 
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'https://rubygems.org'
-
-gem "middleman", "~>3.3.8"
+gem "middleman", "~>3.3.10"
 # gem "middleman-deploy"
 gem "middleman-smusher"
 
@@ -32,3 +28,7 @@ gem "susy", "~> 2.2.2"
 # Slim HTML Preprocessor
 gem "slim"
 gem "redcarpet"
+
+# Asset Management - Fixing a bug in 2.x sprockets
+# gem "middleman-sprockets", "~> 3.1.2"
+# gem "sprockets", "~> 3.0.0.beta.8"
