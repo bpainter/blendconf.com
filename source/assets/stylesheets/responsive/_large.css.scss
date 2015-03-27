@@ -29,6 +29,7 @@ html, body {
       position: fixed;
       width: 722px;
       z-index: 10;
+      pointer-events: none;
     }
     &:before {
       @include background-image( linear-gradient($yellow 20%, rgba($yellow, 0)));
