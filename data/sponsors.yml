@@ -6,22 +6,22 @@
     twitter: ~
     facebook: ~
     website: http://www.cardinalsolutions.com/
-- sponsor:
-  type: platinum
-  name: Red Ventures
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://redventures.com/
-- sponsor:
-  type: platinum
-  name: Treehouse
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://teamtreehouse.com/
+# - sponsor:
+#   type: platinum
+#   name: Red Ventures
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://redventures.com/
+# - sponsor:
+#   type: platinum
+#   name: Treehouse
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://teamtreehouse.com/
 - sponsor:
   type: gold
   name: Salesforce
@@ -47,123 +47,139 @@
     facebook: ~
     website: http://www.mandrill.com/
 - sponsor:
-  type: silver
-  name: Adobe
+  type: gold
+  name: Lending Tree
   description: ~
   links:
     twitter: ~
     facebook: ~
-    website: http://www.adobe.com/creativecloud.html/
+    website: http://www.tree.com/
+# - sponsor:
+#   type: silver
+#   name: Adobe
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.adobe.com/creativecloud.html/
 - sponsor:
   type: gold
-  name: Github
+  name: Aquent
   description: ~
   links:
     twitter: ~
     facebook: ~
-    website: http://www.github.com/
-- sponsor:
-  type: gold
-  name: Uber
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.uber.com/
-- sponsor:
-  type: aluminum
-  name: A Book Apart
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.abookapart.com/
-- sponsor:
-  type: aluminum
-  name: "O'Reilly"
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.oreilly.com/
+    website: https://aquent.com/
+# - sponsor:
+#   type: gold
+#   name: Github
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.github.com/
+# - sponsor:
+#   type: gold
+#   name: Uber
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.uber.com/
 - sponsor:
   type: aluminum
-  name: "Rosenfeld"
+  name: Skillshare
   description: ~
   links:
     twitter: ~
     facebook: ~
-    website: https://rosenfeldmedia.com/
-- sponsor:
-  type: aluminum
-  name: "Oliver Wyman"
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.oliverwyman.com/
-- sponsor:
-  type: aluminum
-  name: Stickermule
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.stickermule.com/
-- sponsor:
-  type: community
-  name: "iT-ology"
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://it-ology.org/
-- sponsor:
-  type: community
-  name: Detailed Block
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://detailedblock.com/
-- sponsor:
-  type: community
-  name: Packard Place
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://packardplace.us/
-- sponsor:
-  type: community
-  name: AWDG
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.meetup.com/atlantawebdesign/
-- sponsor:
-  type: community
-  name: Code for Charlotte
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.aigacharlotte.org/
-- sponsor:
-  type: community
-  name: UXPA Triangle
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://triuxpa.org/
-- sponsor:
-  type: community
-  name: AIGA Charlotte
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: http://www.aigacharlotte.org/
+    website: http://www.skillshare.com/
+# - sponsor:
+#   type: aluminum
+#   name: A Book Apart
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.abookapart.com/
+# - sponsor:
+#   type: aluminum
+#   name: "O'Reilly"
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.oreilly.com/
+# - sponsor:
+#   type: aluminum
+#   name: "Rosenfeld"
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: https://rosenfeldmedia.com/
+# - sponsor:
+#   type: aluminum
+#   name: Stickermule
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.stickermule.com/
+# - sponsor:
+#   type: community
+#   name: "iT-ology"
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://it-ology.org/
+# - sponsor:
+#   type: community
+#   name: Detailed Block
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://detailedblock.com/
+# - sponsor:
+#   type: community
+#   name: Packard Place
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://packardplace.us/
+# - sponsor:
+#   type: community
+#   name: AWDG
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.meetup.com/atlantawebdesign/
+# - sponsor:
+#   type: community
+#   name: Code for Charlotte
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.aigacharlotte.org/
+# - sponsor:
+#   type: community
+#   name: UXPA Triangle
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://triuxpa.org/
+# - sponsor:
+#   type: community
+#   name: AIGA Charlotte
+#   description: ~
+#   links:
+#     twitter: ~
+#     facebook: ~
+#     website: http://www.aigacharlotte.org/
 

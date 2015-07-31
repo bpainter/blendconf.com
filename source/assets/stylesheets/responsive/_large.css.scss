@@ -2,35 +2,16 @@
   @include container;
   max-width: 100%;
 }
-#home div > div[id],
-#home div > form[id],
-#sponsors {
-  h2, .h2 {
-    border-left: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0;
-    text-align: center;
-  }
-  > p {
-    text-align: center;
-  }
+h2, .h2 {
+  font-size: 1.4em;
 }
-#skinny {
-  @include clearfix;
-  ul {
-    margin: 0 auto;
-  }
-  li {
-    @include span(4 of 12);
-    min-height: 180px;
-  }
-  li:nth-child(even) {
-    @include span(4 of 12);
-  }
-  li:nth-child(3n) {
-    @include omega;
-  }
+h3, .h3 {
+  font-size: 1.1em;
+}
+p, ul,
+.button-primary,
+.button-secondary {
+  font-size: 1em;
 }
 
 #masthead {
@@ -42,56 +23,6 @@
   }
 }
 
-//--------------------------------------------------------
-// main nav
-//--------------------------------------------------------
-nav[role="navigation"] {
-  height: $baseline*3;
-  line-height: auto;
-  margin: 0 auto;
-  min-height: auto;
-  padding: 0;
-  ul {
-    background-color: transparent;
-    display: block;
-    margin: 0;
-    padding-bottom: 0;
-    top: -9px;
-    #home & {
-      margin-left: 0;
-    }
-  }
-  li {
-    display: inline-block;
-    margin: 0 $sub-baseline;
-    &:first-child a {
-      border: 0;
-    }
-    &:last-child {
-      position: absolute;
-        right: 6px;
-      a {
-        padding: 0 $baseline;
-      }
-    }
-    a {
-      border: 0;
-      display: inline-block;
-      height: $baseline*2;
-      line-height: $baseline*2;
-      padding: $baseline $sub-baseline;
-    }
-  }
-  #nav-toggle {
-    display: none;
-  }
-  .home {
-    background-color: inherit;
-    #home & {
-      display: none;
-    }
-  }
-}
 //--------------------------------------------------------
 // newsletter / updates
 //--------------------------------------------------------
@@ -123,121 +54,73 @@ nav[role="navigation"] {
 //--------------------------------------------------------
 // speaker hive
 //--------------------------------------------------------
-.hive {
-  width: ($hex-width*3)+($hex-margin)*2;
-  // reset from the previous mq
-  li:nth-child(3n+1),
-  li:nth-child(3n+2),
-  li:nth-child(3n+3) {
-    margin-left: 0;
-  }
-  li:nth-child(5n+1) {
-    float: left;
-  }
-  li:nth-child(5n+2) {
-    float: left;
-    margin-left: $hex-margin;
-  }
-  li:nth-child(5n+3) {
-    float: left;
-    margin-left: $hex-margin;
-  }
-  li:nth-child(5n+4) {
-    float: left;
-    margin-left: 108px;
-  }
-  li:nth-child(5n+5) {
-    float: left;
-    margin-left: $hex-margin;
+.session-speakers,
+.workshop-speakers,
+.keynote-speakers {
+  li {
+    width: 25%;
   }
 }
+
+.speaker-details {
+  @include clear;
+  img {
+    display: block;
+    float: left;
+    margin: 0 0 0;
+    max-width: 200px;
+    width: 100%;
+  }
+  p {
+    float: right;
+    margin-top: -200px;
+    text-align: left !important;
+    padding-left: 220px;
+  }
+  // p {
+  //   max-width: 500px;
+  // }
+}
+// .hive {
+//   width: ($hex-width*3)+($hex-margin)*2;
+//   // reset from the previous mq
+//   li:nth-child(3n+1),
+//   li:nth-child(3n+2),
+//   li:nth-child(3n+3) {
+//     margin-left: 0;
+//   }
+//   li:nth-child(5n+1) {
+//     float: left;
+//   }
+//   li:nth-child(5n+2) {
+//     float: left;
+//     margin-left: $hex-margin;
+//   }
+//   li:nth-child(5n+3) {
+//     float: left;
+//     margin-left: $hex-margin;
+//   }
+//   li:nth-child(5n+4) {
+//     float: left;
+//     margin-left: 108px;
+//   }
+//   li:nth-child(5n+5) {
+//     float: left;
+//     margin-left: $hex-margin;
+//   }
+// }
 
 //--------------------------------------------------------
 // schedule / sessions
 //--------------------------------------------------------
-.session-groups {
-  @include clearfix;
-  .day, .time {
-    clear: both;
-  }
-  // .session {
-  //   @include clearfix;
-  //   .user-experience, .design, .front-end, .back-end {
-  //     @include span(3 of 12);
-  //   }
-  //   .back-end {
-  //     @include omega;
-  //   }
-  // }
-}
-#schedule {
-  .schedules {
-    @include clearfix;
-    margin-bottom: 0;
-    li {
-
-      &:last-child {
-
-      }
-    }
-    p {
-      text-align: left;
-    }
-  }
-}
-#sponsors {
-  .title {
-
-  }
-  .primary {
-    li {
-
-    }
-  }
-  .secondary {
-    li {
-
-      &:nth-child(even) {
-
-      }
-      &:nth-child(3n) {
-
-      }
-      &:last-child {
-
-      }
-    }
-  }
-  .tertiary,
-  .community {
-    li {
-
-      &:nth-child(even) {
-
-      }
-      &:nth-child(3n) {
-
-      }
-      &:nth-child(4n) {
-
-      }
-      &:last-child {
-
-      }
-    }
-  }
-  .community li {
-    &:nth-child(4n) {
-
-    }
-  }
-  .tertiary li {
-    &:last-child {
-
-    }
-    &:nth-child(9n) {
-
-    }
+.schedule {
+  display: block !important;
+  @include clear;
+  float: left;
+  max-width: auto;
+  width: 33.3333%
+  h3 {
+    font-size: 1em;
   }
 }
 

@@ -16,7 +16,7 @@ head
   meta charset="utf-8"
 
 	/ Use title if it's in the page YAML frontmatter
-	title #{s.firstName} #{s.lastName} | Blend Conference: Sept 11-13 in Charlotte, NC
+	title #{s.firstName} #{s.lastName} | Blend Conference: Sept 2-5, 2015 in Charlotte, NC
 
 	meta name="description" content="#{s.bio}"
 
@@ -34,30 +34,40 @@ head
 	// meta name="twitter:player" content="https://vimeo.com/68967326"
 
 	// 280x150
-	meta name="twitter:image:src" content="http://2014.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
+	meta name="twitter:image:src" content="http://2015.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
 
 	// Everything
 	meta name="twitter:site" content="@blendconf"
-	meta name="twitter:title" content="#{s.firstName} #{s.lastName} | Blend Conference Sept 11-13"
+	meta name="twitter:title" content="#{s.firstName} #{s.lastName} | Blend Conference Sept 2-5, 2015"
 	meta name="twitter:description" content="#{s.bio}"
-	meta name="twitter:url" content="http://2014.blendconf.com#{current_page.url}"
+	meta name="twitter:url" content="http://2015.blendconf.com#{current_page.url}"
 	meta name="twitter:creator" content="@blendconf"
 
-	meta property="og:url" content="http://2014.blendconf.com#{current_page.url}"
-	meta property="og:title" content="#{s.firstName} #{s.lastName} | Blend Conference Sept 11-13"
+	meta property="og:url" content="http://2015.blendconf.com#{current_page.url}"
+	meta property="og:title" content="#{s.firstName} #{s.lastName} | Blend Conference Sept 2-5, 2015"
 	meta property="og:description" content="#{s.bio}"
 	// 600 x 315
-	meta property="og:image" content="http://2014.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
+	meta property="og:image" content="http://2015.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"
 
-	== stylesheet_link_tag "base", "scaffold"
 	== javascript_include_tag "libs/modernizr"
+	== stylesheet_link_tag "global"
+	
 
 body id="speaker-detail"
 
   #container role="main"
+		#intro role="banner"
+			.final-edition-intro
+				h1 The final edition 
+				img src="/assets/images/content/blend-conference-logo.png" alt="Blend Conference"
+				h2 <strong>September 2-4, 2015</strong> in Charlotte, NC
+
+				.button-group
+					a.primary-button href="https://ti.to/blendconf/blendconf2015/" Register Now
+					a.secondary-button href="https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1505205693&key=32137ACB" Book Hotel
 
 		#masthead role="banner"
-			h1 #{s.firstName} #{s.lastName}
+			h2 #{s.firstName} #{s.lastName}
 
 			- if s.companyWebsite
 				a href="#{s.companyWebsite}" #{s.company}
@@ -66,19 +76,22 @@ body id="speaker-detail"
 
 		article.basic-content
 			.speaker-details
-				h2 A little more about #{s.firstName}
-				== s.bio
+				h2: span About #{s.firstName}
+				img src="/assets/images/content/speakers/#{clean_data(s.firstName)}-#{clean_data(s.lastName)}.jpg"
+				p== s.bio
 
 			.talk-details
-				h2 #{s.firstName}'s Presentation
-
-				- if s.video
-        	.video
-        		iframe allowfullscreen="" frameborder="0" mozallowfullscreen="" src="//player.vimeo.com/video/#{s.video}" webkitallowfullscreen=""
-        	.buffer
+				h2: span Presentation
 
 				h3== s.talkTitle
 				p== s.talkDescription
+
+				/- if s.video
+        /	.video
+        /		iframe allowfullscreen="" frameborder="0" mozallowfullscreen="" src="///player.vimeo.com/video/#{s.video}" webkitallowfullscreen=""
+        /	.buffer
+
+				
 
 
 
@@ -91,6 +104,6 @@ body id="speaker-detail"
 		== partial "/layouts/partials/sponsors"
 		== partial "/layouts/partials/footer"
 
-  == partial "/layouts/partials/navigation"
+  /== partial "/layouts/partials/navigation"
 
   == partial "/layouts/partials/javascript"

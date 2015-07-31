@@ -13,3 +13,76 @@
  * @version 1.2.9b
  */
 ;(function($){var h=location.href.replace(/#.*/,'');var i=$.localScroll=function(a){$('body').localScroll(a)};i.defaults={duration:1000,axis:'y',event:'click',stop:true,target:window,reset:true};i.hash=function(a){if(location.hash){a=$.extend({},i.defaults,a);a.hash=false;if(a.reset){var d=a.duration;delete a.duration;$(a.target).scrollTo(0,a);a.duration=d}scroll(0,location,a)}};$.fn.localScroll=function(b){b=$.extend({},i.defaults,b);return b.lazy?this.bind(b.event,function(e){var a=$([e.target,e.target.parentNode]).filter(filter)[0];if(a)scroll(e,a,b)}):this.find('a,area').filter(filter).bind(b.event,function(e){scroll(e,this,b)}).end().end();function filter(){return!!this.href&&!!this.hash&&this.href.replace(this.hash,'')==h&&(!b.filter||$(this).is(b.filter))}};function scroll(e,a,b){var c=a.hash.slice(1),elem=document.getElementById(c)||document.getElementsByName(c)[0];if(!elem)return;if(e)e.preventDefault();var d=$(b.target);if(b.lock&&d.is(':animated')||b.onBefore&&b.onBefore(e,elem,d)===false)return;if(b.stop)d._scrollable().stop(true);if(b.hash){var f=b.offset;f=f&&f.top||f||0;var g=elem.id==c?'id':'name',$a=$('<a> </a>').attr(g,c).css({position:'absolute',top:$(window).scrollTop()+f,left:$(window).scrollLeft()});elem[g]='';$('body').prepend($a);location=a.hash;$a.remove();elem[g]=c}d.scrollTo(elem,b).trigger('notify.serialScroll',[elem])}})(jQuery);
+
+// the semi-colon before the function invocation is a safety 
+// net against concatenated scripts and/or other plugins 
+// that are not closed properly.
+// window and document are passed through as local 
+// variables rather than as globals, because this (slightly) 
+// quickens the resolution process and can be more 
+// efficiently minified (especially when both are 
+// regularly referenced in your plugin).
+;(function ( $, window, document, undefined ) {
+  if(!$.blendconf){
+    $.blendconf = new Object();
+  };
+    
+  $.blendconf.tabs = function(element, options){
+    // To avoid scope issues, use 'base' instead of 'this'
+    // to reference this class from internal events and functions.
+    var base = this;
+    
+    // Access to jQuery and DOM versions of element
+    base.$element = $(element);
+    base.element = element;
+    
+    // Add a reverse reference to the DOM object
+    base.$element.data("blendconf.tabs", base);
+    
+    base.init = function(){
+      base.options = $.extend({},$.blendconf.tabs.defaultOptions, options);
+      
+      // Variables
+      var tabsNavigation = base.$element;
+      var tabsContainer  = base.$element.next();
+      var activeNavIndex = tabsNavigation.children('.active').index();
+      
+      // Setup
+      // Hide tab content and show the one that should be active
+      tabsContainer.children().attr('data-content-active', false);
+      tabsContainer.children(':eq(' + activeNavIndex + ')').attr('data-content-active', true);
+
+      // Click action on nav
+      tabsNavigation.find('a').on({
+        click: function(event) {
+          activeNavIndex = $(this).parent().index();
+          tabsNavigation.children().removeClass('active');
+          $(this).parent().addClass('active');
+          tabsContainer.children().attr('data-content-active', false);
+          tabsContainer.children(':eq(' + activeNavIndex + ')').attr('data-content-active', true);
+          event.preventDefault();
+          event.stopPropagation(); // Stop the click event from propagating up to the parent
+        }
+      });
+    };
+    
+    // Sample Function, Uncomment to use
+    // base.functionName = function(paramaters){
+    // 
+    // };
+    
+    // Run initializer
+    base.init();
+  };
+  
+  $.blendconf.tabs.defaultOptions = {
+    // add options here
+  };
+  
+  $.fn.blendconf_tabs = function(options){
+    return this.each(function(){
+      (new $.blendconf.tabs(this, options));
+    });
+  };
+    
+})(jQuery);

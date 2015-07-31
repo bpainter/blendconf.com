@@ -3,34 +3,22 @@
   max-width: 100%;
 }
 
-.button {
+.schedule-tabs {
+  li {
+    width: 33.33333%;
+  }
+}
+
+.primary-button,
+.secondary-button {
+  display: block;
+  margin: 0 auto;
   max-width: 370px;
-  #be-notified  &,
-  nav[role="navigation"] & {
+  #be-notified  & {
     max-width: 100%;
   }
 }
 
-.hive {
-  width: 400px;
-  // reset from the previous mq
-  li:nth-child(even) {
-    margin-left: 0;
-  }
-  li {
-    float: left;
-    margin-bottom: $hex-margin*3;
-  }
-  li:nth-child(3n+1) {
-    float: left;
-  }
-  li:nth-child(3n+2) {
-    float: right;
-  }
-  li:nth-child(3n+3) {
-    margin-left: 105px;
-  }
-}
 // Workshops
 .workshop {
   @include clearfix;
@@ -48,52 +36,5 @@
   li {
     margin: 4em 1em 4em;
     left: 0;
-  }
-}
-
-#sponsors {
-  .title {
-    li {
-
-    }
-  }
-  .secondary,
-  .primary {
-    li {
-
-      &:nth-child(even) {
-
-      }
-    }
-  }
-  .primary {
-    li:last-child {
-
-    }
-  }
-  .tertiary,
-  .community {
-    li {
-
-      &:nth-child(even) {
-
-      }
-      &:nth-child(3n) {
-
-      }
-      &:last-child {
-
-      }
-    }
-  }
-  .tertiary li {
-    &:last-child {
-
-    }
-  }
-  .community li {
-    &:nth-child(4n) {
-
-    }
   }
 }

@@ -3,8 +3,8 @@
 // ----------------------------------------------------------------
 // Import Compass for CSS3 mixins & Susy for the grid system
 // ----------------------------------------------------------------
-@import 'compass';
-@import 'susy';
+// @import 'compass';
+// @import 'susy';
 
 // ----------------------------------------------------------------
 // Global variables
@@ -20,8 +20,9 @@ $experimental-support-for-svg: true; // adds a base-64 svg for gradients in IE9
 // Creates a baseline to help calculate a consistent
 // rhythm vertical
 // ----------------------------------------------------------------
-$sub-baseline: 5px;
-$baseline: $sub-baseline*4;
+$sub-baseline           : 6px;
+$baseline               : $sub-baseline * 3; // 18px
+$max-container-width    : 1086px;
 
 // ----------------------------------------------------------------
 // Font Sizes
@@ -44,20 +45,26 @@ $h6-margin: 0 0 $baseline;
 
 
 
-// ----------------------------------------------------------------
-// Font Families
-// ----------------------------------------------------------------
-$serif-font-family: "Times New Roman", Sans-serif;
-$sans-font-family: "Oswald ", "Helvetica Neue", Helvetica;
+// --------------------------------------------------
+// typography
+// --------------------------------------------------
+$font-family-sans:      "Open Sans", Helvetica, Arial, sans-serif !default;
+$font-family-serif:     Georgia, "Times New Roman", Times, serif !default;
+$font-family-mono:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
 
-$header-font-family: "Oswald", "Helvetica Neue", Helvetica;
-$leadin-font-family: "Amaranth", "Georgia";
-$base-font-family:   "Open Sand", "Helvetica Neue", Helvetica;
+$font-size-base:        14px !default;
+$line-height-base:      $baseline !default;
+
+$font-family-headers:   $font-family-sans !default;
+
+$base-font-family: $font-family-sans;
+$header-font-family: $font-family-headers;
+
 
 // ----------------------------------------------------------------
 // Susy Grid
 // ----------------------------------------------------------------
-$total-columns  : 12;             // a 12-column grid
+$total-columns  : 4;             // a 12-column grid
 $column-width   : 4em;            // each column is 4em wide
 $gutter-width   : 1em;            // 1em gutters between columns
 $grid-padding   : $gutter-width;  // grid-padding equal to gutters
@@ -84,6 +91,15 @@ $breakpoint-ginormous :   1400px;
 // --------------------------------------------------
 // colors
 // --------------------------------------------------
+
+$black:                 #000 !default;
+$grayDarker:            #222 !default;
+$grayDark:              #333 !default;
+$gray:                  #555 !default;
+$grayLight:             #999 !default;
+$grayLighter:           #eee !default;
+$white:                 #fff !default;
+
 $brown              : #69504a !default;
 $lavender           : #5e79a6 !default;
 $aqua               : #63b3b8 !default;
@@ -107,6 +123,88 @@ $color-link-hover   : darken($color-link, 15%) !default;
 $root-bg-color  : $dark-gray;
 $text-color     : lighten($light-gray, 35%);
 
+
+// --------------------------------------------------
+// hexagons
+// --------------------------------------------------
+$brand-colors: ($aqua, $red, $yellow, $green, $lavender);
+$ratio-width: 190px;
+$ratio-height: 110px;
+$hex-ratio: calc-ratio($ratio-width, $ratio-height);
+$hex-width: 190px;
+$hex-height: calc-height($hex-width, $hex-ratio);
+$hex-margin: 25px;
+
+// --------------------------------------------------
+// speakers
+// --------------------------------------------------
+$speakers: (aaron-gustafson,
+            abby-covert,
+            adam-hunter,
+            alex-gaynor,
+            allison-house,
+            angel-anderson,
+            anton-repponen,
+            ben-lehnert,
+            brad-weaver,
+            cat-noone,
+            chris-coyier,
+            clarissa-peterson,
+            claudina-sarahe,
+            clinton-dreisbach,
+            christy-harner,
+            dan-denny,
+            darcy-clarke,
+            diana-lucaci,
+            eric-m-suzanne,
+            garrett-johnson,
+            greg-hoy,
+            heather-oneill,
+            heather-payne,
+            irene-pereyra,
+            j-cornelius,
+            jason-toth,
+            jason-hunter,
+            jen-myers,
+            jen-simmons,
+            jennifer-pahlka,
+            jessie-shternshus,
+            julia-elman,
+            kimberly-bryant,
+            laura-helen-winn,
+            leah-silber,
+            lisa-maria-martin,
+            mark-boulton,
+            mark-geyer,
+            mark-shropshire,
+            mark-wilson,
+            martha-girdler,
+            melissa-avery-weir,
+            michael-labriola,
+            michelle-salater,
+            michelle-yaiser,
+            mike-monteiro,
+            moses-ngone,
+            netta-marshall,
+            nicole-fenton,
+            nora-richardson,
+            pamela-pavliscak,
+            paul-boag,
+            paul-trani,
+            rachel-ober,
+            rebecca-murphey,
+            scott-stroud,
+            scott-hanselman,
+            scott-hanselman,
+            sophie-shepherd,
+            sougwen-chung,
+            stacey-mulcahy,
+            steve-klabnik,
+            tiffany-chu,
+            val-head
+);
+
+
 // --------------------------------------------------
 // z-index
 // --------------------------------------------------
@@ -116,3 +214,4 @@ $z-index-tooltip:           1020 !default;
 $z-index-fixed:             1030 !default;
 $z-index-modal-background:  1040 !default;
 $z-index-modal:             1050 !default;
+

@@ -1,12 +1,8 @@
 meta charset="utf-8"
 
 / Use title if it's in the page YAML frontmatter
-title #{current_page.data.title} | Blend Conference: Sept 11-13 in Charlotte, NC
-
-
-
+title #{current_page.data.title} | Blend Conference: Sept 2-4th, 2015 in Charlotte, NC
 meta name="description" content="#{current_page.data.description}"/
-
 
 / Prevents zooming
 meta name="viewport" content="width=device-width, initial-scale=1"
@@ -22,22 +18,24 @@ meta name="twitter:card" content="summary_large_image"
 // meta name="twitter:player" content="https://vimeo.com/68967326"
 
 // 280x150
-meta name="twitter:image:src" content="http://2014.blendconf.com/assets/images/content/#{current_page.data.socialImage}"
+meta name="twitter:image:src" content="http://2015.blendconf.com/assets/images/content/#{current_page.data.socialImage}"
 
 // Everything
 meta name="twitter:site" content="@blendconf"
-meta name="twitter:title" content="#{current_page.data.title} | Blend Conference Sept 11-13"
+meta name="twitter:title" content="#{current_page.data.title} | Blend Conference Sept 2-4, 2015"
 meta name="twitter:description" content="#{current_page.data.description}"
-meta name="twitter:url" content="http://2014.blendconf.com#{current_page.url}"
+meta name="twitter:url" content="http://2015.blendconf.com#{current_page.url}"
 meta name="twitter:creator" content="@blendconf"
 
 
-meta property="og:url" content="http://2014.blendconf.com#{current_page.url}"
-meta property="og:title" content="#{current_page.data.title} | Blend Conference Sept 11-13"
-meta property="og:title" content="#{yield_content(:title)} | Blend Conference Sept 11-13"
+meta property="og:url" content="http://2015.blendconf.com#{current_page.url}"
+meta property="og:title" content="#{current_page.data.title} | Blend Conference Sept 2-4th, 2015"
+meta property="og:title" content="#{yield_content(:title)} | Blend Conference Sept 2-4th, 2015"
 meta property="og:description" content="#{current_page.data.description}"
 // 600 x 315
-meta property="og:image" content="http://2014.blendconf.com/assets/images/content/#{current_page.data.socialImage}"
+meta property="og:image" content="http://2015.blendconf.com/assets/images/content/#{current_page.data.socialImage}"
 
-== stylesheet_link_tag "base", "scaffold"
 == javascript_include_tag "libs/modernizr"
+
+== stylesheet_link_tag "global"
+

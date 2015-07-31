@@ -1,0 +1,100 @@
+%speaker-block {
+  @include clearfix;
+  list-style: none;
+  margin: 0 auto $baseline*2;
+  padding: 0;
+  a {
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  img {
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  strong {
+    background-color: rgba($dark-gray, .7);
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.2;
+    padding: $sub-baseline $baseline $sub-baseline;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    span {
+      display: block;
+      font-size: .8em;
+      font-style: normal;
+      opacity: .5;
+      text-transform: uppercase;
+    }
+  }
+  .speaker-name {
+    bottom: 0;
+  }
+  .speaker-talk-title {
+    @include translateY(100%);
+    bottom: 0;
+    height: 100%;
+    padding: $baseline;
+    text-transform: capitalize;
+    span {
+      position: absolute;
+        bottom: $baseline;
+    }
+  }
+  li {
+    // margin-bottom: -4px;
+    overflow: hidden;
+    strong {
+      @include transition(all 250ms ease-in-out);
+    }
+    img {
+      @include scale(1.0, 1.0);
+      @include translateZ(0);
+      @include backface-visibility(hidden);
+      // property-name | duration | timing function | delay
+      @include transition(all 75ms ease-in-out 0ms);
+    }
+  }
+  li:hover, li:focus {
+    .speaker-name {
+      @include translateY(100%);
+      opacity: 0;
+    }
+    .speaker-talk-title {
+      @include translateY(0);
+    }
+    img {
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+      @include transition(all 75ms ease-in-out 150ms);
+    }
+  }
+}
+
+.keynote-speakers {
+  @extend %speaker-block;
+  li {
+    float: left;
+    width: 50%;
+  }
+}
+
+.session-speakers,
+.workshop-speakers {
+  @extend %speaker-block;
+  li {
+    float: left;
+    width: 50%;
+    @for $i from 1 through length($brand-colors) {
+      &:nth-child(5n+#{$i}) strong {
+        background-color: rgba(nth($brand-colors, $i), .7);
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+//--------------------------------------------------------
+// button
+//--------------------------------------------------------
+%button {
+  @include border-radius(4px);
+  @include transition(all 250ms ease 0s);
+  display: inline-block;
+  font-size: .9em;
+  // height: $baseline*3;
+  // line-height: $baseline*3;
+  margin-bottom: $sub-baseline;
+  padding: $baseline $baseline/2;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  text-decoration: none;
+
+}
+.primary-button {
+  @extend %button;
+  background-color: $dark-gray;
+  border: 2px solid transparent;
+  color: #fff;
+  &:hover, &:focus {
+    border-color: #fff;
+    background-color: #fff;
+    color: $dark-gray;
+  }
+}
+
+.secondary-button {
+  @extend %button;
+  background-color: transparent;
+  border: 2px solid $dark-gray;
+  color: $dark-gray;
+  &:hover, &:focus {
+    border-color: #fff;
+    background-color: #fff;
+  }
+}
+
+// Remove later
+.cta {
+  clear: both;
+}
+.button, button {
+  background-color: $red;
+  border: 0px;
+  @include border-radius(4px);
+  color: #fff;
+  display: inline-block;
+  padding: 1em;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  text-decoration: none;
+  &:hover {
+    background-color: darken($red, 5%);
+  }
+  span {
+    color: darken($aqua, 30%);
+    font-size: .8em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -24px;
+  }
+}

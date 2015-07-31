@@ -2,24 +2,66 @@
   @include container;
   max-width: 100%;
 }
+.final-edition-intro {
+  @include clearfix;
+  p {
+    font-size: 1.1em;
+    margin-top: $baseline*4;
+  }
+}
+#intro {
+  .button-group {
+    @include clear;
+  }
+  .primary-button {
+    float: left;
+    width: 65%;
+  }
+  .secondary-button {
+    float: right;
+    width: 33%;
+  }
+}
 #skinny {
   @include clearfix;
   li {
-    @include span(6 of 12);
+    @include span(4 of 12);
+    margin-bottom: 0;
   }
-  li:nth-child(even) {
+  li:nth-child(3n) {
     @include omega;
   }
 }
-#schedule {
-  @include clearfix;
+.schedule-tabs {
   li {
-    @include span(4 of 12);
+    padding-left: 18px;
   }
-  li:last-child {
-    @include omega;
+}
+.schedule {
+  width: 33.33333%;
+  h3 {
+    font-size: .8em;
   }
-  a.button {
-    clear: both;
+}
+// #schedule {
+//   @include clearfix;
+//   li {
+//     @include span(4 of 12);
+//   }
+//   li:last-child {
+//     @include omega;
+//   }
+//   a.button {
+//     clear: both;
+//   }
+// }
+
+.session-speakers,
+.workshop-speakers {
+  li {
+    width: 33.333333333%;
+    &:nth-child(2n) {
+      float: left;
+    }
   }
 }

@@ -1,82 +1,56 @@
-@import "variables";
-//------------------------------------
-// Grid
-//------------------------------------
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6 {
-  background-color: rgba(#666, .5);
-}
-.xx {
-  > .col-1,
-  > .col-2 {
-    @include span(1 of 8);
-  }
-  > .col-2 {
-    @include omega;
-  }
-}
-.xxx {
-  > .col-1,
-  > .col-2,
-  > .col-3 {
-    @include span(1 of 5);
-  }
-  > .col-3 {
-    @include omega;
-  }
-}
-.xxxx {
-  > .col-1,
-  > .col-2,
-  > .col-3,
-  > .col-4 {
-    @include span(1 of 4);
-  }
-  > .col-4 {
-    @include omega;
-  }
-}
-.xxxxx {
-  > .col-1,
-  > .col-2,
-  > .col-3,
-  > .col-4,
-  > .col-5 {
-    @include span(1 of 3);
-  }
-  > .col-5 {
-    @include omega;
-  }
+.grid-row,
+.one-column,
+[class*="-columns"],
+.omega {
+  @include box-sizing(border-box);
 }
 
-.xxxxxx {
-  > .col-1,
-  > .col-2,
-  > .col-3,
-  > .col-4,
-  > .col-5,
-  > .col-6 {
-    @include span(1 of 2);
-  }
-  > .col-6 {
-    @include omega;
-  }
+.grid-row {
+  @include clear;
 }
-.xi {
-  > .col-1 {
-    @include span(1 of 4);
-  }
-  > .col-2 {
-    @include span(1 of 12);
-    @include omega;
-  }
+.one-column {
+  @include columns(1);
 }
 
-.ix {
-  > .col-1 {
-    @include span(1 of 12);
-  }
-  > .col-2 {
-    @include span(1 of 4);
-    @include omega;
-  }
+.two-columns {
+  @include columns(2);
+}
+
+.three-columns {
+  @include columns(3);
+}
+
+.four-columns {
+  @include columns(4);
+}
+
+.five-columns {
+  @include columns(5);
+}
+
+.six-columns {
+  @include columns(6);
+}
+
+.seven-columns {
+  @include columns(7);
+}
+
+.eight-columns {
+  @include columns(8);
+}
+
+.nine-columns {
+  @include columns(9);
+}
+
+.ten-columns {
+  @include columns(10);
+}
+
+.eleven-columns {
+  @include columns(11);
+}
+.omega {
+  @include omega;
 }

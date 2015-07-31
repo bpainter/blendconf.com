@@ -4,78 +4,178 @@ description: "A generalist conference with a no-device policy, featuring 60+ div
 socialImage: blendconf-social-banner.jpg
 id: home
 ---
+svg xmlns="http://www.w3.org/2000/svg" style="display: none;"
+  symbol id="diversity-icon" viewBox="0 0 612 608"
+  	path d="M535.5,21.5H430.9v51H496l-94.2,94.2c-27-19.2-60.1-30.4-95.9-30.4c-37.1,0-71.2,12.1-98.8,32.5l-9.2-9.5l38.1-38.1 l-36-36.1l-37.5,37.5l-48.7-50.2h67.3v-51H25.5v51v102h51v-67.1l49.9,51.4l-34.6,34.6l36.1,36.1l34-34l9.4,9.7 c-19.6,27.2-31.2,60.7-31.2,97c0,83.1,60.6,151.6,140.2,163.8v45.3h-51v51h51V608h51v-45.9h48.4v-51h-48.4v-45.3 c79.6-12.2,140.2-80.7,140.2-163.8c0-37.5-12.4-72.1-33.2-99.8l97-97v69.3h51v-153H535.5z M76.5,72.5h0.6l-0.6,0.6V72.5z M306,416.8 c-63.8,0-114.8-51-114.8-114.8s51-114.8,114.8-114.8c31.6,0,60.1,12.5,80.8,33l1,1c20.4,20.7,33,49.1,33,80.8 C420.8,365.8,369.8,416.8,306,416.8z M534.8,72.5h0.7v0.7L534.8,72.5z"
+
+  symbol id="no-devices-icon" viewBox=" 0 24 24"
+		path d="M0 0h24v24H0zm0 0h24v24H0z" fill="none"
+		path d="M22 6V4H6.82l2 2H22zM1.92 1.65L.65 2.92l1.82 1.82C2.18 5.08 2 5.52 2 6v11H0v3h17.73l2.35 2.35 1.27-1.27L3.89 3.62 1.92 1.65zM4 6.27L14.73 17H4V6.27zM23 8h-6c-.55 0-1 .45-1 1v4.18l2 2V10h4v7h-2.18l3 3H23c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1z"
+
+  symbol id="notebook-icon" viewBox=" 0 24 24"
+		path d="M0 0h24v24H0z" fill="none"
+		path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"
 
 #intro role="banner"
-	h1== image_tag 'content/blend-conference-logo.png', :alt => 'Blend Conference'
-	h2 September 11-13, 2014 <span>Charlotte, NC</span>
-	p A generalist conference featuring 60+ diverse speakers sharing ideas and conversations about user experience, design, front-end and back-end development.
+	.final-edition-intro
+		h1 The final edition 
+		img src="/assets/images/content/blend-conference-logo.png" alt="Blend Conference"
+		h2 <strong>September 2-4, 2015</strong> in Charlotte, NC
 
-	a.button href="https://ti.to/blendconf/blendconf2015/" data-type="Register - Primary" Buy a 2015 Ticket
+		p This final Blend Conference returns to the glorious city of Charlotte. Join us for 3 days along with 60+ diverse speakers. Shut your devices off and enjoy some lovely conversations about user experience, design, and&nbsp;development.
+
+	.button-group
+		a.primary-button href="https://ti.to/blendconf/blendconf2015/" Register Now
+		a.secondary-button href="https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1505205693&key=32137ACB" Book Hotel
 
 #skinny
-	h2 A slightly <b>different spin</b> on web conferences
+	h2: span Something Different
 	ul
-		li <strong>No Devices</strong> Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones won't be allowed to be used during the conference sessions.
-		li <strong>Custom Notebooks</strong> We're going analog. Each attendee will receive a nice, custom BlendConf notebook along with something fancy to write with. You'll thank us later.
-		li <strong>Diversity</strong> We've spent fair amount of time curating speakers. We're talking basically a 50/50 male/female speaker ratio. You're going to really like these folks.
-		li <strong>60+ Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
-		li <strong>48 Talks</strong> Over the 2 conference days there will be 48 talks total spread across 4 tracks. Pick and choose the topics that you find interesting.
-		li <strong>8 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
+		li 
+			svg class="icon" viewBox="0 0 24 24": use xlink:href="#no-devices-icon"
+			strong No Devices
+			| Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones aren't allowed during our conference&nbsp;sessions.
+		li 
+			svg class="icon" viewBox="0 0 24 24": use xlink:href="#notebook-icon"
+			strong Custom Notebooks
+			| We're going analog. You'll receive a custom hard cover notebook along with something fancy to write with. Take notes, doodle some sketch notes, or jot down the names of new&nbsp;friends.
+		li 
+			svg class="icon" viewBox="0 0 24 24": use xlink:href="#diversity-icon"
+			strong Diversity
+			| We've spent months curating a diverse group of talented speakers. Some speak often. Others are speaking for the first time. We also do outreach to help attract a diverse group of fellow&nbsp;attendees. 
+		/ li <strong>60+ Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
+		/ li <strong>48 Talks</strong> Over the 2 conference days there will be 48 talks total spread across 4 tracks. Pick and choose the topics that you find interesting.
+		/ li <strong>8 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
 
+#be-notified
+	form action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
+		label.h2 for="mce-EMAIL" <span>Stay up-to-date</span>
+		.email-subscription
+			input#mce-EMAIL type="email" name="EMAIL" placeholder="Add Your Email Address"
+			button type="submit" Subscribe
 
-form#be-notified action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
-	label.h2 for="mce-EMAIL" Stay up-to-date with the <b>latest details</b>
-	.email-subscription
-		input#mce-EMAIL type="email" name="EMAIL" placeholder="Your Email Address"
-		button type="submit" Subscribe
-
-	.social-subscription
-		span.and And
-		a.button href="http://twitter.com/blendconf" Follow @blendconf
+		.social-subscription
+			span.and And
+			a.button href="http://twitter.com/blendconf" Follow @blendconf
 
 #speakers
-	h2 <b>60+ speakers</b> covering user experience, development, and design
-	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent knowledge.
+	h2: span Our Speakers
+	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent&nbsp;knowledge.
 
-	ul.hive.hexagon
-	  - data.speakers.shuffle.first(16).each do |speaker|
-	    - if speaker.firstName != "TBD"
-	      - if speaker.lastName == "Hanselman" && speaker.discipline != "Back-End"
-	        li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
-	          strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
-	          a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" <div class="right-hex"></div><div class="left-hex"></div>
-	      - elsif speaker.lastName != "Hanselman"
-	        li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
-	          strong #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
-	          a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/" <div class="right-hex"></div><div class="left-hex"></div>
+	h3 Keynotes
+	ul.keynote-speakers
+		- data.speakers.each do |speaker|
+			- if speaker.type == "Keynotes"
+				li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
+					a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
+						strong.speaker-name #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
+						strong.speaker-talk-title #{speaker.talkTitle} <span>#{speaker.discipline}</span>
+						img src="/assets/images/content/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}.jpg"
 
-	a.button href="/speakers/" View All Speakers
+		li.coming-soon
+			a href="#"
+				strong.speaker-talk-title <span>Keynote</span>
+				img src="/assets/images/content/speakers/coming-soon-blue.png"
+		li.coming-soon
+			a href="#"
+				strong.speaker-talk-title <span>Keynote</span>
+				img src="/assets/images/content/speakers/coming-soon-yellow.png"
+		li.coming-soon
+			a href="#"
+				strong.speaker-talk-title <span>Keynote</span>
+				img src="/assets/images/content/speakers/coming-soon-purple.png"
 
+	h3 Featured Sessions
+	ul.session-speakers
+		- data.speakers.shuffle.first(16).each do |speaker|
+			- if speaker.type == "Conference Speakers"
+					li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
+						a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
+							strong.speaker-name #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
+							strong.speaker-talk-title #{speaker.talkTitle} <span>#{speaker.discipline}</span>
+							img src="/assets/images/content/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}.jpg"
+
+	h3 Workshops
+	ul.workshop-speakers
+		- data.speakers.each do |speaker|
+			- if speaker.type == "Workshops"
+					li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
+						a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
+							strong.speaker-name #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
+							strong.speaker-talk-title #{speaker.talkTitle} <span>#{speaker.discipline}</span>
+							img src="/assets/images/content/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}.jpg"
+		li.coming-soon
+			a href="#"
+				strong.speaker-talk-title Designing with Sketch <span>Design</span>
+				img src="/assets/images/content/speakers/coming-soon-purple.png"
+  
 #schedule
-	h2 An amazing <b>3-day schedule</b>
-	p Each day of our web conference has 4 tracks going on at the same time covering user experience, design, and front-end and back-end development.
+	h2: span Schedule
+	p Each day of our web conference has 4 tracks going on at the same time covering user experience, design, and front-end and back-end development. Deciding can be tough, but don't worry, we record all of the sessions and provide them for free after the&nbsp;conference.
 
-	ul.schedules
-		li
-			h3==link_to "Workshops", "/schedule#workshop-day"
-			h4 Thursday, Sept. 11th
-			p During our workshop day there are 8 half-day workshops to choose from. 4 in the morning and 4 in the evening.  You can choose 2.
-		li
-			h3==link_to "Conference Day", "/schedule#conference-day"
-			h4 Friday, Sept. 12th
-			p The conference day is jam packed with two amazing keynote speakers and 24 sessions you can choose from.
-		li
-			h3==link_to "Blend Day", "/schedule#blend-day"
-			h4 Saturday, Sept. 13th
-			p Our blend day is something special. You still have 24 sessions to choose from but talks are aimed at helping you discover your inner generalist.
+	ul#schedule-tabs.schedule-tabs.tabs
+		li.tab-item.active: a href="#day-1" Workshops <time>Wed, Sept 2nd</time> 
+		li.tab-item: a href="#day-2" Normal Sessions <time>Thurs, Sept 3rd</time> 
+		li.tab-item: a href="#day-3" Blend Sessions <time>Fri, Sept 2nd</time> 
 
-	a==link_to "Full Schedule", "/schedule/", :class => 'button'
+	.tab-content-container
+		ul#day-1.schedule.tab-content
+			li: h3 Workshop Registration <time>8:00-9:00</time>
+			li.session: h3 Workshops <time>9:00-12:30</time>
+			li: h3 Catered Lunch <time>12:30-2:00</time>
+			li.session: h3 Workshops <time>2:00-5:30</time>
+			li: h3 Early Conference Registration <time>7:00-9:00</time>
+			li: h3 Speaker & VIP Dinner <time>7:00-10:00</time>
+
+		ul#day-2.schedule.tab-content
+			li: h3 Registration <time>8:00-8:45</time>
+			li: h3 Opening Remarks <time>8:45-9:00</time>
+			li.session: h3 Keynote <time>9:00-9:30</time>
+			li.session: h3 Sessions 1 <time>9:45-10:30</time>
+			li.session: h3 Sessions 2 <time>10:45-11:30</time>
+			li.session: h3 Sessions 3 <time>11:45-12:30</time>
+			li: h3 Lunch <time>12:30-1:45</time>
+			li.session: h3 Sessions 4 <time>2:00-2:45</time>
+			li.session: h3 Sessions 5 <time>3:00-3:45</time>
+			li.session: h3 Sessions 6 <time>4:00-4:45</time>
+			li.session: h3 Keynote <time>5:00-5:30</time>
+			li: h3 Opening Event <time>6:30-9:30</time>
+
+		ul#day-3.schedule.tab-content
+			li: h3 Registration <time>8:00-8:45</time>
+			li: h3 Opening Remarks <time>8:45-9:00</time>
+			li.session: h3 Keynote <time>9:00-9:30</time>
+			li.session: h3 Sessions 1 <time>9:45-10:30</time>
+			li.session: h3 Sessions 2 <time>10:45-11:30</time>
+			li.session: h3 Sessions 3 <time>11:45-12:30</time>
+			li: h3 Lunch <time>12:30-1:45</time>
+			li.session: h3 Sessions 4 <time>2:00-2:45</time>
+			li.session: h3 Sessions 5 <time>3:00-3:45</time>
+			li.session: h3 Surprise! <time>4:00-4:45</time>
+			li.session: h3 Keynote <time>5:00-5:30</time>
+			li: h3 Closing Event <time>6:30-9:30</time>
+
+	/ ul.schedules
+	/ 	li
+	/ 		h3==link_to "Workshops", "/schedule#workshop-day"
+	/ 		h4 Thursday, Sept. 2nd
+	/ 		p Choose from 4 full-day workshops. 
+	/ 	li
+	/ 		h3==link_to "Conference Day", "/schedule#conference-day"
+	/ 		h4 Friday, Sept. 3rd
+	/ 		p Jam packed with two amazing keynote speakers and numerous sessions to choose from.
+	/ 	li
+	/ 		h3==link_to "Blend Day", "/schedule#blend-day"
+	/ 		h4 Saturday, Sept. 4th
+	/ 		p Our blend day is something special. You still have a wide variety of sessions to help you discover your inner generalist.
+
+	/ a==link_to "Full Schedule", "/schedule/", :class => 'button'
 
 #venue
 	/ #map
-	h2 Classic <b>Venue & Hotel</b> in Downtown Charlotte
+	h2: span Venue & Hotel
 
-	p The conference will be held at The <a href="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=3986&language=en_US">Charlotte Sheraton Hotel</a>. The room block has expired but they should still have room. To make a reservation call their reservations desk 1-800-325-3535 and let them know you're booking a room for "Blend Conference".
+	p The conference will be held at The <a href="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=3986&language=en_US">Charlotte Sheraton Hotel</a>. To make a reservation call their reservations desk 1-800-325-3535 and let them know you're booking a room for "Blend Conference" or book online.
 
-	a==link_to "Things to Do in Charlotte", "/venue/", :class => 'button'
+	a==link_to "Book Hotel", "https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1505205693&key=32137ACB", :class => 'secondary-button'
 

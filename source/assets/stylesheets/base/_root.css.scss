@@ -3,6 +3,10 @@
 // -----------------------------------------------------------------------------
 * {
   @include box-sizing("border-box");
+  &:focus, &:active {
+    outline: 0;  
+  }
+  
 }
 
 // 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
@@ -24,7 +28,10 @@ html {
 // Addresses margins handled incorrectly in IE6/7
 // ----------------------------------------------------------------
 body {
-  background-color: $root-bg-color;
-  color: $text-color;
+  background-color: $color-body-background;
+  color: $color-text;
+  font-family: $font-family-sans;
+  font-weight: 200;
+  line-height: 1.4;
   margin: 0;
 }

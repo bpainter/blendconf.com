@@ -8,7 +8,7 @@
 // CLEARFIX
 // --------------------------------------------------
 // For clearing floats like a boss h5bp.com/q
-@mixin clearfix {
+@mixin clear {
   *zoom: 1;
   &:before,
   &:after {
@@ -123,4 +123,39 @@
     border-bottom: $size solid $color; 
     border-left: $size solid transparent;
   }
+}
+
+// ------------------------------------------------------------
+// Diamond
+// ------------------------------------------------------------
+@mixin diamond($size, $color, $type, $position:"") {
+  @if $type == "outline" {
+    border: 1px solid $color;
+  }
+  @if $type == "solid" {
+    background-color: $color;
+  }
+  @if $type == "solid-outlined" {
+    background-color: $color;
+    border: 1px solid rgba($text-color, .5);
+  }
+  @if $position == "relative" {
+    margin-top: -($size/2);
+    position: absolute;
+      top: 50%;
+      left: 0;
+  }
+  @if $position == "centered" {
+    margin-top: -($size/2);
+    margin-left: -($size/2);
+    position: absolute;
+      top: 0;
+      left: 50%;
+  }
+  @include rotate(-45deg);
+  @include transform-origin(0 100%);
+  content: "";
+  display: inline-block;
+  height: $size;
+  width: $size;
 }
