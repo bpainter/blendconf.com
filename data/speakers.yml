@@ -1,4 +1,108 @@
 - speaker:
+  firstName: Denise
+  lastName: Jacobs
+  type: Keynotes
+  discipline: Keynote
+  day: ~
+  session: ~
+  talkTitle: "The Brain Unchained"
+  talkDescription: ~
+  company: The Creative Dose
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Cameron
+  lastName: Moll
+  type: Keynotes
+  discipline: Keynote
+  day: ~
+  session: ~
+  talkTitle: "Cohesive UX"
+  talkDescription: ~
+  company: "Authentic Jobs, Inc."
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Leslie
+  lastName: Jensen-Inman
+  type: Keynotes
+  discipline: Keynote
+  day: ~
+  session: ~
+  talkTitle: ""
+  talkDescription: ~
+  company: "Center Centre"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Bermon
+  lastName: Painter
+  type: Keynotes
+  discipline: Keynote
+  day: ~
+  session: ~
+  talkTitle: ""
+  talkDescription: ~
+  company: "Cardinal Solutions"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+
+
+- speaker:
+  firstName: Steve
+  lastName: Fadden
+  type: Workshops
+  discipline: User Experience
+  day: ~
+  session: ~
+  talkTitle: "Research in an agile world"
+  talkDescription: "Rapid development approaches like Agile can be a blessing and a curse for UX practitioners who want to do their best work in the best way. It takes time to fully understand the problems and potential solutions we create for our end-users. However, the time we spend on comprehensive research, design, and development can delay the progress our organizations ultimately make. How do we contribute to the development of good products and solutions without delaying our teams? UX researchers can help be part of that solution. "
+  company: Salesforce
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: "UX researcher, mentor, and sometimes-manager with experience leading teams of designers, educators, and technologists in understanding the needs of diverse populations and specialists. I've worked in agile development and consulting environments focused on decision-making, performance, and learning in domains that include consumer transactions and business operations, intelligence and security analysis, and aviation and transportation.  I currently work as a user researcher in Analytics UX at Salesforce, and teach a graduate course on UX Research as a lecturer for the UC Berkeley School of Information. I've worked in a number of research positions in industry, consulting, and academia over the past 17 years, and I'm especially interested in discovering how people understand their environments and make decisions in complex, dynamic environments. I received my Ph.D. in Engineering Psychology (Human Factors) from the University of Illinois in 1999."
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Matt
+  lastName: Keener
+  type: Workshops
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "Designing & Developing Data Visualizations with D3.js"
+  talkDescription: ~
+  company: "Cardinal Solutions"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+
+
+
+
+
+
+- speaker:
   firstName: Joshua
   lastName: Mauldin
   type: Conference Speakers
@@ -31,22 +135,6 @@
   slides: ~
   video: ~
 - speaker:
-  firstName: Matt
-  lastName: Keener
-  type: Workshops
-  discipline: Front-End
-  day: ~
-  session: ~
-  talkTitle: "Designing & Developing Data Visualizations with D3.js"
-  talkDescription: ~
-  company: "Cardinal Solutions"
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
-- speaker:
   firstName: Crystal
   lastName: Starks
   type: Conference Speakers
@@ -62,22 +150,7 @@
   bio: "Crystal's fascinations with human-psychology lead her into UX design and Girl Develop It. Girl Develop It is Crystal's way of breaking down walls and barriers for women! Four years ago, Crystal needed to change her life around.  From working at a dead end job, she went back to school, met lots of new people in the tech field and landed her dream job as an UX designer at Quiet Stream Financial.   Now she is meeting with C-level executives about their ideas, creating personas and building journey maps and wire frames that developers are using to build applications. She wants to share what she learned along the way. "
   slides: ~
   video: ~
-- speaker:
-  firstName: Cameron
-  lastName: Moll
-  type: Keynotes
-  discipline: Keynote
-  day: ~
-  session: ~
-  talkTitle: "Cohesive UX"
-  talkDescription: ~
-  company: "Authentic Jobs, Inc."
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: Founder of Authentic Jobs (authenticjobs.com), Co-founder of Spoken (spoken.co), and maker of Structures in Type (typestructures.com). Cameron is the co-author of the best-selling CSS Mastery (2006, 2009) and author of Mobile Web Design (2007), a self-published title. His work or advice has been featured by Communication Arts, NPR, PRINT, Forrester Research, The Atlantic, HOW Magazine, and many others. Cameron is a sucker for anything that involves his five sons and sports equipment. He lives in the coastal town of Sarasota, Florida with his lovely wife Suzanne. Find him on the twitters at <a href=\"http://twitter.com/cameronmoll\">@cameronmoll</a>"
-  slides: ~
-  video: ~
+
 - speaker:
   firstName: Helen
   lastName: "V. Holmes"
@@ -103,12 +176,12 @@
   session: ~
   talkTitle: "Research is not just for UXers"
   talkDescription: "UX research is often relied upon to gather iterative feedback in the design and development process, but not every team has a research specialist. It can be hard to know what kind of research to do when and easy to assume that as designers or developers you'll be able make the best call for your user. However, leaving user research out of your  process leaves room for you to spend time working on a feature that isn't a priority for your target customers or implementing a feature ineffectively.  Come to this session to get an overview of the key goals of user research, the key methodologies that any team member can employ, concrete tips for how to select the best method given your goal, and advice to craft your research plans the best way to get the information you're looking for. "
-  company: "352 Inc. "
+  company: "Aquent/352 Inc"
   companyWebsite: ~
   personalWebsite: ~
   personalTwitter: ~
-  bio: "Amanda is the VP of UX at 352 inc. where she leads a team that provides user research, usability testing, and UX strategy services.  Amanda's expertise has helped companies new to user experience to assimilate user-centered design into their existing processes. She's defined and executed user-research participant recruiting and scheduling processes and assisted in the UX sales process. Additionally, Amanda has unique career advancement insight from her tenure working with a top recruiting company. When not performing UX magic, Amanda can be found teaching fitness classes, drinking mojitos, and sunbathing with her spoiled pooch, Bromer. She has a human factors background and an engineering degree from Tufts University.  Follow Amanda on Twitter at @MandaLaceyS"
-  slides: ~
+  bio: "Amanda has been immersed in the world of UX for nearly a decade and utilized her vast experience to help others advance their own UX careers. She consults to Aquent, an international Creative, Digital, and Marketing talent firm, interviewing UX candidates, assessing their skill sets, and helping them better resumes and portfolios. She also evaluates client needs and job descriptions to ensure roles are appropriately represented and the team can find the best match for each role. She currently serves as the VP of UX at 352 Inc. where she leads a team that provides user research, usability testing, and UX strategy services. Amanda's expertise has helped companies new to user experience to assimilate user-centered design into their existing processes and she managed the UX sales process. When not performing UX magic, Amanda can be found teaching fitness classes, drinking mojitos, and sunbathing with her spoiled pooch, Bromer. She has a human factors background and an engineering degree from Tufts University. Follow Amanda on Twitter at @MandaLaceyS"
+  slides: ~ 
   video: ~
 - speaker:
   firstName: Mina
@@ -207,18 +280,322 @@
   slides: ~
   video: ~
 - speaker:
-  firstName: Steve
-  lastName: Fadden
-  type: Workshops
-  discipline: User Experience
+  firstName: Sandra 
+  lastName: Davila
+  type: Conference Speakers
+  discipline: Front-End
   day: ~
   session: ~
-  talkTitle: "Research in an agile world"
-  talkDescription: "Rapid development approaches like Agile can be a blessing and a curse for UX practitioners who want to do their best work in the best way. It takes time to fully understand the problems and potential solutions we create for our end-users. However, the time we spend on comprehensive research, design, and development can delay the progress our organizations ultimately make. How do we contribute to the development of good products and solutions without delaying our teams? UX researchers can help be part of that solution. "
-  company: Salesforce
+  talkTitle: "Organisms: Emerging tools for ecosystem design."
+  talkDescription: ~
+  company: "Code and Theory"
   companyWebsite: ~
   personalWebsite: ~
   personalTwitter: ~
-  bio: "UX researcher, mentor, and sometimes-manager with experience leading teams of designers, educators, and technologists in understanding the needs of diverse populations and specialists. I've worked in agile development and consulting environments focused on decision-making, performance, and learning in domains that include consumer transactions and business operations, intelligence and security analysis, and aviation and transportation.  I currently work as a user researcher in Analytics UX at Salesforce, and teach a graduate course on UX Research as a lecturer for the UC Berkeley School of Information. I've worked in a number of research positions in industry, consulting, and academia over the past 17 years, and I'm especially interested in discovering how people understand their environments and make decisions in complex, dynamic environments. I received my Ph.D. in Engineering Psychology (Human Factors) from the University of Illinois in 1999."
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Eden 
+  lastName: Rohatensky
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "Working Together, Learning Together: How Front-End and Full-Stack Developers Can Empower Each Other"
+  talkDescription: ~
+  company: "Vox Media"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Katherine 
+  lastName: Robinson
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "Organisms: Emerging Tools for Ecosystem Design"
+  talkDescription: ~
+  company: "Code and Theory "
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Sam 
+  lastName: Kapila
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "The (Hover) State of Web Design Education"
+  talkDescription: ~
+  company: "The Iron Yard"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: 
+  lastName: 
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: ""
+  talkDescription: ~
+  company: ""
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Nate 
+  lastName: Walkingshaw
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "Product Development Life Skills & Building Awesome Product Teams"
+  talkDescription: ~
+  company: "Pluralsight"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Mariah 
+  lastName: Hay
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "Confusing UX with UI can cost you"
+  talkDescription: ~
+  company: "Universal Mind"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Tessa 
+  lastName: Thornton
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "Components are the future of the web: It's going to be okay."
+  talkDescription: ~
+  company: "Shopify"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Kacey 
+  lastName: Coughlin
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "CSS: A Slippery Slope to the Backend"
+  talkDescription: ~
+  company: "LinkedIn"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: 
+  lastName: 
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: ""
+  talkDescription: ~
+  company: ""
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Divya 
+  lastName: Sasidharan
+  type: Conference Speakers
+  discipline: Back-End
+  day: ~
+  session: ~
+  talkTitle: "Good Code Bad Code; an exploration of what good code really means and how we can write better code"
+  talkDescription: ~
+  company: "Sparkbox"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Sarah 
+  lastName: Hudson
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "Beginner AngularJS and Interaction Design"
+  talkDescription: ~
+  company: "TimeTap"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Louise 
+  lastName: Downe
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: ""
+  talkDescription: ~
+  company: "Government Digital Service"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: 
+  lastName: 
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: ""
+  talkDescription: ~
+  company: ""
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: David 
+  lastName: Newton
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "Universal Web Design: How to Create an Awesome Experience for *Every* User"
+  talkDescription: ~
+  company: "Shopify"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Zak 
+  lastName: Kain
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: "Building a Content Strategy Practice"
+  talkDescription: ~
+  company: "Shopify"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Lil 
+  lastName: Chen
+  type: Conference Speakers
+  discipline: Design
+  day: ~
+  session: ~
+  talkTitle: "Advice from a young designer to younger designers"
+  talkDescription: ~
+  company: "lilchen.com"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Hunter 
+  lastName: Loftis
+  type: Conference Speakers
+  discipline: Back-End
+  day: ~
+  session: ~
+  talkTitle: "Building Microservices, Together"
+  talkDescription: ~
+  company: "Heroku"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Tess 
+  lastName: Rinearson
+  type: Conference Speakers
+  discipline: Front-End
+  day: ~
+  session: ~
+  talkTitle: ""
+  talkDescription: ~
+  company: "Medium"
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
+  slides: ~
+  video: ~
+- speaker:
+  firstName: Jenn
+  lastName: Downs
+  type: Conference Speakers
+  discipline: User Experience
+  day: ~
+  session: ~
+  talkTitle: ""
+  talkDescription: ~
+  company: ""
+  companyWebsite: ~
+  personalWebsite: ~
+  personalTwitter: ~
+  bio: ~
   slides: ~
   video: ~
