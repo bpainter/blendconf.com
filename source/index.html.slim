@@ -25,7 +25,7 @@ svg xmlns="http://www.w3.org/2000/svg" style="display: none;"
 		p This final Blend Conference returns to the glorious city of Charlotte. Join us for 3 days along with 60+ diverse speakers. Shut your devices off and enjoy some lovely conversations about user experience, design, and&nbsp;development.
 
 	.button-group
-		a.primary-button href="https://ti.to/blendconf/blendconf2015/" Register Now
+		a.primary-button href="https://ti.to/blendconf/blendconf2015/" Cancelled
 		a.secondary-button href="https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1505205693&key=32137ACB" Book Hotel
 
 #skinny
@@ -72,42 +72,15 @@ svg xmlns="http://www.w3.org/2000/svg" style="display: none;"
 						strong.speaker-talk-title #{speaker.talkTitle} <span>#{speaker.discipline}</span>
 						img src="/assets/images/content/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}.jpg"
 
-		li.coming-soon
-			a href="#"
-				strong.speaker-talk-title <span>Keynote</span>
-				img src="/assets/images/content/speakers/coming-soon-blue.png"
-		li.coming-soon
-			a href="#"
-				strong.speaker-talk-title <span>Keynote</span>
-				img src="/assets/images/content/speakers/coming-soon-yellow.png"
-		li.coming-soon
-			a href="#"
-				strong.speaker-talk-title <span>Keynote</span>
-				img src="/assets/images/content/speakers/coming-soon-purple.png"
-
 	h3 Featured Sessions
 	ul.session-speakers
-		- data.speakers.shuffle.first(16).each do |speaker|
-			- if speaker.type == "Conference Speakers"
+		- data.speakers.shuffle.each do |speaker|
+			- if speaker.type == "Conference Speakers" || speaker.type == "Workshops"
 					li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
 						a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
 							strong.speaker-name #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
 							strong.speaker-talk-title #{speaker.talkTitle} <span>#{speaker.discipline}</span>
 							img src="/assets/images/content/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}.jpg"
-
-	h3 Workshops
-	ul.workshop-speakers
-		- data.speakers.each do |speaker|
-			- if speaker.type == "Workshops"
-					li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
-						a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
-							strong.speaker-name #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
-							strong.speaker-talk-title #{speaker.talkTitle} <span>#{speaker.discipline}</span>
-							img src="/assets/images/content/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}.jpg"
-		li.coming-soon
-			a href="#"
-				strong.speaker-talk-title Designing with Sketch <span>Design</span>
-				img src="/assets/images/content/speakers/coming-soon-purple.png"
   
 #schedule
 	h2: span Schedule

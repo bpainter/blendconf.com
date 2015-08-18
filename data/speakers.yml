@@ -37,7 +37,7 @@
   discipline: Keynote
   day: ~
   session: ~
-  talkTitle: ""
+  talkTitle: "Learn It Forward"
   talkDescription: ~
   company: "Center Centre"
   companyWebsite: ~
@@ -53,7 +53,7 @@
   discipline: Keynote
   day: ~
   session: ~
-  talkTitle: ""
+  talkTitle: "Be"
   talkDescription: ~
   company: "Cardinal Solutions"
   companyWebsite: ~
@@ -283,7 +283,7 @@
   firstName: Sandra 
   lastName: Davila
   type: Conference Speakers
-  discipline: Front-End
+  discipline: User Experience
   day: ~
   session: ~
   talkTitle: "Organisms: Emerging tools for ecosystem design."
@@ -311,27 +311,27 @@
   bio: ~
   slides: ~
   video: ~
-- speaker:
-  firstName: Katherine 
-  lastName: Robinson
-  type: Conference Speakers
-  discipline: Front-End
-  day: ~
-  session: ~
-  talkTitle: "Organisms: Emerging Tools for Ecosystem Design"
-  talkDescription: ~
-  company: "Code and Theory "
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
+# - speaker:
+#   firstName: Katherine 
+#   lastName: Robinson
+#   type: Conference Speakers
+#   discipline: Front-End
+#   day: ~
+#   session: ~
+#   talkTitle: "Organisms: Emerging Tools for Ecosystem Design"
+#   talkDescription: ~
+#   company: "Code and Theory "
+#   companyWebsite: ~
+#   personalWebsite: ~
+#   personalTwitter: ~
+#   bio: ~
+#   slides: ~
+#   video: ~
 - speaker:
   firstName: Sam 
   lastName: Kapila
   type: Conference Speakers
-  discipline: Front-End
+  discipline: Design
   day: ~
   session: ~
   talkTitle: "The (Hover) State of Web Design Education"
@@ -343,27 +343,13 @@
   bio: ~
   slides: ~
   video: ~
-- speaker:
-  firstName: 
-  lastName: 
-  type: Conference Speakers
-  discipline: Front-End
-  day: ~
-  session: ~
-  talkTitle: ""
-  talkDescription: ~
-  company: ""
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
+
+
 - speaker:
   firstName: Nate 
   lastName: Walkingshaw
   type: Conference Speakers
-  discipline: Front-End
+  discipline: User Experience
   day: ~
   session: ~
   talkTitle: "Product Development Life Skills & Building Awesome Product Teams"
@@ -379,7 +365,7 @@
   firstName: Mariah 
   lastName: Hay
   type: Conference Speakers
-  discipline: Front-End
+  discipline: User Experience
   day: ~
   session: ~
   talkTitle: "Confusing UX with UI can cost you"
@@ -424,22 +410,6 @@
   slides: ~
   video: ~
 - speaker:
-  firstName: 
-  lastName: 
-  type: Conference Speakers
-  discipline: Front-End
-  day: ~
-  session: ~
-  talkTitle: ""
-  talkDescription: ~
-  company: ""
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
-- speaker:
   firstName: Divya 
   lastName: Sasidharan
   type: Conference Speakers
@@ -475,28 +445,12 @@
   firstName: Louise 
   lastName: Downe
   type: Conference Speakers
-  discipline: Front-End
+  discipline: User Experience
   day: ~
   session: ~
-  talkTitle: ""
+  talkTitle: "Redesigning government as an agile service platform"
   talkDescription: ~
   company: "Government Digital Service"
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
-- speaker:
-  firstName: 
-  lastName: 
-  type: Conference Speakers
-  discipline: Front-End
-  day: ~
-  session: ~
-  talkTitle: ""
-  talkDescription: ~
-  company: ""
   companyWebsite: ~
   personalWebsite: ~
   personalTwitter: ~
@@ -523,7 +477,7 @@
   firstName: Zak 
   lastName: Kain
   type: Conference Speakers
-  discipline: Front-End
+  discipline: User Experience
   day: ~
   session: ~
   talkTitle: "Building a Content Strategy Practice"
@@ -567,22 +521,22 @@
   bio: ~
   slides: ~
   video: ~
-- speaker:
-  firstName: Tess 
-  lastName: Rinearson
-  type: Conference Speakers
-  discipline: Front-End
-  day: ~
-  session: ~
-  talkTitle: ""
-  talkDescription: ~
-  company: "Medium"
-  companyWebsite: ~
-  personalWebsite: ~
-  personalTwitter: ~
-  bio: ~
-  slides: ~
-  video: ~
+# - speaker:
+#   firstName: Tess 
+#   lastName: Rinearson
+#   type: Conference Speakers
+#   discipline: Front-End
+#   day: ~
+#   session: ~
+#   talkTitle: "blank"
+#   talkDescription: ~
+#   company: "Medium"
+#   companyWebsite: ~
+#   personalWebsite: ~
+#   personalTwitter: ~
+#   bio: ~
+#   slides: ~
+#   video: ~
 - speaker:
   firstName: Jenn
   lastName: Downs
@@ -590,9 +544,9 @@
   discipline: User Experience
   day: ~
   session: ~
-  talkTitle: ""
+  talkTitle: "Empathy Cannot Be Automated"
   talkDescription: ~
-  company: ""
+  company: "Be Particular"
   companyWebsite: ~
   personalWebsite: ~
   personalTwitter: ~
