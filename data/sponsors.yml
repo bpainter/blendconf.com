@@ -6,6 +6,14 @@
     twitter: ~
     facebook: ~
     website: http://www.cardinalsolutions.com/
+- sponsor:
+  type: platinum
+  name: Microsoft
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://microsoft.com/
 # - sponsor:
 #   type: platinum
 #   name: Red Ventures
@@ -31,7 +39,7 @@
     facebook: ~
     website: http://www.salesforce.com/
 - sponsor:
-  type: silver
+  type: gold
   name: MailChimp
   description: ~
   links:
@@ -39,7 +47,7 @@
     facebook: ~
     website: http://www.mailchimp.com/
 - sponsor:
-  type: silver
+  type: gold
   name: Mandrill
   description: ~
   links:
@@ -54,6 +62,22 @@
     twitter: ~
     facebook: ~
     website: http://www.tree.com/
+- sponsor:
+  type: gold
+  name: Avid Xchange
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://careers.avidxchange.com
+- sponsor:
+  type: gold
+  name: The Iron Yard
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://theironyard.com
 # - sponsor:
 #   type: silver
 #   name: Adobe
@@ -62,14 +86,6 @@
 #     twitter: ~
 #     facebook: ~
 #     website: http://www.adobe.com/creativecloud.html/
-- sponsor:
-  type: gold
-  name: Aquent
-  description: ~
-  links:
-    twitter: ~
-    facebook: ~
-    website: https://aquent.com/
 # - sponsor:
 #   type: gold
 #   name: Github
@@ -86,6 +102,22 @@
 #     twitter: ~
 #     facebook: ~
 #     website: http://www.uber.com/
+- sponsor:
+  type: silver
+  name: Aquent
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: https://aquent.com/
+- sponsor:
+  type: silver
+  name: Skookum
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: https://skookum.com/
 - sponsor:
   type: aluminum
   name: Skillshare
@@ -126,30 +158,30 @@
 #     twitter: ~
 #     facebook: ~
 #     website: http://www.stickermule.com/
-# - sponsor:
-#   type: community
-#   name: "iT-ology"
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://it-ology.org/
-# - sponsor:
-#   type: community
-#   name: Detailed Block
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://detailedblock.com/
-# - sponsor:
-#   type: community
-#   name: Packard Place
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://packardplace.us/
+- sponsor:
+  type: community
+  name: "iT-ology"
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://it-ology.org/
+- sponsor:
+  type: community
+  name: Detailed Block
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://detailedblock.com/
+- sponsor:
+  type: community
+  name: Packard Place
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://packardplace.us/
 # - sponsor:
 #   type: community
 #   name: AWDG
@@ -174,12 +206,12 @@
 #     twitter: ~
 #     facebook: ~
 #     website: http://triuxpa.org/
-# - sponsor:
-#   type: community
-#   name: AIGA Charlotte
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.aigacharlotte.org/
+- sponsor:
+  type: community
+  name: AIGA Charlotte
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.aigacharlotte.org/
 
