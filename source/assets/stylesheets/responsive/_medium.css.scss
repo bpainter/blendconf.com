@@ -14,8 +14,9 @@
     @include clear;
   }
   .primary-button {
-    float: left;
-    width: 65%;
+    max-width: 300px;
+    // float: left;
+    // width: 65%;
   }
   .secondary-button {
     float: right;

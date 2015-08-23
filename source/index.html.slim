@@ -18,15 +18,13 @@ svg xmlns="http://www.w3.org/2000/svg" style="display: none;"
 
 #intro role="banner"
 	.final-edition-intro
-		h1 The final edition 
+		/ h1 The final edition 
 		img src="/assets/images/content/blend-conference-logo.png" alt="Blend Conference"
 		h2 <strong>September 2-4, 2015</strong> in Charlotte, NC
 
-		p This final Blend Conference returns to the glorious city of Charlotte. Join us for 3 days along with 60+ diverse speakers. Shut your devices off and enjoy some lovely conversations about user experience, design, and&nbsp;development.
+		p Blend Conference returns to the glorious city of Charlotte. Join us for 3 days along with 60+ diverse speakers. Shut your devices off and enjoy some lovely conversations about user experience, design, and&nbsp;development.
 
-	.button-group
-		a.primary-button href="https://ti.to/blendconf/blendconf2015/" Cancelled
-		a.secondary-button href="https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1505205693&key=32137ACB" Book Hotel
+	a.primary-button href="https://ti.to/blendconf/blendconf2015/" Cancelled
 
 #skinny
 	h2: span Something Different
@@ -77,7 +75,8 @@ svg xmlns="http://www.w3.org/2000/svg" style="display: none;"
 		- data.speakers.shuffle.each do |speaker|
 			- if speaker.type == "Conference Speakers" || speaker.type == "Workshops"
 					li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
-						a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
+						/ a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
+						a href="#"
 							strong.speaker-name #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
 							strong.speaker-talk-title #{speaker.talkTitle} <span>#{speaker.discipline}</span>
 							img src="/assets/images/content/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}.jpg"
@@ -144,11 +143,11 @@ svg xmlns="http://www.w3.org/2000/svg" style="display: none;"
 
 	/ a==link_to "Full Schedule", "/schedule/", :class => 'button'
 
-#venue
+/#venue
 	/ #map
-	h2: span Venue & Hotel
+	/h2: span Venue & Hotel
 
-	p The conference will be held at The <a href="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=3986&language=en_US">Charlotte Sheraton Hotel</a>. To make a reservation call their reservations desk 1-800-325-3535 and let them know you're booking a room for "Blend Conference" or book online.
+	/p The conference will be held at The <a href="http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=3986&language=en_US">Charlotte Sheraton Hotel</a>. To make a reservation call their reservations desk 1-800-325-3535 and let them know you're booking a room for "Blend Conference" or book online.
 
-	a==link_to "Book Hotel", "https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1505205693&key=32137ACB", :class => 'secondary-button'
+	/a==link_to "Book Hotel", "https://www.starwoodmeeting.com/StarGroupsWeb/res?id=1505205693&key=32137ACB", :class => 'secondary-button'
 
