@@ -16,7 +16,7 @@ head
   meta charset="utf-8"
 
 	/ Use title if it's in the page YAML frontmatter
-	title #{s.firstName} #{s.lastName} | Blend Conference: Sept 11-13 in Charlotte, NC
+	title #{s.firstName} #{s.lastName} | Blend Conference: Sept 11-13, 2014 in Charlotte, NC
 
 	meta name="description" content="#{s.bio}"
 
@@ -29,9 +29,11 @@ head
 	// If speaker or talk
 	meta name="twitter:card" content="summary_large_image"
 
-	// if video
-	// meta name="twitter:card" content="player"
-	// meta name="twitter:player" content="https://vimeo.com/68967326"
+	- if s.video
+    meta name="twitter:card" content="player"
+    meta name="twitter:player" content="https://vimeo.com/#{s.video}"
+    meta name="twitter:player:height" content="435"
+    meta name="twitter:player:width" content="251"
 
 	// 280x150
 	meta name="twitter:image:src" content="http://2014.blendconf.com/assets/images/content/speaker-banners/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}-blendconf.jpg"

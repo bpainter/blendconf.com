@@ -38,7 +38,7 @@
   day: 1
   session: 2
   talkTitle: "Rangular: Blending Rails and Angular for Enterprise Applications"
-  talkDescription: ~
+  talkDescription: "<p>Adan Hunter joins us to provide a hands-on workshop on how Rails and Angular can be blended to create enterprise applications."
   company: Tax Management Associates
   companyWebsite: http://www.tma1.com/
   personalWebsite: http://adamhunter.me/
@@ -198,7 +198,7 @@
   day: 1
   session: 1
   talkTitle: "Getting to know Sass"
-  talkDescription: ~
+  talkDescription: "Claudina shares with us her in-depth knowledge on Sass. She'll dive into mixins, functions, extends, and writing maintainable Sass."
   company: OddBird
   companyWebsite: http://oddbird.net/
   personalWebsite: http://itsmisscs.me/
@@ -470,7 +470,7 @@
   day: 2
   session: 0
   talkTitle: "The Future of Interfaces to Government"
-  talkDescription: ~
+  talkDescription: "Can government be run like the Internet, permissionless and open? Coder and activist Jennifer Pahlka believes it can — and that apps, built quickly and cheaply, are a powerful new way to connect citizens to their governments — and their neighbors."
   company: Code for America
   companyWebsite: http://www.codeforamerica.org/
   personalWebsite: ~
@@ -518,7 +518,7 @@
   day: 3
   session: 0
   talkTitle: "Black Girls Code"
-  talkDescription: ~
+  talkDescription: "Kimberly Bryant, founder of Black Girls who Code, talks about her experience about her efforts to empower girls of color ages 7 to 17 to become innovators in STEM fields, leaders in their communities, and builders of their own futures through exposure to computer science and technology."
   company: Black Girls Code
   companyWebsite: "#"
   personalWebsite: http://about.me/KimberlyBryant
@@ -550,7 +550,7 @@
   day: 3
   session: 3
   talkTitle: "Building OSS-Centric Companies (and why you want to)"
-  talkDescription: ~
+  talkDescription: "Open source is the bread and butter of the community; it also makes us happy, but can it sustain a company? Execu-types will happily leech off OSS without contributing back, but there’s a better way! In this talk I’ll walk through how you can build an OSS-centric company. How to fund it, run it, and use it to build your project and community. Whether you’re looking to build a new company around open source, or simply integrate more OSS-love into your existing business, this talk is for you. Leah is an all-around OSS advocate, & Co-founder of Tilde, a successful OSS-centric business. She’s a member of the Ember Core Team, and works on annual events like GoGaRuCo, EmberConf and RailsConf. She’s spent years supporting OSS projects however she could, all while maintaining real paying jobs."
   company: Tilde Inc
   companyWebsite: "#"
   personalWebsite: http://about.me/leahsilber
@@ -630,7 +630,7 @@
   day: 1
   session: 1
   talkTitle: "Microsoft Azure Hands On"
-  talkDescription: ~
+  talkDescription: "..."
   company: Logical Advantage
   companyWebsite: http://www.logicaladvantage.com/
   personalWebsite: http://about.me/developerinfra
