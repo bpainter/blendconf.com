@@ -18,13 +18,15 @@ svg xmlns="http://www.w3.org/2000/svg" style="display: none;"
 
 #intro role="banner"
 	.final-edition-intro
-		/ h1 The final edition 
+		h1 The End 
 		img src="/assets/images/content/blend-conference-logo.png" alt="Blend Conference"
-		h2 <strong>September 2-4, 2015</strong> in Charlotte, NC
+		h2 in Charlotte, NC
 
-		p Blend Conference was set to the glorious city of Charlotte for 3 days where you could shut your devices off and enjoy some lovely conversations about user experience, design, and&nbsp;development with 60+ of our fabulous speakers. Sadly, the 2015 conference has been canceled due to lack of interest.
-
-	a.primary-button href="https://ti.to/blendconf/blendconf2015/" Cancelled
+		p Blend Conference had a good run and was hosted in the glorious city of Charlotte. For 3 days you could shut your devices off and enjoy some lovely conversations about user experience, design, and&nbsp;development and our fabulous speakers. For posterity, we present you a wrap-up of each year.
+	.button-group
+		a.primary-button href="http://2013.blendconf.com" 2013
+		a.primary-button href="http://2014.blendconf.com" 2014
+		a.primary-button href="http://2015.blendconf.com" 2015
 
 #skinny
 	h2: span Something Different
@@ -32,47 +34,34 @@ svg xmlns="http://www.w3.org/2000/svg" style="display: none;"
 		li 
 			svg class="icon" viewBox="0 0 24 24": use xlink:href="#no-devices-icon"
 			strong No Devices
-			| Wait. What? You read that right. We're going to rip you apart from the technology you love so much. Laptops, tablets and phones aren't allowed during our conference&nbsp;sessions.
+			| Wait. What? You read that right. Every year we ripped folks apart from the technology they loved so much. Laptops, tablets and phones weren't allowed during our conference&nbsp;sessions.
 		li 
 			svg class="icon" viewBox="0 0 24 24": use xlink:href="#notebook-icon"
 			strong Custom Notebooks
-			| We're going analog. You'll receive a custom hard cover notebook along with something fancy to write with. Take notes, doodle some sketch notes, or jot down the names of new&nbsp;friends.
+			| We went analog. Each person received a custom hard cover notebook along with something fancy to write with. They took notes, doodled some sketch notes, or jotted down the names of new&nbsp;friends.
 		li 
 			svg class="icon" viewBox="0 0 24 24": use xlink:href="#diversity-icon"
 			strong Diversity
-			| We've spent months curating a diverse group of talented speakers. Some speak often. Others are speaking for the first time. We also do outreach to help attract a diverse group of fellow&nbsp;attendees. 
-		/ li <strong>60+ Speakers</strong> Some of the finest practitioners in user experience, design, and web development will be joining us to share some amazing ideas.
-		/ li <strong>48 Talks</strong> Over the 2 conference days there will be 48 talks total spread across 4 tracks. Pick and choose the topics that you find interesting.
-		/ li <strong>8 Workshops</strong> A full day of hands-on workshops that'll make your brain catch fire.
-
-#be-notified
-	form action="http://blendconf.us7.list-manage2.com/subscribe/post?u=6091fee205a566406f3cbb24b&amp;id=b29fcb12bc" method="post" name="mc-embedded-subscribe-form"
-		label.h2 for="mce-EMAIL" <span>Stay up-to-date</span>
-		.email-subscription
-			input#mce-EMAIL type="email" name="EMAIL" placeholder="Add Your Email Address"
-			button type="submit" Subscribe
-
-		.social-subscription
-			span.and And
-			a.button href="http://twitter.com/blendconf" Follow @blendconf
+			| Every year we spent months curating a diverse group of talented speakers. Some spoke often. Others are spoke for the first time. We also did out best to help attract a diverse group of fellow&nbsp;attendees. 
 
 #speakers
-	h2: span Our Speakers
-	p We wanted some of the smartest & nicest folks in our industry to come to Charlotte. Boy were we excited when they said yes. Prepare to have your brains filled with some most excellent&nbsp;knowledge.
+	h2: span Our Alumni
+	p Over the 3 years of the conference we invited over 160 different folks in our industry come to Charlotte. They were amazing, kind, and did such a great job making BlendConf what it was.
 
 	h3 Keynotes
 	ul.keynote-speakers
-		- data.speakers.each do |speaker|
+		- data.speakers.sort_by {|s| s.lastName}.each do |speaker|
 			- if speaker.type == "Keynotes"
 				li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
-					a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
+					/ a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
+					a href="#"
 						strong.speaker-name #{speaker.firstName} #{speaker.lastName} <span>#{speaker.company}</span>
 						strong.speaker-talk-title #{speaker.talkTitle} <span>#{speaker.discipline}</span>
 						img src="/assets/images/content/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}.jpg"
 
-	h3 Featured Sessions
+	h3 Sessions
 	ul.session-speakers
-		- data.speakers.shuffle.each do |speaker|
+		- data.speakers.sort_by {|s| s.lastName}.each do |speaker|
 			- if speaker.type == "Conference Speakers" || speaker.type == "Workshops"
 					li class="#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}"
 						/ a href="/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}/"
@@ -81,51 +70,51 @@ svg xmlns="http://www.w3.org/2000/svg" style="display: none;"
 							strong.speaker-talk-title #{speaker.talkTitle} <span>#{speaker.discipline}</span>
 							img src="/assets/images/content/speakers/#{clean_data(speaker.firstName)}-#{clean_data(speaker.lastName)}.jpg"
   
-#schedule
-	h2: span Schedule
-	p Each day of our web conference has 4 tracks going on at the same time covering user experience, design, and front-end and back-end development. Deciding can be tough, but don't worry, we record all of the sessions and provide them for free after the&nbsp;conference.
+/ #schedule
+/ 	h2: span Schedule
+/ 	p Each day of our web conference has 4 tracks going on at the same time covering user experience, design, and front-end and back-end development. Deciding can be tough, but don't worry, we record all of the sessions and provide them for free after the&nbsp;conference.
 
-	ul#schedule-tabs.schedule-tabs.tabs
-		li.tab-item.active: a href="#day-1" Workshops <time>Wed, Sept 2nd</time> 
-		li.tab-item: a href="#day-2" Normal Sessions <time>Thurs, Sept 3rd</time> 
-		li.tab-item: a href="#day-3" Blend Sessions <time>Fri, Sept 4th</time> 
+/ 	ul#schedule-tabs.schedule-tabs.tabs
+/ 		li.tab-item.active: a href="#day-1" Workshops <time>Wed, Sept 2nd</time> 
+/ 		li.tab-item: a href="#day-2" Normal Sessions <time>Thurs, Sept 3rd</time> 
+/ 		li.tab-item: a href="#day-3" Blend Sessions <time>Fri, Sept 4th</time> 
 
-	.tab-content-container
-		ul#day-1.schedule.tab-content
-			li: h3 Workshop Registration <time>8:00-9:00</time>
-			li.session: h3 Workshops <time>9:00-12:30</time>
-			li: h3 Catered Lunch <time>12:30-2:00</time>
-			li.session: h3 Workshops <time>2:00-5:30</time>
-			li: h3 Early Conference Registration <time>7:00-9:00</time>
-			li: h3 Speaker & VIP Dinner <time>7:00-10:00</time>
+/ 	.tab-content-container
+/ 		ul#day-1.schedule.tab-content
+/ 			li: h3 Workshop Registration <time>8:00-9:00</time>
+/ 			li.session: h3 Workshops <time>9:00-12:30</time>
+/ 			li: h3 Catered Lunch <time>12:30-2:00</time>
+/ 			li.session: h3 Workshops <time>2:00-5:30</time>
+/ 			li: h3 Early Conference Registration <time>7:00-9:00</time>
+/ 			li: h3 Speaker & VIP Dinner <time>7:00-10:00</time>
 
-		ul#day-2.schedule.tab-content
-			li: h3 Registration <time>8:00-8:45</time>
-			li: h3 Opening Remarks <time>8:45-9:00</time>
-			li.session: h3 Keynote <time>9:00-9:30</time>
-			li.session: h3 Sessions 1 <time>9:45-10:30</time>
-			li.session: h3 Sessions 2 <time>10:45-11:30</time>
-			li.session: h3 Sessions 3 <time>11:45-12:30</time>
-			li: h3 Lunch <time>12:30-1:45</time>
-			li.session: h3 Sessions 4 <time>2:00-2:45</time>
-			li.session: h3 Sessions 5 <time>3:00-3:45</time>
-			li.session: h3 Sessions 6 <time>4:00-4:45</time>
-			li.session: h3 Keynote <time>5:00-5:30</time>
-			li: h3 Opening Event <time>6:30-9:30</time>
+/ 		ul#day-2.schedule.tab-content
+/ 			li: h3 Registration <time>8:00-8:45</time>
+/ 			li: h3 Opening Remarks <time>8:45-9:00</time>
+/ 			li.session: h3 Keynote <time>9:00-9:30</time>
+/ 			li.session: h3 Sessions 1 <time>9:45-10:30</time>
+/ 			li.session: h3 Sessions 2 <time>10:45-11:30</time>
+/ 			li.session: h3 Sessions 3 <time>11:45-12:30</time>
+/ 			li: h3 Lunch <time>12:30-1:45</time>
+/ 			li.session: h3 Sessions 4 <time>2:00-2:45</time>
+/ 			li.session: h3 Sessions 5 <time>3:00-3:45</time>
+/ 			li.session: h3 Sessions 6 <time>4:00-4:45</time>
+/ 			li.session: h3 Keynote <time>5:00-5:30</time>
+/ 			li: h3 Opening Event <time>6:30-9:30</time>
 
-		ul#day-3.schedule.tab-content
-			li: h3 Registration <time>8:00-8:45</time>
-			li: h3 Opening Remarks <time>8:45-9:00</time>
-			li.session: h3 Keynote <time>9:00-9:30</time>
-			li.session: h3 Sessions 1 <time>9:45-10:30</time>
-			li.session: h3 Sessions 2 <time>10:45-11:30</time>
-			li.session: h3 Sessions 3 <time>11:45-12:30</time>
-			li: h3 Lunch <time>12:30-1:45</time>
-			li.session: h3 Sessions 4 <time>2:00-2:45</time>
-			li.session: h3 Sessions 5 <time>3:00-3:45</time>
-			li.session: h3 Surprise! <time>4:00-4:45</time>
-			li.session: h3 Keynote <time>5:00-5:30</time>
-			li: h3 Closing Event <time>6:30-9:30</time>
+/ 		ul#day-3.schedule.tab-content
+/ 			li: h3 Registration <time>8:00-8:45</time>
+/ 			li: h3 Opening Remarks <time>8:45-9:00</time>
+/ 			li.session: h3 Keynote <time>9:00-9:30</time>
+/ 			li.session: h3 Sessions 1 <time>9:45-10:30</time>
+/ 			li.session: h3 Sessions 2 <time>10:45-11:30</time>
+/ 			li.session: h3 Sessions 3 <time>11:45-12:30</time>
+/ 			li: h3 Lunch <time>12:30-1:45</time>
+/ 			li.session: h3 Sessions 4 <time>2:00-2:45</time>
+/ 			li.session: h3 Sessions 5 <time>3:00-3:45</time>
+/ 			li.session: h3 Surprise! <time>4:00-4:45</time>
+/ 			li.session: h3 Keynote <time>5:00-5:30</time>
+/ 			li: h3 Closing Event <time>6:30-9:30</time>
 
 	/ ul.schedules
 	/ 	li

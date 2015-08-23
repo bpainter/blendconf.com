@@ -199,15 +199,18 @@ article {
     display: none !important;
     // border-top-color: $dark-gray !important;
   }
-  .primary-button,
-  .secondary-button {
+  .primary-button {
+    float: left;
+    margin: 1.6%;
+    width: 30%;
     &:focus, &:hover {
       color: $aqua;
     }
   }
   .button-group {
+    @include clear;
     margin: $baseline*2 auto $baseline;
-    max-width: 700px;
+    max-width: 800px;
     padding: 0 5%;
   }
 }
@@ -413,7 +416,7 @@ article {
     }
   }
   &:before {
-    border-top-color: $dark-gray !important;
+    border-top-color: $red !important;
   }
   .button {
     background-color: $aqua;
@@ -552,7 +555,7 @@ article {
     background-color: $green;
   }
   &:before {
-    border-top-color: $lavender !important;
+    border-top-color: #fff !important;
   }
   a {
     color: darken($green, 60%);

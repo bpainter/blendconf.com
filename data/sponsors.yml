@@ -14,22 +14,22 @@
     twitter: ~
     facebook: ~
     website: http://microsoft.com/
-# - sponsor:
-#   type: platinum
-#   name: Red Ventures
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://redventures.com/
-# - sponsor:
-#   type: platinum
-#   name: Treehouse
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://teamtreehouse.com/
+- sponsor:
+  type: platinum
+  name: Red Ventures
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://redventures.com/
+- sponsor:
+  type: platinum
+  name: Treehouse
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://teamtreehouse.com/
 - sponsor:
   type: gold
   name: Salesforce
@@ -78,30 +78,30 @@
     twitter: ~
     facebook: ~
     website: http://theironyard.com
-# - sponsor:
-#   type: silver
-#   name: Adobe
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.adobe.com/creativecloud.html/
-# - sponsor:
-#   type: gold
-#   name: Github
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.github.com/
-# - sponsor:
-#   type: gold
-#   name: Uber
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.uber.com/
+- sponsor:
+  type: silver
+  name: Adobe
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.adobe.com/creativecloud.html/
+- sponsor:
+  type: gold
+  name: Github
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.github.com/
+- sponsor:
+  type: gold
+  name: Uber
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.uber.com/
 - sponsor:
   type: silver
   name: Aquent
@@ -126,38 +126,38 @@
     twitter: ~
     facebook: ~
     website: http://www.skillshare.com/
-# - sponsor:
-#   type: aluminum
-#   name: A Book Apart
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.abookapart.com/
-# - sponsor:
-#   type: aluminum
-#   name: "O'Reilly"
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.oreilly.com/
-# - sponsor:
-#   type: aluminum
-#   name: "Rosenfeld"
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: https://rosenfeldmedia.com/
-# - sponsor:
-#   type: aluminum
-#   name: Stickermule
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.stickermule.com/
+- sponsor:
+  type: aluminum
+  name: A Book Apart
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.abookapart.com/
+- sponsor:
+  type: aluminum
+  name: "O'Reilly"
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.oreilly.com/
+- sponsor:
+  type: aluminum
+  name: "Rosenfeld"
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: https://rosenfeldmedia.com/
+- sponsor:
+  type: aluminum
+  name: Stickermule
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.stickermule.com/
 - sponsor:
   type: community
   name: "iT-ology"
@@ -182,30 +182,30 @@
     twitter: ~
     facebook: ~
     website: http://packardplace.us/
-# - sponsor:
-#   type: community
-#   name: AWDG
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.meetup.com/atlantawebdesign/
-# - sponsor:
-#   type: community
-#   name: Code for Charlotte
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://www.aigacharlotte.org/
-# - sponsor:
-#   type: community
-#   name: UXPA Triangle
-#   description: ~
-#   links:
-#     twitter: ~
-#     facebook: ~
-#     website: http://triuxpa.org/
+- sponsor:
+  type: community
+  name: AWDG
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.meetup.com/atlantawebdesign/
+- sponsor:
+  type: community
+  name: Code for Charlotte
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://www.aigacharlotte.org/
+- sponsor:
+  type: community
+  name: UXPA Triangle
+  description: ~
+  links:
+    twitter: ~
+    facebook: ~
+    website: http://triuxpa.org/
 - sponsor:
   type: community
   name: AIGA Charlotte

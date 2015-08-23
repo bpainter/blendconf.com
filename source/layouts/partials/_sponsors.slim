@@ -1,48 +1,9 @@
 #sponsors
   h2: span Supportive Sponsors
 
-  p We think sponsorship should be more than just a link and logo on a website. If you're looking to put your sponsorship dollars to use we have a few pretty nifty ideas to get you noticed and be a fun experience for our attendees. If you aren't boring you should <a href="mailto:sponsors@blendconf.com" data-type="Email">contact us</a>.
+  p Over the years we've looking for sponsors that didn't want to be boring. I think we accomplished that and came up with some pretty interesting ideas. Our sponsors have been the best and we appreciate their support to make BlendConf a success.
 
-  a.secondary-button href="http://www.sponseasy.com/p/blend-conference" View the Prospectus
-
-  / ul.title
-  /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "title"
-  /       li
-  /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
-
-  / ul.platinum
-  /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "platinum"
-  /       li
-  /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
-
-  ul.gold.sponsor-logos
+  ul.sponsor-logos
     - data.sponsors.each do |sponsor|
       li
         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{clean_data(sponsor.name)}.png"
-
-  / ul.silver
-  /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "silver"
-  /       li
-  /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
-
-  / ul.bronze
-  /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "bronze"
-  /       li
-  /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
-
-  / ul.aluminum
-  /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "aluminum"
-  /       li
-  /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
-
-  / ul.community
-  /   - data.sponsors.each do |sponsor|
-  /     - if sponsor.type == "community"
-  /       li
-  /         a href="#{sponsor.links.website}" title="#{sponsor.name}"==image_tag "content/sponsors/#{sponsor.name.downcase.tr(" ", "-").tr(".", "")}.png"
-
